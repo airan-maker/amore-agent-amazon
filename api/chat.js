@@ -112,6 +112,7 @@ async function handleAskClaude({ question, dataContext }, res) {
 3. 비즈니스 인사이트와 실행 가능한 액션 제시
 4. 한국어로 전문적이고 명확하게 답변
 5. 답변 구조: 요약 → 상세 분석 → 전략적 제언
+6. LANEIGE(라네즈) 및 주요 경쟁사를 중심으로 인사이트를 도출
 
 ## 사용 가능한 데이터
 ${JSON.stringify(dataContext, null, 2)}`;

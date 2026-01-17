@@ -503,7 +503,7 @@ export const LaneigeAIAgent = () => {
                     value={customQuestion}
                     onChange={(e) => setCustomQuestion(e.target.value)}
                     onKeyPress={handleKeyPress}
-                    placeholder="데이터에 대해 자유롭게 질문하세요... (예: LANEIGE 제품 중 가장 인기 있는 것은?)"
+                    placeholder="자유롭게 질문하세요... (예: LANEIGE 제품 중 가장 인기 있는 것은?)"
                     disabled={isThinking}
                     className="flex-1 bg-transparent text-white text-sm outline-none placeholder-white/40 disabled:cursor-not-allowed"
                   />
