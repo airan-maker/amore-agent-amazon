@@ -74,8 +74,8 @@ cache:
   # 캐시 활성화
   enabled: true
 
-  # 제품 상세 정보 캐시 유효 시간 (시간)
-  ttl_hours: 24
+  # 제품 상세 정보 캐시 유효 시간 (시간) - 7일 (봇 감지 방지)
+  ttl_hours: 168
 
   # 랭킹 데이터 캐싱 활성화
   use_for_rankings: true
