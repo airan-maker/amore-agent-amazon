@@ -2,8 +2,8 @@ name: Daily Data Collection
 
 on:
   schedule:
-    # 매일 한국시간 새벽 1시 (UTC 16시)
-    - cron: '0 16 * * *'
+    # 매일 한국시간 새벽 3시 (UTC 18시)
+    - cron: '0 18 * * *'
   workflow_dispatch:  # 수동 실행 가능
 
 jobs:
