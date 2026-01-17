@@ -5,9 +5,19 @@
 
 import Anthropic from '@anthropic-ai/sdk';
 
-const anthropic = new Anthropic({
-  apiKey: process.env.ANTHROPIC_API_KEY
-});
+// Initialize Anthropic client lazily to catch errors properly
+let anthropic = null;
+
+function getAnthropicClient() {
+  if (!anthropic) {
+    const apiKey = process.env.ANTHROPIC_API_KEY;
+    if (!apiKey) {
+      throw new Error('ANTHROPIC_API_KEY environment variable is not set');
+    }
+    anthropic = new Anthropic({ apiKey });
+  }
+  return anthropic;
+}
 
 // CORS headers
 const corsHeaders = {
@@ -31,7 +41,16 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  const { action, payload } = req.body;
+  // Check if API key is configured
+  if (!process.env.ANTHROPIC_API_KEY) {
+    console.error('ANTHROPIC_API_KEY is not configured');
+    return res.status(500).json({
+      success: false,
+      error: 'API key not configured. Please set ANTHROPIC_API_KEY in Vercel environment variables.'
+    });
+  }
+
+  const { action, payload } = req.body || {};
 
   if (!action) {
     return res.status(400).json({ error: 'Action is required' });
@@ -50,9 +69,20 @@ export default async function handler(req, res) {
     }
   } catch (error) {
     console.error('Chat API Error:', error);
+
+    // Provide more specific error messages
+    let errorMessage = 'Internal server error';
+    if (error.status === 401) {
+      errorMessage = 'Invalid API key. Please check your ANTHROPIC_API_KEY.';
+    } else if (error.status === 429) {
+      errorMessage = 'Rate limit exceeded. Please try again later.';
+    } else if (error.message) {
+      errorMessage = error.message;
+    }
+
     return res.status(500).json({
       success: false,
-      error: error.message || 'Internal server error'
+      error: errorMessage
     });
   }
 }
@@ -64,6 +94,8 @@ async function handleAskClaude({ question, dataContext }, res) {
   if (!question) {
     return res.status(400).json({ error: 'Question is required' });
   }
+
+  const client = getAnthropicClient();
 
   const systemPrompt = `당신은 아마존 마켓플레이스 데이터 분석 전문가입니다.
 다음 데이터를 기반으로 사용자의 질문에 답변해주세요:
@@ -84,7 +116,7 @@ async function handleAskClaude({ question, dataContext }, res) {
 ## 사용 가능한 데이터
 ${JSON.stringify(dataContext, null, 2)}`;
 
-  const message = await anthropic.messages.create({
+  const message = await client.messages.create({
     model: 'claude-3-haiku-20240307',
     max_tokens: 2048,
     temperature: 0.7,
@@ -181,7 +213,8 @@ ${laneigeProducts.length > 0 ? `
 
 **중요: 반드시 한국어로 답변해주세요. LANEIGE 제품 분석에 가장 많은 비중을 할애해주세요.**`;
 
-  const message = await anthropic.messages.create({
+  const client = getAnthropicClient();
+  const message = await client.messages.create({
     model: 'claude-sonnet-4-20250514',
     max_tokens: 2048,
     messages: [{ role: 'user', content: prompt }]
@@ -238,7 +271,8 @@ ${rankingHistory.length > 10 ? '... (첫 10일만 표시)' : ''}
 
 **중요: 반드시 한국어로 답변해주세요.**`;
 
-  const message = await anthropic.messages.create({
+  const client = getAnthropicClient();
+  const message = await client.messages.create({
     model: 'claude-sonnet-4-20250514',
     max_tokens: 800,
     messages: [{ role: 'user', content: prompt }]
