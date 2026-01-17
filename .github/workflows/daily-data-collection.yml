@@ -1,0 +1,49 @@
+name: Daily Data Collection
+
+on:
+  schedule:
+    # 매일 한국시간 오전 9시 (UTC 0시)
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # 수동 실행 가능
+
+jobs:
+  collect-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: data-collector/requirements.txt
+
+      - name: Install dependencies
+        run: |
+          cd data-collector
+          pip install -r requirements.txt
+          playwright install chromium
+
+      - name: Run data collection
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          cd data-collector
+          python main.py --steps 1,2,3,4,5,6
+
+      - name: Copy data to frontend
+        run: |
+          cp data-collector/output/*.json app/src/data/ 2>/dev/null || true
+          cp data-collector/output/m1_*.json app/src/data/ 2>/dev/null || true
+          cp data-collector/output/m2_*.json app/src/data/ 2>/dev/null || true
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add app/src/data/*.json
+          git diff --staged --quiet || git commit -m "Auto-update: Daily data collection $(date +'%Y-%m-%d')"
+          git push
