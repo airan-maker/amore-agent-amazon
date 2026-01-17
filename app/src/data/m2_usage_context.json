@@ -1,0 +1,214 @@
+{
+  "brand": "Multiple Brands",
+  "analysis_date": "2026-01-11",
+  "products": [
+    {
+      "brand": "LANEIGE",
+      "product": "Lip Sleeping Mask - Berry",
+      "asin": "B07XXPHQZK",
+      "usage_contexts": [
+        {
+          "context": "취침 전 립 케어 루틴",
+          "time_of_use": "Night",
+          "frequency": 85,
+          "sentiment_score": 0.92,
+          "season": "All year",
+          "key_phrases": ["before bed", "overnight", "wake up soft"],
+          "skin_concerns": ["건조한 입술", "입술 각질", "입술 갈라짐"],
+          "companion_products": ["립밤", "립스크럽"]
+        },
+        {
+          "context": "건조한 겨울철 집중 보습",
+          "time_of_use": "Night",
+          "frequency": 62,
+          "sentiment_score": 0.88,
+          "season": "Winter",
+          "key_phrases": ["winter essential", "dry weather", "heater season"],
+          "skin_concerns": ["건조한 입술", "입술 갈라짐"],
+          "companion_products": ["가습기", "립밤"]
+        },
+        {
+          "context": "립스틱 전 베이스로 사용",
+          "time_of_use": "Day",
+          "frequency": 45,
+          "sentiment_score": 0.85,
+          "season": "All year",
+          "key_phrases": ["lipstick base", "smooth application", "prep lips"],
+          "skin_concerns": ["입술 각질"],
+          "companion_products": ["립스틱", "립글로스"]
+        }
+      ],
+      "demographic_insights": {
+        "primary_age_group": "25-34",
+        "gender_distribution": {"female": 85, "male": 15},
+        "key_motivations": ["효과적인 보습", "K-Beauty 트렌드", "입소문"],
+        "skin_types": {"dry": 45, "combination": 30, "normal": 20, "oily": 5}
+      }
+    },
+    {
+      "brand": "LANEIGE",
+      "product": "Water Sleeping Mask",
+      "asin": "B09HN8JBFP",
+      "usage_contexts": [
+        {
+          "context": "스킨케어 마지막 단계 수분 마스크",
+          "time_of_use": "Night",
+          "frequency": 72,
+          "sentiment_score": 0.90,
+          "season": "All year",
+          "key_phrases": ["last step", "seal moisture", "overnight hydration"],
+          "skin_concerns": ["건조한 피부", "칙칙한 피부톤"],
+          "companion_products": ["토너", "세럼", "에센스"]
+        },
+        {
+          "context": "피부 진정 및 수분 회복",
+          "time_of_use": "Night",
+          "frequency": 55,
+          "sentiment_score": 0.87,
+          "season": "Summer",
+          "key_phrases": ["after sun", "skin recovery", "calming effect"],
+          "skin_concerns": ["자외선 손상", "건조한 피부"],
+          "companion_products": ["선크림", "알로에젤"]
+        }
+      ],
+      "demographic_insights": {
+        "primary_age_group": "25-44",
+        "gender_distribution": {"female": 80, "male": 20},
+        "key_motivations": ["오버나이트 케어", "수분 공급", "피부 광채"],
+        "skin_types": {"dry": 40, "combination": 35, "normal": 20, "oily": 5}
+      }
+    },
+    {
+      "brand": "COSRX",
+      "product": "Snail Mucin 96% Power Essence",
+      "asin": "B00PBX3L7K",
+      "usage_contexts": [
+        {
+          "context": "토너 후 에센스 단계",
+          "time_of_use": "Day/Night",
+          "frequency": 95,
+          "sentiment_score": 0.91,
+          "season": "All year",
+          "key_phrases": ["after toner", "daily routine", "hydrating layer"],
+          "skin_concerns": ["건조한 피부", "피부 탄력", "잔주름"],
+          "companion_products": ["토너", "크림", "선크림"]
+        },
+        {
+          "context": "피부 진정 및 손상 회복",
+          "time_of_use": "Night",
+          "frequency": 68,
+          "sentiment_score": 0.89,
+          "season": "All year",
+          "key_phrases": ["healing scars", "acne recovery", "skin repair"],
+          "skin_concerns": ["트러블", "홍조", "여드름 자국"],
+          "companion_products": ["스팟 트리트먼트", "크림"]
+        }
+      ],
+      "demographic_insights": {
+        "primary_age_group": "20-35",
+        "gender_distribution": {"female": 75, "male": 25},
+        "key_motivations": ["피부 재생", "보습", "K-Beauty 입문"],
+        "skin_types": {"combination": 35, "oily": 30, "dry": 20, "sensitive": 15}
+      }
+    },
+    {
+      "brand": "Aquaphor",
+      "product": "Lip Repair Ointment",
+      "asin": "B06XDCPYYL",
+      "usage_contexts": [
+        {
+          "context": "극심한 건조함 응급 케어",
+          "time_of_use": "Day/Night",
+          "frequency": 88,
+          "sentiment_score": 0.93,
+          "season": "Winter",
+          "key_phrases": ["emergency repair", "cracked lips", "instant relief"],
+          "skin_concerns": ["건조한 입술", "입술 갈라짐", "출혈"],
+          "companion_products": []
+        },
+        {
+          "context": "다용도 보습제로 활용",
+          "time_of_use": "Day/Night",
+          "frequency": 52,
+          "sentiment_score": 0.86,
+          "season": "All year",
+          "key_phrases": ["multi-purpose", "cuticle care", "dry patches"],
+          "skin_concerns": ["건조한 피부", "큐티클 케어"],
+          "companion_products": ["핸드크림"]
+        }
+      ],
+      "demographic_insights": {
+        "primary_age_group": "All ages",
+        "gender_distribution": {"female": 60, "male": 40},
+        "key_motivations": ["의료급 효과", "다용도", "가성비"],
+        "skin_types": {"dry": 50, "normal": 30, "sensitive": 15, "combination": 5}
+      }
+    },
+    {
+      "brand": "Burt's Bees",
+      "product": "Lip Balm - Original Beeswax",
+      "asin": "B0014CI4VW",
+      "usage_contexts": [
+        {
+          "context": "일상적인 립 보습",
+          "time_of_use": "Day",
+          "frequency": 92,
+          "sentiment_score": 0.88,
+          "season": "All year",
+          "key_phrases": ["everyday use", "on the go", "purse essential"],
+          "skin_concerns": ["건조한 입술"],
+          "companion_products": []
+        },
+        {
+          "context": "자연주의 제품 선호",
+          "time_of_use": "Day/Night",
+          "frequency": 65,
+          "sentiment_score": 0.85,
+          "season": "All year",
+          "key_phrases": ["natural ingredients", "chemical free", "eco-friendly"],
+          "skin_concerns": ["민감한 입술", "알러지 우려"],
+          "companion_products": ["천연 립스틱"]
+        }
+      ],
+      "demographic_insights": {
+        "primary_age_group": "25-45",
+        "gender_distribution": {"female": 70, "male": 30},
+        "key_motivations": ["천연 성분", "친환경", "가성비"],
+        "skin_types": {"normal": 40, "dry": 30, "sensitive": 20, "combination": 10}
+      }
+    },
+    {
+      "brand": "BIODANCE",
+      "product": "Bio-Collagen Real Deep Mask",
+      "asin": "B0B2RM68G2",
+      "usage_contexts": [
+        {
+          "context": "주 2-3회 스페셜 케어",
+          "time_of_use": "Night",
+          "frequency": 78,
+          "sentiment_score": 0.94,
+          "season": "All year",
+          "key_phrases": ["weekly treatment", "special care", "pampering"],
+          "skin_concerns": ["피부 탄력", "잔주름", "건조한 피부"],
+          "companion_products": ["토너", "에센스", "크림"]
+        },
+        {
+          "context": "특별한 날 전 집중 케어",
+          "time_of_use": "Night",
+          "frequency": 45,
+          "sentiment_score": 0.91,
+          "season": "All year",
+          "key_phrases": ["before event", "glowing skin", "photo ready"],
+          "skin_concerns": ["피부 광채", "모공"],
+          "companion_products": ["프라이머", "파운데이션"]
+        }
+      ],
+      "demographic_insights": {
+        "primary_age_group": "28-45",
+        "gender_distribution": {"female": 90, "male": 10},
+        "key_motivations": ["안티에이징", "콜라겐 보충", "SNS 트렌드"],
+        "skin_types": {"dry": 35, "combination": 35, "normal": 20, "mature": 10}
+      }
+    }
+  ]
+}

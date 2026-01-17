@@ -1,0 +1,219 @@
+# Scheduler Configuration
+# 24개 카테고리 2,400개 제품 수집을 위한 최적화된 설정
+
+# ============================================
+# 기본 스케줄 설정
+# ============================================
+schedule:
+  # 매일 실행 시간 설정 (24시간 형식)
+  # 02:00 시작으로 변경 (2,400개 제품 수집을 위한 여유 시간 확보)
+  daily_run_time: "02:00"
+
+  # 시간대 설정
+  timezone: "Asia/Seoul"
+
+  # 실행 모드 (full: 전체 파이프라인, scrape-only: 스크래핑만)
+  execution_mode: "full"
+
+# ============================================
+# 제품 상세 정보 수집 설정
+# ============================================
+product_enrichment:
+  # 상세 정보 수집 활성화 여부
+  enabled: true
+
+  # 수집 전략: "all" (모든 제품)
+  strategy: "all"
+
+  # 카테고리별 상위 몇 개 제품의 상세 정보를 수집할지
+  top_n_per_category: 100
+
+  # 실패 시 재시도 횟수
+  max_retries_per_product: 2
+
+  # 제품간 수집 간격 (초) - 0.5초로 단축 (병렬 처리 강화)
+  delay_between_products: 0.5
+
+  # 병렬 처리 배치 크기 - 5에서 10으로 증가
+  batch_size: 10
+
+# ============================================
+# 성능 최적화 설정 (NEW)
+# ============================================
+performance:
+  # 병렬 카테고리 수집 (동시에 4개 카테고리 수집)
+  parallel_categories: 4
+
+  # 카테고리 간 딜레이 (초)
+  delay_between_categories: 5
+
+  # 배치 간 딜레이 (초)
+  delay_between_batches: 2
+
+  # 최대 분당 요청 수
+  max_requests_per_minute: 60
+
+  # 429 에러 시 백오프 활성화
+  backoff_on_429: true
+  backoff_multiplier: 2
+  max_backoff_seconds: 300
+
+  # 스케줄러가 시작될 때 즉시 한 번 실행할지 여부
+  run_on_startup: false
+
+  # 실행 중 중복 방지
+  coalesce: true
+
+  # 최대 실행 시간 (초) - 1시간에서 2시간으로 증가
+  max_execution_time: 7200  # 2시간
+
+# ============================================
+# 캐싱 설정
+# ============================================
+cache:
+  # 캐시 활성화
+  enabled: true
+
+  # 제품 상세 정보 캐시 유효 시간 (시간)
+  ttl_hours: 24
+
+  # 랭킹 데이터 캐싱 활성화
+  use_for_rankings: true
+
+  # 랭킹 캐시 유효 시간 (시간)
+  ranking_cache_ttl_hours: 6
+
+# ============================================
+# Claude API 설정 (NEW)
+# ============================================
+claude_api:
+  # Claude API 활성화 (속성 추출 및 제품 아이디어 생성)
+  enabled: true
+
+  # 사용 모델
+  model: "claude-3-sonnet-20240229"
+
+  # 월간 예산 (USD)
+  monthly_budget_usd: 150
+
+  # 예산 경고 임계값 (%)
+  warn_at_percentage: 80
+
+  # 예산 초과 시 일시 중지 (%)
+  pause_at_percentage: 95
+
+  # API 호출 배치 크기
+  batch_size: 5
+
+  # 배치 간 딜레이 (초)
+  delay_between_batches: 2
+
+# ============================================
+# 데이터 복사 설정
+# ============================================
+data_copy:
+  # 자동 복사 활성화 여부
+  enabled: true
+
+  # 복사할 파일 매핑 (data-collector/output -> app/src/data)
+  file_mappings:
+    # 새 형식: 24개 카테고리 계층 구조 데이터
+    - source_pattern: "beauty_rankings_*.json"
+      destination: "category_products.json"
+      use_latest: true
+
+    # 레거시 형식 (호환성 유지 - 마이그레이션 기간 동안)
+    - source_pattern: "test_5_categories_*.json"
+      destination: "category_products_legacy.json"
+      use_latest: true
+
+    # M1 모듈 데이터
+    - source_pattern: "m1_breadcrumb_traffic.json"
+      destination: "m1_breadcrumb_traffic.json"
+      use_latest: false
+
+    - source_pattern: "m1_volatility_index.json"
+      destination: "m1_volatility_index.json"
+      use_latest: false
+
+    - source_pattern: "m1_emerging_brands.json"
+      destination: "m1_emerging_brands.json"
+      use_latest: false
+
+    # M2 모듈 데이터
+    - source_pattern: "m2_usage_context.json"
+      destination: "m2_usage_context.json"
+      use_latest: false
+
+    - source_pattern: "m2_intelligence_bridge.json"
+      destination: "m2_intelligence_bridge.json"
+      use_latest: false
+
+    # 제품 아이디어 리포트 (NEW)
+    - source_pattern: "product_ideation_report.json"
+      destination: "product_ideation_report.json"
+      use_latest: false
+
+    # 제품 속성 데이터 (NEW)
+    - source_pattern: "product_attributes_*.json"
+      destination: "product_attributes.json"
+      use_latest: true
+
+  # 백업 설정
+  create_backup: true
+  backup_suffix: "_backup"
+
+# ============================================
+# 알림 설정
+# ============================================
+notifications:
+  # 성공 시 알림
+  on_success:
+    enabled: false
+
+  # 실패 시 알림
+  on_failure:
+    enabled: false
+
+# ============================================
+# 로그 설정
+# ============================================
+logging:
+  # 스케줄러 전용 로그 파일
+  log_file: "logs/scheduler_{time}.log"
+  level: "INFO"
+  rotation: "10 MB"
+  retention: "30 days"
+
+# ============================================
+# 재시도 설정
+# ============================================
+retry:
+  # 실패 시 재시도 횟수
+  max_attempts: 3
+
+  # 재시도 간격 (분)
+  retry_interval: 10
+
+  # 재시도 시 실행할 작업
+  retry_on_failure: true
+
+# ============================================
+# 개발 모드 설정
+# ============================================
+development:
+  # 개발 모드 활성화 (테스트용 빠른 스케줄)
+  enabled: false
+
+  # 개발 모드일 때 실행 간격 (분)
+  test_interval_minutes: 5
+
+# ============================================
+# 데이터 형식 설정 (NEW)
+# ============================================
+data_format:
+  # 레거시 형식 사용 여부 (마이그레이션 기간 동안 true)
+  use_legacy_format: true
+
+  # 새 형식만 사용 (완전 전환 후)
+  new_format_only: false

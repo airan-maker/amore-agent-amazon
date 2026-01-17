@@ -1,0 +1,445 @@
+{
+  "products": [
+    {
+      "brand": "LANEIGE",
+      "product": "Lip Sleeping Mask",
+      "asin": "B07XXPHQZK",
+      "analysis_period": "2025-11-01 to 2026-01-01",
+      "registered_category": "Lip Care",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Beauty > Skin Care > Lip Care > Treatments",
+          "traffic_percentage": 58.2,
+          "avg_rank": 2,
+          "conversion_rate": 8.7,
+          "trend": "상승"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Lip Care > Overnight Masks",
+          "traffic_percentage": 31.5,
+          "avg_rank": 1,
+          "conversion_rate": 9.4,
+          "trend": "상승",
+          "gap_detected": true,
+          "gap_insight": "Overnight Masks 전문 카테고리에서 1위 랭킹 및 최고 전환율 - 세그먼트 leadership 확립"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Lip Care > Balms",
+          "traffic_percentage": 7.8,
+          "avg_rank": 12,
+          "conversion_rate": 4.2,
+          "trend": "안정"
+        },
+        {
+          "breadcrumb": "Beauty > Seasonal > Winter Care",
+          "traffic_percentage": 2.5,
+          "avg_rank": 8,
+          "conversion_rate": 6.1,
+          "trend": "상승"
+        }
+      ],
+      "strategic_recommendation": "Overnight Masks 카테고리 dominance 활용하여 'Overnight Lip Care' 리더십 강화. Winter Care 계절성 트래픽 공략 필요"
+    },
+    {
+      "brand": "COSRX",
+      "product": "Snail Mucin Repairing Serum",
+      "asin": "B00PBX3L7K",
+      "analysis_period": "2025-11-01 to 2026-01-01",
+      "registered_category": "Face Serums & Essences",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Serums",
+          "traffic_percentage": 38.4,
+          "avg_rank": 3,
+          "conversion_rate": 7.9,
+          "trend": "상승"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Essences",
+          "traffic_percentage": 32.7,
+          "avg_rank": 2,
+          "conversion_rate": 8.3,
+          "trend": "안정"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Hydrating Serums",
+          "traffic_percentage": 18.2,
+          "avg_rank": 4,
+          "conversion_rate": 7.2,
+          "trend": "상승",
+          "gap_detected": true,
+          "gap_insight": "Hydration 특화 카테고리에서 강세 - barrier support 용도 인식 확대"
+        },
+        {
+          "breadcrumb": "Beauty > K-Beauty > Korean Serums",
+          "traffic_percentage": 10.7,
+          "avg_rank": 5,
+          "conversion_rate": 8.9,
+          "trend": "상승"
+        }
+      ],
+      "strategic_recommendation": "K-Beauty 카테고리 진입으로 브랜드 인지도 상승. Hydrating Serums 전문화 기회"
+    },
+    {
+      "brand": "BIODANCE",
+      "product": "Bio-Collagen Real Deep Mask",
+      "asin": "B0B2RM68G2",
+      "analysis_period": "2025-11-01 to 2026-01-01",
+      "registered_category": "Face Masks",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Sheet Masks",
+          "traffic_percentage": 42.3,
+          "avg_rank": 6,
+          "conversion_rate": 6.2,
+          "trend": "안정"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Hydrogel Masks",
+          "traffic_percentage": 35.8,
+          "avg_rank": 2,
+          "conversion_rate": 9.1,
+          "trend": "상승",
+          "gap_detected": true,
+          "gap_insight": "Hydrogel 전문 카테고리에서 높은 전환율 - 프리미엄 포지셔닝 성공"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Overnight Masks",
+          "traffic_percentage": 15.4,
+          "avg_rank": 8,
+          "conversion_rate": 7.8,
+          "trend": "상승"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Collagen Treatments",
+          "traffic_percentage": 6.5,
+          "avg_rank": 4,
+          "conversion_rate": 8.5,
+          "trend": "상승"
+        }
+      ],
+      "strategic_recommendation": "Hydrogel 리더 지위 강화. Collagen 카테고리 확장 기회 있음"
+    },
+    {
+      "brand": "LANEIGE",
+      "product": "Neo Blurring Powder",
+      "asin": "B0DHWFT182",
+      "analysis_period": "2025-11-01 to 2026-01-01",
+      "registered_category": "Face Powder",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Beauty > Makeup > Face > Setting Powder",
+          "traffic_percentage": 48.7,
+          "avg_rank": 18,
+          "conversion_rate": 5.3,
+          "trend": "안정"
+        },
+        {
+          "breadcrumb": "Beauty > Makeup > Face > Compact Powder",
+          "traffic_percentage": 28.4,
+          "avg_rank": 22,
+          "conversion_rate": 4.8,
+          "trend": "안정"
+        },
+        {
+          "breadcrumb": "Beauty > Makeup > Face > Oil Control",
+          "traffic_percentage": 15.2,
+          "avg_rank": 12,
+          "conversion_rate": 6.7,
+          "trend": "상승",
+          "gap_detected": true,
+          "gap_insight": "Oil Control 카테고리에서 상대적으로 높은 전환율 - 특화 메시징 강화 필요"
+        },
+        {
+          "breadcrumb": "Beauty > K-Beauty > Korean Makeup",
+          "traffic_percentage": 7.7,
+          "avg_rank": 9,
+          "conversion_rate": 7.1,
+          "trend": "상승"
+        }
+      ],
+      "strategic_recommendation": "Oil Control 카테고리로 주요 포지셔닝 전환 검토. K-Beauty 메이크업 진입 기회"
+    },
+    {
+      "brand": "LANEIGE",
+      "product": "Lip Glowy Balm",
+      "asin": "B0F24ZZN95",
+      "analysis_period": "2025-11-01 to 2026-01-01",
+      "registered_category": "Lip Care",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Beauty > Skin Care > Lip Care > Balms",
+          "traffic_percentage": 52.3,
+          "avg_rank": 15,
+          "conversion_rate": 6.8,
+          "trend": "안정"
+        },
+        {
+          "breadcrumb": "Beauty > Makeup > Lip > Lip Gloss",
+          "traffic_percentage": 24.8,
+          "avg_rank": 28,
+          "conversion_rate": 5.4,
+          "trend": "상승",
+          "gap_detected": true,
+          "gap_insight": "Lip Gloss 카테고리 유입 24.8% - 하이브리드 제형의 크로스 appeal"
+        },
+        {
+          "breadcrumb": "Beauty > Gift Sets > Lip Care",
+          "traffic_percentage": 18.2,
+          "avg_rank": 8,
+          "conversion_rate": 8.2,
+          "trend": "상승"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Lip Care > Hydrating",
+          "traffic_percentage": 4.7,
+          "avg_rank": 11,
+          "conversion_rate": 7.1,
+          "trend": "안정"
+        }
+      ],
+      "strategic_recommendation": "Gift Sets 카테고리에서 높은 전환율. 메이크업-스킨케어 하이브리드 포지셔닝 강화"
+    },
+    {
+      "brand": "LANEIGE",
+      "product": "Glaze Craze Tinted Lip Serum",
+      "asin": "B0DSLXS4G9",
+      "analysis_period": "2025-11-01 to 2026-01-01",
+      "registered_category": "Lip Care",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Beauty > Makeup > Lip > Lip Gloss",
+          "traffic_percentage": 44.2,
+          "avg_rank": 32,
+          "conversion_rate": 6.1,
+          "trend": "상승"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Lip Care > Serums",
+          "traffic_percentage": 31.5,
+          "avg_rank": 3,
+          "conversion_rate": 8.4,
+          "trend": "상승",
+          "gap_detected": true,
+          "gap_insight": "Lip Serums 신규 카테고리에서 3위 - 혁신 제품으로 인식, 높은 전환율"
+        },
+        {
+          "breadcrumb": "Beauty > Makeup > Lip > Tinted Lip Balm",
+          "traffic_percentage": 18.7,
+          "avg_rank": 19,
+          "conversion_rate": 5.8,
+          "trend": "안정"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Lip Care > Plumping",
+          "traffic_percentage": 5.6,
+          "avg_rank": 7,
+          "conversion_rate": 7.9,
+          "trend": "상승"
+        }
+      ],
+      "strategic_recommendation": "Lip Serums 카테고리 리더십 활용. 혁신 제품 이미지 강화하여 차별화"
+    },
+    {
+      "brand": "medicube",
+      "product": "Collagen Jelly Cream",
+      "asin": "B0DGPSZVW3",
+      "analysis_period": "2025-11-01 to 2026-01-01",
+      "registered_category": "Face Moisturizers",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Moisturizers",
+          "traffic_percentage": 46.8,
+          "avg_rank": 24,
+          "conversion_rate": 6.4,
+          "trend": "상승"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Lightweight Creams",
+          "traffic_percentage": 28.3,
+          "avg_rank": 8,
+          "conversion_rate": 8.1,
+          "trend": "상승",
+          "gap_detected": true,
+          "gap_insight": "Lightweight Creams 카테고리에서 높은 전환율 - texture 차별화 성공"
+        },
+        {
+          "breadcrumb": "Beauty > K-Beauty > Korean Moisturizers",
+          "traffic_percentage": 15.4,
+          "avg_rank": 11,
+          "conversion_rate": 7.3,
+          "trend": "안정"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Barrier Repair",
+          "traffic_percentage": 9.5,
+          "avg_rank": 14,
+          "conversion_rate": 7.8,
+          "trend": "상승"
+        }
+      ],
+      "strategic_recommendation": "Lightweight Creams로 메인 포지셔닝. Barrier Repair 카테고리 확장 기회"
+    },
+    {
+      "brand": "medicube",
+      "product": "Toner Pads Zero Pore Pad 2.0",
+      "asin": "B09V7Z4TJG",
+      "analysis_period": "2025-11-01 to 2026-01-01",
+      "registered_category": "Face Toners",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Toner Pads",
+          "traffic_percentage": 54.7,
+          "avg_rank": 5,
+          "conversion_rate": 7.8,
+          "trend": "상승"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Exfoliators",
+          "traffic_percentage": 24.2,
+          "avg_rank": 12,
+          "conversion_rate": 6.9,
+          "trend": "안정"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Pore Care",
+          "traffic_percentage": 15.8,
+          "avg_rank": 7,
+          "conversion_rate": 8.5,
+          "trend": "상승",
+          "gap_detected": true,
+          "gap_insight": "Pore Care 전문 카테고리에서 7위, 높은 전환율 - 특화 포지셔닝 효과적"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > AHA BHA",
+          "traffic_percentage": 5.3,
+          "avg_rank": 9,
+          "conversion_rate": 7.2,
+          "trend": "상승"
+        }
+      ],
+      "strategic_recommendation": "Pore Care 카테고리 리더십 강화. Toner Pads 브랜드 가시성 유지"
+    },
+    {
+      "brand": "medicube",
+      "product": "Salmon DNA PDRN Pink Peptide Serum",
+      "asin": "B0DBF65JYY",
+      "analysis_period": "2025-11-01 to 2026-01-01",
+      "registered_category": "Face Serums",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Anti-Aging Serums",
+          "traffic_percentage": 42.3,
+          "avg_rank": 18,
+          "conversion_rate": 7.1,
+          "trend": "상승"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Peptide Serums",
+          "traffic_percentage": 28.5,
+          "avg_rank": 8,
+          "conversion_rate": 8.4,
+          "trend": "상승",
+          "gap_detected": true,
+          "gap_insight": "Peptide Serums 전문 카테고리에서 8위 - 성분 특화 전략 효과적"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Firming Serums",
+          "traffic_percentage": 18.7,
+          "avg_rank": 12,
+          "conversion_rate": 6.8,
+          "trend": "안정"
+        },
+        {
+          "breadcrumb": "Beauty > K-Beauty > Korean Serums",
+          "traffic_percentage": 10.5,
+          "avg_rank": 14,
+          "conversion_rate": 7.9,
+          "trend": "상승"
+        }
+      ],
+      "strategic_recommendation": "Peptide Serums 카테고리 리더십 확립. PDRN 혁신 성분 강조"
+    },
+    {
+      "brand": "medicube",
+      "product": "Salmon DNA PDRN Pink Collagen Capsule Cream",
+      "asin": "B0DTKCN3Z4",
+      "analysis_period": "2025-11-01 to 2026-01-01",
+      "registered_category": "Face Moisturizers",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Moisturizers",
+          "traffic_percentage": 48.2,
+          "avg_rank": 28,
+          "conversion_rate": 6.7,
+          "trend": "상승"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Anti-Aging Creams",
+          "traffic_percentage": 26.4,
+          "avg_rank": 14,
+          "conversion_rate": 7.8,
+          "trend": "상승"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Collagen Creams",
+          "traffic_percentage": 16.8,
+          "avg_rank": 6,
+          "conversion_rate": 8.9,
+          "trend": "상승",
+          "gap_detected": true,
+          "gap_insight": "Collagen Creams 카테고리에서 6위, 최고 전환율 - 성분 특화 성공"
+        },
+        {
+          "breadcrumb": "Beauty > K-Beauty > Korean Moisturizers",
+          "traffic_percentage": 8.6,
+          "avg_rank": 16,
+          "conversion_rate": 7.2,
+          "trend": "안정"
+        }
+      ],
+      "strategic_recommendation": "Collagen Creams 카테고리 leadership 강화. Lightweight anti-aging 포지셔닝"
+    },
+    {
+      "brand": "medicube",
+      "product": "Wrapping Mask Collagen Overnight Peel Off",
+      "asin": "B0BRMYHMS5",
+      "analysis_period": "2025-11-01 to 2026-01-01",
+      "registered_category": "Face Masks",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Peel Off Masks",
+          "traffic_percentage": 45.8,
+          "avg_rank": 7,
+          "conversion_rate": 7.9,
+          "trend": "상승"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Overnight Masks",
+          "traffic_percentage": 32.4,
+          "avg_rank": 12,
+          "conversion_rate": 7.2,
+          "trend": "안정"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Elasticity Treatments",
+          "traffic_percentage": 15.3,
+          "avg_rank": 5,
+          "conversion_rate": 8.8,
+          "trend": "상승",
+          "gap_detected": true,
+          "gap_insight": "Elasticity 전문 카테고리에서 5위, 높은 전환율 - 안티에이징 특화 효과"
+        },
+        {
+          "breadcrumb": "Beauty > K-Beauty > Korean Masks",
+          "traffic_percentage": 6.5,
+          "avg_rank": 18,
+          "conversion_rate": 6.4,
+          "trend": "안정"
+        }
+      ],
+      "strategic_recommendation": "Peel Off + Overnight 하이브리드 포지셔닝. Elasticity 카테고리 리더십 확대"
+    }
+  ],
+  "generated_at": "2026-01-03T03:20:00"
+}

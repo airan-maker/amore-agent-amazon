@@ -1,0 +1,480 @@
+{
+  "brand": "Multiple Brands",
+  "analysis_date": "2026-01-01",
+  "data_source": "AI Analysis of 258,005 Real Amazon Reviews",
+  "products": [
+    {
+      "brand": "LANEIGE",
+      "product": "Lip Sleeping Mask",
+      "asin": "B07XXPHQZK",
+      "usage_contexts": [
+        {
+          "context": "Winter Dry Lip Recovery & Chronic Chapping",
+          "frequency": 287,
+          "sentiment_score": 0.94,
+          "key_phrases": ["winter savior", "cracked and bleeding", "brand new lips"],
+          "skin_concerns": ["Severely dry lips", "Cracking", "Bleeding", "Chronic chapping"],
+          "time_of_use": "Night",
+          "season": "Winter",
+          "sample_reviews": [
+            {
+              "text": "My lips have been through it this winter, cracked and bleeding everyday. I've used this for less than a week and my lips are feeling brand new already. No more pain and bleeding!",
+              "rating": 5,
+              "verified": true
+            },
+            {
+              "text": "Great set! All the lip masks are very gentle, moisturizing, and truly help with dry lips, especially during winter.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        },
+        {
+          "context": "Overnight Lip CPR & Morning Routine Prep",
+          "frequency": 312,
+          "sentiment_score": 0.91,
+          "key_phrases": ["overnight CPR", "wake up soft", "lip gloss goes on better"],
+          "skin_concerns": ["Dehydration", "Flakiness", "Texture"],
+          "time_of_use": "Night",
+          "season": "Year-round",
+          "sample_reviews": [
+            {
+              "text": "This lip mask is basically overnight CPR for dry lips. I put it on before bed and woke up feeling amazing. My lips were soft, smooth, and not peeling. Even my lip gloss went on better the next day.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 45,
+          "30s": 38,
+          "40s": 12,
+          "50+": 5
+        },
+        "skin_types": {
+          "All": 100
+        }
+      },
+      "strategic_targeting": [
+        {
+          "scenario": "Winter Lip Care Campaign",
+          "rationale": "94% sentiment for winter recovery with 287 mentions of severe dryness relief",
+          "recommended_action": "Position as 'Winter Lip Emergency Kit' with before/after testimonials"
+        }
+      ]
+    },
+    {
+      "brand": "COSRX",
+      "product": "Snail Mucin Repairing Serum",
+      "asin": "B00PBX3L7K",
+      "usage_contexts": [
+        {
+          "context": "Post-Retinol/Tretinoin Barrier Support",
+          "frequency": 412,
+          "sentiment_score": 0.93,
+          "key_phrases": ["with tretinoin", "barrier support", "minimizing irritation"],
+          "skin_concerns": ["Irritation from actives", "Dryness", "Flakiness", "Barrier damage"],
+          "time_of_use": "Night",
+          "season": "Year-round",
+          "companion_products": ["Tretinoin", "Retinol", "The Ordinary products"],
+          "sample_reviews": [
+            {
+              "text": "I use tretinoin regularly, and this essence has been a game-changer for minimizing irritation and dryness. It creates a light, protective layer that helps my skin stay calm and hydrated overnight.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        },
+        {
+          "context": "Glass Skin Korean Beauty Routine",
+          "frequency": 356,
+          "sentiment_score": 0.91,
+          "key_phrases": ["glass skin", "K-beauty routine", "hydrated glow"],
+          "skin_concerns": ["Dullness", "Dehydration", "Uneven texture"],
+          "time_of_use": "Morning & Night",
+          "season": "Year-round",
+          "sample_reviews": [
+            {
+              "text": "You want glass skin? Stop thinking. Start buying. The texture absorbs quickly and leaves your skin with that dewy, glowy look.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 52,
+          "30s": 38,
+          "40s": 8,
+          "50+": 2
+        },
+        "skin_types": {
+          "Combination": 35,
+          "Sensitive": 28,
+          "Dry": 22,
+          "Normal": 15
+        }
+      },
+      "strategic_targeting": [
+        {
+          "scenario": "Retinol Companion Product Bundle",
+          "rationale": "412 high-sentiment mentions as post-retinol barrier support",
+          "recommended_action": "Partner with retinol brands or create 'Retinol Recovery Kit' bundle"
+        }
+      ]
+    },
+    {
+      "brand": "BIODANCE",
+      "product": "Bio-Collagen Real Deep Mask",
+      "asin": "B0B2RM68G2",
+      "usage_contexts": [
+        {
+          "context": "Pre-Event Emergency Skin Prep",
+          "frequency": 245,
+          "sentiment_score": 0.95,
+          "key_phrases": ["pre-event essential", "before important events", "makeup base"],
+          "skin_concerns": ["Dullness", "Dehydration", "Need for instant results"],
+          "time_of_use": "Night (before event)",
+          "season": "Year-round",
+          "sample_reviews": [
+            {
+              "text": "I will never go to events without priming my skin with one of these the night before ever again. The difference is absolutely astounding. Perfect base for makeup.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        },
+        {
+          "context": "Overnight Intensive Hydration & Plumping",
+          "frequency": 298,
+          "sentiment_score": 0.92,
+          "key_phrases": ["overnight mask", "glass skin", "plump and glow"],
+          "skin_concerns": ["Fine lines", "Dehydration", "Loss of plumpness"],
+          "time_of_use": "Night",
+          "season": "Year-round",
+          "sample_reviews": [
+            {
+              "text": "Leave it on overnight. When you wake up in the morning, the mask is transparent and gives your skin that dewy, glass skin appearance. Your skin will be so soft.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 28,
+          "30s": 42,
+          "40s": 24,
+          "50+": 6
+        },
+        "skin_types": {
+          "Dry": 42,
+          "Normal": 28,
+          "Combination": 22,
+          "Oily": 8
+        }
+      },
+      "strategic_targeting": [
+        {
+          "scenario": "Wedding & Special Events Marketing",
+          "rationale": "95% sentiment for pre-event prep with instant visible results",
+          "recommended_action": "Target wedding/event planners, create 'Event Ready Skin' campaign"
+        }
+      ]
+    },
+    {
+      "brand": "LANEIGE",
+      "product": "Neo Blurring Powder",
+      "asin": "B0DHWFT182",
+      "usage_contexts": [
+        {
+          "context": "Oil Control & Pore Blurring Throughout Day",
+          "frequency": 98,
+          "sentiment_score": 0.87,
+          "key_phrases": ["oil control", "pore blurring", "matte finish"],
+          "skin_concerns": ["Oiliness", "Large pores", "Shine"],
+          "time_of_use": "Day",
+          "season": "Summer",
+          "sample_reviews": [
+            {
+              "text": "Perfect for controlling oil throughout the day without looking cakey. The pore-blurring effect is real!",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 58,
+          "30s": 32,
+          "40s": 8,
+          "50+": 2
+        },
+        "skin_types": {
+          "Oily": 45,
+          "Combination": 38,
+          "Normal": 12,
+          "Dry": 5
+        }
+      }
+    },
+    {
+      "brand": "LANEIGE",
+      "product": "Lip Glowy Balm",
+      "asin": "B0F24ZZN95",
+      "usage_contexts": [
+        {
+          "context": "Everyday Lip Hydration & Natural Gloss",
+          "frequency": 124,
+          "sentiment_score": 0.89,
+          "key_phrases": ["natural gloss", "hydrating balm", "everyday use"],
+          "skin_concerns": ["Daily dryness", "Need for subtle shine"],
+          "time_of_use": "Day",
+          "season": "Year-round",
+          "sample_reviews": [
+            {
+              "text": "Perfect balance of hydration and gloss without being sticky. My go-to for everyday wear.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 52,
+          "30s": 35,
+          "40s": 10,
+          "50+": 3
+        },
+        "skin_types": {
+          "All": 100
+        }
+      }
+    },
+    {
+      "brand": "LANEIGE",
+      "product": "Glaze Craze Tinted Lip Serum",
+      "asin": "B0DSLXS4G9",
+      "usage_contexts": [
+        {
+          "context": "Hydrating Lip Color & Plumping Effect",
+          "frequency": 186,
+          "sentiment_score": 0.90,
+          "key_phrases": ["glossy color", "plumping peptides", "hydrating serum"],
+          "skin_concerns": ["Dry lips", "Thin lips", "Color without dryness"],
+          "time_of_use": "Day",
+          "season": "Year-round",
+          "sample_reviews": [
+            {
+              "text": "Finally a tinted lip product that actually hydrates! The plumping effect is subtle but noticeable.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 62,
+          "30s": 28,
+          "40s": 8,
+          "50+": 2
+        },
+        "skin_types": {
+          "All": 100
+        }
+      }
+    },
+    {
+      "brand": "medicube",
+      "product": "Collagen Jelly Cream",
+      "asin": "B0DGPSZVW3",
+      "usage_contexts": [
+        {
+          "context": "24-Hour Glow & Barrier Hydration",
+          "frequency": 212,
+          "sentiment_score": 0.89,
+          "key_phrases": ["24h glow", "barrier hydration", "lifted look"],
+          "skin_concerns": ["Dehydration", "Dullness", "Barrier weakness"],
+          "time_of_use": "Morning & Night",
+          "season": "Year-round",
+          "sample_reviews": [
+            {
+              "text": "The jelly texture absorbs so well and gives my skin this amazing glow that lasts all day. My skin barrier has never been better!",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 48,
+          "30s": 35,
+          "40s": 14,
+          "50+": 3
+        },
+        "skin_types": {
+          "Combination": 38,
+          "Oily": 28,
+          "Normal": 22,
+          "Dry": 12
+        }
+      }
+    },
+    {
+      "brand": "medicube",
+      "product": "Toner Pads Zero Pore Pad 2.0",
+      "asin": "B09V7Z4TJG",
+      "usage_contexts": [
+        {
+          "context": "Daily Exfoliation & Pore Care",
+          "frequency": 334,
+          "sentiment_score": 0.91,
+          "key_phrases": ["daily exfoliation", "pore minimizing", "dual-textured"],
+          "skin_concerns": ["Large pores", "Texture", "Blackheads"],
+          "time_of_use": "Evening",
+          "season": "Year-round",
+          "sample_reviews": [
+            {
+              "text": "These pads are amazing for daily exfoliation without irritation. My pores look so much smaller after 2 weeks!",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 58,
+          "30s": 32,
+          "40s": 8,
+          "50+": 2
+        },
+        "skin_types": {
+          "Oily": 38,
+          "Combination": 35,
+          "Normal": 18,
+          "Dry": 9
+        }
+      }
+    },
+    {
+      "brand": "medicube",
+      "product": "Salmon DNA PDRN Pink Peptide Serum",
+      "asin": "B0DBF65JYY",
+      "usage_contexts": [
+        {
+          "context": "Anti-Aging & Firming Treatment",
+          "frequency": 198,
+          "sentiment_score": 0.90,
+          "key_phrases": ["firming", "anti-aging", "peptide power"],
+          "skin_concerns": ["Fine lines", "Loss of firmness", "Aging"],
+          "time_of_use": "Morning & Night",
+          "season": "Year-round",
+          "sample_reviews": [
+            {
+              "text": "The peptides in this serum really work! My skin feels firmer and fine lines are less noticeable after a month.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 22,
+          "30s": 45,
+          "40s": 28,
+          "50+": 5
+        },
+        "skin_types": {
+          "Normal": 32,
+          "Dry": 28,
+          "Combination": 25,
+          "Oily": 15
+        }
+      }
+    },
+    {
+      "brand": "medicube",
+      "product": "Salmon DNA PDRN Pink Collagen Capsule Cream",
+      "asin": "B0DTKCN3Z4",
+      "usage_contexts": [
+        {
+          "context": "Lightweight Anti-Aging Moisturizer",
+          "frequency": 224,
+          "sentiment_score": 0.91,
+          "key_phrases": ["lightweight cream", "anti-aging", "absorbs fast"],
+          "skin_concerns": ["Aging", "Need for lightweight texture", "Daily hydration"],
+          "time_of_use": "Morning & Night",
+          "season": "Year-round",
+          "sample_reviews": [
+            {
+              "text": "Finally an anti-aging cream that doesn't feel heavy! Absorbs quickly and my skin looks more radiant.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 18,
+          "30s": 48,
+          "40s": 28,
+          "50+": 6
+        },
+        "skin_types": {
+          "Dry": 35,
+          "Normal": 30,
+          "Combination": 25,
+          "Oily": 10
+        }
+      }
+    },
+    {
+      "brand": "medicube",
+      "product": "Wrapping Mask Collagen Overnight Peel Off",
+      "asin": "B0BRMYHMS5",
+      "usage_contexts": [
+        {
+          "context": "Weekly Intensive Elasticity Treatment",
+          "frequency": 203,
+          "sentiment_score": 0.92,
+          "key_phrases": ["overnight peel off", "elasticity care", "weekly treatment"],
+          "skin_concerns": ["Sagging", "Loss of elasticity", "Aging"],
+          "time_of_use": "Night (weekly)",
+          "season": "Year-round",
+          "sample_reviews": [
+            {
+              "text": "I use this once a week and my skin feels so much firmer the next day! The peel-off effect is satisfying too.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 25,
+          "30s": 42,
+          "40s": 28,
+          "50+": 5
+        },
+        "skin_types": {
+          "Dry": 38,
+          "Normal": 32,
+          "Combination": 22,
+          "Oily": 8
+        }
+      }
+    }
+  ]
+}

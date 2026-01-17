@@ -1,0 +1,39 @@
+{
+  "brand": "LANEIGE",
+  "product": "Water Sleeping Mask",
+  "analysis_period": "2025-11-01 to 2025-12-31",
+  "registered_category": "Face Moisturizers",
+  "exposure_paths": [
+    {
+      "breadcrumb": "Beauty > Skin Care > Face > Moisturizers",
+      "traffic_percentage": 32.4,
+      "avg_rank": 10,
+      "conversion_rate": 4.2,
+      "trend": "stable"
+    },
+    {
+      "breadcrumb": "Beauty > Skin Care > Face > Night Creams",
+      "traffic_percentage": 41.8,
+      "avg_rank": 7,
+      "conversion_rate": 5.8,
+      "trend": "increasing",
+      "gap_detected": true,
+      "gap_insight": "실제 트래픽의 41.8%가 'Night Creams' 카테고리에서 발생 - 명목 카테고리와 불일치"
+    },
+    {
+      "breadcrumb": "Beauty > Skin Care > Face > Sleeping Masks",
+      "traffic_percentage": 18.6,
+      "avg_rank": 3,
+      "conversion_rate": 7.1,
+      "trend": "increasing"
+    },
+    {
+      "breadcrumb": "Beauty > Skin Care > Face > Treatments",
+      "traffic_percentage": 7.2,
+      "avg_rank": 15,
+      "conversion_rate": 2.9,
+      "trend": "decreasing"
+    }
+  ],
+  "strategic_recommendation": "Night Creams 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
+}

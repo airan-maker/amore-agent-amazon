@@ -1,0 +1,136 @@
+{
+  "brand": "LANEIGE",
+  "analysis_date": "2025-12-31",
+  "products": [
+    {
+      "product": "Water Sleeping Mask",
+      "usage_contexts": [
+        {
+          "context": "여름철 에어컨으로 건조한 피부 진정",
+          "frequency": 124,
+          "sentiment_score": 0.87,
+          "key_phrases": ["AC dried skin", "summer hydration", "cooling effect"],
+          "skin_concerns": ["Dehydration", "Dullness"],
+          "time_of_use": "Night",
+          "season": "Summer"
+        },
+        {
+          "context": "비행 후 피부 회복",
+          "frequency": 89,
+          "sentiment_score": 0.91,
+          "key_phrases": ["after flight", "airplane skin", "travel essential"],
+          "skin_concerns": ["Extreme dryness", "Fatigue"],
+          "time_of_use": "Night",
+          "season": "Year-round"
+        },
+        {
+          "context": "레티놀 사용 후 진정 및 보습",
+          "frequency": 156,
+          "sentiment_score": 0.84,
+          "key_phrases": ["after retinol", "calm irritation", "repair barrier"],
+          "skin_concerns": ["Irritation", "Barrier damage"],
+          "time_of_use": "Night",
+          "season": "Year-round",
+          "companion_products": ["The Ordinary Retinol", "Tretinoin"]
+        },
+        {
+          "context": "피부과 시술 후 회복",
+          "frequency": 67,
+          "sentiment_score": 0.79,
+          "key_phrases": ["post-procedure", "laser recovery", "soothing"],
+          "skin_concerns": ["Post-treatment sensitivity", "Redness"],
+          "time_of_use": "Night",
+          "season": "Year-round"
+        },
+        {
+          "context": "겨울철 실내 난방으로 인한 건조 케어",
+          "frequency": 142,
+          "sentiment_score": 0.88,
+          "key_phrases": ["winter dryness", "heating damage", "overnight moisture"],
+          "skin_concerns": ["Severe dehydration", "Flakiness"],
+          "time_of_use": "Night",
+          "season": "Winter"
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 38,
+          "30s": 42,
+          "40s": 15,
+          "50+": 5
+        },
+        "skin_types": {
+          "Dry": 45,
+          "Combination": 32,
+          "Normal": 18,
+          "Oily": 5
+        }
+      },
+      "strategic_targeting": [
+        {
+          "scenario": "레티놀 사용자 타겟팅",
+          "rationale": "가장 높은 언급 빈도 (156회) + 명확한 사용 니즈",
+          "recommended_action": "레티놀 브랜드와의 번들 프로모션 또는 '레티놀 진정 루틴' 콘텐츠 제작"
+        },
+        {
+          "scenario": "겨울철 집중 마케팅",
+          "rationale": "계절성 니즈 + 높은 만족도 (142회, 0.88점)",
+          "recommended_action": "11월-2월 '난방 건조 솔루션' 캠페인"
+        }
+      ]
+    },
+    {
+      "product": "Cream Skin Refiner",
+      "usage_contexts": [
+        {
+          "context": "아침 메이크업 전 베이스",
+          "frequency": 178,
+          "sentiment_score": 0.92,
+          "key_phrases": ["makeup primer", "smooth base", "glowy skin"],
+          "skin_concerns": ["Rough texture", "Dullness"],
+          "time_of_use": "Morning",
+          "season": "Year-round"
+        },
+        {
+          "context": "7-skin 메소드",
+          "frequency": 134,
+          "sentiment_score": 0.89,
+          "key_phrases": ["7-skin method", "layering", "glass skin"],
+          "skin_concerns": ["Dehydration", "Barrier repair"],
+          "time_of_use": "Morning & Night",
+          "season": "Year-round"
+        },
+        {
+          "context": "클렌징 후 즉각 수분 공급",
+          "frequency": 201,
+          "sentiment_score": 0.91,
+          "key_phrases": ["first step", "instant hydration", "toner-cream hybrid"],
+          "skin_concerns": ["Tightness after cleansing"],
+          "time_of_use": "Morning & Night",
+          "season": "Year-round"
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 52,
+          "30s": 35,
+          "40s": 10,
+          "50+": 3
+        },
+        "skin_types": {
+          "Dry": 40,
+          "Combination": 38,
+          "Normal": 18,
+          "Oily": 4
+        }
+      },
+      "strategic_targeting": [
+        {
+          "scenario": "메이크업 루틴 연계",
+          "rationale": "최다 언급 맥락 (178회) + 메이크업 카테고리 크로스셀 기회",
+          "recommended_action": "메이크업 인플루언서 협업, 'Morning Glow Routine' 콘텐츠"
+        }
+      ]
+    }
+  ]
+}

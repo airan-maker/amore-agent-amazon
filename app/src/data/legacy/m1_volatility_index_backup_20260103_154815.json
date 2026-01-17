@@ -1,0 +1,67 @@
+{
+  "analysis_period": "2025-11-01 to 2026-01-01",
+  "update_frequency": "Weekly",
+  "volatility_metrics": {
+    "LANEIGE": {
+      "brand_volatility_score": 3.2,
+      "trend": "Low volatility - Stable premium positioning",
+      "products": [
+        {"asin": "B07XXPHQZK", "product": "Lip Sleeping Mask", "volatility": 2.1, "rank_change": "Stable at #1-2 in Overnight Lip Care"},
+        {"asin": "B0F24ZZN95", "product": "Lip Glowy Balm", "volatility": 4.5, "rank_change": "Moderate fluctuation #12-18 in Lip Balms"},
+        {"asin": "B0DSLXS4G9", "product": "Glaze Craze Tinted Lip Serum", "volatility": 6.8, "rank_change": "High volatility - New product establishing position"},
+        {"asin": "B0DHWFT182", "product": "Neo Blurring Powder", "volatility": 5.2, "rank_change": "Moderate fluctuation in competitive powder category"}
+      ]
+    },
+    "COSRX": {
+      "brand_volatility_score": 1.8,
+      "trend": "Very Low - Dominant stable position",
+      "products": [
+        {"asin": "B00PBX3L7K", "product": "Snail Mucin Repairing Serum", "volatility": 1.8, "rank_change": "Extremely stable #2-4 in Serums - Category leader"}
+      ]
+    },
+    "BIODANCE": {
+      "brand_volatility_score": 4.3,
+      "trend": "Moderate - Growing brand with increasing stability",
+      "products": [
+        {"asin": "B0B2RM68G2", "product": "Bio-Collagen Real Deep Mask", "volatility": 4.3, "rank_change": "Stabilizing #2-6 in Hydrogel Masks"}
+      ]
+    },
+    "medicube": {
+      "brand_volatility_score": 5.7,
+      "trend": "Moderate-High - Rapid growth with product line expansion",
+      "products": [
+        {"asin": "B09V7Z4TJG", "product": "Toner Pads Zero Pore Pad 2.0", "volatility": 3.2, "rank_change": "Stable #4-6 in Toner Pads - Established product"},
+        {"asin": "B0DGPSZVW3", "product": "Collagen Jelly Cream", "volatility": 6.8, "rank_change": "Moderate volatility #18-32 - Growing awareness"},
+        {"asin": "B0DBF65JYY", "product": "Salmon DNA PDRN Pink Peptide Serum", "volatility": 7.2, "rank_change": "High volatility - Innovation product building traction"},
+        {"asin": "B0DTKCN3Z4", "product": "Salmon DNA PDRN Pink Collagen Capsule Cream", "volatility": 6.5, "rank_change": "Moderate-High volatility - New launch"},
+        {"asin": "B0BRMYHMS5", "product": "Wrapping Mask Collagen Overnight Peel Off", "volatility": 5.1, "rank_change": "Moderate volatility #5-12 - Unique format"}
+      ]
+    }
+  },
+  "category_volatility": {
+    "Lip_Care": {"score": 3.8, "trend": "Moderate - Seasonal spikes in winter"},
+    "Serums_Essences": {"score": 2.5, "trend": "Low - Stable routine category"},
+    "Face_Masks": {"score": 5.2, "trend": "Moderate-High - Event-driven spikes"},
+    "Face_Powder": {"score": 6.1, "trend": "High - Competitive makeup category"},
+    "Toner_Pads": {"score": 4.2, "trend": "Moderate - Growing category"},
+    "Moisturizers": {"score": 3.1, "trend": "Low-Moderate - Stable essential category"}
+  },
+  "insights": [
+    {
+      "finding": "COSRX Snail Mucin shows lowest volatility (1.8) indicating category ownership and loyal customer base",
+      "implication": "LANEIGE products face entrenched competition; differentiation critical"
+    },
+    {
+      "finding": "medicube shows highest brand volatility (5.7) with rapid product launches",
+      "implication": "Aggressive innovation strategy creating market instability - opportunity to establish stability positioning"
+    },
+    {
+      "finding": "LANEIGE Glaze Craze (6.8 volatility) indicates new product establishment phase",
+      "implication": "Continue marketing investment until stabilization at target rank"
+    },
+    {
+      "finding": "Face Masks category shows 5.2 volatility with event-driven spikes",
+      "implication": "Seasonal/event marketing critical for mask products"
+    }
+  ]
+}

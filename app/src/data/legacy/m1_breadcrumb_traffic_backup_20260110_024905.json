@@ -1,0 +1,174 @@
+{
+  "products": [
+    {
+      "brand": "LANEIGE",
+      "product": "LANEIGE Lip Sleeping Mask: Nourish, Hydrate, Vitam",
+      "analysis_period": "2026-01-01 to 2026-01-10",
+      "registered_category": "",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Lip Care Products",
+          "traffic_percentage": 95.6,
+          "avg_rank": 4,
+          "conversion_rate": 15.0,
+          "trend": "stable",
+          "gap_detected": true,
+          "gap_insight": "실제 트래픽의 95.6%가 'Lip Care Products' 카테고리에서 발생 - 명목 카테고리와 불일치"
+        },
+        {
+          "breadcrumb": "Skin Care Products",
+          "traffic_percentage": 4.4,
+          "avg_rank": 87,
+          "conversion_rate": 11.3,
+          "trend": "stable"
+        }
+      ],
+      "strategic_recommendation": "Lip Care Products 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
+    },
+    {
+      "brand": "COSRX",
+      "product": "COSRX Snail Mucin Repairing Serum 100ml, Hydrating",
+      "analysis_period": "2026-01-01 to 2026-01-10",
+      "registered_category": "",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Skin Care Products",
+          "traffic_percentage": 100.0,
+          "avg_rank": 54,
+          "conversion_rate": 15.0,
+          "trend": "stable",
+          "gap_detected": true,
+          "gap_insight": "실제 트래픽의 100.0%가 'Skin Care Products' 카테고리에서 발생 - 명목 카테고리와 불일치"
+        }
+      ],
+      "strategic_recommendation": "Skin Care Products 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
+    },
+    {
+      "brand": "Summer",
+      "product": "Summer Fridays Tinted Lip Butter Balm - Conditioni",
+      "analysis_period": "2026-01-01 to 2026-01-10",
+      "registered_category": "",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Lip Care Products",
+          "traffic_percentage": 94.8,
+          "avg_rank": 5,
+          "conversion_rate": 15.0,
+          "trend": "stable",
+          "gap_detected": true,
+          "gap_insight": "실제 트래픽의 94.8%가 'Lip Care Products' 카테고리에서 발생 - 명목 카테고리와 불일치"
+        },
+        {
+          "breadcrumb": "Skin Care Products",
+          "traffic_percentage": 5.2,
+          "avg_rank": 91,
+          "conversion_rate": 10.6,
+          "trend": "stable"
+        }
+      ],
+      "strategic_recommendation": "Lip Care Products 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
+    },
+    {
+      "brand": "Aquaphor",
+      "product": "Aquaphor Lip Repair Stick, Moisturizing Lip Balm P",
+      "analysis_period": "2026-01-01 to 2026-01-10",
+      "registered_category": "",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Lip Care Products",
+          "traffic_percentage": 95.8,
+          "avg_rank": 3,
+          "conversion_rate": 15.0,
+          "trend": "stable",
+          "gap_detected": true,
+          "gap_insight": "실제 트래픽의 95.8%가 'Lip Care Products' 카테고리에서 발생 - 명목 카테고리와 불일치"
+        },
+        {
+          "breadcrumb": "Skin Care Products",
+          "traffic_percentage": 4.2,
+          "avg_rank": 69,
+          "conversion_rate": 14.6,
+          "trend": "stable"
+        }
+      ],
+      "strategic_recommendation": "Lip Care Products 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
+    },
+    {
+      "brand": "Burt's",
+      "product": "Burt's Bees Lip Balm - Original Beeswax, Lip Moist",
+      "analysis_period": "2026-01-01 to 2026-01-10",
+      "registered_category": "",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Lip Care Products",
+          "traffic_percentage": 96.7,
+          "avg_rank": 2,
+          "conversion_rate": 15.0,
+          "trend": "stable",
+          "gap_detected": true,
+          "gap_insight": "실제 트래픽의 96.7%가 'Lip Care Products' 카테고리에서 발생 - 명목 카테고리와 불일치"
+        },
+        {
+          "breadcrumb": "Skin Care Products",
+          "traffic_percentage": 3.3,
+          "avg_rank": 59,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        }
+      ],
+      "strategic_recommendation": "Lip Care Products 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
+    },
+    {
+      "brand": "Aquaphor",
+      "product": "Aquaphor Lip Repair Ointment, Moisturizing Lip Bal",
+      "analysis_period": "2026-01-01 to 2026-01-10",
+      "registered_category": "",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Lip Care Products",
+          "traffic_percentage": 98.2,
+          "avg_rank": 1,
+          "conversion_rate": 15.0,
+          "trend": "stable",
+          "gap_detected": true,
+          "gap_insight": "실제 트래픽의 98.2%가 'Lip Care Products' 카테고리에서 발생 - 명목 카테고리와 불일치"
+        },
+        {
+          "breadcrumb": "Skin Care Products",
+          "traffic_percentage": 1.8,
+          "avg_rank": 55,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        }
+      ],
+      "strategic_recommendation": "Lip Care Products 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
+    },
+    {
+      "brand": "BIODANCE",
+      "product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Ov",
+      "analysis_period": "2026-01-01 to 2026-01-10",
+      "registered_category": "",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Beauty & Personal Care",
+          "traffic_percentage": 50.0,
+          "avg_rank": 2,
+          "conversion_rate": 15.0,
+          "trend": "stable",
+          "gap_detected": true,
+          "gap_insight": "실제 트래픽의 50.0%가 'Beauty & Personal Care' 카테고리에서 발생 - 명목 카테고리와 불일치"
+        },
+        {
+          "breadcrumb": "Skin Care Products",
+          "traffic_percentage": 50.0,
+          "avg_rank": 2,
+          "conversion_rate": 15.0,
+          "trend": "stable",
+          "gap_detected": true,
+          "gap_insight": "실제 트래픽의 50.0%가 'Skin Care Products' 카테고리에서 발생 - 명목 카테고리와 불일치"
+        }
+      ],
+      "strategic_recommendation": "Beauty & Personal Care 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
+    }
+  ]
+}

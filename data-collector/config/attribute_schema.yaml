@@ -1,0 +1,362 @@
+# Beauty Product Attribute Classification Schema
+# 뷰티 제품 속성 분류 체계
+#
+# Claude API를 통해 제품명, 설명, 리뷰 등에서 추출할 속성 정의
+
+# ============================================
+# 속성 카테고리
+# ============================================
+attribute_categories:
+
+  # 1. 성분 & 제형 (Ingredients & Formula)
+  ingredients:
+    key_actives:
+      - "Hyaluronic Acid"
+      - "Vitamin C (Ascorbic Acid)"
+      - "Retinol / Retinoids"
+      - "Niacinamide (Vitamin B3)"
+      - "AHA (Glycolic Acid, Lactic Acid)"
+      - "BHA (Salicylic Acid)"
+      - "Peptides"
+      - "Ceramides"
+      - "Collagen"
+      - "Centella Asiatica (Cica)"
+      - "Green Tea Extract"
+      - "Vitamin E (Tocopherol)"
+      - "Bakuchiol"
+      - "Azelaic Acid"
+      - "Snail Mucin"
+      - "Tea Tree Oil"
+      - "Aloe Vera"
+      - "Argan Oil"
+      - "Jojoba Oil"
+      - "Squalane"
+
+    formula_type:
+      - "Gel"
+      - "Cream"
+      - "Serum"
+      - "Oil"
+      - "Lotion"
+      - "Balm"
+      - "Foam"
+      - "Mousse"
+      - "Powder"
+      - "Stick"
+      - "Mist/Spray"
+      - "Gel-Cream Hybrid"
+      - "Water/Essence"
+      - "Ampoule"
+      - "Toner"
+
+    texture:
+      - "Lightweight"
+      - "Rich/Heavy"
+      - "Silky"
+      - "Watery"
+      - "Thick"
+      - "Whipped"
+      - "Cooling"
+      - "Velvety"
+      - "Creamy"
+      - "Gel-like"
+
+  # 2. 효능 & 클레임 (Benefits & Claims)
+  benefits:
+    primary_benefit:
+      - "Hydration/Moisturizing"
+      - "Anti-Aging"
+      - "Brightening/Whitening"
+      - "Acne Treatment"
+      - "Soothing/Calming"
+      - "Exfoliation"
+      - "Firming/Lifting"
+      - "Pore Care"
+      - "Oil Control"
+      - "Sun Protection"
+      - "Healing/Repair"
+      - "Detoxifying"
+      - "Plumping"
+      - "Mattifying"
+
+    target_concerns:
+      - "Fine Lines & Wrinkles"
+      - "Dark Spots & Hyperpigmentation"
+      - "Enlarged Pores"
+      - "Dryness & Dehydration"
+      - "Redness & Irritation"
+      - "Acne & Breakouts"
+      - "Dullness"
+      - "Loss of Firmness"
+      - "Uneven Skin Tone"
+      - "Dark Circles"
+      - "Scarring"
+      - "Sensitivity"
+      - "Excess Oil"
+      - "Blackheads/Whiteheads"
+
+    timeframe:
+      - "Immediate/Instant"
+      - "Within 24 Hours"
+      - "1 Week"
+      - "2-4 Weeks"
+      - "8+ Weeks (Long-term)"
+
+    clinical_claims:
+      - "Dermatologist Tested"
+      - "Clinically Proven"
+      - "Hypoallergenic"
+      - "Non-Comedogenic"
+      - "Ophthalmologist Tested"
+      - "Allergy Tested"
+      - "Pediatrician Approved"
+      - "pH Balanced"
+
+  # 3. 인증 & 가치 (Certifications & Values)
+  certifications:
+    clean_beauty:
+      - "Paraben-Free"
+      - "Sulfate-Free"
+      - "Fragrance-Free"
+      - "Phthalate-Free"
+      - "Silicone-Free"
+      - "Mineral Oil-Free"
+      - "Alcohol-Free"
+      - "Dye-Free"
+      - "Talc-Free"
+      - "Formaldehyde-Free"
+
+    ethical:
+      - "Cruelty-Free"
+      - "Vegan"
+      - "Leaping Bunny Certified"
+      - "PETA Certified"
+      - "Not Tested on Animals"
+
+    sustainability:
+      - "Recyclable Packaging"
+      - "Refillable"
+      - "Ocean-Friendly"
+      - "Carbon Neutral"
+      - "Biodegradable"
+      - "Zero Waste"
+      - "Sustainable Sourcing"
+
+    origin:
+      - "K-Beauty (Korean)"
+      - "J-Beauty (Japanese)"
+      - "French Beauty"
+      - "Made in USA"
+      - "Swiss Beauty"
+      - "Australian"
+      - "German"
+      - "Italian"
+
+    certifications_official:
+      - "USDA Organic"
+      - "EWG Verified"
+      - "Clean at Sephora"
+      - "EcoCert"
+      - "COSMOS Certified"
+      - "Fair Trade"
+
+  # 4. 패키징 (Packaging)
+  packaging:
+    container_type:
+      - "Jar"
+      - "Pump Bottle"
+      - "Tube"
+      - "Dropper"
+      - "Stick"
+      - "Spray/Mist"
+      - "Palette"
+      - "Pouch/Sachet"
+      - "Airless Pump"
+      - "Squeeze Bottle"
+      - "Compact"
+      - "Roll-on"
+
+    travel_friendly:
+      - "TSA-Approved (<3.4oz)"
+      - "Travel Size"
+      - "Full Size"
+      - "Deluxe Sample"
+      - "Mini"
+
+    special_features:
+      - "UV Protection (Packaging)"
+      - "Hygienic Dispenser"
+      - "Recyclable"
+      - "Refillable"
+      - "Glass Bottle"
+      - "Eco-Friendly Material"
+
+  # 5. 가격대 (Price Tier)
+  price_tier:
+    luxury: "> $80"
+    premium: "$40-80"
+    mid_range: "$20-40"
+    affordable: "$10-20"
+    budget: "< $10"
+
+  # 6. 타겟 인구통계 (Target Demographics)
+  demographics:
+    age_group:
+      - "Teen (13-19)"
+      - "20s-30s"
+      - "40s-50s"
+      - "50+ / Mature"
+      - "All Ages"
+
+    skin_type:
+      - "Dry"
+      - "Oily"
+      - "Combination"
+      - "Sensitive"
+      - "Normal"
+      - "All Skin Types"
+
+    gender_target:
+      - "Women"
+      - "Men"
+      - "Unisex"
+
+    skin_tone:
+      - "All Skin Tones"
+      - "Fair/Light"
+      - "Medium"
+      - "Deep/Dark"
+
+  # 7. 사용 시간 & 용도 (Usage Time & Purpose)
+  usage:
+    time_of_day:
+      - "Morning/AM"
+      - "Night/PM"
+      - "Day & Night"
+      - "Any Time"
+
+    routine_step:
+      - "Cleanser"
+      - "Toner"
+      - "Essence"
+      - "Serum"
+      - "Moisturizer"
+      - "Eye Cream"
+      - "Sunscreen"
+      - "Mask"
+      - "Spot Treatment"
+      - "Primer"
+      - "Makeup Remover"
+
+    application_area:
+      - "Full Face"
+      - "Eye Area"
+      - "Lip Area"
+      - "Body"
+      - "Hand"
+      - "Foot"
+      - "Neck & Décolleté"
+      - "Targeted/Spot"
+
+# ============================================
+# 추출 우선순위 (Extraction Priority)
+# ============================================
+extraction_priority:
+  # 반드시 추출해야 하는 필수 속성
+  critical:
+    - "ingredients.key_actives"
+    - "benefits.primary_benefit"
+    - "price_tier"
+    - "demographics.skin_type"
+    - "certifications.clean_beauty"
+    - "certifications.ethical"
+
+  # 중요하지만 선택적인 속성
+  important:
+    - "ingredients.formula_type"
+    - "benefits.target_concerns"
+    - "certifications.origin"
+    - "usage.routine_step"
+    - "packaging.container_type"
+
+  # 있으면 좋은 속성
+  nice_to_have:
+    - "ingredients.texture"
+    - "benefits.timeframe"
+    - "benefits.clinical_claims"
+    - "demographics.age_group"
+    - "packaging.travel_friendly"
+    - "usage.time_of_day"
+
+# ============================================
+# 출력 형식 (Output Format)
+# ============================================
+output_format:
+  file_name_pattern: "product_attributes_{timestamp}.json"
+
+  structure:
+    asin: "Product ASIN"
+    extracted_at: "ISO timestamp"
+    source_data:
+      product_name: "Original product name"
+      category: "Category"
+      price: "Price"
+
+    attributes:
+      ingredients: {}
+      benefits: {}
+      certifications: {}
+      demographics: {}
+      usage: {}
+
+    extraction_metadata:
+      model: "claude-3-5-sonnet-20241022"
+      confidence_score: "0.0-1.0"
+      extraction_time_ms: "Processing time"
+      cache_hit: "boolean"
+
+# ============================================
+# 검증 규칙 (Validation Rules)
+# ============================================
+validation:
+  # 최소 추출 요구사항
+  minimum_required_attributes:
+    - "benefits.primary_benefit"
+    - "demographics.skin_type"
+
+  # 속성 값 검증
+  value_validation:
+    price_tier:
+      method: "price_based"
+      rules:
+        - "< $10 -> budget"
+        - "$10-20 -> affordable"
+        - "$20-40 -> mid_range"
+        - "$40-80 -> premium"
+        - "> $80 -> luxury"
+
+    skin_type:
+      allowed_values:
+        - "Dry"
+        - "Oily"
+        - "Combination"
+        - "Sensitive"
+        - "Normal"
+        - "All Skin Types"
+      allow_multiple: true
+
+# ============================================
+# 성능 설정 (Performance Settings)
+# ============================================
+performance:
+  batch_size: 5
+  delay_between_batches: 2
+  cache_ttl_days: 7
+
+  retry:
+    max_attempts: 2
+    backoff_multiplier: 2
+
+  timeout:
+    per_product_seconds: 15
+    batch_timeout_seconds: 90

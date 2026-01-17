@@ -1,0 +1,205 @@
+{
+  "analysis_date": "2026-01-10",
+  "categories": [
+    {
+      "category": "Beauty & Personal Care",
+      "volatility_index": 95.6,
+      "status": "very_high_volatility",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 30,
+        "exits": 0,
+        "avg_rank_change": 4.2
+      },
+      "market_signal": "시장 재편 진행 중 - 진입 기회 탐색 권장",
+      "weekly_volatility": [
+        101.4,
+        104.0,
+        88.6,
+        87.8,
+        104.2,
+        88.6,
+        105.0
+      ],
+      "brands_entering": [
+        "PanOxyl",
+        "Julep",
+        "Kitsch",
+        "eos",
+        "LovelySkin Inc",
+        "essence",
+        "CeraVe",
+        "MAYBELLINE",
+        "Mighty Patch",
+        "medicube",
+        "Paula's Choice Skincare",
+        "Vanicream",
+        "Native",
+        "Neutrogena",
+        "OGX",
+        "CLEAN SKIN CLUB",
+        "Mrs. MEYER'S",
+        "Method",
+        "BIODANCE",
+        "Nizoral",
+        "Amazon Basics",
+        "KAHI",
+        "Shop the Store on Amazon ›"
+      ],
+      "brands_exiting": []
+    },
+    {
+      "category": "Lip Care Products",
+      "volatility_index": 47.5,
+      "status": "high_volatility",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 4,
+        "exits": 4,
+        "avg_rank_change": 3.9
+      },
+      "market_signal": "시장 재편 진행 중 - 신규 진입 기회 탐색 권장",
+      "weekly_volatility": [
+        50.7,
+        43.0,
+        47.7,
+        42.8,
+        49.0,
+        43.1,
+        45.2
+      ],
+      "brands_entering": [
+        "Dr. Dan's",
+        "e.l.f.",
+        "eos",
+        "MAYBELLINE",
+        "Summer Fridays",
+        "Burt's Bees",
+        "Blistex",
+        "Aquaphor",
+        "NIVEA",
+        "Lip Smacker",
+        "ChapStick",
+        "Shop the Store on Amazon ›",
+        "O'Keeffe's"
+      ],
+      "brands_exiting": []
+    },
+    {
+      "category": "Skin Care Products",
+      "volatility_index": 49.1,
+      "status": "high_volatility",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 8,
+        "exits": 8,
+        "avg_rank_change": 3.2
+      },
+      "market_signal": "시장 재편 진행 중 - 신규 진입 기회 탐색 권장",
+      "weekly_volatility": [
+        53.0,
+        48.1,
+        52.9,
+        50.3,
+        53.7,
+        44.8,
+        51.5
+      ],
+      "brands_entering": [
+        "PanOxyl",
+        "Dr.Melaxin",
+        "eos",
+        "CeraVe",
+        "LovelySkin Inc",
+        "Mighty Patch",
+        "medicube",
+        "Aquaphor",
+        "Paula's Choice Skincare",
+        "Vanicream",
+        "Neutrogena",
+        "CLEAN SKIN CLUB",
+        "Mrs. MEYER'S",
+        "Method",
+        "BIODANCE",
+        "KAHI",
+        "Shop the Store on Amazon ›",
+        "grace & stella"
+      ],
+      "brands_exiting": []
+    },
+    {
+      "category": "Lip Makeup",
+      "volatility_index": 33.2,
+      "status": "moderate_volatility",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 10,
+        "exits": 10,
+        "avg_rank_change": 3.2
+      },
+      "market_signal": "안정적 성장 - 점진적 진입 전략 적합",
+      "weekly_volatility": [
+        34.2,
+        31.6,
+        34.2,
+        31.5,
+        30.2,
+        36.1,
+        31.1
+      ],
+      "brands_entering": [
+        "wet n wild",
+        "e.l.f.",
+        "REVLON",
+        "MAYBELLINE",
+        "Shop the Store on Amazon ›",
+        "Wonderskin",
+        "NYX PROFESSIONAL MAKEUP",
+        "COVERGIRL",
+        "NOONI",
+        "Sacheu",
+        "LAURA GELLER NEW YORK",
+        "L'Oreal Paris"
+      ],
+      "brands_exiting": []
+    },
+    {
+      "category": "Face Powder",
+      "volatility_index": 21.6,
+      "status": "low_volatility",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 4,
+        "exits": 4,
+        "avg_rank_change": 2.0
+      },
+      "market_signal": "포화 시장 - 진입 비추천",
+      "weekly_volatility": [
+        22.6,
+        23.4,
+        23.6,
+        23.1,
+        22.4,
+        23.4,
+        20.3
+      ],
+      "brands_entering": [
+        "wet n wild",
+        "e.l.f.",
+        "REVLON",
+        "Physicians Formula",
+        "Catrice",
+        "MAYBELLINE",
+        "Shop the Store on Amazon ›",
+        "NYX PROFESSIONAL MAKEUP",
+        "Kimchi Chic",
+        "Laura Mercier",
+        "Neutrogena",
+        "COVERGIRL",
+        "Rimmel",
+        "L'Oreal Paris"
+      ],
+      "brands_exiting": []
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "analysis_date": "2025-12-31",
+  "tracking_period": "Last 60 days",
+  "emerging_brands": [
+    {
+      "brand": "Beauty of Joseon",
+      "rank_change": "+18",
+      "current_avg_rank": 8,
+      "previous_avg_rank": 26,
+      "growth_rate": 127.3,
+      "status": "rising_star",
+      "primary_category": "Night Creams",
+      "secondary_categories": ["Facial Treatments & Masks", "Sleeping Masks"],
+      "key_products": [
+        {
+          "name": "Dynasty Cream",
+          "current_rank": 4,
+          "review_velocity": 85,
+          "rating": 4.7
+        },
+        {
+          "name": "Revive Serum",
+          "current_rank": 6,
+          "review_velocity": 72,
+          "rating": 4.6
+        }
+      ],
+      "strategy_analysis": {
+        "price_positioning": "Premium-Mid ($24-$32)",
+        "main_keywords": ["Hanbang", "Ginseng", "Traditional Korean", "Anti-aging", "Royal Court"],
+        "differentiation": "한방 성분 + 궁중 스킨케어 스토리텔링",
+        "review_sentiment": "매우 긍정적 - 특히 'luxurious texture', 'visible results' 언급 많음"
+      },
+      "success_formula": {
+        "category_strategy": "Night Creams를 메인으로, Treatments로 확장",
+        "content_approach": "Before/After 사진 + 성분 스토리",
+        "pricing_tactic": "경쟁사 대비 15-20% 프리미엄 포지셔닝"
+      }
+    },
+    {
+      "brand": "Medicube",
+      "rank_change": "+22",
+      "current_avg_rank": 12,
+      "previous_avg_rank": 34,
+      "growth_rate": 184.6,
+      "status": "breakthrough",
+      "primary_category": "Face Moisturizers",
+      "secondary_categories": ["Acne Treatments", "Serums"],
+      "key_products": [
+        {
+          "name": "AGE-R Booster Pro",
+          "current_rank": 9,
+          "review_velocity": 112,
+          "rating": 4.8
+        }
+      ],
+      "strategy_analysis": {
+        "price_positioning": "Premium ($38-$55)",
+        "main_keywords": ["Device-compatible", "Professional", "Clinic-grade", "Derma", "Technology"],
+        "differentiation": "뷰티 디바이스와 연계된 스킨케어 라인",
+        "review_sentiment": "혁신적 - 'works with device', 'clinical results' 언급 폭발적 증가"
+      },
+      "success_formula": {
+        "category_strategy": "Face Moisturizers 메인, 디바이스 호환성 강조",
+        "content_approach": "임상 데이터 + 디바이스 연동 튜토리얼",
+        "pricing_tactic": "디바이스 번들 할인으로 진입장벽 낮춤"
+      }
+    },
+    {
+      "brand": "Round Lab",
+      "rank_change": "+14",
+      "current_avg_rank": 15,
+      "previous_avg_rank": 29,
+      "growth_rate": 93.2,
+      "status": "rising_star",
+      "primary_category": "Face Moisturizers",
+      "secondary_categories": ["Toners", "Essences"],
+      "key_products": [
+        {
+          "name": "1025 Dokdo Cream",
+          "current_rank": 11,
+          "review_velocity": 67,
+          "rating": 4.5
+        }
+      ],
+      "strategy_analysis": {
+        "price_positioning": "Mid-range ($18-$26)",
+        "main_keywords": ["Clean beauty", "Deep sea water", "Minimalist", "Sensitive skin", "Ulleungdo"],
+        "differentiation": "독도 해양 심층수 + 미니멀 클린 뷰티",
+        "review_sentiment": "긍정적 - 'gentle', 'no fragrance', 'sensitive skin safe' 핵심"
+      },
+      "success_formula": {
+        "category_strategy": "Face Moisturizers에 집중, 민감성 피부 타겟",
+        "content_approach": "성분 투명성 + 지속가능성 스토리",
+        "pricing_tactic": "경쟁사 대비 동등하거나 약간 낮은 가격"
+      }
+    }
+  ],
+  "pattern_insights": {
+    "common_success_factors": [
+      "명확한 브랜드 스토리와 차별화 포인트",
+      "Night Creams 또는 Face Moisturizers 카테고리 집중 공략",
+      "리뷰 속도(Review Velocity) 관리 - 신제품 출시 후 첫 30일이 critical",
+      "프리미엄 또는 미드-프리미엄 가격대 포지셔닝"
+    ],
+    "category_entry_pattern": "주력 카테고리에서 Top 10 진입 후, 인접 카테고리로 확장하는 2단계 전략 사용"
+  }
+}

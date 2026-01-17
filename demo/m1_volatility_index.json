@@ -1,0 +1,65 @@
+{
+  "analysis_date": "2025-12-31",
+  "categories": [
+    {
+      "category": "Face Moisturizers",
+      "volatility_index": 42.3,
+      "status": "high_volatility",
+      "trend": "increasing",
+      "top30_changes": {
+        "new_entries": 8,
+        "exits": 6,
+        "avg_rank_change": 5.2
+      },
+      "market_signal": "시장 재편 진행 중 - 신규 진입 기회 탐색 권장",
+      "weekly_volatility": [38.1, 39.7, 41.2, 42.3, 45.1, 43.8, 42.3],
+      "brands_entering": ["Medicube", "Mary&May", "Round Lab"],
+      "brands_exiting": ["Kiehl's", "Clinique"]
+    },
+    {
+      "category": "Sleeping Masks",
+      "volatility_index": 28.7,
+      "status": "moderate_volatility",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 4,
+        "exits": 3,
+        "avg_rank_change": 3.1
+      },
+      "market_signal": "안정적 성장 - 점진적 진입 전략 적합",
+      "weekly_volatility": [27.3, 28.1, 29.4, 28.7, 27.9, 28.5, 28.7],
+      "brands_entering": ["Biodance"],
+      "brands_exiting": []
+    },
+    {
+      "category": "Night Creams",
+      "volatility_index": 51.8,
+      "status": "very_high_volatility",
+      "trend": "increasing",
+      "top30_changes": {
+        "new_entries": 12,
+        "exits": 9,
+        "avg_rank_change": 7.8
+      },
+      "market_signal": "급격한 시장 재편 - 최우선 진입 기회",
+      "weekly_volatility": [45.2, 48.3, 50.1, 51.8, 54.2, 52.7, 51.8],
+      "brands_entering": ["Then I Met You", "Beauty of Joseon", "Rovectin"],
+      "brands_exiting": ["Olay", "Pond's", "Aveeno"]
+    },
+    {
+      "category": "Cleansing Balms",
+      "volatility_index": 19.4,
+      "status": "low_volatility",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 2,
+        "exits": 2,
+        "avg_rank_change": 1.8
+      },
+      "market_signal": "포화 시장 - 진입 비추천",
+      "weekly_volatility": [18.7, 19.1, 19.8, 19.4, 18.9, 19.2, 19.4],
+      "brands_entering": [],
+      "brands_exiting": []
+    }
+  ]
+}

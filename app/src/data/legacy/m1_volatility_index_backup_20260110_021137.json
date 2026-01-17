@@ -1,0 +1,2174 @@
+{
+  "analysis_date": "2026-01-10",
+  "categories": [
+    {
+      "category": "Beauty & Personal Care",
+      "volatility_index": 95.6,
+      "status": "very_high_volatility",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 30,
+        "exits": 0,
+        "avg_rank_change": 4.2
+      },
+      "market_signal": "시장 재편 진행 중 - 진입 기회 탐색 권장",
+      "weekly_volatility": [
+        104.4,
+        99.4,
+        86.4,
+        93.9,
+        105.0,
+        97.1,
+        101.5
+      ],
+      "brands_entering": [
+        "OGX",
+        "eos",
+        "BIODANCE",
+        "Kitsch",
+        "LovelySkin Inc",
+        "Mighty Patch",
+        "Shop the Store on Amazon ›",
+        "Method",
+        "Vanicream",
+        "Paula's Choice Skincare",
+        "Amazon Basics",
+        "Neutrogena",
+        "essence",
+        "CLEAN SKIN CLUB",
+        "medicube",
+        "Nizoral",
+        "CeraVe",
+        "Mrs. MEYER'S",
+        "Julep",
+        "MAYBELLINE",
+        "PanOxyl",
+        "KAHI",
+        "Native"
+      ],
+      "brands_exiting": []
+    },
+    {
+      "category": "Lip Care Products",
+      "volatility_index": 47.5,
+      "status": "high_volatility",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 4,
+        "exits": 4,
+        "avg_rank_change": 3.9
+      },
+      "market_signal": "시장 재편 진행 중 - 신규 진입 기회 탐색 권장",
+      "weekly_volatility": [
+        42.8,
+        47.7,
+        47.9,
+        46.3,
+        50.6,
+        47.3,
+        43.9
+      ],
+      "brands_entering": [
+        "Blistex",
+        "eos",
+        "ChapStick",
+        "Lip Smacker",
+        "Dr. Dan's",
+        "MAYBELLINE",
+        "Shop the Store on Amazon ›",
+        "Summer Fridays",
+        "O'Keeffe's",
+        "Aquaphor",
+        "Burt's Bees",
+        "NIVEA",
+        "e.l.f."
+      ],
+      "brands_exiting": []
+    },
+    {
+      "category": "Skin Care Products",
+      "volatility_index": 49.1,
+      "status": "high_volatility",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 8,
+        "exits": 8,
+        "avg_rank_change": 3.2
+      },
+      "market_signal": "시장 재편 진행 중 - 신규 진입 기회 탐색 권장",
+      "weekly_volatility": [
+        44.4,
+        46.2,
+        48.9,
+        46.1,
+        44.6,
+        46.5,
+        51.6
+      ],
+      "brands_entering": [
+        "eos",
+        "BIODANCE",
+        "Dr.Melaxin",
+        "LovelySkin Inc",
+        "Mighty Patch",
+        "Shop the Store on Amazon ›",
+        "Method",
+        "Paula's Choice Skincare",
+        "Vanicream",
+        "Aquaphor",
+        "grace & stella",
+        "Neutrogena",
+        "CLEAN SKIN CLUB",
+        "medicube",
+        "Mrs. MEYER'S",
+        "CeraVe",
+        "PanOxyl",
+        "KAHI"
+      ],
+      "brands_exiting": []
+    },
+    {
+      "category": "Lip Makeup",
+      "volatility_index": 33.2,
+      "status": "moderate_volatility",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 10,
+        "exits": 10,
+        "avg_rank_change": 3.2
+      },
+      "market_signal": "안정적 성장 - 점진적 진입 전략 적합",
+      "weekly_volatility": [
+        34.8,
+        31.2,
+        32.0,
+        34.4,
+        33.0,
+        35.4,
+        36.4
+      ],
+      "brands_entering": [
+        "wet n wild",
+        "COVERGIRL",
+        "LAURA GELLER NEW YORK",
+        "L'Oreal Paris",
+        "NOONI",
+        "MAYBELLINE",
+        "Shop the Store on Amazon ›",
+        "Wonderskin",
+        "Sacheu",
+        "NYX PROFESSIONAL MAKEUP",
+        "REVLON",
+        "e.l.f."
+      ],
+      "brands_exiting": []
+    },
+    {
+      "category": "Face Powder",
+      "volatility_index": 21.6,
+      "status": "low_volatility",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 4,
+        "exits": 4,
+        "avg_rank_change": 2.0
+      },
+      "market_signal": "포화 시장 - 진입 비추천",
+      "weekly_volatility": [
+        20.4,
+        22.2,
+        23.4,
+        21.6,
+        20.0,
+        20.4,
+        20.4
+      ],
+      "brands_entering": [
+        "wet n wild",
+        "Rimmel",
+        "Neutrogena",
+        "COVERGIRL",
+        "Laura Mercier",
+        "Kimchi Chic",
+        "Physicians Formula",
+        "L'Oreal Paris",
+        "Catrice",
+        "MAYBELLINE",
+        "Shop the Store on Amazon ›",
+        "NYX PROFESSIONAL MAKEUP",
+        "REVLON",
+        "e.l.f."
+      ],
+      "brands_exiting": []
+    }
+  ],
+  "category_volatility": {
+    "Beauty_and_Personal_Care": {
+      "score": 95.6,
+      "status": "very_high_volatility",
+      "trend": "stable",
+      "market_signal": "시장 재편 진행 중 - 진입 기회 탐색 권장"
+    },
+    "Lip_Care_Products": {
+      "score": 47.5,
+      "status": "high_volatility",
+      "trend": "stable",
+      "market_signal": "시장 재편 진행 중 - 신규 진입 기회 탐색 권장"
+    },
+    "Skin_Care_Products": {
+      "score": 49.1,
+      "status": "high_volatility",
+      "trend": "stable",
+      "market_signal": "시장 재편 진행 중 - 신규 진입 기회 탐색 권장"
+    },
+    "Lip_Makeup": {
+      "score": 33.2,
+      "status": "moderate_volatility",
+      "trend": "stable",
+      "market_signal": "안정적 성장 - 점진적 진입 전략 적합"
+    },
+    "Face_Powder": {
+      "score": 21.6,
+      "status": "low_volatility",
+      "trend": "stable",
+      "market_signal": "포화 시장 - 진입 비추천"
+    }
+  },
+  "volatility_metrics": {
+    "OGX": {
+      "brand_volatility_score": 9.6,
+      "categories_present": [
+        "Beauty & Personal Care"
+      ],
+      "trend": "높은 변동성 - 주의 필요",
+      "products": [
+        {
+          "product": "OGX Renewing + Argan Oil of Morocco Weightless Healing Dry O...",
+          "asin": "B005DYJSCO",
+          "volatility": 9.9,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "eos": {
+      "brand_volatility_score": 6.4,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Lip Care Products",
+        "Skin Care Products"
+      ],
+      "trend": "높은 변동성 - 주의 필요",
+      "products": [
+        {
+          "product": "eos Cashmere Lip Butter - Vanilla Cashmere, Plumping Peptide...",
+          "asin": "B0CRRZNL11",
+          "volatility": 7.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "eos 24H Moisture Super Balm Minis- Crème de la Crème, Limite...",
+          "asin": "B0CQLH9HXL",
+          "volatility": 5.5,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "eos Natural Shea Lip Balm- Birthday Cake, All-Day Moisture L...",
+          "asin": "B0B2TKJVDH",
+          "volatility": 6.4,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "eos Shea Better Cashmere Body Wash, Vanilla Cashmere, Moistu...",
+          "asin": "B0DPHQRLJC",
+          "volatility": 6.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "eos 24H Moisture Super Balm - Marshmallow Fluff, Lip mask, M...",
+          "asin": "B0DXRJYY7X",
+          "volatility": 6.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "eos Shea Better Body Lotion Vanilla Cashmere, 24-Hour Moistu...",
+          "asin": "B08KT2Z93D",
+          "volatility": 6.4,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "eos 100% Natural Lip Balms- Coconut Milk, Pineapple Passionf...",
+          "asin": "B0C7SRQZBD",
+          "volatility": 5.5,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "eos 100% Natural & Organic Lip Balm- Strawberry Sorbet, All-...",
+          "asin": "B006WQF3B2",
+          "volatility": 6.7,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "eos 100% Natural & Organic Lip Balm Sticks - Vanilla Bean, A...",
+          "asin": "B01M59RMWJ",
+          "volatility": 5.5,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "eos Holiday Lip Balm Sphere Gift Set, Sugar Plum Spritz, Can...",
+          "asin": "B0CTGDGJQ5",
+          "volatility": 5.9,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "eos The Hero Lip Repair, Extra Dry Lip Treatment, 24HR Moist...",
+          "asin": "B09V1VJGCR",
+          "volatility": 6.6,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "eos 24H Moisture Super Balm - Birthday Cake, Lip Mask, Day o...",
+          "asin": "B0CQS64YDB",
+          "volatility": 6.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Neosporin Lip Health Overnight Renewal Therapy White Petrola...",
+          "asin": "B08G51PM4J",
+          "volatility": 6.3,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "BIODANCE": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ],
+      "trend": "높은 변동성 - 주의 필요",
+      "products": [
+        {
+          "product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hy...",
+          "asin": "B0B2RM68G2",
+          "volatility": 7.4,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Kitsch": {
+      "brand_volatility_score": 9.6,
+      "categories_present": [
+        "Beauty & Personal Care"
+      ],
+      "trend": "높은 변동성 - 주의 필요",
+      "products": [
+        {
+          "product": "Kitsch Satin Scrunchies for Women – No Crease Hair Ties – So...",
+          "asin": "B0798RWHC9",
+          "volatility": 9.9,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Kitsch Dermaplane Razor for Women Face – Face Razors for Wom...",
+          "asin": "B08V3JGB1F",
+          "volatility": 9.6,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "LovelySkin Inc": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ],
+      "trend": "높은 변동성 - 주의 필요",
+      "products": [
+        {
+          "product": "La Roche-Posay Cicaplast Balm B5, Healing Ointment and Sooth...",
+          "asin": "B0060OUV5Y",
+          "volatility": 7.5,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "La Roche-Posay Toleriane Double Repair Face Moisturizer, Dai...",
+          "asin": "B01N9SPQHQ",
+          "volatility": 6.8,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Mighty Patch": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ],
+      "trend": "높은 변동성 - 주의 필요",
+      "products": [
+        {
+          "product": "Mighty Patch™ Original patch from Hero Cosmetics – The #1 Hy...",
+          "asin": "B074PVTPBW",
+          "volatility": 6.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Mighty Patch™ Invisible+ Patch – The Barely-There Daytime Hy...",
+          "asin": "B0DVJ7BLQ7",
+          "volatility": 7.0,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Method": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ],
+      "trend": "높은 변동성 - 주의 필요",
+      "products": [
+        {
+          "product": "Method Body Wash, Sea + Surf, Paraben and Phthalate Free, 28...",
+          "asin": "B0BT1WN3ZD",
+          "volatility": 7.0,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Vanicream": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ],
+      "trend": "높은 변동성 - 주의 필요",
+      "products": [
+        {
+          "product": "Vanicream Gentle Facial Cleanser with Pump Dispenser - 8 fl ...",
+          "asin": "B00QY1XZ4W",
+          "volatility": 6.4,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Vanicream Moisturizing Skin Cream with Pump Dispenser - 16 f...",
+          "asin": "B000NWGCZ2",
+          "volatility": 6.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Vanicream Daily Facial Moisturizer With Ceramides and Hyalur...",
+          "asin": "B08BW46XXK",
+          "volatility": 6.7,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Paula's Choice Skincare": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ],
+      "trend": "높은 변동성 - 주의 필요",
+      "products": [
+        {
+          "product": "Paula's Choice SKIN PERFECTING 2% BHA Liquid Exfoliant with ...",
+          "asin": "B00949CTQQ",
+          "volatility": 8.1,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Amazon Basics": {
+      "brand_volatility_score": 9.6,
+      "categories_present": [
+        "Beauty & Personal Care"
+      ],
+      "trend": "높은 변동성 - 주의 필요",
+      "products": [
+        {
+          "product": "Amazon Basics Gentle & Mild Clear Liquid Hand Soap Refill, T...",
+          "asin": "B09HHDHXWX",
+          "volatility": 10.2,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Amazon Basics Epsom Salt Soak, Unscented, Magnesium Sulfate ...",
+          "asin": "B0BXTS6L35",
+          "volatility": 9.8,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Amazon Basics Healing Ointment & Skin Protectant for Dry & C...",
+          "asin": "B09HHD9X58",
+          "volatility": 9.4,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Amazon Basics Cotton Swabs for Personal Hygiene and Baby Car...",
+          "asin": "B09541P9WH",
+          "volatility": 9.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Amazon Basics Cotton Balls for Skincare, 200 Count (Previous...",
+          "asin": "B09497R2CN",
+          "volatility": 9.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Amazon Basics Hypoallergenic 100% Cotton Rounds for Makeup R...",
+          "asin": "B09542G9ZN",
+          "volatility": 10.5,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Neutrogena": {
+      "brand_volatility_score": 5.5,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products",
+        "Face Powder"
+      ],
+      "trend": "적당한 변동성 - 정상 범위",
+      "products": [
+        {
+          "product": "Neutrogena Hydro Boost Ultra-Soft Micellar Cleansing Wipes w...",
+          "asin": "B07XC569XF",
+          "volatility": 4.5,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Neutrogena Gentle Oil-Free Eye Makeup Remover & Cleanser for...",
+          "asin": "B07T9JV956",
+          "volatility": 6.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Neutrogena Ultra Gentle Foaming Facial Cleanser, Fragrance F...",
+          "asin": "B085S7FZTM",
+          "volatility": 4.8,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Neutrogena Makeup Remover Wipes Micellar Alcohol-Free Face T...",
+          "asin": "B00U2VQZDS",
+          "volatility": 4.7,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Neutrogena Ultra Sheer Dry-Touch Sunscreen Lotion SPF 70, Br...",
+          "asin": "B005IHT94S",
+          "volatility": 5.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Neutrogena SkinClearing Pressed Mineral Powder Compact for A...",
+          "asin": "B004X8LBF8",
+          "volatility": 4.9,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Neutrogena Moisturesmooth Color Lipstick, 70 Plum Perfect, ....",
+          "asin": "B00ADRH0O4",
+          "volatility": 4.8,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Neutrogena Mineral Sheers Loose Powder Makeup Foundation, Li...",
+          "asin": "B009SDCY5Y",
+          "volatility": 5.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Neutrogena Makeup Remover Wipes, Daily Single Face Cleansing...",
+          "asin": "B07GKVBQDG",
+          "volatility": 6.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Neutrogena Healthy Skin Pressed Makeup Powder Compact with A...",
+          "asin": "B00JZ02WGQ",
+          "volatility": 5.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Neutrogena Hydro Boost Translucent Loose Setting Powder with...",
+          "asin": "B0DMCQB732",
+          "volatility": 4.5,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "essence": {
+      "brand_volatility_score": 9.6,
+      "categories_present": [
+        "Beauty & Personal Care"
+      ],
+      "trend": "높은 변동성 - 주의 필요",
+      "products": [
+        {
+          "product": "essence | Flawless Skin Loose Setting Powder Trio | 3-in-1 M...",
+          "asin": "B0D6NFHLK4",
+          "volatility": 10.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "essence | Lash Princess False Lash Effect Mascara | Volumizi...",
+          "asin": "B00T0C9XRK",
+          "volatility": 9.8,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "essence | The Super Peptide Glossy Lip Treatment | Hydrating...",
+          "asin": "B0D6NDBSJT",
+          "volatility": 9.0,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "CLEAN SKIN CLUB": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ],
+      "trend": "높은 변동성 - 주의 필요",
+      "products": [
+        {
+          "product": "Clean Skin Club Clean Towels XL®, 100% USDA Biobased Face To...",
+          "asin": "B07PBXXNCY",
+          "volatility": 7.8,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "medicube": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ],
+      "trend": "높은 변동성 - 주의 필요",
+      "products": [
+        {
+          "product": "medicube Triple Collagen Cream - Hydrating & Firming Moistur...",
+          "asin": "B0BPXT3GBN",
+          "volatility": 8.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "medicube Wrapping Mask Collagen Overnight Peel Off Facial Ma...",
+          "asin": "B0BRMYHMS5",
+          "volatility": 6.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "medicube Capsule Cream with Deep Vitamin C | Liposome Vitami...",
+          "asin": "B0D2Z3GGCY",
+          "volatility": 6.8,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "medicube Toner Pads Zero Pore Pad 2.0 | Dual-Textured Facial...",
+          "asin": "B09V7Z4TJG",
+          "volatility": 7.8,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "medicube Collagen Jelly Cream- Niacinamide & Freeze-Dried Hy...",
+          "asin": "B0DGPSZVW3",
+          "volatility": 7.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "medicube Zero Pore Clear Blue Capsule Facial Deep Cleanser f...",
+          "asin": "B0DYTQ5GYQ",
+          "volatility": 7.5,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "medicube PDRN Pink Peptide Serum with Salmon DNA | Pink Glow...",
+          "asin": "B0DBF65JYY",
+          "volatility": 7.0,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Nizoral": {
+      "brand_volatility_score": 9.6,
+      "categories_present": [
+        "Beauty & Personal Care"
+      ],
+      "trend": "높은 변동성 - 주의 필요",
+      "products": [
+        {
+          "product": "Nizoral Anti-Dandruff Shampoo with 1% Ketoconazole, Fresh Sc...",
+          "asin": "B00AINMFAC",
+          "volatility": 8.9,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "CeraVe": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ],
+      "trend": "높은 변동성 - 주의 필요",
+      "products": [
+        {
+          "product": "CeraVe AM Facial Moisturizing Lotion with SPF 30, Oil-Free F...",
+          "asin": "B00F97FHAW",
+          "volatility": 7.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "CeraVe PM Facial Moisturizing Lotion, Night Cream with Hyalu...",
+          "asin": "B00365DABC",
+          "volatility": 8.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "CeraVe Skin Renewing Night Cream, Niacinamide, Peptide Compl...",
+          "asin": "B00SNPCSUY",
+          "volatility": 6.6,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "CeraVe Hydrating Mineral Sunscreen SPF 30 with Sheer Tint, T...",
+          "asin": "B07YLKXV11",
+          "volatility": 7.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "CeraVe Foaming Facial Cleanser, Daily Face Wash for Oily Ski...",
+          "asin": "B01N1LL62W",
+          "volatility": 8.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "CeraVe Moisturizing Cream, Body and Face Moisturizer for Dry...",
+          "asin": "B00TTD9BRC",
+          "volatility": 7.9,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "CeraVe Renewing Salicylic Acid Cleanser, Formulated With Hya...",
+          "asin": "B08CQ9T6KN",
+          "volatility": 6.5,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "CeraVe Eye Repair Cream, Under Eye Cream For Puffiness And B...",
+          "asin": "B00JJPMXDO",
+          "volatility": 6.5,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "CeraVe Hydrating Facial Cleanser, Moisturizing Face Wash For...",
+          "asin": "B01MSSDEPK",
+          "volatility": 7.8,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "CeraVe Acne Treatment Face Wash, Salicylic Acid Cleanser wit...",
+          "asin": "B097WFJ5H2",
+          "volatility": 8.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "CeraVe Daily Moisturizing Lotion for Dry Skin, Body Lotion &...",
+          "asin": "B07RK4HST7",
+          "volatility": 6.2,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Mrs. MEYER'S": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ],
+      "trend": "높은 변동성 - 주의 필요",
+      "products": [
+        {
+          "product": "MRS. MEYER'S CLEAN DAY Liquid Hand Soap Refill, Rainwater, 3...",
+          "asin": "B07MFMWFYL",
+          "volatility": 8.1,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Julep": {
+      "brand_volatility_score": 9.6,
+      "categories_present": [
+        "Beauty & Personal Care"
+      ],
+      "trend": "높은 변동성 - 주의 필요",
+      "products": [
+        {
+          "product": "Julep Eyeshadow 101 Cream-to-Powder Waterproof Shadow Stick ...",
+          "asin": "B01LW1983J",
+          "volatility": 9.5,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "MAYBELLINE": {
+      "brand_volatility_score": 4.9,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Lip Care Products",
+        "Lip Makeup",
+        "Face Powder"
+      ],
+      "trend": "적당한 변동성 - 정상 범위",
+      "products": [
+        {
+          "product": "Maybelline Lifter Gloss, Hydrating Lip Gloss with Hyaluronic...",
+          "asin": "B085S9N6JP",
+          "volatility": 4.6,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Maybelline Lifter Liner Lip Liner Pencil with Hyaluronic Aci...",
+          "asin": "B0CZB39JH7",
+          "volatility": 4.2,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Maybelline Lash Sensational Sky High Waterproof Mascara Make...",
+          "asin": "B08H46YXYH",
+          "volatility": 4.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Maybelline Super Stay Teddy Lip Tint, Long Lasting Matte Lip...",
+          "asin": "B0DHF9X19V",
+          "volatility": 4.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Maybelline Color Sensational Ultimatte Matte Lipstick, Non-D...",
+          "asin": "B08H49XLQM",
+          "volatility": 3.9,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Maybelline Super Stay Vinyl Ink Longwear No-Budge Liquid Lip...",
+          "asin": "B09QH8148N",
+          "volatility": 5.4,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Maybelline New York Color Sensational Lipstick, Lip Makeup, ...",
+          "asin": "B00N6YEI6O",
+          "volatility": 5.8,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Maybelline Instant Age Rewind Eraser Dark Circles Treatment ...",
+          "asin": "B004Y9GTOO",
+          "volatility": 5.7,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Maybelline Super Stay Ink Crayon Lipstick Makeup, Precision ...",
+          "asin": "B07PGQDWN1",
+          "volatility": 4.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Maybelline Lifter Glaze Oil Balm with Hyaluronic Acid and Hy...",
+          "asin": "B0F1DK5CGT",
+          "volatility": 5.2,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Maybelline Super Stay 24, 2-Step Liquid Lipstick Makeup, Lon...",
+          "asin": "B0046753LO",
+          "volatility": 5.6,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Maybelline Banana Powder Loose Setting Face Powder, Shade 10...",
+          "asin": "B088YMHLTW",
+          "volatility": 5.6,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Maybelline Fit Me Matte + Poreless Pressed Face Powder Makeu...",
+          "asin": "B00PFCSQCC",
+          "volatility": 3.9,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Maybelline Super Stay Matte Ink Liquid Lipstick Makeup, Long...",
+          "asin": "B08H4FSGDX",
+          "volatility": 4.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Maybelline Fit Me Loose Setting Powder, Face Powder and Fini...",
+          "asin": "B06XDX6YGD",
+          "volatility": 4.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Maybelline Color Sensational Shaping Lip Liner with Self-Sha...",
+          "asin": "B07BHBDJ1Q",
+          "volatility": 4.4,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Maybelline Fit Me Loose Setting Powder, Face Powder and Fini...",
+          "asin": "B06XDZ93P5",
+          "volatility": 5.8,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "PanOxyl": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ],
+      "trend": "높은 변동성 - 주의 필요",
+      "products": [
+        {
+          "product": "PanOxyl Acne Foaming Wash Benzoyl Peroxide 10% Maximum Stren...",
+          "asin": "B081KL2QYJ",
+          "volatility": 7.8,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "KAHI": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ],
+      "trend": "높은 변동성 - 주의 필요",
+      "products": [
+        {
+          "product": "KAHI Wrinkle Bounce Multi Balm Stick | PDRN Collagen Wrinkle...",
+          "asin": "B0DDC3QGJL",
+          "volatility": 6.2,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Native": {
+      "brand_volatility_score": 9.6,
+      "categories_present": [
+        "Beauty & Personal Care"
+      ],
+      "trend": "높은 변동성 - 주의 필요",
+      "products": [
+        {
+          "product": "Native Body Wash Contains Naturally Derived Ingredients | Fo...",
+          "asin": "B0FY7963T5",
+          "volatility": 10.2,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Native Deodorant Contains Naturally Derived Ingredients, 72 ...",
+          "asin": "B07GB3NVN1",
+          "volatility": 9.2,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Native Coconut & Vanilla Shampoo and Conditioner Contain Nat...",
+          "asin": "B0BBBSMV94",
+          "volatility": 9.4,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Blistex": {
+      "brand_volatility_score": 4.8,
+      "categories_present": [
+        "Lip Care Products"
+      ],
+      "trend": "적당한 변동성 - 정상 범위",
+      "products": [
+        {
+          "product": "Blistex Lip Medex Stick, 0.15 oz Each, Advanced Hydration, M...",
+          "asin": "B0DD5S12KR",
+          "volatility": 4.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Blistex Medicated Lip Ointment, 0.21 Ounce Tube, Relieves Co...",
+          "asin": "B0B7YZHJJS",
+          "volatility": 4.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Blistex Lip Medex, 0.25 Ounce, Medicated Relief with Immedia...",
+          "asin": "B0C8RMB31T",
+          "volatility": 5.4,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Blistex Medicated Lip Balm, 0.15 Ounce, 3 Count (Pack of 1) ...",
+          "asin": "B0044B4HSM",
+          "volatility": 5.7,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "ChapStick": {
+      "brand_volatility_score": 4.8,
+      "categories_present": [
+        "Lip Care Products"
+      ],
+      "trend": "적당한 변동성 - 정상 범위",
+      "products": [
+        {
+          "product": "ChapStick Classic Skin Protectant Flavored Lip Balm Tube, Ch...",
+          "asin": "B07DP6X7Q8",
+          "volatility": 5.2,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Earth's Daughter USDA Organic Lip Balm 6-Pack - Fruit Flavor...",
+          "asin": "B07BB4V9W9",
+          "volatility": 5.6,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "ChapStick Classic Original Lip Balm Tubes, Lip Care - 0.15 O...",
+          "asin": "B07GVVLSG3",
+          "volatility": 5.2,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Moroccan Magic Organic Pure Coconut Lip Balm 3 Pack | Ultra-...",
+          "asin": "B086CBMFPV",
+          "volatility": 4.5,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "ChapStick Moisturizer Original Lip Balm Tubes, SPF 15 and Sk...",
+          "asin": "B000GG64O4",
+          "volatility": 4.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "ChapStick Lip Care Set, Classic Collection 3-Pack – Spearmin...",
+          "asin": "B07GVVRXRC",
+          "volatility": 4.2,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "ChapStick Moisturizer Original Lip Balm Tubes, SPF 15 and Sk...",
+          "asin": "B07GVPQXRF",
+          "volatility": 5.7,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Lip Smacker": {
+      "brand_volatility_score": 4.8,
+      "categories_present": [
+        "Lip Care Products"
+      ],
+      "trend": "적당한 변동성 - 정상 범위",
+      "products": [
+        {
+          "product": "Lip Smacker Coca-Cola Flavored Balm, 8 Count, Flavors Coke, ...",
+          "asin": "B00CXK623E",
+          "volatility": 5.4,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Lip Smacker Lippy Pals Unicorn, Flavored Moisturizing & Smoo...",
+          "asin": "B077XC7K7V",
+          "volatility": 3.8,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Dr. Dan's": {
+      "brand_volatility_score": 4.8,
+      "categories_present": [
+        "Lip Care Products"
+      ],
+      "trend": "적당한 변동성 - 정상 범위",
+      "products": [
+        {
+          "product": "Dr. Dan's Cortibalm -3 Pack -for Dry Cracked Lips - Healing ...",
+          "asin": "B00EXPRM7C",
+          "volatility": 4.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Dr. Dan's Cortibalm - 1 Pack - for Dry Cracked Lips - Healin...",
+          "asin": "B000S2LT9Q",
+          "volatility": 5.4,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Summer Fridays": {
+      "brand_volatility_score": 4.8,
+      "categories_present": [
+        "Lip Care Products"
+      ],
+      "trend": "적당한 변동성 - 정상 범위",
+      "products": [
+        {
+          "product": "Summer Fridays Tinted Lip Butter Balm - Conditioning Vegan L...",
+          "asin": "B0C42HJRBF",
+          "volatility": 5.1,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "O'Keeffe's": {
+      "brand_volatility_score": 4.8,
+      "categories_present": [
+        "Lip Care Products"
+      ],
+      "trend": "적당한 변동성 - 정상 범위",
+      "products": [
+        {
+          "product": "O'Keeffe's Lip Repair Unscented Lip Balm for Dry, Cracked Li...",
+          "asin": "B07N4PVLB7",
+          "volatility": 5.4,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "O'Keeffe's Working Hands Hand Cream for Extreme Dryness - 3 ...",
+          "asin": "B0148PKYXU",
+          "volatility": 4.7,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "O'Keeffe's Lip Repair Night Treatment Lip Balm for Dry, Crac...",
+          "asin": "B07QJ26DT1",
+          "volatility": 3.8,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Aquaphor": {
+      "brand_volatility_score": 4.8,
+      "categories_present": [
+        "Lip Care Products",
+        "Skin Care Products"
+      ],
+      "trend": "적당한 변동성 - 정상 범위",
+      "products": [
+        {
+          "product": "Aquaphor Naturally Inspired Lip Repair Stick with Coconut Oi...",
+          "asin": "B0DBX22FDT",
+          "volatility": 4.2,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Aquaphor Lip Repair Stick, Moisturizing Lip Balm Pack, Relie...",
+          "asin": "B07SRRLVQ1",
+          "volatility": 3.8,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Aquaphor Lip Repair Lip Balm Set, Lip Repair Stick, 0.17 Oz ...",
+          "asin": "B09RLS2V9M",
+          "volatility": 5.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Aquaphor Lip Repair Ointment - Long-lasting Moisture to Soot...",
+          "asin": "B004FHZKOA",
+          "volatility": 4.6,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Aquaphor Healing Ointment Advanced Therapy Skin Protectant, ...",
+          "asin": "B0107QPFBU",
+          "volatility": 5.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Aquaphor Lip Repair Ointment, Moisturizing Lip Balm Pack, Re...",
+          "asin": "B06XDCPYYL",
+          "volatility": 4.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Aquaphor Healing Balm Stick, Skin Protectant with Avocado Oi...",
+          "asin": "B09RYRCXKM",
+          "volatility": 5.1,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Burt's Bees": {
+      "brand_volatility_score": 4.8,
+      "categories_present": [
+        "Lip Care Products"
+      ],
+      "trend": "적당한 변동성 - 정상 범위",
+      "products": [
+        {
+          "product": "Burt’s Bees Tinted Boosted Balm, Misty Mauve, Hydrating Tint...",
+          "asin": "B0DQQNWRQS",
+          "volatility": 3.9,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Burt's Bees Original Overnight Intensive Lip Treatment, Mois...",
+          "asin": "B078JD3TFP",
+          "volatility": 4.8,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Burt's Bees Medicated Lip Balm, With Eucalyptus Oil and Ment...",
+          "asin": "B010P2LNTO",
+          "volatility": 5.6,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Burt's Bees Lip Shimmer Nude Collection, Tinted Lip Balm Sti...",
+          "asin": "B0DKF34N9R",
+          "volatility": 4.4,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Burt's Bees Lip Tint Balm with Long Lasting 2 in 1 Duo Tinte...",
+          "asin": "B0163BMUFM",
+          "volatility": 4.8,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Burt's Bees Lip Balm, Moisturizing Lip Care, 100% Natural Or...",
+          "asin": "B08VXNT6L2",
+          "volatility": 3.8,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Burt's Bees Lip Balm - Original Beeswax, Lip Moisturizer Wit...",
+          "asin": "B00076TOUO",
+          "volatility": 5.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Burt's Bees Lip Balm - Vanilla Bean, Lip Moisturizer With Re...",
+          "asin": "B01N2UBGQJ",
+          "volatility": 5.5,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Burt's Bees Lip Balm - Original Beeswax, Lip Moisturizer Wit...",
+          "asin": "B0054LHI5A",
+          "volatility": 5.7,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Burt's Bees Lip Balm, Beeswax, Strawberry, Coconut and Pear,...",
+          "asin": "B01MRH7MR4",
+          "volatility": 3.8,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "NIVEA": {
+      "brand_volatility_score": 4.8,
+      "categories_present": [
+        "Lip Care Products"
+      ],
+      "trend": "적당한 변동성 - 정상 범위",
+      "products": [
+        {
+          "product": "NIVEA Smoothness Lip Care, Sunscreen Lip Balm with SPF 15 Br...",
+          "asin": "B082JJ4D98",
+          "volatility": 4.4,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "NIVEA Lip Care, Fruity Tinted Lip Balm Variety Pack, Cherry,...",
+          "asin": "B07Y91BMSK",
+          "volatility": 4.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "NIVEA Moisture Lip Care, Hydrating Lip Balm with Shea Butter...",
+          "asin": "B07YG8YVQW",
+          "volatility": 4.3,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "e.l.f.": {
+      "brand_volatility_score": 3.4,
+      "categories_present": [
+        "Lip Care Products",
+        "Lip Makeup",
+        "Face Powder"
+      ],
+      "trend": "적당한 변동성 - 정상 범위",
+      "products": [
+        {
+          "product": "e.l.f. Hydrating Core Lip Shine, Lip Balm For A Sheer Tint O...",
+          "asin": "B09JL5PCJ6",
+          "volatility": 2.4,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "e.l.f. Lip Exfoliator, Moisturizing Scented Lip Scrub For Ex...",
+          "asin": "B0C7WQJSCL",
+          "volatility": 2.7,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "e.l.f. Monochromatic Multi Stick, Luxuriously Creamy & Blend...",
+          "asin": "B088W7L534",
+          "volatility": 3.6,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "e.l.f. Squeeze Me More Lip Balm Duo, Moisturizing Balm For A...",
+          "asin": "B0D442G15L",
+          "volatility": 3.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "e.l.f. Squeeze Me Lip Balm, Moisturizing Lip Balm for A Shee...",
+          "asin": "B0C7W6GW8P",
+          "volatility": 2.7,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "e.l.f. Instant Lift Brow Pencil, Dual-Sided, Precise, Fine T...",
+          "asin": "B07PBQZ3KF",
+          "volatility": 4.2,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "e.l.f. Love Triangle Lip Filler Liner, 2-in-1 Lipliner Penci...",
+          "asin": "B09XMXT4FS",
+          "volatility": 4.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "e.l.f. Cream Glide Lip Liner, Highly-Pigmented Pencil For Sh...",
+          "asin": "B0CMYR1CNK",
+          "volatility": 2.6,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "e.l.f. Prime & Stay Finishing Powder, Sets Makeup, Controls ...",
+          "asin": "B01IM0LVFC",
+          "volatility": 4.2,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "e.l.f. O Face Satin Lipstick, Richly Pigmented, Nourishing &...",
+          "asin": "B0BSP2QC9F",
+          "volatility": 2.4,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "e.l.f. Glow Reviver Lip Oil, Nourishing and Hydrating with H...",
+          "asin": "B0DH62626H",
+          "volatility": 2.8,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "e.l.f. Glow Reviver Melting Lip Balm, Hydrating Tinted Lip B...",
+          "asin": "B0DZP8PN3N",
+          "volatility": 3.2,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "e.l.f. High Definition Powder, Loose Powder, Lightweight, Lo...",
+          "asin": "B0087HOAWC",
+          "volatility": 3.2,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "e.l.f. Pout Clout Lip Plumping Pen, Nourishing Lip Balm For ...",
+          "asin": "B0CPYMLVJJ",
+          "volatility": 2.5,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "e.l.f. SKIN Holy Hydration! Lip Mask, Hydrating Lip Mask For...",
+          "asin": "B0B5MGPXPN",
+          "volatility": 3.7,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "e.l.f. Glow Reviver Lip Oil, Nourishing Tinted Lip Oil For A...",
+          "asin": "B0CMJXGCFQ",
+          "volatility": 3.7,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "e.l.f. Perfect Finish HD Powder, Blurs Fine Lines & Imperfec...",
+          "asin": "B01D1DRF9Q",
+          "volatility": 3.4,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "e.l.f. Halo Glow Powder Filter, Ultra-fine Finishing Powder,...",
+          "asin": "B0DHRR3XW8",
+          "volatility": 3.8,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "e.l.f. Lip Plumping Gloss, High-Shine Sheer Color, Hydrates ...",
+          "asin": "B074G382ZR",
+          "volatility": 4.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "e.l.f. Lip Lacquer, Nourishing, Non-Sticky Ultra-Shine Lip G...",
+          "asin": "B085P2F87L",
+          "volatility": 3.6,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "e.l.f. Glossy Lip Stain, Long-Lasting, Lightweight Lip Stain...",
+          "asin": "B0B4F9PBQB",
+          "volatility": 3.8,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "e.l.f. Halo Glow Powder Puff, Soft, Reusable Powder Puff For...",
+          "asin": "B0CDQSR26L",
+          "volatility": 4.2,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "e.l.f. Halo Glow Soft Focus Setting Powder, Silky & Creates ...",
+          "asin": "B07ZR111LV",
+          "volatility": 4.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "e.l.f. Glow Reviver Slipstick, Tinted Lip Oil Stick, Non-Sti...",
+          "asin": "B0G1H1NQY8",
+          "volatility": 2.9,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Dr.Melaxin": {
+      "brand_volatility_score": 4.9,
+      "categories_present": [
+        "Skin Care Products"
+      ],
+      "trend": "적당한 변동성 - 정상 범위",
+      "products": [
+        {
+          "product": "Dr.Melaxin Peel Shot Glow Rice Peeling Ampoule 80ml Daily So...",
+          "asin": "B0DJPB7H94",
+          "volatility": 5.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Dr.Melaxin Cemenrete Calcium Multi Balm 9g Korean Skin Care ...",
+          "asin": "B0CNCL35CH",
+          "volatility": 4.1,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "grace & stella": {
+      "brand_volatility_score": 4.9,
+      "categories_present": [
+        "Skin Care Products"
+      ],
+      "trend": "적당한 변동성 - 정상 범위",
+      "products": [
+        {
+          "product": "grace & stella Award Winning Under Eye Mask - Stocking Stuff...",
+          "asin": "B014E2D6BY",
+          "volatility": 3.9,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "wet n wild": {
+      "brand_volatility_score": 2.7,
+      "categories_present": [
+        "Lip Makeup",
+        "Face Powder"
+      ],
+      "trend": "안정적 - 변동성 낮음",
+      "products": [
+        {
+          "product": "wet n wild Perfect Pout Matte Retractable Gel Lip Liner Penc...",
+          "asin": "B07PKW2MKF",
+          "volatility": 2.6,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "wet n wild Mega Last Matte Lip Color, Semi Matte Hyaluronic ...",
+          "asin": "B082YPVTHP",
+          "volatility": 2.5,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "wet n wild Photo Focus Loose Baking Setting Powder, Highligh...",
+          "asin": "B0847R7J4N",
+          "volatility": 2.2,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "wet n wild Mega Last High-Shine Lipstick Lip Color, Infused ...",
+          "asin": "B082YPRCMQ",
+          "volatility": 3.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "wet n wild MegaGlo Highlighting Powder Warm Gold Golden Flow...",
+          "asin": "B073WMPZZZ",
+          "volatility": 2.9,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "wet n wild Silk Finish Lipstick, Hydrating Rich Buildable Li...",
+          "asin": "B0011291MO",
+          "volatility": 1.8,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "wet n wild Lip Liner Pencil Color Icon Lip Color Makeup, Dar...",
+          "asin": "B001KYU5U0",
+          "volatility": 2.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "wet n wild Megaslicks Lipgloss, Sinless, 0.5 Ounce, 544",
+          "asin": "B01FIL2TTU",
+          "volatility": 3.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "wet n wild Bare Focus Clarifying Finishing Powder | Matte | ...",
+          "asin": "B09NXNSQCC",
+          "volatility": 2.0,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "COVERGIRL": {
+      "brand_volatility_score": 2.7,
+      "categories_present": [
+        "Lip Makeup",
+        "Face Powder"
+      ],
+      "trend": "안정적 - 변동성 낮음",
+      "products": [
+        {
+          "product": "Covergirl Trublend Pressed Powder, 004 Translucent Medium , ...",
+          "asin": "B001MW6G62",
+          "volatility": 3.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Covergirl Clean Invisible Pressed Powder, Lightweight, Breat...",
+          "asin": "B0BVC218SG",
+          "volatility": 3.2,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "COVERGIRL Clean Matte Pressed Powder, Oil Control Powder, 1 ...",
+          "asin": "B0037MIMK8",
+          "volatility": 3.5,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Clean Invisible Loose Powder Translucent Medium",
+          "asin": "B0BBSMWHWH",
+          "volatility": 3.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "COVERGIRL Outlast, 10 Sugey Girl, Lipstain, Smooth Applicati...",
+          "asin": "B0CLYLPM2B",
+          "volatility": 2.7,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "COVERGIRL Clean Matte Pressed Powder Buff Beige 10 g (Packag...",
+          "asin": "B07BRXYSGZ",
+          "volatility": 2.5,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Covergirl Simply Ageless Instant Wrinkle Blurring Pressed Po...",
+          "asin": "B08L98T4N5",
+          "volatility": 1.8,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "COVERGIRL Clean Fresh Yummy Lip Gloss, Sheer, Natural Scents...",
+          "asin": "B0BBSS7Y36",
+          "volatility": 3.6,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Covergirl Simply Ageless Instant Wrinkle Blurring Pressed Po...",
+          "asin": "B08L91YHX5",
+          "volatility": 2.5,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "COVERGIRL Extreme Wear 16HR Pressed Powder - 870 Toasted Alm...",
+          "asin": "B09VXVTNJL",
+          "volatility": 3.2,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "COVERGIRL Continuous Color Lipstick Rose Quartz 415, .13 oz ...",
+          "asin": "B00178I6O6",
+          "volatility": 3.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "COVERGIRL Outlast All-Day Lip Color With Topcoat, 621 Natura...",
+          "asin": "B00J2AP9X2",
+          "volatility": 2.4,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "COVERGIRL Advanced Radiance Pressed Powder- Creamy Natural 1...",
+          "asin": "B00112HQZI",
+          "volatility": 2.9,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "COVERGIRL Smoothers Pressed Powder, Translucent Medium 715, ...",
+          "asin": "B001SYYLK2",
+          "volatility": 3.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "CoverGirl Clean Fresh Tinted Lip Balm, Vegan Formula, Hydrat...",
+          "asin": "B09LB91W1H",
+          "volatility": 3.5,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Covergirl Simply Ageless Instant Wrinkle Blurring Pressed Po...",
+          "asin": "B08L91VZQK",
+          "volatility": 3.0,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "LAURA GELLER NEW YORK": {
+      "brand_volatility_score": 3.3,
+      "categories_present": [
+        "Lip Makeup"
+      ],
+      "trend": "적당한 변동성 - 정상 범위",
+      "products": [
+        {
+          "product": "LAURA GELLER NEW YORK Modern Classic Lip Liner, Luxurious Cr...",
+          "asin": "B0BZJWN7JR",
+          "volatility": 4.2,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "LAURA GELLER NEW YORK Baked Double Take Powder Foundation - ...",
+          "asin": "B01BRD1TPI",
+          "volatility": 3.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "LAURA GELLER NEW YORK Italian Marble Sheer Lipstick - Berry ...",
+          "asin": "B08MJ5D187",
+          "volatility": 2.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "LAURA GELLER NEW YORK Filter Finish Pressed Neutralizing Set...",
+          "asin": "B0B3ZF8NP4",
+          "volatility": 2.9,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "LAURA GELLER NEW YORK Baked Balance-N-Glow Illuminating Foun...",
+          "asin": "B01N6IJ1CW",
+          "volatility": 2.7,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "LAURA GELLER NEW YORK Jelly Balm Moisturizing Tinted Lip Bal...",
+          "asin": "B0BFXM9NNW",
+          "volatility": 2.8,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "L'Oreal Paris": {
+      "brand_volatility_score": 2.7,
+      "categories_present": [
+        "Lip Makeup",
+        "Face Powder"
+      ],
+      "trend": "안정적 - 변동성 낮음",
+      "products": [
+        {
+          "product": "L'Oreal Paris Magic Root Cover Up Gray Concealer Spray Dark ...",
+          "asin": "B01648QPDM",
+          "volatility": 1.7,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "L'Oreal Paris Makeup Telescopic Original Lengthening, Lash S...",
+          "asin": "B004BD107O",
+          "volatility": 3.4,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "L'Oreal Paris Colour Riche Lipcolour, Ballerina Shoes [135],...",
+          "asin": "B00F4VUTQU",
+          "volatility": 3.4,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "L'Oreal Paris Excellence Crème Permanent Hair Dye, Triple Ca...",
+          "asin": "B004INIW1Y",
+          "volatility": 2.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "L'Oreal Paris True Match Super Blendable Oil Free Powder Fou...",
+          "asin": "B001268TE0",
+          "volatility": 1.9,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "L'Oreal Paris Infallible Matte Resistance Liquid Lipstick, u...",
+          "asin": "B0BWK5HRF8",
+          "volatility": 1.8,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "L'Oreal Paris Infallible Up to 24H Fresh Wear Soft Matte Lon...",
+          "asin": "B09S8N5WV8",
+          "volatility": 3.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "L'Oreal Paris Hyaluron Tint Lip Stain Serum, Long Lasting, H...",
+          "asin": "B0G14ZCSTY",
+          "volatility": 1.9,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "L'Oreal Paris Infallible 3-Second Setting Spray Mist, Microf...",
+          "asin": "B0CZF2T7CK",
+          "volatility": 2.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "L'Oreal Paris Plump Ambition pH Hyaluron Lip Oil, Color Shif...",
+          "asin": "B0F2JKM8SZ",
+          "volatility": 2.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "L'Oreal Paris Makeup Infallible Fresh Wear Foundation in a P...",
+          "asin": "B08GR52XQ3",
+          "volatility": 2.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "L'Oreal Paris Plump Ambition Hyaluron Lip Oil, 24 HR Lip Glo...",
+          "asin": "B0DK3XFPSF",
+          "volatility": 3.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "L'Oreal Paris Colour Riche Lip Liner Pencil, Creamy Lip Line...",
+          "asin": "B0D48LNQKB",
+          "volatility": 3.5,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "L'Oreal Paris Infallible Blur-fection Longwear Loose Setting...",
+          "asin": "B0F38QBPTN",
+          "volatility": 2.7,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "NOONI": {
+      "brand_volatility_score": 3.3,
+      "categories_present": [
+        "Lip Makeup"
+      ],
+      "trend": "적당한 변동성 - 정상 범위",
+      "products": [
+        {
+          "product": "NOONI Korean Lip Oil - Applepeony | Long-Lasting, Moisturizi...",
+          "asin": "B0BWX6NZLT",
+          "volatility": 2.5,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Wonderskin": {
+      "brand_volatility_score": 3.3,
+      "categories_present": [
+        "Lip Makeup"
+      ],
+      "trend": "적당한 변동성 - 정상 범위",
+      "products": [
+        {
+          "product": "Wonderskin Wonder Blading All Day Lip Stain Peel Off Masque ...",
+          "asin": "B0B9YHX8DX",
+          "volatility": 3.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Wonderskin Lipliner Pencil - 360 Contour Lipliner, Long Last...",
+          "asin": "B0CN1D9C6Q",
+          "volatility": 3.9,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Sacheu": {
+      "brand_volatility_score": 3.3,
+      "categories_present": [
+        "Lip Makeup"
+      ],
+      "trend": "적당한 변동성 - 정상 범위",
+      "products": [
+        {
+          "product": "Sacheu Lip Liner STAY-N Peel Off Lip Stain — Long Lasting Wa...",
+          "asin": "B0BVPNQW1C",
+          "volatility": 2.9,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "NYX PROFESSIONAL MAKEUP": {
+      "brand_volatility_score": 2.7,
+      "categories_present": [
+        "Lip Makeup",
+        "Face Powder"
+      ],
+      "trend": "안정적 - 변동성 낮음",
+      "products": [
+        {
+          "product": "NYX PROFESSIONAL MAKEUP Soft Matte Lip Cream, Lightweight Li...",
+          "asin": "B015QNBKJK",
+          "volatility": 3.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "NYX PROFESSIONAL MAKEUP Line Loud Lip Liner, Longwear and Pi...",
+          "asin": "B09ZKLYPVZ",
+          "volatility": 1.7,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "NYX PROFESSIONAL MAKEUP Lip Lingerie XXL Matte Liquid Lipsti...",
+          "asin": "B09XGXXGD1",
+          "volatility": 3.5,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "NYX PROFESSIONAL MAKEUP Duck Plump Plumping Lip Liner, Matte...",
+          "asin": "B0DKKRZGNY",
+          "volatility": 3.4,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "NYX PROFESSIONAL MAKEUP Fat Oil Lip Drip, Moisturizing Lip O...",
+          "asin": "B0BL8HY2QP",
+          "volatility": 2.4,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "NYX PROFESSIONAL MAKEUP Smushy Matte Lip Balm, Tinted Lip Mo...",
+          "asin": "B0F1P24X43",
+          "volatility": 2.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "NYX PROFESSIONAL MAKEUP Can't Stop Won't Stop Mattifying Pre...",
+          "asin": "B0924Y6ZJ6",
+          "volatility": 2.8,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "NYX PROFESSIONAL MAKEUP Slim Lip Pencil, Long-Lasting Creamy...",
+          "asin": "B079ZX2QBD",
+          "volatility": 2.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "NYX PROFESSIONAL MAKEUP Wonder Snatch Setting Powder, Liftin...",
+          "asin": "B0FWS4GPJ5",
+          "volatility": 3.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "NYX PROFESSIONAL MAKEUP HD Finishing Powder, Pressed Setting...",
+          "asin": "B00Y1HYX8S",
+          "volatility": 2.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "NYX Professional Makeup Lip IV Hydrating Glossy Lip Stain wi...",
+          "asin": "B0DK7TXTGY",
+          "volatility": 3.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "NYX PROFESSIONAL MAKEUP Jelly Job Lip Gloss, Lip Tint Gloss ...",
+          "asin": "B0FWS4BS5X",
+          "volatility": 2.5,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "NYX PROFESSIONAL MAKEUP Butter Gloss, Non-Sticky Lip Gloss -...",
+          "asin": "B09SP2XHKT",
+          "volatility": 3.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "NYX PROFESSIONAL MAKEUP Mechanical Lip Liner Pencil, Nude Pi...",
+          "asin": "B005G9LPDQ",
+          "volatility": 3.3,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "REVLON": {
+      "brand_volatility_score": 2.7,
+      "categories_present": [
+        "Lip Makeup",
+        "Face Powder"
+      ],
+      "trend": "안정적 - 변동성 낮음",
+      "products": [
+        {
+          "product": "Revlon Lipstick, ColorStay Suede Ink, Built-in Primer, Stock...",
+          "asin": "B0BHKFXXL8",
+          "volatility": 2.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Revlon Kiss Tinted Lip Balm with SPF 20, Hydrating, Flavored...",
+          "asin": "B01KI40DIQ",
+          "volatility": 1.9,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Revlon Colorstay Lip Liner Makeup with Built-in-Sharpener, L...",
+          "asin": "B01LTI19EM",
+          "volatility": 2.6,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Revlon ColorStay Pressed Powder Face Makeup, Longwearing, Fr...",
+          "asin": "B001P2LWJA",
+          "volatility": 1.9,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Revlon ColorStay Blot Face Powder, Mattifying, Blurring & Oi...",
+          "asin": "B09JB9T6QB",
+          "volatility": 1.7,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Revlon Super Lustrous Lipstick, Creamy Formula For Soft, Ful...",
+          "asin": "B000OF9ATI",
+          "volatility": 2.5,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Revlon ColorStay Pencil Waterproof Eyeliner, Smudge-Proof, E...",
+          "asin": "B000H3I2JG",
+          "volatility": 3.6,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Revlon ColorStay Ultimate Liquid Lipstick, Longwear Rich Lip...",
+          "asin": "B002H988FQ",
+          "volatility": 2.5,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Revlon Liquid Lipstick with Clear Lip Gloss, ColorStay Overt...",
+          "asin": "B001P2JZBC",
+          "volatility": 2.6,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Revlon Super Lustrous Lipstick, Creamy Formula For Soft, Ful...",
+          "asin": "B00005320H",
+          "volatility": 1.8,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Revlon PhotoReady Blurring Face Powder Makeup, Longwear, Lig...",
+          "asin": "B0030HAEG0",
+          "volatility": 2.7,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "REVLON Super Lustrous Glass Shine Balm, Hydrating Tinted Lip...",
+          "asin": "B0DHYFX26G",
+          "volatility": 2.7,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Revlon Super Lustrous Lip Gloss, Non-Sticky, Hydrating, High...",
+          "asin": "B00VRAJT7M",
+          "volatility": 3.5,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Rimmel": {
+      "brand_volatility_score": 2.2,
+      "categories_present": [
+        "Face Powder"
+      ],
+      "trend": "안정적 - 변동성 낮음",
+      "products": [
+        {
+          "product": "Rimmel Lasting Finish 8HR Soft Lip Liner Pencil - Vibrant, B...",
+          "asin": "B08CFSS35N",
+          "volatility": 3.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Rimmel London Stay Matte - 001 Transparent - Pressed Powder,...",
+          "asin": "B004M9L0WW",
+          "volatility": 1.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Rimmel Stay Glossy Lip Gloss - Non-Sticky and Lightweight Fo...",
+          "asin": "B00Q26VWZI",
+          "volatility": 2.2,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Rimmel London Provocalips 16hr Kiss-Proof Lip Color - Two-St...",
+          "asin": "B00Q26VTVK",
+          "volatility": 2.5,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Laura Mercier": {
+      "brand_volatility_score": 2.2,
+      "categories_present": [
+        "Face Powder"
+      ],
+      "trend": "안정적 - 변동성 낮음",
+      "products": [
+        {
+          "product": "Laura Mercier Translucent Loose Talc-Free Setting Powder Ult...",
+          "asin": "B0C2D2SHKG",
+          "volatility": 2.7,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Laura Mercier Translucent Loose Setting Powder, 24HR Shine C...",
+          "asin": "B00062ADKO",
+          "volatility": 3.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Laura Mercier Secret Brightening Under-Eye Loose Setting Pow...",
+          "asin": "B0DZYP2495",
+          "volatility": 3.0,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Kimchi Chic": {
+      "brand_volatility_score": 2.2,
+      "categories_present": [
+        "Face Powder"
+      ],
+      "trend": "안정적 - 변동성 낮음",
+      "products": [
+        {
+          "product": "KimChiChic Beauty Puff Puff Pass Set and Bake Setting Powder...",
+          "asin": "B094SY5Y3L",
+          "volatility": 1.9,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Physicians Formula": {
+      "brand_volatility_score": 2.2,
+      "categories_present": [
+        "Face Powder"
+      ],
+      "trend": "안정적 - 변동성 낮음",
+      "products": [
+        {
+          "product": "Physicians Formula Mineral Wear Talc-Free Loose Powder Cream...",
+          "asin": "B07MNZ7WSL",
+          "volatility": 2.6,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Physicians Formula Murumuru Butter Highlighter Makeup Face P...",
+          "asin": "B075K784FK",
+          "volatility": 1.9,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Physicians Formula Mineral Wear Talc-Free Face Powder, Light...",
+          "asin": "B001MV5UOM",
+          "volatility": 2.8,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Physicians Formula Setting Powder Palette Multi-Colored Pres...",
+          "asin": "B001MV5TU2",
+          "volatility": 1.7,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Catrice": {
+      "brand_volatility_score": 2.2,
+      "categories_present": [
+        "Face Powder"
+      ],
+      "trend": "안정적 - 변동성 낮음",
+      "products": [
+        {
+          "product": "Catrice | Under Eye Brightener Setting Powder (010 | Light R...",
+          "asin": "B0DPB7K2XG",
+          "volatility": 2.5,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Catrice | Magic Shine Eraser Gel-To-Powder | Instant Matte, ...",
+          "asin": "B0DPB7MX7D",
+          "volatility": 1.2,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    }
+  }
+}

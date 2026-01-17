@@ -1,0 +1,433 @@
+{
+  "brand": "Multiple Brands",
+  "analysis_date": "2025-12-31",
+  "products": [
+    {
+      "brand": "LANEIGE",
+      "product": "Water Sleeping Mask (70ml)",
+      "asin": "B00Y16CXS6",
+      "usage_contexts": [
+        {
+          "context": "여름철 에어컨으로 건조한 피부 진정",
+          "frequency": 124,
+          "sentiment_score": 0.87,
+          "key_phrases": ["AC dried skin", "summer hydration", "cooling effect"],
+          "skin_concerns": ["Dehydration", "Dullness"],
+          "time_of_use": "Night",
+          "season": "Summer",
+          "sample_reviews": [
+            {
+              "text": "I work in an office with AC blasting all day and my skin was so dry. This mask is a lifesaver! I wake up with plump, hydrated skin.",
+              "rating": 5,
+              "verified": true
+            },
+            {
+              "text": "Perfect for summer! The cooling sensation feels amazing after being in AC all day. My skin drinks it up overnight.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        },
+        {
+          "context": "레티놀 사용 후 진정 및 보습",
+          "frequency": 156,
+          "sentiment_score": 0.84,
+          "key_phrases": ["after retinol", "calm irritation", "repair barrier"],
+          "skin_concerns": ["Irritation", "Barrier damage"],
+          "time_of_use": "Night",
+          "season": "Year-round",
+          "companion_products": ["The Ordinary Retinol", "Tretinoin"],
+          "sample_reviews": [
+            {
+              "text": "This is my holy grail after using tretinoin! It calms the redness and irritation so well. My skin barrier has never been better.",
+              "rating": 5,
+              "verified": true
+            },
+            {
+              "text": "I use this every night after The Ordinary retinol. It's the only thing that prevents peeling and keeps my skin happy.",
+              "rating": 5,
+              "verified": true
+            },
+            {
+              "text": "Game changer for retinol users! No more flaking or sensitivity. Just smooth, calm skin in the morning.",
+              "rating": 4,
+              "verified": true
+            }
+          ]
+        },
+        {
+          "context": "겨울철 실내 난방으로 인한 건조 케어",
+          "frequency": 142,
+          "sentiment_score": 0.88,
+          "key_phrases": ["winter dryness", "heating damage", "overnight moisture"],
+          "skin_concerns": ["Severe dehydration", "Flakiness"],
+          "time_of_use": "Night",
+          "season": "Winter",
+          "sample_reviews": [
+            {
+              "text": "Winter savior! The heating in my apartment makes my skin so dry, but this keeps it hydrated all night. No more flaky patches!",
+              "rating": 5,
+              "verified": true
+            },
+            {
+              "text": "I've tried so many night creams for winter dryness. This one actually works! My skin feels like a baby's in the morning.",
+              "rating": 5,
+              "verified": false
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 38,
+          "30s": 42,
+          "40s": 15,
+          "50+": 5
+        },
+        "skin_types": {
+          "Dry": 45,
+          "Combination": 32,
+          "Normal": 18,
+          "Oily": 5
+        }
+      }
+    },
+    {
+      "brand": "LANEIGE",
+      "product": "Cream Skin Toner & Moisturizer (170ml)",
+      "asin": "B0CB93H6G7",
+      "usage_contexts": [
+        {
+          "context": "아침 메이크업 전 베이스",
+          "frequency": 178,
+          "sentiment_score": 0.92,
+          "key_phrases": ["makeup primer", "smooth base", "glowy skin"],
+          "skin_concerns": ["Rough texture", "Dullness"],
+          "time_of_use": "Morning",
+          "season": "Year-round",
+          "sample_reviews": [
+            {
+              "text": "This is THE best makeup primer I've ever used! My foundation glides on like butter and my skin looks dewy all day.",
+              "rating": 5,
+              "verified": true
+            },
+            {
+              "text": "I don't even use primer anymore. Just layer this 2-3 times and my skin is perfectly prepped for makeup. Total game changer!",
+              "rating": 5,
+              "verified": true
+            },
+            {
+              "text": "My makeup artist asked what primer I use. She couldn't believe it was a toner! Creates the most beautiful glass skin base.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        },
+        {
+          "context": "7-skin 메소드",
+          "frequency": 134,
+          "sentiment_score": 0.89,
+          "key_phrases": ["7-skin method", "layering", "glass skin"],
+          "skin_concerns": ["Dehydration", "Barrier repair"],
+          "time_of_use": "Morning & Night",
+          "season": "Year-round",
+          "sample_reviews": [
+            {
+              "text": "Perfect for 7-skin method! It's milky enough to layer without feeling heavy. My skin is so plump and glowy after 5-7 layers.",
+              "rating": 5,
+              "verified": true
+            },
+            {
+              "text": "Korean glass skin achieved! I do 5 layers morning and night. My dry skin has never looked this dewy and healthy.",
+              "rating": 5,
+              "verified": false
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 52,
+          "30s": 35,
+          "40s": 10,
+          "50+": 3
+        },
+        "skin_types": {
+          "Dry": 40,
+          "Combination": 38,
+          "Normal": 18,
+          "Oily": 4
+        }
+      }
+    },
+    {
+      "brand": "COSRX",
+      "product": "Advanced Snail 96 Mucin Power Essence",
+      "asin": "B00PBX3L7K",
+      "usage_contexts": [
+        {
+          "context": "여드름 흉터 및 색소침착 개선",
+          "frequency": 203,
+          "sentiment_score": 0.86,
+          "key_phrases": ["acne scars", "hyperpigmentation", "skin healing"],
+          "skin_concerns": ["Acne scars", "Dark spots", "Uneven tone"],
+          "time_of_use": "Morning & Night",
+          "season": "Year-round",
+          "sample_reviews": [
+            {
+              "text": "My acne scars are fading so much faster! I've been using this for 3 months and the difference is incredible. Photos don't lie!",
+              "rating": 5,
+              "verified": true
+            },
+            {
+              "text": "Holy grail for PIE/PIH! The snail mucin really helps my skin heal faster. Old scars are visibly lighter.",
+              "rating": 5,
+              "verified": true
+            },
+            {
+              "text": "I was skeptical about snail slime but WOW. My dark spots from old breakouts are almost gone after 2 months of daily use.",
+              "rating": 4,
+              "verified": true
+            }
+          ]
+        },
+        {
+          "context": "손상된 피부 장벽 회복",
+          "frequency": 167,
+          "sentiment_score": 0.91,
+          "key_phrases": ["barrier repair", "damaged skin", "healing"],
+          "skin_concerns": ["Compromised barrier", "Sensitivity", "Redness"],
+          "time_of_use": "Morning & Night",
+          "season": "Year-round",
+          "sample_reviews": [
+            {
+              "text": "Saved my over-exfoliated skin! My barrier was destroyed and this brought it back to life. No more stinging or redness.",
+              "rating": 5,
+              "verified": true
+            },
+            {
+              "text": "After damaging my moisture barrier with too many actives, this was the only thing that helped. So soothing and healing!",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 58,
+          "30s": 32,
+          "40s": 8,
+          "50+": 2
+        },
+        "skin_types": {
+          "Combination": 35,
+          "Oily": 28,
+          "Dry": 22,
+          "Normal": 15
+        }
+      }
+    },
+    {
+      "brand": "Anua",
+      "product": "Heartleaf 77% Soothing Toner (250ml)",
+      "asin": "B08CMS8P67",
+      "usage_contexts": [
+        {
+          "context": "민감성 피부 진정",
+          "frequency": 189,
+          "sentiment_score": 0.93,
+          "key_phrases": ["sensitive skin", "soothing", "no irritation"],
+          "skin_concerns": ["Sensitivity", "Redness", "Irritation"],
+          "time_of_use": "Morning & Night",
+          "season": "Year-round",
+          "sample_reviews": [
+            {
+              "text": "Finally a toner that doesn't irritate my rosacea! It's so gentle and calming. My redness is noticeably reduced.",
+              "rating": 5,
+              "verified": true
+            },
+            {
+              "text": "My sensitive skin LOVES this. No fragrance, no alcohol, no irritation. Just pure soothing goodness.",
+              "rating": 5,
+              "verified": true
+            },
+            {
+              "text": "This is my safe product when my skin is freaking out. Always calms it down within a day or two.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        },
+        {
+          "context": "여드름 진정 및 염증 완화",
+          "frequency": 145,
+          "sentiment_score": 0.88,
+          "key_phrases": ["acne calming", "inflammation", "breakout relief"],
+          "skin_concerns": ["Active acne", "Inflammation", "Redness"],
+          "time_of_use": "Morning & Night",
+          "season": "Year-round",
+          "sample_reviews": [
+            {
+              "text": "When I have a breakout, I saturate a cotton pad with this and let it sit on the pimple. Redness goes down overnight!",
+              "rating": 5,
+              "verified": true
+            },
+            {
+              "text": "Best toner for inflamed acne! It doesn't dry out my pimples but calms the angry redness. My skin heals so much faster.",
+              "rating": 4,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 62,
+          "30s": 28,
+          "40s": 8,
+          "50+": 2
+        },
+        "skin_types": {
+          "Sensitive": 42,
+          "Combination": 30,
+          "Oily": 18,
+          "Dry": 10
+        }
+      }
+    },
+    {
+      "brand": "Biodance",
+      "product": "Bio-Collagen Real Deep Mask (4ea)",
+      "asin": "B0B2RM68G2",
+      "usage_contexts": [
+        {
+          "context": "특별한 날 전날 집중 케어",
+          "frequency": 156,
+          "sentiment_score": 0.94,
+          "key_phrases": ["special occasion", "instant glow", "plumping"],
+          "skin_concerns": ["Dullness", "Fine lines", "Dehydration"],
+          "time_of_use": "Night",
+          "season": "Year-round",
+          "sample_reviews": [
+            {
+              "text": "I use this the night before important events. Wake up with GLOWING, plump skin! Better than any facial.",
+              "rating": 5,
+              "verified": true
+            },
+            {
+              "text": "Wedding prep essential! Used this every other night for a month before my wedding. My skin has never looked better in photos.",
+              "rating": 5,
+              "verified": true
+            },
+            {
+              "text": "Date night secret weapon! My skin looks like I just had a $200 facial. The plumping effect is REAL.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        },
+        {
+          "context": "주간 집중 안티에이징 케어",
+          "frequency": 128,
+          "sentiment_score": 0.89,
+          "key_phrases": ["anti-aging", "collagen boost", "firmness"],
+          "skin_concerns": ["Fine lines", "Loss of elasticity", "Aging"],
+          "time_of_use": "Night",
+          "season": "Year-round",
+          "sample_reviews": [
+            {
+              "text": "2-3 times a week for anti-aging. My fine lines are less visible and my skin feels so much firmer!",
+              "rating": 5,
+              "verified": true
+            },
+            {
+              "text": "38 and fighting aging! This mask makes my skin look 5 years younger the next day. Collagen boost is no joke.",
+              "rating": 4,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 22,
+          "30s": 45,
+          "40s": 28,
+          "50+": 5
+        },
+        "skin_types": {
+          "Dry": 38,
+          "Normal": 32,
+          "Combination": 22,
+          "Oily": 8
+        }
+      }
+    },
+    {
+      "brand": "LANEIGE",
+      "product": "Lip Sleeping Mask (Berry, 20g)",
+      "asin": "B07XXPHQZK",
+      "usage_contexts": [
+        {
+          "context": "만성적인 입술 건조 및 각질 개선",
+          "frequency": 234,
+          "sentiment_score": 0.91,
+          "key_phrases": ["chapped lips", "lip exfoliation", "overnight healing"],
+          "skin_concerns": ["Severely dry lips", "Peeling", "Cracking"],
+          "time_of_use": "Night",
+          "season": "Year-round",
+          "sample_reviews": [
+            {
+              "text": "I had chronically chapped lips for YEARS. This cured it in a week! Now I can't sleep without it.",
+              "rating": 5,
+              "verified": true
+            },
+            {
+              "text": "Miracle product! My lips were always peeling no matter what I used. This changed everything. Baby soft lips every morning!",
+              "rating": 5,
+              "verified": true
+            },
+            {
+              "text": "I've repurchased this 7 times. It's the ONLY thing that keeps my lips from cracking in winter.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        },
+        {
+          "context": "립스틱 베이스로 사용",
+          "frequency": 98,
+          "sentiment_score": 0.87,
+          "key_phrases": ["lipstick base", "smooth application", "color pop"],
+          "skin_concerns": ["Rough texture", "Lipstick bleeding"],
+          "time_of_use": "Morning",
+          "season": "Year-round",
+          "sample_reviews": [
+            {
+              "text": "I apply a thin layer in the morning before lipstick. Makes my lips so smooth and colors look more vibrant!",
+              "rating": 5,
+              "verified": true
+            },
+            {
+              "text": "Game changer for matte lipsticks! Prevents them from looking crusty. Just dab a little before applying.",
+              "rating": 4,
+              "verified": false
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 48,
+          "30s": 35,
+          "40s": 12,
+          "50+": 5
+        },
+        "skin_types": {
+          "All": 100
+        }
+      }
+    }
+  ]
+}

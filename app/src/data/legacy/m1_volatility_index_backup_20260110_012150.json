@@ -1,0 +1,120 @@
+{
+  "analysis_date": "2026-01-10",
+  "categories": [
+    {
+      "category": "Beauty & Personal Care",
+      "volatility_index": 0.0,
+      "status": "unknown",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 0,
+        "exits": 0,
+        "avg_rank_change": 0.0
+      },
+      "market_signal": "데이터 부족",
+      "weekly_volatility": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "brands_entering": [],
+      "brands_exiting": []
+    },
+    {
+      "category": "Skin Care Products",
+      "volatility_index": 0.0,
+      "status": "unknown",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 0,
+        "exits": 0,
+        "avg_rank_change": 0.0
+      },
+      "market_signal": "데이터 부족",
+      "weekly_volatility": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "brands_entering": [],
+      "brands_exiting": []
+    },
+    {
+      "category": "Lip Care Products",
+      "volatility_index": 0.0,
+      "status": "unknown",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 0,
+        "exits": 0,
+        "avg_rank_change": 0.0
+      },
+      "market_signal": "데이터 부족",
+      "weekly_volatility": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "brands_entering": [],
+      "brands_exiting": []
+    },
+    {
+      "category": "Lip Makeup",
+      "volatility_index": 0.0,
+      "status": "unknown",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 0,
+        "exits": 0,
+        "avg_rank_change": 0.0
+      },
+      "market_signal": "데이터 부족",
+      "weekly_volatility": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "brands_entering": [],
+      "brands_exiting": []
+    },
+    {
+      "category": "Face Powder",
+      "volatility_index": 0.0,
+      "status": "unknown",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 0,
+        "exits": 0,
+        "avg_rank_change": 0.0
+      },
+      "market_signal": "데이터 부족",
+      "weekly_volatility": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "brands_entering": [],
+      "brands_exiting": []
+    }
+  ]
+}

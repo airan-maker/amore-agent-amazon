@@ -1,0 +1,125 @@
+{
+  "analysis_period": "2025-11-01 to 2026-01-01",
+  "growth_tracking": "Review count growth, rating stability, category visibility changes",
+  "emerging_brands": [
+    {
+      "brand": "medicube",
+      "emergence_score": 9.2,
+      "status": "Rapid Ascent",
+      "metrics": {
+        "total_reviews": 69116,
+        "avg_rating": 4.5,
+        "review_growth_rate": "47% QoQ",
+        "product_count": 5,
+        "category_penetration": "Serums, Creams, Toners, Masks"
+      },
+      "key_differentiators": [
+        "PDRN & Salmon DNA innovation positioning",
+        "Clinical credibility with specific percentage callouts (AHA 4.5%, BHA 0.45%)",
+        "Lightweight texture focus in anti-aging category",
+        "Dual-texture innovation in toner pads",
+        "Rapid product line expansion"
+      ],
+      "threat_assessment": "High - Aggressive innovation and multi-category presence threatens LANEIGE's premium positioning",
+      "laneige_response": "Accelerate innovation pipeline; emphasize heritage vs. clinical newcomer narrative"
+    },
+    {
+      "brand": "BIODANCE",
+      "emergence_score": 7.8,
+      "status": "Category Specialist Breaking Out",
+      "metrics": {
+        "total_reviews": 31337,
+        "avg_rating": 4.4,
+        "review_growth_rate": "38% QoQ",
+        "product_count": 1,
+        "category_penetration": "Hydrogel Masks (dominant)"
+      },
+      "key_differentiators": [
+        "Hydrogel mask expertise with Bio-Collagen positioning",
+        "Overnight + event prep dual positioning",
+        "95% sentiment score in pre-event use case",
+        "Premium pricing justified by results"
+      ],
+      "threat_assessment": "Medium - Niche player but potential to expand into broader skincare",
+      "laneige_response": "Strengthen LANEIGE mask portfolio; consider overnight mask innovations"
+    }
+  ],
+  "established_competitors": [
+    {
+      "brand": "COSRX",
+      "market_position": "Dominant Category Leader",
+      "metrics": {
+        "total_reviews": 98281,
+        "avg_rating": 4.6,
+        "review_growth_rate": "12% QoQ (steady)",
+        "product_count": 1,
+        "category_visibility": "Estimated 18% listing share in top 100 Snail Mucin category"
+      },
+      "competitive_moat": [
+        "First-mover advantage in snail mucin",
+        "Owns 'retinol companion' category (412 mentions)",
+        "Extremely stable ranking (#2-4 in Serums)",
+        "Strong word-of-mouth and K-beauty credibility",
+        "Budget-friendly positioning creates volume"
+      ],
+      "threat_assessment": "Very High - Entrenched leader in core serum category; difficult to displace",
+      "laneige_response": "Differentiate with premium formulations; target users seeking 'next level' from COSRX"
+    }
+  ],
+  "laneige_position": {
+    "brand": "LANEIGE",
+    "market_position": "Established Premium Leader (Lip Care) + Expanding Portfolio",
+    "metrics": {
+      "total_reviews_analyzed": 59271,
+      "avg_rating": 4.5,
+      "product_count": 4,
+      "category_penetration": "Lip Care (dominant), Makeup (emerging)"
+    },
+    "strengths": [
+      "Absolute dominance in Lip Sleeping Mask (#1-2 ranking, 54K+ reviews)",
+      "Premium brand perception and heritage",
+      "Innovation in hybrid categories (Glaze Craze lip serum, Neo Blurring powder)",
+      "Strong gift set performance (8.2% conversion in gift category)"
+    ],
+    "vulnerabilities": [
+      "Face care presence weaker than lip care",
+      "Not top-of-mind for problem-solving (vs. medicube/COSRX)",
+      "Innovation pace slower than medicube",
+      "Limited presence in trending ingredients (PDRN, high-percentage actives)"
+    ],
+    "strategic_positioning": "Defend lip care leadership while building face care credibility through innovation and clinical validation"
+  },
+  "market_trends": [
+    {
+      "trend": "Ingredient Transparency & Clinical Percentages",
+      "leaders": ["medicube (AHA 4.5%, BHA 0.45%)", "COSRX (96% Snail Mucin)"],
+      "laneige_gap": "Less specific ingredient percentages in marketing",
+      "recommendation": "Add percentage callouts to product names/descriptions"
+    },
+    {
+      "trend": "Lightweight Anti-Aging Textures",
+      "leaders": ["medicube Jelly Cream, Collagen Capsule Cream"],
+      "laneige_gap": "No lightweight anti-aging options",
+      "recommendation": "Develop or reposition products with gel/jelly textures"
+    },
+    {
+      "trend": "Overnight Treatment Innovation",
+      "leaders": ["LANEIGE Lip Mask (category creator)", "BIODANCE (hydrogel)", "medicube (peel-off)"],
+      "laneige_gap": "Leading in lip but no face overnight innovations",
+      "recommendation": "Expand Sleeping Mask concept to face care"
+    },
+    {
+      "trend": "Multi-Functional Hybrid Products",
+      "leaders": ["LANEIGE Cream Skin, Glaze Craze"],
+      "laneige_gap": "Good positioning but undermarketed",
+      "recommendation": "Emphasize 'one & done' messaging for time-saving benefits"
+    }
+  ],
+  "category_growth_rates": {
+    "Lip_Care": "14% YoY - Driven by LANEIGE Sleeping Mask success",
+    "Hydrogel_Masks": "32% YoY - BIODANCE leading growth",
+    "Toner_Pads": "28% YoY - medicube and competitors driving adoption",
+    "Peptide_Serums": "41% YoY - medicube PDRN innovation creating buzz",
+    "Lightweight_Moisturizers": "23% YoY - Preference shift from heavy creams"
+  }
+}

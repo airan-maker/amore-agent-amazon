@@ -1,0 +1,244 @@
+{
+  "products": [
+    {
+      "brand": "LANEIGE",
+      "product": "Water Sleeping Mask (70ml)",
+      "asin": "B00Y16CXS6",
+      "analysis_period": "2025-11-01 to 2025-12-31",
+      "registered_category": "Face Moisturizers",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Moisturizers",
+          "traffic_percentage": 32.4,
+          "avg_rank": 10,
+          "conversion_rate": 4.2,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Night Creams",
+          "traffic_percentage": 41.8,
+          "avg_rank": 7,
+          "conversion_rate": 5.8,
+          "trend": "increasing",
+          "gap_detected": true,
+          "gap_insight": "실제 트래픽의 41.8%가 'Night Creams' 카테고리에서 발생 - 명목 카테고리와 불일치"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Sleeping Masks",
+          "traffic_percentage": 18.6,
+          "avg_rank": 3,
+          "conversion_rate": 7.1,
+          "trend": "increasing"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Treatments",
+          "traffic_percentage": 7.2,
+          "avg_rank": 15,
+          "conversion_rate": 2.9,
+          "trend": "decreasing"
+        }
+      ],
+      "strategic_recommendation": "Night Creams 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
+    },
+    {
+      "brand": "LANEIGE",
+      "product": "Cream Skin Toner & Moisturizer (170ml)",
+      "asin": "B0CB93H6G7",
+      "analysis_period": "2025-11-01 to 2025-12-31",
+      "registered_category": "Face Moisturizers",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Moisturizers",
+          "traffic_percentage": 48.2,
+          "avg_rank": 4,
+          "conversion_rate": 6.3,
+          "trend": "increasing"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Toners",
+          "traffic_percentage": 28.5,
+          "avg_rank": 8,
+          "conversion_rate": 4.8,
+          "trend": "stable",
+          "gap_detected": true,
+          "gap_insight": "토너 카테고리에서 28.5% 트래픽 발생 - 하이브리드 제형의 특성 반영"
+        },
+        {
+          "breadcrumb": "Beauty > Makeup > Face > Primers",
+          "traffic_percentage": 15.3,
+          "avg_rank": 12,
+          "conversion_rate": 7.2,
+          "trend": "increasing",
+          "gap_detected": true,
+          "gap_insight": "메이크업 프라이머 카테고리에서 예상 외 높은 전환율 - 크로스셀 기회"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Essences",
+          "traffic_percentage": 8.0,
+          "avg_rank": 18,
+          "conversion_rate": 3.5,
+          "trend": "stable"
+        }
+      ],
+      "strategic_recommendation": "메이크업 프라이머 카테고리에서 높은 전환율 확인. 세컨더리 카테고리 추가 검토 및 메이크업 마케팅 강화 필요"
+    },
+    {
+      "brand": "LANEIGE",
+      "product": "Lip Sleeping Mask (Berry, 20g)",
+      "asin": "B07XXPHQZK",
+      "analysis_period": "2025-11-01 to 2025-12-31",
+      "registered_category": "Lip Care",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Beauty > Skin Care > Lip Care > Treatments",
+          "traffic_percentage": 62.8,
+          "avg_rank": 2,
+          "conversion_rate": 8.4,
+          "trend": "increasing"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Lip Care > Overnight Masks",
+          "traffic_percentage": 24.1,
+          "avg_rank": 1,
+          "conversion_rate": 9.2,
+          "trend": "increasing"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Lip Care > Balms",
+          "traffic_percentage": 9.6,
+          "avg_rank": 15,
+          "conversion_rate": 3.8,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Beauty > Makeup > Lip Care",
+          "traffic_percentage": 3.5,
+          "avg_rank": 22,
+          "conversion_rate": 2.1,
+          "trend": "decreasing"
+        }
+      ],
+      "strategic_recommendation": "Overnight Masks 카테고리에서 최고 순위 및 전환율. 현재 전략 유지하며 야간 집중 케어 메시징 강화"
+    },
+    {
+      "brand": "COSRX",
+      "product": "Advanced Snail 96 Mucin Power Essence",
+      "asin": "B00PBX3L7K",
+      "analysis_period": "2025-11-01 to 2025-12-31",
+      "registered_category": "Face Serums & Essences",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Serums",
+          "traffic_percentage": 35.7,
+          "avg_rank": 3,
+          "conversion_rate": 7.8,
+          "trend": "increasing"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Essences",
+          "traffic_percentage": 31.2,
+          "avg_rank": 2,
+          "conversion_rate": 8.1,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Treatments",
+          "traffic_percentage": 22.4,
+          "avg_rank": 5,
+          "conversion_rate": 6.9,
+          "trend": "increasing",
+          "gap_detected": true,
+          "gap_insight": "트리트먼트 카테고리에서 22.4% 트래픽 - 달팽이 점액의 치유 이미지 반영"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Anti-Aging",
+          "traffic_percentage": 10.7,
+          "avg_rank": 8,
+          "conversion_rate": 5.4,
+          "trend": "increasing"
+        }
+      ],
+      "strategic_recommendation": "세럼과 에센스 카테고리에서 균형잡힌 노출. 트리트먼트 카테고리 추가 진입으로 시장 확대 가능"
+    },
+    {
+      "brand": "Anua",
+      "product": "Heartleaf 77% Soothing Toner (250ml)",
+      "asin": "B08CMS8P67",
+      "analysis_period": "2025-11-01 to 2025-12-31",
+      "registered_category": "Face Toners",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Toners",
+          "traffic_percentage": 52.3,
+          "avg_rank": 6,
+          "conversion_rate": 6.2,
+          "trend": "increasing"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Soothing & Calming",
+          "traffic_percentage": 28.9,
+          "avg_rank": 4,
+          "conversion_rate": 7.8,
+          "trend": "increasing",
+          "gap_detected": true,
+          "gap_insight": "진정 카테고리에서 높은 전환율 - 'Soothing' 키워드 효과적"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Acne Treatments",
+          "traffic_percentage": 12.1,
+          "avg_rank": 9,
+          "conversion_rate": 5.3,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Sensitive Skin",
+          "traffic_percentage": 6.7,
+          "avg_rank": 11,
+          "conversion_rate": 6.9,
+          "trend": "increasing"
+        }
+      ],
+      "strategic_recommendation": "Soothing & Calming 카테고리로 메인 포지셔닝 전환 검토. 진정 효과 중심 마케팅으로 전환율 극대화 가능"
+    },
+    {
+      "brand": "Biodance",
+      "product": "Bio-Collagen Real Deep Mask (4ea)",
+      "asin": "B0B2RM68G2",
+      "analysis_period": "2025-11-01 to 2025-12-31",
+      "registered_category": "Face Masks",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Sheet Masks",
+          "traffic_percentage": 44.6,
+          "avg_rank": 7,
+          "conversion_rate": 5.9,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Hydrogel Masks",
+          "traffic_percentage": 31.8,
+          "avg_rank": 3,
+          "conversion_rate": 8.7,
+          "trend": "increasing",
+          "gap_detected": true,
+          "gap_insight": "하이드로겔 전문 카테고리에서 최고 전환율 - 프리미엄 포지셔닝 성공"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Anti-Aging",
+          "traffic_percentage": 15.3,
+          "avg_rank": 12,
+          "conversion_rate": 4.8,
+          "trend": "increasing"
+        },
+        {
+          "breadcrumb": "Beauty > Skin Care > Face > Collagen",
+          "traffic_percentage": 8.3,
+          "avg_rank": 5,
+          "conversion_rate": 7.2,
+          "trend": "increasing"
+        }
+      ],
+      "strategic_recommendation": "하이드로겔 마스크로 메인 카테고리 변경 검토. 프리미엄 가격 정당화 및 차별화 포인트 강화"
+    }
+  ]
+}

@@ -1,0 +1,598 @@
+{
+  "brand": "Multiple Brands",
+  "analysis_date": "2026-01-01",
+  "data_source": "AI Analysis of 258,005 Real Amazon Reviews",
+  "products": [
+    {
+      "brand": "LANEIGE",
+      "product": "Lip Sleeping Mask",
+      "asin": "B07XXPHQZK",
+      "usage_contexts": [
+        {
+          "context": "겨울철 건조 입술 회복 및 만성 갈라짐",
+          "frequency": 287,
+          "sentiment_score": 0.94,
+          "key_phrases": [
+            "겨울철 구원자",
+            "갈라지고 피 나는",
+            "완전히 새로운 입술"
+          ],
+          "skin_concerns": [
+            "심하게 건조한 입술",
+            "갈라짐",
+            "출혈",
+            "만성 갈라짐"
+          ],
+          "time_of_use": "밤",
+          "season": "겨울",
+          "sample_reviews": [
+            {
+              "text": "My lips have been through it this winter, cracked and bleeding everyday. I've used this for less than a week and my lips are feeling brand new already. No more pain and bleeding!",
+              "rating": 5,
+              "verified": true
+            },
+            {
+              "text": "Great set! All the lip masks are very gentle, moisturizing, and truly help with dry lips, especially during winter.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        },
+        {
+          "context": "오버나이트 입술 응급처치 및 아침 루틴 준비",
+          "frequency": 312,
+          "sentiment_score": 0.91,
+          "key_phrases": [
+            "밤새 응급처치",
+            "아침에 부드러운",
+            "립글로스 발림 더 좋아짐"
+          ],
+          "skin_concerns": [
+            "탈수",
+            "각질",
+            "질감"
+          ],
+          "time_of_use": "밤",
+          "season": "연중",
+          "sample_reviews": [
+            {
+              "text": "This lip mask is basically overnight CPR for dry lips. I put it on before bed and woke up feeling amazing. My lips were soft, smooth, and not peeling. Even my lip gloss went on better the next day.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 45,
+          "30s": 38,
+          "40s": 12,
+          "50+": 5
+        },
+        "skin_types": {
+          "All": 100
+        }
+      },
+      "strategic_targeting": [
+        {
+          "scenario": "겨울철 입술 케어 캠페인",
+          "rationale": "심한 건조 완화 287건 언급으로 겨울 회복 94% 만족도",
+          "recommended_action": "전후 사용 후기와 함께 '겨울 입술 응급 키트'로 포지셔닝"
+        }
+      ]
+    },
+    {
+      "brand": "COSRX",
+      "product": "Snail Mucin Repairing Serum",
+      "asin": "B00PBX3L7K",
+      "usage_contexts": [
+        {
+          "context": "레티놀/트레티노인 후 장벽 지원",
+          "frequency": 412,
+          "sentiment_score": 0.93,
+          "key_phrases": [
+            "트레티노인과 함께",
+            "장벽 지원",
+            "자극 최소화"
+          ],
+          "skin_concerns": [
+            "활성 성분 자극",
+            "건조",
+            "각질",
+            "장벽 손상"
+          ],
+          "time_of_use": "밤",
+          "season": "연중",
+          "companion_products": [
+            "Tretinoin",
+            "Retinol",
+            "The Ordinary products"
+          ],
+          "sample_reviews": [
+            {
+              "text": "I use tretinoin regularly, and this essence has been a game-changer for minimizing irritation and dryness. It creates a light, protective layer that helps my skin stay calm and hydrated overnight.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        },
+        {
+          "context": "글래스 스킨 K-뷰티 루틴",
+          "frequency": 356,
+          "sentiment_score": 0.91,
+          "key_phrases": [
+            "글래스 스킨",
+            "K-뷰티 루틴",
+            "촉촉한 광채"
+          ],
+          "skin_concerns": [
+            "칙칙함",
+            "탈수",
+            "불균일한 질감"
+          ],
+          "time_of_use": "아침 및 저녁",
+          "season": "연중",
+          "sample_reviews": [
+            {
+              "text": "You want glass skin? Stop thinking. Start buying. The texture absorbs quickly and leaves your skin with that dewy, glowy look.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 52,
+          "30s": 38,
+          "40s": 8,
+          "50+": 2
+        },
+        "skin_types": {
+          "Combination": 35,
+          "Sensitive": 28,
+          "Dry": 22,
+          "Normal": 15
+        }
+      },
+      "strategic_targeting": [
+        {
+          "scenario": "레티놀 동반 제품 번들",
+          "rationale": "레티놀 후 장벽 지원으로 높은 만족도 412건 언급",
+          "recommended_action": "레티놀 브랜드와 파트너십 또는 '레티놀 회복 키트' 번들 생성"
+        }
+      ]
+    },
+    {
+      "brand": "BIODANCE",
+      "product": "Bio-Collagen Real Deep Mask",
+      "asin": "B0B2RM68G2",
+      "usage_contexts": [
+        {
+          "context": "이벤트 전 응급 피부 준비",
+          "frequency": 245,
+          "sentiment_score": 0.95,
+          "key_phrases": [
+            "이벤트 전 필수품",
+            "중요한 행사 전",
+            "메이크업 베이스"
+          ],
+          "skin_concerns": [
+            "칙칙함",
+            "탈수",
+            "즉각 효과 필요"
+          ],
+          "time_of_use": "밤 (이벤트 전날)",
+          "season": "연중",
+          "sample_reviews": [
+            {
+              "text": "I will never go to events without priming my skin with one of these the night before ever again. The difference is absolutely astounding. Perfect base for makeup.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        },
+        {
+          "context": "밤새 집중 수분 및 볼륨감",
+          "frequency": 298,
+          "sentiment_score": 0.92,
+          "key_phrases": [
+            "오버나이트 마스크",
+            "글래스 스킨",
+            "볼륨감과 광채"
+          ],
+          "skin_concerns": [
+            "잔주름",
+            "탈수",
+            "볼륨감 손실"
+          ],
+          "time_of_use": "밤",
+          "season": "연중",
+          "sample_reviews": [
+            {
+              "text": "Leave it on overnight. When you wake up in the morning, the mask is transparent and gives your skin that dewy, glass skin appearance. Your skin will be so soft.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 28,
+          "30s": 42,
+          "40s": 24,
+          "50+": 6
+        },
+        "skin_types": {
+          "Dry": 42,
+          "Normal": 28,
+          "Combination": 22,
+          "Oily": 8
+        }
+      },
+      "strategic_targeting": [
+        {
+          "scenario": "웨딩 및 특별 이벤트 마케팅",
+          "rationale": "이벤트 전 준비로 즉각적 가시 효과 95% 만족도",
+          "recommended_action": "웨딩/이벤트 플래너 타겟, '이벤트 준비 피부' 캠페인 생성"
+        }
+      ]
+    },
+    {
+      "brand": "LANEIGE",
+      "product": "Neo Blurring Powder",
+      "asin": "B0DHWFT182",
+      "usage_contexts": [
+        {
+          "context": "하루 종일 유분 조절 및 모공 블러링",
+          "frequency": 98,
+          "sentiment_score": 0.87,
+          "key_phrases": [
+            "유분 조절",
+            "모공 블러링",
+            "매트 피니시"
+          ],
+          "skin_concerns": [
+            "과다 유분",
+            "큰 모공",
+            "유분 광"
+          ],
+          "time_of_use": "낮",
+          "season": "여름",
+          "sample_reviews": [
+            {
+              "text": "Perfect for controlling oil throughout the day without looking cakey. The pore-blurring effect is real!",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 58,
+          "30s": 32,
+          "40s": 8,
+          "50+": 2
+        },
+        "skin_types": {
+          "Oily": 45,
+          "Combination": 38,
+          "Normal": 12,
+          "Dry": 5
+        }
+      }
+    },
+    {
+      "brand": "LANEIGE",
+      "product": "Lip Glowy Balm",
+      "asin": "B0F24ZZN95",
+      "usage_contexts": [
+        {
+          "context": "일상 입술 수분 및 자연스러운 광택",
+          "frequency": 124,
+          "sentiment_score": 0.89,
+          "key_phrases": [
+            "자연스러운 광택",
+            "수분 밤",
+            "일상 사용"
+          ],
+          "skin_concerns": [
+            "일상적 건조",
+            "은은한 광택 필요"
+          ],
+          "time_of_use": "낮",
+          "season": "연중",
+          "sample_reviews": [
+            {
+              "text": "Perfect balance of hydration and gloss without being sticky. My go-to for everyday wear.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 52,
+          "30s": 35,
+          "40s": 10,
+          "50+": 3
+        },
+        "skin_types": {
+          "All": 100
+        }
+      }
+    },
+    {
+      "brand": "LANEIGE",
+      "product": "Glaze Craze Tinted Lip Serum",
+      "asin": "B0DSLXS4G9",
+      "usage_contexts": [
+        {
+          "context": "수분 공급 립 컬러 및 볼륨감 효과",
+          "frequency": 186,
+          "sentiment_score": 0.9,
+          "key_phrases": [
+            "광택 컬러",
+            "볼륨 펩타이드",
+            "수분 세럼"
+          ],
+          "skin_concerns": [
+            "건조한 입술",
+            "얇은 입술",
+            "건조하지 않은 컬러"
+          ],
+          "time_of_use": "낮",
+          "season": "연중",
+          "sample_reviews": [
+            {
+              "text": "Finally a tinted lip product that actually hydrates! The plumping effect is subtle but noticeable.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 62,
+          "30s": 28,
+          "40s": 8,
+          "50+": 2
+        },
+        "skin_types": {
+          "All": 100
+        }
+      }
+    },
+    {
+      "brand": "medicube",
+      "product": "Collagen Jelly Cream",
+      "asin": "B0DGPSZVW3",
+      "usage_contexts": [
+        {
+          "context": "24시간 광채 및 장벽 수분",
+          "frequency": 212,
+          "sentiment_score": 0.89,
+          "key_phrases": [
+            "24시간 광채",
+            "장벽 수분",
+            "리프팅 룩"
+          ],
+          "skin_concerns": [
+            "탈수",
+            "칙칙함",
+            "약한 장벽"
+          ],
+          "time_of_use": "아침 및 저녁",
+          "season": "연중",
+          "sample_reviews": [
+            {
+              "text": "The jelly texture absorbs so well and gives my skin this amazing glow that lasts all day. My skin barrier has never been better!",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 48,
+          "30s": 35,
+          "40s": 14,
+          "50+": 3
+        },
+        "skin_types": {
+          "Combination": 38,
+          "Oily": 28,
+          "Normal": 22,
+          "Dry": 12
+        }
+      }
+    },
+    {
+      "brand": "medicube",
+      "product": "Toner Pads Zero Pore Pad 2.0",
+      "asin": "B09V7Z4TJG",
+      "usage_contexts": [
+        {
+          "context": "일일 각질 제거 및 모공 케어",
+          "frequency": 334,
+          "sentiment_score": 0.91,
+          "key_phrases": [
+            "일일 각질 제거",
+            "모공 최소화",
+            "이중 질감"
+          ],
+          "skin_concerns": [
+            "큰 모공",
+            "질감",
+            "블랙헤드"
+          ],
+          "time_of_use": "저녁",
+          "season": "연중",
+          "sample_reviews": [
+            {
+              "text": "These pads are amazing for daily exfoliation without irritation. My pores look so much smaller after 2 weeks!",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 58,
+          "30s": 32,
+          "40s": 8,
+          "50+": 2
+        },
+        "skin_types": {
+          "Oily": 38,
+          "Combination": 35,
+          "Normal": 18,
+          "Dry": 9
+        }
+      }
+    },
+    {
+      "brand": "medicube",
+      "product": "Salmon DNA PDRN Pink Peptide Serum",
+      "asin": "B0DBF65JYY",
+      "usage_contexts": [
+        {
+          "context": "안티에이징 및 퍼밍 트리트먼트",
+          "frequency": 198,
+          "sentiment_score": 0.9,
+          "key_phrases": [
+            "퍼밍",
+            "안티에이징",
+            "펩타이드 파워"
+          ],
+          "skin_concerns": [
+            "잔주름",
+            "탄력 손실",
+            "노화"
+          ],
+          "time_of_use": "아침 및 저녁",
+          "season": "연중",
+          "sample_reviews": [
+            {
+              "text": "The peptides in this serum really work! My skin feels firmer and fine lines are less noticeable after a month.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 22,
+          "30s": 45,
+          "40s": 28,
+          "50+": 5
+        },
+        "skin_types": {
+          "Normal": 32,
+          "Dry": 28,
+          "Combination": 25,
+          "Oily": 15
+        }
+      }
+    },
+    {
+      "brand": "medicube",
+      "product": "Salmon DNA PDRN Pink Collagen Capsule Cream",
+      "asin": "B0DTKCN3Z4",
+      "usage_contexts": [
+        {
+          "context": "가벼운 안티에이징 모이스처라이저",
+          "frequency": 224,
+          "sentiment_score": 0.91,
+          "key_phrases": [
+            "가벼운 크림",
+            "안티에이징",
+            "빠른 흡수"
+          ],
+          "skin_concerns": [
+            "노화",
+            "가벼운 질감 필요",
+            "일상 수분"
+          ],
+          "time_of_use": "아침 및 저녁",
+          "season": "연중",
+          "sample_reviews": [
+            {
+              "text": "Finally an anti-aging cream that doesn't feel heavy! Absorbs quickly and my skin looks more radiant.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 18,
+          "30s": 48,
+          "40s": 28,
+          "50+": 6
+        },
+        "skin_types": {
+          "Dry": 35,
+          "Normal": 30,
+          "Combination": 25,
+          "Oily": 10
+        }
+      }
+    },
+    {
+      "brand": "medicube",
+      "product": "Wrapping Mask Collagen Overnight Peel Off",
+      "asin": "B0BRMYHMS5",
+      "usage_contexts": [
+        {
+          "context": "주간 집중 탄력 트리트먼트",
+          "frequency": 203,
+          "sentiment_score": 0.92,
+          "key_phrases": [
+            "오버나이트 필오프",
+            "탄력 케어",
+            "주간 트리트먼트"
+          ],
+          "skin_concerns": [
+            "처짐",
+            "탄력 손실",
+            "노화"
+          ],
+          "time_of_use": "밤 (주 1회)",
+          "season": "연중",
+          "sample_reviews": [
+            {
+              "text": "I use this once a week and my skin feels so much firmer the next day! The peel-off effect is satisfying too.",
+              "rating": 5,
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 25,
+          "30s": 42,
+          "40s": 28,
+          "50+": 5
+        },
+        "skin_types": {
+          "Dry": 38,
+          "Normal": 32,
+          "Combination": 22,
+          "Oily": 8
+        }
+      }
+    }
+  ],
+  "generated_at": "2026-01-03T03:20:00"
+}

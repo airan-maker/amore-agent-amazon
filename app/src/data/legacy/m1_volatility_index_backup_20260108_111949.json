@@ -1,0 +1,141 @@
+{
+  "analysis_period": "2025-11-01 to 2026-01-01",
+  "update_frequency": "Weekly",
+  "volatility_metrics": {
+    "LANEIGE": {
+      "brand_volatility_score": 3.2,
+      "trend": "낮은 변동성 - 안정적 프리미엄 포지셔닝",
+      "products": [
+        {
+          "asin": "B07XXPHQZK",
+          "product": "Lip Sleeping Mask",
+          "volatility": 2.1,
+          "rank_change": "오버나이트 립케어 #1-2위에서 안정적"
+        },
+        {
+          "asin": "B0F24ZZN95",
+          "product": "Lip Glowy Balm",
+          "volatility": 4.5,
+          "rank_change": "립밤 카테고리 #12-18위 중간 변동"
+        },
+        {
+          "asin": "B0DSLXS4G9",
+          "product": "Glaze Craze Tinted Lip Serum",
+          "volatility": 6.8,
+          "rank_change": "높은 변동성 - 신제품 포지션 확립 중"
+        },
+        {
+          "asin": "B0DHWFT182",
+          "product": "Neo Blurring Powder",
+          "volatility": 5.2,
+          "rank_change": "경쟁 심한 파우더 카테고리에서 중간 변동"
+        }
+      ]
+    },
+    "COSRX": {
+      "brand_volatility_score": 1.8,
+      "trend": "매우 낮음 - 지배적이고 안정적 위치",
+      "products": [
+        {
+          "asin": "B00PBX3L7K",
+          "product": "Snail Mucin Repairing Serum",
+          "volatility": 1.8,
+          "rank_change": "세럼 카테고리 #2-4위 극도로 안정적 - 카테고리 리더"
+        }
+      ]
+    },
+    "BIODANCE": {
+      "brand_volatility_score": 4.3,
+      "trend": "중간 - 안정성 증가 중인 성장 브랜드",
+      "products": [
+        {
+          "asin": "B0B2RM68G2",
+          "product": "Bio-Collagen Real Deep Mask",
+          "volatility": 4.3,
+          "rank_change": "하이드로젤 마스크 #2-6위에서 안정화 중"
+        }
+      ]
+    },
+    "medicube": {
+      "brand_volatility_score": 5.7,
+      "trend": "중간-높음 - 제품 라인 확장과 함께 빠른 성장",
+      "products": [
+        {
+          "asin": "B09V7Z4TJG",
+          "product": "Toner Pads Zero Pore Pad 2.0",
+          "volatility": 3.2,
+          "rank_change": "토너 패드 #4-6위 안정적 - 확립된 제품"
+        },
+        {
+          "asin": "B0DGPSZVW3",
+          "product": "Collagen Jelly Cream",
+          "volatility": 6.8,
+          "rank_change": "#18-32위 중간 변동 - 인지도 성장 중"
+        },
+        {
+          "asin": "B0DBF65JYY",
+          "product": "Salmon DNA PDRN Pink Peptide Serum",
+          "volatility": 7.2,
+          "rank_change": "높은 변동성 - 혁신 제품 견인력 구축 중"
+        },
+        {
+          "asin": "B0DTKCN3Z4",
+          "product": "Salmon DNA PDRN Pink Collagen Capsule Cream",
+          "volatility": 6.5,
+          "rank_change": "중간-높은 변동성 - 신규 출시"
+        },
+        {
+          "asin": "B0BRMYHMS5",
+          "product": "Wrapping Mask Collagen Overnight Peel Off",
+          "volatility": 5.1,
+          "rank_change": "#5-12위 중간 변동 - 독특한 포맷"
+        }
+      ]
+    }
+  },
+  "category_volatility": {
+    "Lip_Care": {
+      "score": 3.8,
+      "trend": "중간 - 겨울철 계절적 급등"
+    },
+    "Serums_Essences": {
+      "score": 2.5,
+      "trend": "낮음 - 안정적 루틴 카테고리"
+    },
+    "Face_Masks": {
+      "score": 5.2,
+      "trend": "중간-높음 - 이벤트 기반 급등"
+    },
+    "Face_Powder": {
+      "score": 6.1,
+      "trend": "높음 - 경쟁 심한 메이크업 카테고리"
+    },
+    "Toner_Pads": {
+      "score": 4.2,
+      "trend": "중간 - 성장하는 카테고리"
+    },
+    "Moisturizers": {
+      "score": 3.1,
+      "trend": "낮음-중간 - 안정적 필수 카테고리"
+    }
+  },
+  "insights": [
+    {
+      "finding": "COSRX Snail Mucin은 가장 낮은 변동성(1.8)을 보여 카테고리 장악력과 충성 고객층을 나타냄",
+      "implication": "LANEIGE 제품들은 확고한 경쟁에 직면; 차별화가 중요"
+    },
+    {
+      "finding": "medicube는 빠른 제품 출시로 가장 높은 브랜드 변동성(5.7)을 보임",
+      "implication": "공격적인 혁신 전략이 시장 불안정성 야기 - 안정성 포지셔닝 확립 기회"
+    },
+    {
+      "finding": "LANEIGE Glaze Craze (변동성 6.8)는 신제품 확립 단계를 나타냄",
+      "implication": "목표 순위에서 안정화될 때까지 마케팅 투자 지속"
+    },
+    {
+      "finding": "Face Masks 카테고리는 이벤트 기반 급등으로 5.2 변동성을 보임",
+      "implication": "마스크 제품에는 계절/이벤트 마케팅이 중요"
+    }
+  ],
+  "generated_at": "2026-01-03T03:20:00"
+}

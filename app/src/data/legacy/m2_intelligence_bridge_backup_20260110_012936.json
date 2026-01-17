@@ -1,0 +1,120 @@
+{
+  "analysis_date": "2026-01-10",
+  "brand": "Shop the Store on Amazon ›",
+  "strategic_insights": [
+    {
+      "insight_id": "IB-001",
+      "title": "Lip Care Products 카테고리 재포지셔닝 전략",
+      "m1_data": {
+        "source": "Breadcrumb Traffic Analysis",
+        "finding": "LANEIGE Lip Sleeping Mask: Nourish, Hydrate, Vitam의 실제 트래픽 95.6%가 Lip Care Products 카테고리에서 발생",
+        "category_volatility": 47.5,
+        "market_signal": "시장 기회 확인됨"
+      },
+      "m2_data": {
+        "source": "Usage Context Analysis",
+        "finding": "사용자들이 실제로 '건조하고 각질 일어나는 입술 집중 치료' 맥락에서 사용",
+        "top_attributes": [
+          {
+            "attribute": "Overnight",
+            "score": 0.6
+          },
+          {
+            "attribute": "Hydration",
+            "score": 0.85
+          }
+        ]
+      },
+      "strategic_recommendation": {
+        "action": "LANEIGE Lip Sleeping Mask: Nourish, Hydrate, Vitam를 'Lip Care Products' 메인 카테고리로 재등록",
+        "expected_impact": "예상 전환율 15.0% (기존 대비 +275% 상승)",
+        "implementation": [
+          "Amazon 카테고리 업데이트",
+          "제품 타이틀에 'Lip Care Products' 키워드 추가",
+          "A+ Content에 야간 집중 케어 메시징 강화"
+        ],
+        "priority": "High",
+        "estimated_revenue_impact": "+$191200/month"
+      }
+    },
+    {
+      "insight_id": "IB-005",
+      "title": "건조하고 각질 일어나는 입술 집중 치료 타겟팅 전략",
+      "m1_data": {
+        "source": "Emerging Brands Analysis",
+        "finding": "경쟁사 동향 모니터링 필요",
+        "competitor_strategy": "차별화 포인트 강화"
+      },
+      "m2_data": {
+        "source": "Usage Context Analysis",
+        "finding": "70명의 사용자가 '건조하고 각질 일어나는 입술 집중 치료' 맥락에서 사용",
+        "top_attributes": [
+          {
+            "attribute": "Soothing",
+            "score": 0.95
+          },
+          {
+            "attribute": "Barrier Repair",
+            "score": 1.0
+          }
+        ],
+        "companion_products": [
+          "lip balm"
+        ]
+      },
+      "strategic_recommendation": {
+        "action": "'건조하고 각질 일어나는 입술 집중 치료' 사용자를 위한 전용 마케팅 캠페인 전개",
+        "expected_impact": "신규 고객 유입 예상 +700/month",
+        "implementation": [
+          "주요 관련 제품과 번들 프로모션",
+          "'건조하고 각질 일어나는 입술 집중 치료' 중심 콘텐츠 제작",
+          "관련 키워드 광고 집행"
+        ],
+        "priority": "Medium",
+        "estimated_revenue_impact": "+$3500/month"
+      }
+    },
+    {
+      "insight_id": "IB-010",
+      "title": "메이크업 후 입술 보습 및 회복 타겟팅 전략",
+      "m1_data": {
+        "source": "Emerging Brands Analysis",
+        "finding": "경쟁사 동향 모니터링 필요",
+        "competitor_strategy": "차별화 포인트 강화"
+      },
+      "m2_data": {
+        "source": "Usage Context Analysis",
+        "finding": "30명의 사용자가 '메이크업 후 입술 보습 및 회복' 맥락에서 사용",
+        "top_attributes": [
+          {
+            "attribute": "Soothing",
+            "score": 0.85
+          },
+          {
+            "attribute": "Barrier Repair",
+            "score": 0.95
+          }
+        ],
+        "companion_products": []
+      },
+      "strategic_recommendation": {
+        "action": "'메이크업 후 입술 보습 및 회복' 사용자를 위한 전용 마케팅 캠페인 전개",
+        "expected_impact": "신규 고객 유입 예상 +300/month",
+        "implementation": [
+          "타겟 광고 집행",
+          "'메이크업 후 입술 보습 및 회복' 중심 콘텐츠 제작",
+          "관련 키워드 광고 집행"
+        ],
+        "priority": "Medium",
+        "estimated_revenue_impact": "+$1500/month"
+      }
+    }
+  ],
+  "overall_strategy_summary": {
+    "total_estimated_impact": "+$196,200/month",
+    "priority_actions": [
+      "IB-001: Lip Care Products 카테고리 재포지셔닝 전략 (즉시 실행)"
+    ],
+    "key_insight": "소비자들이 실제로 사용하는 맥락과 현재 카테고리 포지셔닝 간 Gap 존재. 이를 정렬할 경우 큰 성장 잠재력 확인됨."
+  }
+}

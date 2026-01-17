@@ -1,0 +1,130 @@
+{
+  "analysis_date": "2026-01-10",
+  "brand": "LANEIGE Lip Sleeping Mask",
+  "cross_brand_insights": [
+    {
+      "theme": "Overnight/Night Care 트렌드",
+      "affected_brands": [
+        "LANEIGE Lip Sleeping Mask",
+        "COSRX",
+        "Summer Fridays Tinted Lip Butter Balm",
+        "Aquaphor"
+      ],
+      "insight": "7개 브랜드가 야간 집중 케어 컨셉으로 포지셔닝. 소비자들은 수면 중 피부 회복을 핵심 니즈로 인식",
+      "opportunity": "LANEIGE Sleeping Mask 라인의 '수면 중 집중 케어' 메시징 강화하여 카테고리 리더십 확보",
+      "market_size": "Overnight skincare 시장 예상 규모: $450M (미국 기준, 연 15% 성장)"
+    }
+  ],
+  "consumer_pain_points": [
+    {
+      "pain_point": "입술 각질",
+      "severity": "High",
+      "evidence": "77명의 사용자가 '입술 각질' 문제 언급. 주요 컨텍스트: 건조하고 각질 일어나는 입술 집중 관리, 일상적인 립 보습 및 자연스러운 색조 연출",
+      "current_solution": "현재 4개 브랜드(Burt's Bees Lip Balm, LANEIGE Lip Sleeping Mask, Summer Fridays Tinted Lip Butter Balm)가 솔루션 제공 중",
+      "gap": "기존 제품들은 임시 완화에 그치며, 근본적인 해결책 부재",
+      "recommended_action": "LANEIGE의 과학적 포뮬레이션을 활용한 '입술 각질' 타겟팅 마케팅 캠페인 전개. A+ 콘텐츠에 솔루션 명확히 제시"
+    },
+    {
+      "pain_point": "입술 갈라짐",
+      "severity": "High",
+      "evidence": "76명의 사용자가 '입술 갈라짐' 문제 언급. 주요 컨텍스트: 건조하고 각질 일어나는 입술 집중 관리, 겨울철 건조한 입술 보호 및 수분 공급",
+      "current_solution": "현재 3개 브랜드(Burt's Bees Lip Balm, Aquaphor, LANEIGE Lip Sleeping Mask)가 솔루션 제공 중",
+      "gap": "기존 제품들은 임시 완화에 그치며, 근본적인 해결책 부재",
+      "recommended_action": "LANEIGE의 과학적 포뮬레이션을 활용한 '입술 갈라짐' 타겟팅 마케팅 캠페인 전개. A+ 콘텐츠에 솔루션 명확히 제시"
+    },
+    {
+      "pain_point": "입술 건조",
+      "severity": "High",
+      "evidence": "64명의 사용자가 '입술 건조' 문제 언급. 주요 컨텍스트: 건조하고 각질 일어나는 입술 집중 관리, 일상적인 입술 보습 및 관리",
+      "current_solution": "현재 2개 브랜드(Aquaphor, LANEIGE Lip Sleeping Mask)가 솔루션 제공 중",
+      "gap": "기존 제품들은 임시 완화에 그치며, 근본적인 해결책 부재",
+      "recommended_action": "LANEIGE의 과학적 포뮬레이션을 활용한 '입술 건조' 타겟팅 마케팅 캠페인 전개. A+ 콘텐츠에 솔루션 명확히 제시"
+    }
+  ],
+  "strategic_recommendations": [
+    {
+      "recommendation": "Lip Care Products 카테고리 최적화 및 재포지셔닝",
+      "priority": "High",
+      "expected_impact": "전환율 +14%, 매출 +$286800/month",
+      "rationale": "현재 트래픽의 95.6%가 Lip Care Products에서 유입되나, 등록 카테고리와 불일치. 카테고리 정렬 시 검색 가시성 및 전환율 대폭 향상 예상",
+      "implementation": "1) Amazon Seller Central에서 메인 카테고리를 Lip Care Products로 변경\n2) 제품 타이틀 및 키워드에 카테고리 관련 용어 추가\n3) A+ Content 업데이트하여 Lip Care Products 맥락 강화"
+    },
+    {
+      "recommendation": "'건조하고 각질 일어나는 입술 집중 관리' 중심 콘텐츠 마케팅 강화",
+      "priority": "High",
+      "expected_impact": "브랜드 인지도 +25%, 신규 고객 +900/month",
+      "rationale": "60명이 '건조하고 각질 일어나는 입술 집중 관리' 맥락에서 제품 사용. 이는 핵심 사용 시나리오로, 이를 중심으로 마케팅 메시지 구축 시 공감대 형성 및 구매 전환 촉진",
+      "implementation": "1) A+ Content에 '건조하고 각질 일어나는 입술 집중 관리' 시나리오 비주얼 추가\n2) 아마존 광고에서 관련 키워드 입찰 강화\n3) 브랜드 스토어에 사용법 가이드 섹션 추가"
+    },
+    {
+      "recommendation": "Winter 시즌 타겟팅 캠페인",
+      "priority": "Medium",
+      "expected_impact": "시즌 매출 +$7500/month",
+      "rationale": "사용자 리뷰 분석 결과 Winter 시즌에 제품 수요 및 만족도 증가. 시즌별 맞춤 프로모션으로 매출 극대화 가능",
+      "implementation": "1) Winter 시작 1개월 전 프로모션 기획\n2) 시즌 관련 키워드 광고 집중 투입\n3) 이메일 마케팅으로 기존 고객 재구매 유도"
+    }
+  ],
+  "emerging_trends": [
+    {
+      "trend": "Overnight Beauty Routine 강세",
+      "evidence": "14개 브랜드가 야간 집중 케어 포지셔닝. '수면 중 피부 회복' 컨셉이 소비자 공감대 형성",
+      "laneige_preparedness": "High",
+      "action_required": "LANEIGE Sleeping Mask 라인의 '8시간 집중 케어' 메시징 강화. 수면 과학 기반 스토리텔링 추가"
+    },
+    {
+      "trend": "Multi-Purpose Product 선호",
+      "evidence": "소비자들이 평균 3.0가지 상황에서 동일 제품 사용. 다양한 맥락에서 활용 가능한 제품 선호",
+      "laneige_preparedness": "High",
+      "action_required": "제품의 다양한 사용법 제안. '주간/야간', '데일리/집중 케어' 등 상황별 활용 가이드 제공"
+    },
+    {
+      "trend": "시장 재편 및 신규 진입 기회",
+      "evidence": "3개 카테고리에서 높은 변동성 감지(Beauty & Personal Care, Lip Care Products). 순위 변동 활발 = 신규 브랜드 진입 가능성 높음",
+      "laneige_preparedness": "Medium",
+      "action_required": "변동성 높은 카테고리에서 적극적 마케팅 투자. 리뷰 관리, 프로모션으로 초기 모멘텀 확보"
+    }
+  ],
+  "competitive_intelligence": [
+    {
+      "competitor": "COSRX",
+      "threat_level": "Medium threat",
+      "strength": "양호한 고객 만족도 (4.8/5점 수준)",
+      "weakness": "명확한 사용 맥락 부재. 소비자들이 '언제, 왜' 사용하는지 불분명",
+      "laneige_opportunity": "K-Beauty 헤리티지 및 기술력 스토리텔링으로 브랜드 가치 차별화"
+    },
+    {
+      "competitor": "Summer Fridays Tinted Lip Butt",
+      "threat_level": "Medium threat",
+      "strength": "양호한 고객 만족도 (4.8/5점 수준)",
+      "weakness": "명확한 사용 맥락 부재. 소비자들이 '언제, 왜' 사용하는지 불분명",
+      "laneige_opportunity": "K-Beauty 헤리티지 및 기술력 스토리텔링으로 브랜드 가치 차별화"
+    },
+    {
+      "competitor": "Aquaphor",
+      "threat_level": "Medium threat",
+      "strength": "양호한 고객 만족도 (4.8/5점 수준)",
+      "weakness": "명확한 사용 맥락 부재. 소비자들이 '언제, 왜' 사용하는지 불분명",
+      "laneige_opportunity": "K-Beauty 헤리티지 및 기술력 스토리텔링으로 브랜드 가치 차별화"
+    }
+  ],
+  "brand_perception_gaps": [
+    {
+      "gap": "카테고리 포지셔닝 불일치",
+      "evidence": "등록 카테고리:  vs. 실제 트래픽 유입: Lip Care Products (95.6%)",
+      "impact": "검색 가시성 저하 및 전환율 손실. 잠재 고객이 제품을 찾지 못할 위험",
+      "solution": "Amazon 카테고리를 'Lip Care Products'로 변경. 타이틀 및 키워드 최적화"
+    },
+    {
+      "gap": "핵심 사용 맥락 커뮤니케이션 부족",
+      "evidence": "소비자 60명이 '건조하고 각질 일어나는 입술 집중 관리' 맥락에서 사용하나, 현재 제품 페이지에서 이를 명확히 전달하지 못함",
+      "impact": "잠재 고객이 제품의 핵심 가치를 이해하지 못해 구매 전환 저하",
+      "solution": "A+ Content 첫 섹션에 '건조하고 각질 일어나는 입술 집중 관리' 시나리오 비주얼 추가. 제품 타이틀에 핵심 키워드 포함"
+    },
+    {
+      "gap": "다양한 사용법에 대한 명확한 가이드 부재",
+      "evidence": "소비자들이 3가지 이상의 상황에서 제품 사용하나, 제품 페이지에서 구체적 사용법 안내 부족",
+      "impact": "제품의 full potential을 활용하지 못해 재구매율 및 고객 만족도 저하",
+      "solution": "브랜드 스토어에 '사용법 가이드' 섹션 추가. 상황별(주간/야간, 계절별) 활용 팁 제공"
+    }
+  ]
+}

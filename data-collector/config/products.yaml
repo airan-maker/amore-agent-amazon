@@ -1,0 +1,111 @@
+# Target Products Configuration (Hybrid Selection)
+# 하이브리드 선정: 핵심 제품(고정) + 동적 경쟁사(자동)
+
+# ========================================
+# Core Products (Always Track)
+# ========================================
+# 항상 추적할 핵심 제품
+# - LANEIGE 주력 제품
+# - 주요 경쟁 브랜드 (시계열 비교를 위해 고정)
+# ========================================
+core_products:
+  # LANEIGE 제품들 (필수)
+  - asin: "B09HN8JBFP"
+    brand: "LANEIGE"
+    product: "Water Sleeping Mask"
+    registered_category: "Face Moisturizers"
+    priority: "high"
+    notes: "주력 제품 - Hydrating Korean Overnight Mask"
+
+  - asin: "B07XXPHQZK"
+    brand: "LANEIGE"
+    product: "Lip Sleeping Mask"
+    registered_category: "Lip Care"
+    priority: "high"
+    notes: "립 케어 베스트셀러"
+
+  # Lip Care 핵심 경쟁사 (상위 5개는 항상 추적)
+  - asin: "B0054LHI5A"
+    brand: "Burt's Bees"
+    product: "Lip Balm - Original Beeswax"
+    registered_category: "Lip Care"
+    priority: "high"
+    notes: "Lip Care #1 - 자연주의 립밤 리더"
+
+  - asin: "B06XDCPYYL"
+    brand: "Aquaphor"
+    product: "Lip Repair Ointment"
+    registered_category: "Lip Care"
+    priority: "high"
+    notes: "Lip Care #2 - 치유 연고"
+
+  - asin: "B07SRRLVQ1"
+    brand: "Aquaphor"
+    product: "Lip Repair Stick"
+    registered_category: "Lip Care"
+    priority: "high"
+    notes: "Lip Care #3 - 스틱 타입"
+
+  - asin: "B0C42HJRBF"
+    brand: "Summer Fridays"
+    product: "Tinted Lip Butter Balm"
+    registered_category: "Lip Care"
+    priority: "high"
+    notes: "Lip Care 상위권 - 틴티드 밤"
+
+  # Face Moisturizers 핵심 경쟁사
+  - asin: "B0B2RM68G2"
+    brand: "BIODANCE"
+    product: "Bio-Collagen Real Deep Mask"
+    registered_category: "Face Moisturizers"
+    priority: "high"
+    notes: "한국 브랜드 경쟁사"
+
+  - asin: "B00PBX3L7K"
+    brand: "COSRX"
+    product: "Advanced Snail 96 Mucin Power Essence"
+    registered_category: "Face Moisturizers"
+    priority: "high"
+    notes: "한국 브랜드 - K-Beauty 대표"
+
+  - asin: "B08CMS8P67"
+    brand: "Anua"
+    product: "Heartleaf 77% Soothing Toner"
+    registered_category: "Face Moisturizers"
+    priority: "high"
+    notes: "한국 신규 브랜드"
+
+# ========================================
+# Auto Selection Rules
+# ========================================
+# 동적으로 경쟁사를 자동 선정하는 규칙
+# ========================================
+auto_selection_rules:
+  # 추적할 카테고리 (LANEIGE가 속한 카테고리)
+  categories_to_track:
+    - "Lip Care"
+    - "Face Moisturizers"
+
+  # 각 카테고리에서 상위 N개 제품 자동 추가
+  top_n_per_category: 20
+
+  # 가격 유사도 기준 (LANEIGE 제품 대비 ±30% 이내)
+  price_similarity_threshold: 0.3
+
+  # 최소 리뷰 개수 (활성 제품만 선정)
+  min_review_count: 100
+
+  # 최소 평점 (품질이 검증된 제품만)
+  min_rating: 3.5
+
+  # 예상 총 분석 대상: core_products(9) + 자동선정(~25) = 약 30-35개
+
+
+# ========================================
+# Collection Settings
+# ========================================
+collection_settings:
+  reviews_per_product: 100
+  max_retries: 3
+  request_delay_range: [3, 8]  # seconds
+  sort_by: "helpful"  # Sort reviews by helpful or recent

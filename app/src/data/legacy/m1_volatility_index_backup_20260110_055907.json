@@ -1,0 +1,337 @@
+{
+  "analysis_date": "2026-01-10",
+  "categories": [
+    {
+      "category": "Beauty & Personal Care",
+      "volatility_index": 0.0,
+      "status": "low_volatility",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 1,
+        "exits": 0,
+        "avg_rank_change": 0.0
+      },
+      "market_signal": "안정적 시장 환경에서 틈새 전략으로 점진적 진입 추천",
+      "weekly_volatility": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "brands_entering": [
+        "BIODANCE"
+      ],
+      "brands_exiting": []
+    },
+    {
+      "category": "Lip Care Products",
+      "volatility_index": 4.9,
+      "status": "low_volatility",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 0,
+        "exits": 0,
+        "avg_rank_change": 0.4
+      },
+      "market_signal": "안정적 시장에서 차별화된 제품력으로 점진적 성장 가능성 높음",
+      "weekly_volatility": [
+        4.9,
+        4.5,
+        5.2,
+        4.6,
+        4.9,
+        5.1,
+        4.8
+      ],
+      "brands_entering": [
+        "Summer Fridays",
+        "Burt's Bees",
+        "Aquaphor",
+        "Shop the Store on Amazon ›"
+      ],
+      "brands_exiting": []
+    },
+    {
+      "category": "Skin Care Products",
+      "volatility_index": 53.0,
+      "status": "very_high_volatility",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 4,
+        "exits": 0,
+        "avg_rank_change": 7.1
+      },
+      "market_signal": "높은 변동성 속 안정적 트렌드로 틈새시장 공략 및 혁신적 제품 포지셔닝 추천",
+      "weekly_volatility": [
+        51.4,
+        57.1,
+        55.8,
+        50.4,
+        49.1,
+        56.9,
+        56.9
+      ],
+      "brands_entering": [
+        "Summer Fridays",
+        "Aquaphor",
+        "BIODANCE",
+        "COSRX",
+        "Burt's Bees",
+        "Shop the Store on Amazon ›"
+      ],
+      "brands_exiting": []
+    },
+    {
+      "category": "Lip Makeup",
+      "volatility_index": 0.0,
+      "status": "unknown",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 0,
+        "exits": 0,
+        "avg_rank_change": 0.0
+      },
+      "market_signal": "데이터 부족",
+      "weekly_volatility": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "brands_entering": [],
+      "brands_exiting": []
+    },
+    {
+      "category": "Face Powder",
+      "volatility_index": 0.0,
+      "status": "unknown",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 0,
+        "exits": 0,
+        "avg_rank_change": 0.0
+      },
+      "market_signal": "데이터 부족",
+      "weekly_volatility": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "brands_entering": [],
+      "brands_exiting": []
+    }
+  ],
+  "category_volatility": {
+    "Beauty_and_Personal_Care": {
+      "score": 0.0,
+      "status": "low_volatility",
+      "trend": "stable",
+      "market_signal": "안정적 시장 환경에서 틈새 전략으로 점진적 진입 추천"
+    },
+    "Lip_Care_Products": {
+      "score": 4.9,
+      "status": "low_volatility",
+      "trend": "stable",
+      "market_signal": "안정적 시장에서 차별화된 제품력으로 점진적 성장 가능성 높음"
+    },
+    "Skin_Care_Products": {
+      "score": 53.0,
+      "status": "very_high_volatility",
+      "trend": "stable",
+      "market_signal": "높은 변동성 속 안정적 트렌드로 틈새시장 공략 및 혁신적 제품 포지셔닝 추천"
+    },
+    "Lip_Makeup": {
+      "score": 0.0,
+      "status": "unknown",
+      "trend": "stable",
+      "market_signal": "데이터 부족"
+    },
+    "Face_Powder": {
+      "score": 0.0,
+      "status": "unknown",
+      "trend": "stable",
+      "market_signal": "데이터 부족"
+    }
+  },
+  "volatility_metrics": {
+    "BIODANCE": {
+      "brand_volatility_score": 2.6,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ],
+      "trend": "안정적 - 변동성 낮음",
+      "products": [
+        {
+          "product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hy...",
+          "asin": "B0B2RM68G2",
+          "volatility": 2.6,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Summer Fridays": {
+      "brand_volatility_score": 2.9,
+      "categories_present": [
+        "Lip Care Products",
+        "Skin Care Products"
+      ],
+      "trend": "안정적 - 변동성 낮음",
+      "products": [
+        {
+          "product": "Summer Fridays Tinted Lip Butter Balm - Conditioning Vegan L...",
+          "asin": "B0C42HJRBF",
+          "volatility": 3.6,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Burt's Bees": {
+      "brand_volatility_score": 2.9,
+      "categories_present": [
+        "Lip Care Products",
+        "Skin Care Products"
+      ],
+      "trend": "안정적 - 변동성 낮음",
+      "products": [
+        {
+          "product": "Burt’s Bees Tinted Boosted Balm, Misty Mauve, Hydrating Tint...",
+          "asin": "B0DQQNWRQS",
+          "volatility": 2.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Burt's Bees Original Overnight Intensive Lip Treatment, Mois...",
+          "asin": "B078JD3TFP",
+          "volatility": 3.5,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Burt's Bees Medicated Lip Balm, With Eucalyptus Oil and Ment...",
+          "asin": "B010P2LNTO",
+          "volatility": 2.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Burt's Bees Lip Shimmer Nude Collection, Tinted Lip Balm Sti...",
+          "asin": "B0DKF34N9R",
+          "volatility": 3.2,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Burt's Bees Lip Tint Balm with Long Lasting 2 in 1 Duo Tinte...",
+          "asin": "B0163BMUFM",
+          "volatility": 2.6,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Burt's Bees Lip Balm, Moisturizing Lip Care, 100% Natural Or...",
+          "asin": "B08VXNT6L2",
+          "volatility": 3.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Burt's Bees Lip Balm - Original Beeswax, Lip Moisturizer Wit...",
+          "asin": "B00076TOUO",
+          "volatility": 2.3,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Burt's Bees Lip Balm - Vanilla Bean, Lip Moisturizer With Re...",
+          "asin": "B01N2UBGQJ",
+          "volatility": 3.1,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Burt's Bees Lip Balm - Original Beeswax, Lip Moisturizer Wit...",
+          "asin": "B0054LHI5A",
+          "volatility": 2.9,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Burt's Bees Lip Balm, Beeswax, Strawberry, Coconut and Pear,...",
+          "asin": "B01MRH7MR4",
+          "volatility": 2.0,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "Aquaphor": {
+      "brand_volatility_score": 2.9,
+      "categories_present": [
+        "Lip Care Products",
+        "Skin Care Products"
+      ],
+      "trend": "안정적 - 변동성 낮음",
+      "products": [
+        {
+          "product": "Aquaphor Naturally Inspired Lip Repair Stick with Coconut Oi...",
+          "asin": "B0DBX22FDT",
+          "volatility": 2.8,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Aquaphor Lip Repair Stick, Moisturizing Lip Balm Pack, Relie...",
+          "asin": "B07SRRLVQ1",
+          "volatility": 2.8,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Aquaphor Lip Repair Lip Balm Set, Lip Repair Stick, 0.17 Oz ...",
+          "asin": "B09RLS2V9M",
+          "volatility": 2.4,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Aquaphor Lip Repair Ointment - Long-lasting Moisture to Soot...",
+          "asin": "B004FHZKOA",
+          "volatility": 3.2,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Aquaphor Healing Ointment Advanced Therapy Skin Protectant, ...",
+          "asin": "B0107QPFBU",
+          "volatility": 2.0,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Aquaphor Lip Repair Ointment, Moisturizing Lip Balm Pack, Re...",
+          "asin": "B06XDCPYYL",
+          "volatility": 1.9,
+          "rank_change": "Rank #N/A in category"
+        },
+        {
+          "product": "Aquaphor Healing Balm Stick, Skin Protectant with Avocado Oi...",
+          "asin": "B09RYRCXKM",
+          "volatility": 2.1,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    },
+    "COSRX": {
+      "brand_volatility_score": 5.3,
+      "categories_present": [
+        "Skin Care Products"
+      ],
+      "trend": "적당한 변동성 - 정상 범위",
+      "products": [
+        {
+          "product": "COSRX Snail Mucin Repairing Serum 100ml, Hydrating Serum for...",
+          "asin": "B00PBX3L7K",
+          "volatility": 4.3,
+          "rank_change": "Rank #N/A in category"
+        }
+      ]
+    }
+  }
+}

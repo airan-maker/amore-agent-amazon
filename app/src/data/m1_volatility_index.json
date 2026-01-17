@@ -1,0 +1,124 @@
+{
+  "analysis_date": "2026-01-11",
+  "categories": [
+    {
+      "category": "Lip Care",
+      "volatility_index": 42.5,
+      "status": "volatile",
+      "trend": "increasing",
+      "market_signal": "시장 재편 중 - 신규 브랜드 진입 활발",
+      "top30_changes": {"new_entries": 8, "exits": 5, "avg_rank_change": 4.2},
+      "weekly_volatility": [38.2, 40.1, 41.5, 43.2, 44.8, 42.1, 42.5],
+      "brands_entering": ["Rhode", "Drunk Elephant", "Glow Recipe"],
+      "brands_exiting": ["Generic Brand A"]
+    },
+    {
+      "category": "Face Moisturizers",
+      "volatility_index": 35.2,
+      "status": "moderate",
+      "trend": "stable",
+      "market_signal": "안정적 성장세 - K-Beauty 브랜드 강세",
+      "top30_changes": {"new_entries": 5, "exits": 4, "avg_rank_change": 2.8},
+      "weekly_volatility": [33.5, 34.2, 35.8, 36.1, 35.5, 34.8, 35.2],
+      "brands_entering": ["BIODANCE", "Anua"],
+      "brands_exiting": []
+    },
+    {
+      "category": "Skin Care",
+      "volatility_index": 28.7,
+      "status": "stable",
+      "trend": "stable",
+      "market_signal": "성숙 시장 - 주요 브랜드 포지션 유지",
+      "top30_changes": {"new_entries": 3, "exits": 2, "avg_rank_change": 1.5},
+      "weekly_volatility": [27.5, 28.1, 28.5, 29.2, 28.8, 28.3, 28.7],
+      "brands_entering": ["COSRX"],
+      "brands_exiting": []
+    },
+    {
+      "category": "Facial Treatments & Masks",
+      "volatility_index": 48.3,
+      "status": "volatile",
+      "trend": "increasing",
+      "market_signal": "높은 변동성 - 마스크팩 트렌드 변화",
+      "top30_changes": {"new_entries": 10, "exits": 7, "avg_rank_change": 5.1},
+      "weekly_volatility": [42.1, 44.5, 46.2, 48.8, 49.5, 47.8, 48.3],
+      "brands_entering": ["BIODANCE", "medicube", "VT"],
+      "brands_exiting": ["Sheet Mask Brand X"]
+    },
+    {
+      "category": "Facial Skin Care",
+      "volatility_index": 32.4,
+      "status": "moderate",
+      "trend": "stable",
+      "market_signal": "K-Beauty 브랜드들의 지속적 성장",
+      "top30_changes": {"new_entries": 4, "exits": 3, "avg_rank_change": 2.2},
+      "weekly_volatility": [30.5, 31.2, 32.8, 33.1, 32.5, 31.8, 32.4],
+      "brands_entering": ["Anua", "Beauty of Joseon"],
+      "brands_exiting": []
+    },
+    {
+      "category": "Body Skin Care",
+      "volatility_index": 25.8,
+      "status": "stable",
+      "trend": "stable",
+      "market_signal": "안정적 시장 - 기존 브랜드 우위 유지",
+      "top30_changes": {"new_entries": 2, "exits": 2, "avg_rank_change": 1.3},
+      "weekly_volatility": [24.5, 25.1, 25.8, 26.2, 25.8, 25.3, 25.8],
+      "brands_entering": [],
+      "brands_exiting": []
+    }
+  ],
+  "category_volatility": {
+    "Lip_Care": {"score": 42.5, "status": "volatile", "trend": "increasing", "market_signal": "시장 재편 중 - 신규 브랜드 진입 활발"},
+    "Face_Moisturizers": {"score": 35.2, "status": "moderate", "trend": "stable", "market_signal": "안정적 성장세 - K-Beauty 브랜드 강세"},
+    "Skin_Care": {"score": 28.7, "status": "stable", "trend": "stable", "market_signal": "성숙 시장 - 주요 브랜드 포지션 유지"},
+    "Facial_Treatments_and_Masks": {"score": 48.3, "status": "volatile", "trend": "increasing", "market_signal": "높은 변동성 - 마스크팩 트렌드 변화"},
+    "Facial_Skin_Care": {"score": 32.4, "status": "moderate", "trend": "stable", "market_signal": "K-Beauty 브랜드들의 지속적 성장"},
+    "Body_Skin_Care": {"score": 25.8, "status": "stable", "trend": "stable", "market_signal": "안정적 시장 - 기존 브랜드 우위 유지"}
+  },
+  "volatility_metrics": {
+    "LANEIGE": {
+      "brand_volatility_score": 3.2,
+      "trend": "안정적 - 변동성 낮음",
+      "categories_present": ["Lip Care", "Face Moisturizers"],
+      "products": [
+        {"product": "LANEIGE Lip Sleeping Mask - Berry", "asin": "B07XXPHQZK", "volatility": 2.8, "rank_change": "Rank #2 -> #1"},
+        {"product": "LANEIGE Water Sleeping Mask", "asin": "B09HN8JBFP", "volatility": 3.5, "rank_change": "Rank #5 -> #4"}
+      ]
+    },
+    "COSRX": {
+      "brand_volatility_score": 4.1,
+      "trend": "적당한 변동성 - 정상 범위",
+      "categories_present": ["Face Moisturizers", "Skin Care"],
+      "products": [
+        {"product": "COSRX Snail Mucin 96% Power Essence", "asin": "B00PBX3L7K", "volatility": 4.2, "rank_change": "Rank #3 -> #2"},
+        {"product": "COSRX Advanced Snail 92 All in one Cream", "asin": "B01LEJ5MSK", "volatility": 3.8, "rank_change": "Rank #8 -> #6"}
+      ]
+    },
+    "BIODANCE": {
+      "brand_volatility_score": 6.8,
+      "trend": "높은 변동성 - 주의 필요",
+      "categories_present": ["Face Moisturizers", "Facial Treatments & Masks"],
+      "products": [
+        {"product": "BIODANCE Bio-Collagen Real Deep Mask", "asin": "B0B2RM68G2", "volatility": 7.2, "rank_change": "Rank #15 -> #3"}
+      ]
+    },
+    "Aquaphor": {
+      "brand_volatility_score": 2.1,
+      "trend": "안정적 - 변동성 낮음",
+      "categories_present": ["Lip Care"],
+      "products": [
+        {"product": "Aquaphor Lip Repair Ointment", "asin": "B06XDCPYYL", "volatility": 1.8, "rank_change": "Rank #1 유지"},
+        {"product": "Aquaphor Lip Repair Stick", "asin": "B07SRRLVQ1", "volatility": 2.4, "rank_change": "Rank #3 유지"}
+      ]
+    },
+    "Anua": {
+      "brand_volatility_score": 5.5,
+      "trend": "적당한 변동성 - 정상 범위",
+      "categories_present": ["Facial Skin Care", "Face Moisturizers"],
+      "products": [
+        {"product": "Anua Heartleaf 77% Soothing Toner", "asin": "B08CMS8P67", "volatility": 5.8, "rank_change": "Rank #12 -> #5"}
+      ]
+    }
+  }
+}

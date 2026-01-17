@@ -1,0 +1,28 @@
+{
+  "name": "amore-agent-amazon-rag",
+  "version": "1.0.0",
+  "description": "LANEIGE Amazon Market Analysis with RAG-based Q&A System",
+  "type": "module",
+  "scripts": {
+    "generate:embeddings": "node scripts/generate-embeddings.js",
+    "upload:lancedb": "node scripts/upload-to-vercel-blob.js",
+    "dev:api": "vercel dev",
+    "install:all": "npm install && cd app && npm install"
+  },
+  "keywords": [
+    "rag",
+    "lancedb",
+    "claude",
+    "amazon-analysis"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lancedb/lancedb": "^0.10.0",
+    "voyageai": "^0.1.0",
+    "@vercel/blob": "^0.23.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

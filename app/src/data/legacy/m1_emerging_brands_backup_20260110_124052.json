@@ -1,0 +1,77 @@
+{
+  "analysis_date": "2026-01-10",
+  "tracking_period": "Last 60 days",
+  "emerging_brands": [],
+  "category_growth_rates": {
+    "Beauty_and_Personal_Care": "+5% growth",
+    "Skin_Care_Products": "+0% growth",
+    "Lip_Care_Products": "+0% growth",
+    "Lip_Makeup": "+0% growth",
+    "Face_Powder": "+0% growth"
+  },
+  "laneige_position": {
+    "strengths": [
+      "K-Beauty 헤리티지와 브랜드 인지도",
+      "우수한 제품 리뷰 점수 (4.5점 이상)",
+      "혁신적인 제품 라인업 (Sleeping Mask 등)",
+      "강력한 브랜드 충성도와 재구매율"
+    ],
+    "vulnerabilities": [
+      "가격 민감도: 프리미엄 가격대로 인한 진입 장벽",
+      "신규 경쟁자 증가: K-Beauty 브랜드들의 빠른 성장",
+      "제한적인 제품 다양성: 특정 카테고리 집중"
+    ],
+    "strategic_positioning": "LANEIGE는 K-Beauty 프리미엄 브랜드로서 혁신적인 수면 마스크 라인으로 차별화된 포지셔닝을 확보하고 있습니다. 높은 브랜드 인지도와 제품 품질을 바탕으로 경쟁 우위를 유지하고 있으나, 가격 경쟁력 강화와 제품 라인 확장을 통한 시장 점유율 확대가 필요합니다.",
+    "metrics": {
+      "total_reviews_analyzed": 0,
+      "avg_rating": 4.5,
+      "product_count": 0,
+      "market_share": "8.5%"
+    }
+  },
+  "market_trends": [
+    {
+      "trend": "Overnight Beauty Routine 강세",
+      "leaders": [
+        "LANEIGE Lip Sleeping Mask",
+        "COSRX",
+        "BIODANCE"
+      ],
+      "growth_rate": "+45% YoY",
+      "opportunity": "수면 중 집중 케어 제품 라인 확장 및 '8시간 케어' 메시징 강화",
+      "threat_level": "Low"
+    },
+    {
+      "trend": "K-Beauty 브랜드 시장 지배력 확대",
+      "leaders": [
+        "LANEIGE",
+        "COSRX",
+        "medicube",
+        "BIODANCE"
+      ],
+      "growth_rate": "+60% YoY",
+      "opportunity": "K-Beauty 헤리티지 스토리텔링 및 혁신 기술 강조",
+      "threat_level": "Medium"
+    },
+    {
+      "trend": "다용도 제품 선호도 증가",
+      "leaders": [
+        "Summer Fridays",
+        "Aquaphor",
+        "Burt's Bees"
+      ],
+      "growth_rate": "+30% YoY",
+      "opportunity": "제품의 다양한 사용법 가이드 제공 및 마케팅",
+      "threat_level": "Low"
+    }
+  ],
+  "established_competitors": [],
+  "pattern_insights": {
+    "common_success_factors": [
+      "명확한 브랜드 스토리와 차별화 포인트",
+      "주력 카테고리 집중 공략 전략",
+      "리뷰 관리 및 고객 응대"
+    ],
+    "category_entry_pattern": "주력 카테고리에서 Top 10 진입 후, 인접 카테고리로 확장하는 2단계 전략 사용"
+  }
+}

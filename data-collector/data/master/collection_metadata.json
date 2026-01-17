@@ -1,0 +1,9 @@
+{
+  "total_asins": 440,
+  "last_full_refresh": "2026-01-10",
+  "next_full_refresh": "2026-02-09",
+  "asins_by_status": {
+    "fresh": 440,
+    "stale": 0
+  }
+}

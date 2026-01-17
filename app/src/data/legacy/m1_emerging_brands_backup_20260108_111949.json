@@ -1,0 +1,137 @@
+{
+  "analysis_period": "2025-11-01 to 2026-01-01",
+  "growth_tracking": "Review count growth, rating stability, category visibility changes",
+  "emerging_brands": [
+    {
+      "brand": "medicube",
+      "emergence_score": 9.2,
+      "status": "급속 성장",
+      "metrics": {
+        "total_reviews": 69116,
+        "avg_rating": 4.5,
+        "review_growth_rate": "47% QoQ",
+        "product_count": 5,
+        "category_penetration": "Serums, Creams, Toners, Masks"
+      },
+      "key_differentiators": [
+        "PDRN & Salmon DNA 혁신 포지셔닝",
+        "특정 비율 명시로 임상적 신뢰성 강화 (AHA 4.5%, BHA 0.45%)",
+        "안티에이징 카테고리에서 가벼운 질감 중점",
+        "토너 패드에 이중 질감 혁신",
+        "신속한 제품 라인 확장"
+      ],
+      "threat_assessment": "높음 - 공격적 혁신과 다양한 카테고리 진출이 LANEIGE의 프리미엄 포지셔닝을 위협",
+      "laneige_response": "혁신 파이프라인 가속화; 헤리티지 대 신생 임상 브랜드 내러티브 강조"
+    },
+    {
+      "brand": "BIODANCE",
+      "emergence_score": 7.8,
+      "status": "카테고리 전문가 성장 중",
+      "metrics": {
+        "total_reviews": 31337,
+        "avg_rating": 4.4,
+        "review_growth_rate": "38% QoQ",
+        "product_count": 1,
+        "category_penetration": "Hydrogel Masks (dominant)"
+      },
+      "key_differentiators": [
+        "Bio-Collagen 포지셔닝과 함께 하이드로젤 마스크 전문성",
+        "오버나이트 + 이벤트 준비 이중 포지셔닝",
+        "이벤트 전 사용 케이스에서 95% 만족도",
+        "결과로 정당화되는 프리미엄 가격"
+      ],
+      "threat_assessment": "중간 - 틈새 플레이어이나 더 넓은 스킨케어로 확장 가능성",
+      "laneige_response": "LANEIGE 마스크 포트폴리오 강화; 오버나이트 마스크 혁신 고려"
+    }
+  ],
+  "established_competitors": [
+    {
+      "brand": "COSRX",
+      "market_position": "지배적 카테고리 리더",
+      "metrics": {
+        "total_reviews": 98281,
+        "avg_rating": 4.6,
+        "review_growth_rate": "12% QoQ (안정적)",
+        "product_count": 1,
+        "category_visibility": "Snail Mucin 상위 100개 중 약 18% 점유율 추정"
+      },
+      "competitive_moat": [
+        "스네일 뮤신 분야 선도자 이점",
+        "'레티놀 동반자' 카테고리 장악 (412건 언급)",
+        "세럼 카테고리 극히 안정적 순위 (#2-4)",
+        "강력한 입소문과 K-뷰티 신뢰도",
+        "합리적 가격 포지셔닝으로 판매량 창출"
+      ],
+      "threat_assessment": "매우 높음 - 핵심 세럼 카테고리의 확고한 리더; 대체 어려움",
+      "laneige_response": "프리미엄 포뮬러로 차별화; COSRX에서 '다음 단계'를 원하는 사용자 타겟"
+    }
+  ],
+  "laneige_position": {
+    "brand": "LANEIGE",
+    "market_position": "확립된 프리미엄 리더 (립케어) + 확장 중인 포트폴리오",
+    "metrics": {
+      "total_reviews_analyzed": 59271,
+      "avg_rating": 4.5,
+      "product_count": 4,
+      "category_penetration": "Lip Care (dominant), Makeup (emerging)"
+    },
+    "strengths": [
+      "Lip Sleeping Mask 절대 지배력 (#1-2 순위, 54K+ 리뷰)",
+      "프리미엄 브랜드 인식과 헤리티지",
+      "하이브리드 카테고리 혁신 (Glaze Craze 립 세럼, Neo Blurring 파우더)",
+      "강력한 기프트 세트 성과 (기프트 카테고리 8.2% 전환율)"
+    ],
+    "vulnerabilities": [
+      "립케어 대비 페이스케어 존재감 약함",
+      "문제 해결 측면에서 최우선 고려 대상 아님 (vs. medicube/COSRX)",
+      "medicube 대비 느린 혁신 속도",
+      "트렌드 성분에서 제한적 존재감 (PDRN, 고농도 활성 성분)"
+    ],
+    "strategic_positioning": "립케어 리더십 방어하면서 혁신과 임상 검증을 통해 페이스케어 신뢰도 구축"
+  },
+  "market_trends": [
+    {
+      "trend": "성분 투명성 & 임상 비율",
+      "leaders": [
+        "medicube (AHA 4.5%, BHA 0.45%)",
+        "COSRX (96% Snail Mucin)"
+      ],
+      "laneige_gap": "마케팅에서 구체적인 성분 비율 부족",
+      "recommendation": "제품명/설명에 비율 표시 추가"
+    },
+    {
+      "trend": "가벼운 안티에이징 질감",
+      "leaders": [
+        "medicube Jelly Cream, Collagen Capsule Cream"
+      ],
+      "laneige_gap": "가벼운 안티에이징 옵션 없음",
+      "recommendation": "젤/젤리 질감 제품 개발 또는 리포지셔닝"
+    },
+    {
+      "trend": "오버나이트 트리트먼트 혁신",
+      "leaders": [
+        "LANEIGE Lip Mask (카테고리 창조자)",
+        "BIODANCE (하이드로젤)",
+        "medicube (필오프)"
+      ],
+      "laneige_gap": "립 분야 선도하나 페이스 오버나이트 혁신 없음",
+      "recommendation": "슬리핑 마스크 컨셉을 페이스케어로 확장"
+    },
+    {
+      "trend": "다기능 하이브리드 제품",
+      "leaders": [
+        "LANEIGE Cream Skin, Glaze Craze"
+      ],
+      "laneige_gap": "좋은 포지셔닝이나 마케팅 부족",
+      "recommendation": "시간 절약 이점 위한 '올인원' 메시징 강조"
+    }
+  ],
+  "category_growth_rates": {
+    "Lip_Care": "14% YoY - LANEIGE Sleeping Mask 성공이 주도",
+    "Hydrogel_Masks": "32% YoY - BIODANCE가 성장 주도",
+    "Toner_Pads": "28% YoY - medicube와 경쟁사들이 채택 주도",
+    "Peptide_Serums": "41% YoY - medicube PDRN 혁신이 화제 형성",
+    "Lightweight_Moisturizers": "23% YoY - 무거운 크림에서 선호도 이동"
+  },
+  "generated_at": "2026-01-03T03:20:00"
+}

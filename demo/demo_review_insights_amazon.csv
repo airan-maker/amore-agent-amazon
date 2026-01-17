@@ -1,0 +1,175 @@
+﻿brand,product,attribute,positive_rate,negative_rate,sentiment_score,mention_count
+LANEIGE,Water Sleeping Mask,Hydration,0.92,0.048,0.873,105
+LANEIGE,Water Sleeping Mask,Texture,0.704,0.037,0.667,89
+LANEIGE,Water Sleeping Mask,Barrier Repair,0.679,0.139,0.54,67
+LANEIGE,Water Sleeping Mask,Retinol Care,0.554,0.184,0.371,45
+LANEIGE,Water Sleeping Mask,Soothing,0.687,0.078,0.609,48
+LANEIGE,Water Sleeping Mask,Overnight,0.71,0.103,0.607,89
+LANEIGE,Cream Skin Refiner,Hydration,0.918,0.072,0.846,103
+LANEIGE,Cream Skin Refiner,Texture,0.702,0.118,0.583,56
+LANEIGE,Cream Skin Refiner,Barrier Repair,0.67,0.104,0.566,79
+LANEIGE,Cream Skin Refiner,Retinol Care,0.713,0.135,0.578,53
+LANEIGE,Cream Skin Refiner,Soothing,0.752,0.051,0.702,64
+LANEIGE,Cream Skin Refiner,Overnight,0.724,0.106,0.618,57
+LANEIGE,Lip Sleeping Mask,Hydration,0.784,0.058,0.727,79
+LANEIGE,Lip Sleeping Mask,Texture,0.78,0.027,0.753,95
+LANEIGE,Lip Sleeping Mask,Barrier Repair,0.618,0.051,0.567,58
+LANEIGE,Lip Sleeping Mask,Retinol Care,0.647,0.088,0.558,82
+LANEIGE,Lip Sleeping Mask,Soothing,0.64,0.082,0.559,47
+LANEIGE,Lip Sleeping Mask,Overnight,0.709,0.042,0.668,64
+LANEIGE,Water Bank Blue Hyaluronic Cream,Hydration,0.85,0.043,0.808,100
+LANEIGE,Water Bank Blue Hyaluronic Cream,Texture,0.682,0.079,0.603,56
+LANEIGE,Water Bank Blue Hyaluronic Cream,Barrier Repair,0.763,0.116,0.647,58
+LANEIGE,Water Bank Blue Hyaluronic Cream,Retinol Care,0.545,0.103,0.441,62
+LANEIGE,Water Bank Blue Hyaluronic Cream,Soothing,0.57,0.129,0.442,51
+LANEIGE,Water Bank Blue Hyaluronic Cream,Overnight,0.799,0.084,0.714,98
+LANEIGE,Bouncy & Firm Sleeping Mask,Hydration,0.911,0.068,0.843,89
+LANEIGE,Bouncy & Firm Sleeping Mask,Texture,0.811,0.042,0.769,59
+LANEIGE,Bouncy & Firm Sleeping Mask,Barrier Repair,0.613,0.054,0.558,63
+LANEIGE,Bouncy & Firm Sleeping Mask,Retinol Care,0.507,0.136,0.371,53
+LANEIGE,Bouncy & Firm Sleeping Mask,Soothing,0.554,0.151,0.402,55
+LANEIGE,Bouncy & Firm Sleeping Mask,Overnight,0.752,0.099,0.653,98
+Anua,Heartleaf 77% Soothing Toner,Hydration,0.657,0.149,0.508,79
+Anua,Heartleaf 77% Soothing Toner,Texture,0.852,0.067,0.785,58
+Anua,Heartleaf 77% Soothing Toner,Barrier Repair,0.802,0.091,0.711,96
+Anua,Heartleaf 77% Soothing Toner,Retinol Care,0.582,0.103,0.479,72
+Anua,Heartleaf 77% Soothing Toner,Soothing,0.887,0.018,0.869,68
+Anua,Heartleaf 77% Soothing Toner,Overnight,0.624,0.177,0.446,46
+Anua,Heartleaf Pore Control Cleansing Oil,Hydration,0.583,0.149,0.435,64
+Anua,Heartleaf Pore Control Cleansing Oil,Texture,0.774,0.042,0.732,82
+Anua,Heartleaf Pore Control Cleansing Oil,Barrier Repair,0.862,0.017,0.845,95
+Anua,Heartleaf Pore Control Cleansing Oil,Retinol Care,0.636,0.15,0.486,74
+Anua,Heartleaf Pore Control Cleansing Oil,Soothing,0.948,0.026,0.921,96
+Anua,Heartleaf Pore Control Cleansing Oil,Overnight,0.57,0.083,0.487,70
+Anua,Heartleaf 80% Soothing Ampoule,Hydration,0.591,0.151,0.44,49
+Anua,Heartleaf 80% Soothing Ampoule,Texture,0.741,0.074,0.667,66
+Anua,Heartleaf 80% Soothing Ampoule,Barrier Repair,0.942,0.048,0.894,83
+Anua,Heartleaf 80% Soothing Ampoule,Retinol Care,0.463,0.185,0.278,60
+Anua,Heartleaf 80% Soothing Ampoule,Soothing,0.913,0.037,0.876,78
+Anua,Heartleaf 80% Soothing Ampoule,Overnight,0.617,0.136,0.481,66
+COSRX,Advanced Snail 96 Mucin Power Essence,Hydration,0.798,0.023,0.775,95
+COSRX,Advanced Snail 96 Mucin Power Essence,Texture,0.731,0.025,0.707,80
+COSRX,Advanced Snail 96 Mucin Power Essence,Barrier Repair,0.561,0.093,0.467,50
+COSRX,Advanced Snail 96 Mucin Power Essence,Retinol Care,0.496,0.149,0.348,69
+COSRX,Advanced Snail 96 Mucin Power Essence,Soothing,0.617,0.164,0.453,60
+COSRX,Advanced Snail 96 Mucin Power Essence,Overnight,0.684,0.062,0.622,78
+COSRX,Low pH Good Morning Gel Cleanser,Hydration,0.868,0.025,0.843,109
+COSRX,Low pH Good Morning Gel Cleanser,Texture,0.894,0.049,0.845,82
+COSRX,Low pH Good Morning Gel Cleanser,Barrier Repair,0.598,0.105,0.493,79
+COSRX,Low pH Good Morning Gel Cleanser,Retinol Care,0.715,0.138,0.577,67
+COSRX,Low pH Good Morning Gel Cleanser,Soothing,0.677,0.115,0.561,66
+COSRX,Low pH Good Morning Gel Cleanser,Overnight,0.595,0.124,0.471,59
+COSRX,Acne Pimple Master Patch,Hydration,0.96,0.0,0.96,91
+COSRX,Acne Pimple Master Patch,Texture,0.905,0.068,0.838,85
+COSRX,Acne Pimple Master Patch,Barrier Repair,0.514,0.166,0.347,67
+COSRX,Acne Pimple Master Patch,Retinol Care,0.623,0.168,0.455,52
+COSRX,Acne Pimple Master Patch,Soothing,0.534,0.111,0.422,56
+COSRX,Acne Pimple Master Patch,Overnight,0.652,0.105,0.548,75
+Biodance,Bio-Collagen Real Deep Mask,Hydration,0.878,0.033,0.845,92
+Biodance,Bio-Collagen Real Deep Mask,Texture,0.597,0.138,0.458,74
+Biodance,Bio-Collagen Real Deep Mask,Barrier Repair,0.458,0.159,0.299,52
+Biodance,Bio-Collagen Real Deep Mask,Retinol Care,0.72,0.087,0.633,47
+Biodance,Bio-Collagen Real Deep Mask,Soothing,0.582,0.059,0.523,64
+Biodance,Bio-Collagen Real Deep Mask,Overnight,0.85,0.046,0.804,105
+Biodance,Hydro Cera-nol Real Deep Mask,Hydration,0.888,0.026,0.862,68
+Biodance,Hydro Cera-nol Real Deep Mask,Texture,0.579,0.079,0.501,57
+Biodance,Hydro Cera-nol Real Deep Mask,Barrier Repair,0.747,0.121,0.627,83
+Biodance,Hydro Cera-nol Real Deep Mask,Retinol Care,0.544,0.101,0.444,41
+Biodance,Hydro Cera-nol Real Deep Mask,Soothing,0.611,0.063,0.548,77
+Biodance,Hydro Cera-nol Real Deep Mask,Overnight,0.967,0.014,0.953,106
+CeraVe,Moisturizing Cream,Hydration,0.655,0.127,0.529,75
+CeraVe,Moisturizing Cream,Texture,0.639,0.075,0.564,82
+CeraVe,Moisturizing Cream,Barrier Repair,0.861,0.058,0.803,88
+CeraVe,Moisturizing Cream,Retinol Care,0.458,0.121,0.337,41
+CeraVe,Moisturizing Cream,Soothing,0.467,0.195,0.272,65
+CeraVe,Moisturizing Cream,Overnight,0.52,0.147,0.373,66
+CeraVe,Hydrating Facial Cleanser,Hydration,0.567,0.161,0.406,67
+CeraVe,Hydrating Facial Cleanser,Texture,0.617,0.134,0.483,67
+CeraVe,Hydrating Facial Cleanser,Barrier Repair,0.924,0.038,0.887,91
+CeraVe,Hydrating Facial Cleanser,Retinol Care,0.444,0.184,0.26,48
+CeraVe,Hydrating Facial Cleanser,Soothing,0.696,0.092,0.604,76
+CeraVe,Hydrating Facial Cleanser,Overnight,0.723,0.064,0.659,69
+CeraVe,AM Facial Moisturizing Lotion SPF 30,Hydration,0.675,0.137,0.538,74
+CeraVe,AM Facial Moisturizing Lotion SPF 30,Texture,0.589,0.064,0.524,53
+CeraVe,AM Facial Moisturizing Lotion SPF 30,Barrier Repair,0.942,0.019,0.923,84
+CeraVe,AM Facial Moisturizing Lotion SPF 30,Retinol Care,0.575,0.092,0.484,50
+CeraVe,AM Facial Moisturizing Lotion SPF 30,Soothing,0.58,0.165,0.415,48
+CeraVe,AM Facial Moisturizing Lotion SPF 30,Overnight,0.763,0.07,0.693,78
+CeraVe,Skin Renewing Night Cream,Hydration,0.641,0.109,0.532,62
+CeraVe,Skin Renewing Night Cream,Texture,0.663,0.075,0.588,81
+CeraVe,Skin Renewing Night Cream,Barrier Repair,0.977,0.08,0.896,76
+CeraVe,Skin Renewing Night Cream,Retinol Care,0.761,0.111,0.65,53
+CeraVe,Skin Renewing Night Cream,Soothing,0.444,0.103,0.341,37
+CeraVe,Skin Renewing Night Cream,Overnight,0.601,0.13,0.471,74
+La Roche-Posay,Toleriane Double Repair Face Moisturizer,Hydration,0.559,0.128,0.431,36
+La Roche-Posay,Toleriane Double Repair Face Moisturizer,Texture,0.552,0.164,0.388,69
+La Roche-Posay,Toleriane Double Repair Face Moisturizer,Barrier Repair,0.651,0.075,0.576,53
+La Roche-Posay,Toleriane Double Repair Face Moisturizer,Retinol Care,0.675,0.11,0.565,79
+La Roche-Posay,Toleriane Double Repair Face Moisturizer,Soothing,0.523,0.135,0.388,61
+La Roche-Posay,Toleriane Double Repair Face Moisturizer,Overnight,0.652,0.132,0.52,52
+La Roche-Posay,Effaclar Duo Acne Treatment,Hydration,0.658,0.097,0.561,51
+La Roche-Posay,Effaclar Duo Acne Treatment,Texture,0.646,0.141,0.505,63
+La Roche-Posay,Effaclar Duo Acne Treatment,Barrier Repair,0.469,0.163,0.306,43
+La Roche-Posay,Effaclar Duo Acne Treatment,Retinol Care,0.674,0.147,0.527,71
+La Roche-Posay,Effaclar Duo Acne Treatment,Soothing,0.592,0.103,0.49,57
+La Roche-Posay,Effaclar Duo Acne Treatment,Overnight,0.577,0.134,0.443,56
+La Roche-Posay,Cicaplast Balm B5,Hydration,0.666,0.115,0.552,73
+La Roche-Posay,Cicaplast Balm B5,Texture,0.441,0.167,0.275,64
+La Roche-Posay,Cicaplast Balm B5,Barrier Repair,0.569,0.125,0.444,67
+La Roche-Posay,Cicaplast Balm B5,Retinol Care,0.597,0.112,0.485,51
+La Roche-Posay,Cicaplast Balm B5,Soothing,0.613,0.163,0.451,45
+La Roche-Posay,Cicaplast Balm B5,Overnight,0.579,0.124,0.454,73
+Neutrogena,Hydro Boost Water Gel,Hydration,0.526,0.137,0.389,65
+Neutrogena,Hydro Boost Water Gel,Texture,0.606,0.088,0.518,54
+Neutrogena,Hydro Boost Water Gel,Barrier Repair,0.544,0.175,0.369,46
+Neutrogena,Hydro Boost Water Gel,Retinol Care,0.678,0.069,0.61,62
+Neutrogena,Hydro Boost Water Gel,Soothing,0.608,0.116,0.492,71
+Neutrogena,Hydro Boost Water Gel,Overnight,0.682,0.076,0.606,52
+Neutrogena,Oil-Free Acne Moisturizer,Hydration,0.46,0.117,0.343,59
+Neutrogena,Oil-Free Acne Moisturizer,Texture,0.454,0.179,0.275,63
+Neutrogena,Oil-Free Acne Moisturizer,Barrier Repair,0.497,0.149,0.348,63
+Neutrogena,Oil-Free Acne Moisturizer,Retinol Care,0.679,0.064,0.615,69
+Neutrogena,Oil-Free Acne Moisturizer,Soothing,0.644,0.127,0.517,65
+Neutrogena,Oil-Free Acne Moisturizer,Overnight,0.571,0.112,0.459,64
+Neutrogena,Rapid Wrinkle Repair Night Moisturizer,Hydration,0.645,0.12,0.524,74
+Neutrogena,Rapid Wrinkle Repair Night Moisturizer,Texture,0.597,0.129,0.468,70
+Neutrogena,Rapid Wrinkle Repair Night Moisturizer,Barrier Repair,0.637,0.075,0.562,71
+Neutrogena,Rapid Wrinkle Repair Night Moisturizer,Retinol Care,0.658,0.111,0.547,70
+Neutrogena,Rapid Wrinkle Repair Night Moisturizer,Soothing,0.463,0.129,0.334,62
+Neutrogena,Rapid Wrinkle Repair Night Moisturizer,Overnight,0.511,0.091,0.42,57
+innisfree,Green Tea Seed Serum,Hydration,0.564,0.068,0.496,75
+innisfree,Green Tea Seed Serum,Texture,0.595,0.104,0.491,64
+innisfree,Green Tea Seed Serum,Barrier Repair,0.559,0.101,0.457,40
+innisfree,Green Tea Seed Serum,Retinol Care,0.525,0.107,0.417,52
+innisfree,Green Tea Seed Serum,Soothing,0.64,0.129,0.511,46
+innisfree,Green Tea Seed Serum,Overnight,0.445,0.177,0.268,60
+innisfree,Jeju Volcanic Pore Clay Mask,Hydration,0.782,0.113,0.669,58
+innisfree,Jeju Volcanic Pore Clay Mask,Texture,0.665,0.131,0.534,47
+innisfree,Jeju Volcanic Pore Clay Mask,Barrier Repair,0.726,0.115,0.611,49
+innisfree,Jeju Volcanic Pore Clay Mask,Retinol Care,0.682,0.082,0.6,53
+innisfree,Jeju Volcanic Pore Clay Mask,Soothing,0.639,0.123,0.517,53
+innisfree,Jeju Volcanic Pore Clay Mask,Overnight,0.414,0.196,0.219,52
+innisfree,Cherry Blossom Tone Up Cream,Hydration,0.584,0.084,0.5,74
+innisfree,Cherry Blossom Tone Up Cream,Texture,0.549,0.079,0.47,77
+innisfree,Cherry Blossom Tone Up Cream,Barrier Repair,0.533,0.104,0.429,64
+innisfree,Cherry Blossom Tone Up Cream,Retinol Care,0.557,0.149,0.408,55
+innisfree,Cherry Blossom Tone Up Cream,Soothing,0.482,0.18,0.302,40
+innisfree,Cherry Blossom Tone Up Cream,Overnight,0.586,0.107,0.479,49
+Cetaphil,Daily Facial Moisturizer SPF 15,Hydration,0.74,0.091,0.649,77
+Cetaphil,Daily Facial Moisturizer SPF 15,Texture,0.715,0.077,0.638,68
+Cetaphil,Daily Facial Moisturizer SPF 15,Barrier Repair,0.593,0.147,0.445,49
+Cetaphil,Daily Facial Moisturizer SPF 15,Retinol Care,0.544,0.111,0.434,69
+Cetaphil,Daily Facial Moisturizer SPF 15,Soothing,0.606,0.1,0.506,77
+Cetaphil,Daily Facial Moisturizer SPF 15,Overnight,0.509,0.116,0.393,58
+Cetaphil,Gentle Skin Cleanser,Hydration,0.595,0.096,0.499,62
+Cetaphil,Gentle Skin Cleanser,Texture,0.499,0.083,0.415,40
+Cetaphil,Gentle Skin Cleanser,Barrier Repair,0.483,0.096,0.386,55
+Cetaphil,Gentle Skin Cleanser,Retinol Care,0.565,0.147,0.419,52
+Cetaphil,Gentle Skin Cleanser,Soothing,0.696,0.115,0.581,54
+Cetaphil,Gentle Skin Cleanser,Overnight,0.656,0.136,0.52,60
+Cetaphil,Rich Hydrating Night Cream,Hydration,0.606,0.187,0.419,51
+Cetaphil,Rich Hydrating Night Cream,Texture,0.702,0.135,0.568,71
+Cetaphil,Rich Hydrating Night Cream,Barrier Repair,0.508,0.138,0.37,57
+Cetaphil,Rich Hydrating Night Cream,Retinol Care,0.546,0.171,0.375,42
+Cetaphil,Rich Hydrating Night Cream,Soothing,0.532,0.118,0.414,77
+Cetaphil,Rich Hydrating Night Cream,Overnight,0.586,0.106,0.48,66

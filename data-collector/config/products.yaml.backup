@@ -1,0 +1,164 @@
+# MVP 타겟 제품 리스트
+# ASIN은 Amazon 제품 고유 ID입니다
+
+target_products:
+  # ========================================
+  # LANEIGE 제품들 (2개)
+  # ========================================
+  - asin: "B09HN8JBFP"
+    brand: "LANEIGE"
+    product: "Water Sleeping Mask"
+    registered_category: "Face Moisturizers"
+    priority: "high"
+    notes: "주력 제품 - Hydrating Korean Overnight Mask with Squalane"
+
+  - asin: "B07XXPHQZK"
+    brand: "LANEIGE"
+    product: "Lip Sleeping Mask"
+    registered_category: "Lip Care"
+    priority: "high"
+    notes: "립 케어 베스트셀러 - Berry flavor, Rank #4 in Lip Care"
+
+  # ========================================
+  # Lip Care 경쟁 제품 (8개)
+  # ========================================
+  - asin: "B0054LHI5A"
+    brand: "Burt's Bees"
+    product: "Lip Balm - Original Beeswax"
+    registered_category: "Lip Care"
+    priority: "medium"
+    notes: "Rank #1 in Lip Care - Natural lip balm leader"
+
+  - asin: "B06XDCPYYL"
+    brand: "Aquaphor"
+    product: "Lip Repair Ointment"
+    registered_category: "Lip Care"
+    priority: "medium"
+    notes: "Rank #2 in Lip Care - Healing ointment"
+
+  - asin: "B07SRRLVQ1"
+    brand: "Aquaphor"
+    product: "Lip Repair Stick"
+    registered_category: "Lip Care"
+    priority: "medium"
+    notes: "Rank #3 in Lip Care - Stick format"
+
+  - asin: "B0C42HJRBF"
+    brand: "Summer Fridays"
+    product: "Tinted Lip Butter Balm"
+    registered_category: "Lip Care"
+    priority: "medium"
+    notes: "Rank #5 in Lip Care - Trendy tinted balm"
+
+  - asin: "B01M59RMWJ"
+    brand: "eos"
+    product: "100% Natural & Organic Lip Balm - Vanilla Bean"
+    registered_category: "Lip Care"
+    priority: "medium"
+    notes: "Rank #6 in Lip Care - Natural organic balm"
+
+  - asin: "B0C7W6GW8P"
+    brand: "e.l.f."
+    product: "Squeeze Me Lip Balm"
+    registered_category: "Lip Care"
+    priority: "medium"
+    notes: "Rank #8 in Lip Care - Budget-friendly option"
+
+  - asin: "B0044B4HSM"
+    brand: "Blistex"
+    product: "Medicated Lip Balm"
+    registered_category: "Lip Care"
+    priority: "medium"
+    notes: "Rank #9 in Lip Care - Medicated treatment"
+
+  - asin: "B07N4PVLB7"
+    brand: "O'Keeffe's"
+    product: "Lip Repair Unscented"
+    registered_category: "Lip Care"
+    priority: "medium"
+    notes: "Rank #10 in Lip Care - Heavy-duty repair"
+
+  # ========================================
+  # Skin Care 경쟁 제품 (7개)
+  # ========================================
+  - asin: "B0B2RM68G2"
+    brand: "BIODANCE"
+    product: "Bio-Collagen Real Deep Mask"
+    registered_category: "Face Moisturizers"
+    priority: "high"
+    notes: "Rank #2 in Beauty - Hydrating Overnight Hydrogel Mask, Korean competitor"
+
+  - asin: "B0BRMYHMS5"
+    brand: "medicube"
+    product: "Wrapping Mask Collagen Overnight"
+    registered_category: "Face Moisturizers"
+    priority: "medium"
+    notes: "Rank #10 in Skin Care - Peel-off overnight mask"
+
+  - asin: "B07RK4HST7"
+    brand: "CeraVe"
+    product: "Daily Moisturizing Lotion"
+    registered_category: "Face Moisturizers"
+    priority: "medium"
+    notes: "Rank #11 in Skin Care - Dermatologist-recommended"
+
+  - asin: "B01N9SPQHQ"
+    brand: "La Roche-Posay"
+    product: "Toleriane Double Repair Face Moisturizer"
+    registered_category: "Face Moisturizers"
+    priority: "medium"
+    notes: "Rank #12 in Skin Care - French pharmacy brand"
+
+  - asin: "B01MSSDEPK"
+    brand: "CeraVe"
+    product: "Hydrating Facial Cleanser"
+    registered_category: "Face Cleansers"
+    priority: "medium"
+    notes: "Rank #13 in Skin Care - Gentle hydrating cleanser"
+
+  - asin: "B01MYEZPC8"
+    brand: "The Ordinary"
+    product: "Hyaluronic Acid 2% + B5"
+    registered_category: "Face Serums"
+    priority: "medium"
+    notes: "Rank #14 in Skin Care - Multi-depth hydration"
+
+  - asin: "B0DGPSZVW3"
+    brand: "medicube"
+    product: "Collagen Jelly Cream"
+    registered_category: "Face Moisturizers"
+    priority: "medium"
+    notes: "Rank #15 in Skin Care - Niacinamide & Collagen"
+
+  # ========================================
+  # 기존 경쟁사 제품 (2개)
+  # ========================================
+  - asin: "B00PBX3L7K"
+    brand: "COSRX"
+    product: "Advanced Snail 96 Mucin Power Essence"
+    registered_category: "Face Serums & Essences"
+    priority: "high"
+    notes: "주요 경쟁 제품 - 100ml, Korean brand"
+
+  - asin: "B08CMS8P67"
+    brand: "Anua"
+    product: "Heartleaf 77% Soothing Toner"
+    registered_category: "Face Toners"
+    priority: "high"
+    notes: "신흥 브랜드 대표 제품 - pH 5.5, Korean brand"
+
+# 실제 ASIN 찾는 방법:
+# 1. Amazon.com에서 제품 검색
+# 2. 제품 상세 페이지 URL에서 ASIN 확인
+#    예: https://www.amazon.com/dp/B08XXXX/
+#         → ASIN = B08XXXX
+# 3. 또는 제품 상세 정보 섹션에서 "ASIN" 항목 확인
+
+# 수집 설정
+collection_settings:
+  reviews_per_product: 100  # MVP: 제품당 100개 리뷰
+  days_to_track: 7         # 7일간 순위 추적
+  min_rating: 1            # 모든 별점 수집
+  max_rating: 5
+  include_verified_only: false  # 모든 리뷰 포함
+  sort_by: "helpful"       # 유용한 순으로 정렬

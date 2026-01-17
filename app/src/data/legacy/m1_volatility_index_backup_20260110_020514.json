@@ -1,0 +1,554 @@
+{
+  "analysis_date": "2026-01-10",
+  "categories": [
+    {
+      "category": "Beauty & Personal Care",
+      "volatility_index": 95.6,
+      "status": "very_high_volatility",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 30,
+        "exits": 0,
+        "avg_rank_change": 4.2
+      },
+      "market_signal": "시장 재편 진행 중 - 진입 기회 탐색 권장",
+      "weekly_volatility": [
+        90.8,
+        102.8,
+        99.5,
+        101.4,
+        91.9,
+        97.4,
+        95.7
+      ],
+      "brands_entering": [
+        "Method",
+        "Vanicream",
+        "KAHI",
+        "CeraVe",
+        "BIODANCE",
+        "Nizoral",
+        "LovelySkin Inc",
+        "OGX",
+        "eos",
+        "Shop the Store on Amazon ›",
+        "Neutrogena",
+        "Native",
+        "Julep",
+        "PanOxyl",
+        "Kitsch",
+        "MAYBELLINE",
+        "Mrs. MEYER'S",
+        "Paula's Choice Skincare",
+        "CLEAN SKIN CLUB",
+        "Mighty Patch",
+        "medicube",
+        "essence",
+        "Amazon Basics"
+      ],
+      "brands_exiting": []
+    },
+    {
+      "category": "Lip Care Products",
+      "volatility_index": 47.5,
+      "status": "high_volatility",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 4,
+        "exits": 4,
+        "avg_rank_change": 3.9
+      },
+      "market_signal": "시장 재편 진행 중 - 신규 진입 기회 탐색 권장",
+      "weekly_volatility": [
+        46.5,
+        45.1,
+        47.9,
+        44.7,
+        46.7,
+        43.0,
+        49.9
+      ],
+      "brands_entering": [
+        "e.l.f.",
+        "Dr. Dan's",
+        "MAYBELLINE",
+        "O'Keeffe's",
+        "Summer Fridays",
+        "Aquaphor",
+        "ChapStick",
+        "Lip Smacker",
+        "Blistex",
+        "Burt's Bees",
+        "eos",
+        "Shop the Store on Amazon ›",
+        "NIVEA"
+      ],
+      "brands_exiting": []
+    },
+    {
+      "category": "Skin Care Products",
+      "volatility_index": 49.1,
+      "status": "high_volatility",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 8,
+        "exits": 8,
+        "avg_rank_change": 3.2
+      },
+      "market_signal": "시장 재편 진행 중 - 신규 진입 기회 탐색 권장",
+      "weekly_volatility": [
+        45.8,
+        51.3,
+        52.2,
+        46.9,
+        52.6,
+        48.6,
+        48.7
+      ],
+      "brands_entering": [
+        "Method",
+        "Vanicream",
+        "KAHI",
+        "CeraVe",
+        "BIODANCE",
+        "LovelySkin Inc",
+        "Aquaphor",
+        "grace & stella",
+        "eos",
+        "Shop the Store on Amazon ›",
+        "Neutrogena",
+        "PanOxyl",
+        "Dr.Melaxin",
+        "Mrs. MEYER'S",
+        "Mighty Patch",
+        "CLEAN SKIN CLUB",
+        "Paula's Choice Skincare",
+        "medicube"
+      ],
+      "brands_exiting": []
+    },
+    {
+      "category": "Lip Makeup",
+      "volatility_index": 33.2,
+      "status": "moderate_volatility",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 10,
+        "exits": 10,
+        "avg_rank_change": 3.2
+      },
+      "market_signal": "안정적 성장 - 점진적 진입 전략 적합",
+      "weekly_volatility": [
+        32.9,
+        32.6,
+        34.8,
+        32.3,
+        32.3,
+        31.5,
+        34.1
+      ],
+      "brands_entering": [
+        "COVERGIRL",
+        "e.l.f.",
+        "Wonderskin",
+        "NYX PROFESSIONAL MAKEUP",
+        "L'Oreal Paris",
+        "MAYBELLINE",
+        "Sacheu",
+        "NOONI",
+        "LAURA GELLER NEW YORK",
+        "wet n wild",
+        "Shop the Store on Amazon ›",
+        "REVLON"
+      ],
+      "brands_exiting": []
+    },
+    {
+      "category": "Face Powder",
+      "volatility_index": 21.6,
+      "status": "low_volatility",
+      "trend": "stable",
+      "top30_changes": {
+        "new_entries": 4,
+        "exits": 4,
+        "avg_rank_change": 2.0
+      },
+      "market_signal": "포화 시장 - 진입 비추천",
+      "weekly_volatility": [
+        19.6,
+        23.2,
+        20.9,
+        23.4,
+        19.9,
+        21.0,
+        19.7
+      ],
+      "brands_entering": [
+        "COVERGIRL",
+        "e.l.f.",
+        "Kimchi Chic",
+        "Neutrogena",
+        "Rimmel",
+        "NYX PROFESSIONAL MAKEUP",
+        "L'Oreal Paris",
+        "MAYBELLINE",
+        "Laura Mercier",
+        "Catrice",
+        "Physicians Formula",
+        "wet n wild",
+        "Shop the Store on Amazon ›",
+        "REVLON"
+      ],
+      "brands_exiting": []
+    }
+  ],
+  "category_volatility": {
+    "Beauty_and_Personal_Care": {
+      "score": 95.6,
+      "status": "very_high_volatility",
+      "trend": "stable",
+      "market_signal": "시장 재편 진행 중 - 진입 기회 탐색 권장"
+    },
+    "Lip_Care_Products": {
+      "score": 47.5,
+      "status": "high_volatility",
+      "trend": "stable",
+      "market_signal": "시장 재편 진행 중 - 신규 진입 기회 탐색 권장"
+    },
+    "Skin_Care_Products": {
+      "score": 49.1,
+      "status": "high_volatility",
+      "trend": "stable",
+      "market_signal": "시장 재편 진행 중 - 신규 진입 기회 탐색 권장"
+    },
+    "Lip_Makeup": {
+      "score": 33.2,
+      "status": "moderate_volatility",
+      "trend": "stable",
+      "market_signal": "안정적 성장 - 점진적 진입 전략 적합"
+    },
+    "Face_Powder": {
+      "score": 21.6,
+      "status": "low_volatility",
+      "trend": "stable",
+      "market_signal": "포화 시장 - 진입 비추천"
+    }
+  },
+  "volatility_metrics": {
+    "Method": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ]
+    },
+    "Vanicream": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ]
+    },
+    "KAHI": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ]
+    },
+    "CeraVe": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ]
+    },
+    "BIODANCE": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ]
+    },
+    "Nizoral": {
+      "brand_volatility_score": 9.6,
+      "categories_present": [
+        "Beauty & Personal Care"
+      ]
+    },
+    "LovelySkin Inc": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ]
+    },
+    "OGX": {
+      "brand_volatility_score": 9.6,
+      "categories_present": [
+        "Beauty & Personal Care"
+      ]
+    },
+    "eos": {
+      "brand_volatility_score": 6.4,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Lip Care Products",
+        "Skin Care Products"
+      ]
+    },
+    "Neutrogena": {
+      "brand_volatility_score": 5.5,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products",
+        "Face Powder"
+      ]
+    },
+    "Native": {
+      "brand_volatility_score": 9.6,
+      "categories_present": [
+        "Beauty & Personal Care"
+      ]
+    },
+    "Julep": {
+      "brand_volatility_score": 9.6,
+      "categories_present": [
+        "Beauty & Personal Care"
+      ]
+    },
+    "PanOxyl": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ]
+    },
+    "Kitsch": {
+      "brand_volatility_score": 9.6,
+      "categories_present": [
+        "Beauty & Personal Care"
+      ]
+    },
+    "MAYBELLINE": {
+      "brand_volatility_score": 4.9,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Lip Care Products",
+        "Lip Makeup",
+        "Face Powder"
+      ]
+    },
+    "Mrs. MEYER'S": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ]
+    },
+    "Paula's Choice Skincare": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ]
+    },
+    "CLEAN SKIN CLUB": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ]
+    },
+    "Mighty Patch": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ]
+    },
+    "medicube": {
+      "brand_volatility_score": 7.2,
+      "categories_present": [
+        "Beauty & Personal Care",
+        "Skin Care Products"
+      ]
+    },
+    "essence": {
+      "brand_volatility_score": 9.6,
+      "categories_present": [
+        "Beauty & Personal Care"
+      ]
+    },
+    "Amazon Basics": {
+      "brand_volatility_score": 9.6,
+      "categories_present": [
+        "Beauty & Personal Care"
+      ]
+    },
+    "e.l.f.": {
+      "brand_volatility_score": 3.4,
+      "categories_present": [
+        "Lip Care Products",
+        "Lip Makeup",
+        "Face Powder"
+      ]
+    },
+    "Dr. Dan's": {
+      "brand_volatility_score": 4.8,
+      "categories_present": [
+        "Lip Care Products"
+      ]
+    },
+    "O'Keeffe's": {
+      "brand_volatility_score": 4.8,
+      "categories_present": [
+        "Lip Care Products"
+      ]
+    },
+    "Summer Fridays": {
+      "brand_volatility_score": 4.8,
+      "categories_present": [
+        "Lip Care Products"
+      ]
+    },
+    "Aquaphor": {
+      "brand_volatility_score": 4.8,
+      "categories_present": [
+        "Lip Care Products",
+        "Skin Care Products"
+      ]
+    },
+    "ChapStick": {
+      "brand_volatility_score": 4.8,
+      "categories_present": [
+        "Lip Care Products"
+      ]
+    },
+    "Lip Smacker": {
+      "brand_volatility_score": 4.8,
+      "categories_present": [
+        "Lip Care Products"
+      ]
+    },
+    "Blistex": {
+      "brand_volatility_score": 4.8,
+      "categories_present": [
+        "Lip Care Products"
+      ]
+    },
+    "Burt's Bees": {
+      "brand_volatility_score": 4.8,
+      "categories_present": [
+        "Lip Care Products"
+      ]
+    },
+    "NIVEA": {
+      "brand_volatility_score": 4.8,
+      "categories_present": [
+        "Lip Care Products"
+      ]
+    },
+    "grace & stella": {
+      "brand_volatility_score": 4.9,
+      "categories_present": [
+        "Skin Care Products"
+      ]
+    },
+    "Dr.Melaxin": {
+      "brand_volatility_score": 4.9,
+      "categories_present": [
+        "Skin Care Products"
+      ]
+    },
+    "COVERGIRL": {
+      "brand_volatility_score": 2.7,
+      "categories_present": [
+        "Lip Makeup",
+        "Face Powder"
+      ]
+    },
+    "Wonderskin": {
+      "brand_volatility_score": 3.3,
+      "categories_present": [
+        "Lip Makeup"
+      ]
+    },
+    "NYX PROFESSIONAL MAKEUP": {
+      "brand_volatility_score": 2.7,
+      "categories_present": [
+        "Lip Makeup",
+        "Face Powder"
+      ]
+    },
+    "L'Oreal Paris": {
+      "brand_volatility_score": 2.7,
+      "categories_present": [
+        "Lip Makeup",
+        "Face Powder"
+      ]
+    },
+    "Sacheu": {
+      "brand_volatility_score": 3.3,
+      "categories_present": [
+        "Lip Makeup"
+      ]
+    },
+    "NOONI": {
+      "brand_volatility_score": 3.3,
+      "categories_present": [
+        "Lip Makeup"
+      ]
+    },
+    "LAURA GELLER NEW YORK": {
+      "brand_volatility_score": 3.3,
+      "categories_present": [
+        "Lip Makeup"
+      ]
+    },
+    "wet n wild": {
+      "brand_volatility_score": 2.7,
+      "categories_present": [
+        "Lip Makeup",
+        "Face Powder"
+      ]
+    },
+    "REVLON": {
+      "brand_volatility_score": 2.7,
+      "categories_present": [
+        "Lip Makeup",
+        "Face Powder"
+      ]
+    },
+    "Kimchi Chic": {
+      "brand_volatility_score": 2.2,
+      "categories_present": [
+        "Face Powder"
+      ]
+    },
+    "Rimmel": {
+      "brand_volatility_score": 2.2,
+      "categories_present": [
+        "Face Powder"
+      ]
+    },
+    "Laura Mercier": {
+      "brand_volatility_score": 2.2,
+      "categories_present": [
+        "Face Powder"
+      ]
+    },
+    "Catrice": {
+      "brand_volatility_score": 2.2,
+      "categories_present": [
+        "Face Powder"
+      ]
+    },
+    "Physicians Formula": {
+      "brand_volatility_score": 2.2,
+      "categories_present": [
+        "Face Powder"
+      ]
+    }
+  }
+}
