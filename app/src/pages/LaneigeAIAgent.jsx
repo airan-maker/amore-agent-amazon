@@ -517,10 +517,6 @@ export const LaneigeAIAgent = () => {
                     <Send className={`w-5 h-5 ${isThinking || !customQuestion.trim() ? 'text-white/30' : 'text-purple-400'}`} />
                   </motion.button>
                 </div>
-                <div className="text-white/40 text-xs mt-2 text-center flex items-center justify-center gap-2">
-                  <Sparkles className="w-3 h-3" />
-                  <span>Claude AI가 500개 제품 데이터를 분석하여 답변합니다</span>
-                </div>
               </div>
             </GlassCard>
           </div>
