@@ -20,7 +20,9 @@ import {
   getMostRecentDate,
   getRankingsForDate,
   formatDate,
-  getAvailableCategories
+  getAvailableCategories,
+  getSortedCategoriesWithDepth,
+  getCategoryDepth
 } from '../utils/loadHistoricalData';
 import { exportRankingsToExcel } from '../utils/excelExport';
 
@@ -261,18 +263,41 @@ export const AIMarketAnalysis = () => {
               <span className="text-white/70 font-light">Filters:</span>
             </div>
 
-            {/* Category Filter */}
+            {/* Category Filter with Depth Color Coding */}
             <select
               value={selectedCategory}
               onChange={(e) => setSelectedCategory(e.target.value)}
-              className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-white/90 focus:border-purple-400/50 focus:outline-none transition-colors"
+              className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-white/90 focus:border-purple-400/50 focus:outline-none transition-colors min-w-[280px]"
             >
-              {categories.map(cat => (
-                <option key={cat} value={cat} className="bg-gray-900">
-                  {cat}
+              {getSortedCategoriesWithDepth(categories).map(({ name, depth }) => (
+                <option
+                  key={name}
+                  value={name}
+                  className="bg-gray-900"
+                  style={{
+                    color: depth === 0 ? '#fbbf24' : depth === 1 ? '#60a5fa' : '#9ca3af',
+                    fontWeight: depth === 0 ? 'bold' : depth === 1 ? '500' : 'normal',
+                  }}
+                >
+                  {depth === 0 ? '★ ' : depth === 1 ? '● ' : '  └ '}{name}
                 </option>
               ))}
             </select>
+            {/* Depth Legend */}
+            <div className="flex items-center gap-3 text-xs">
+              <span className="flex items-center gap-1">
+                <span className="w-2 h-2 rounded-full bg-yellow-400"></span>
+                <span className="text-yellow-400/70">Depth 0</span>
+              </span>
+              <span className="flex items-center gap-1">
+                <span className="w-2 h-2 rounded-full bg-blue-400"></span>
+                <span className="text-blue-400/70">Depth 1</span>
+              </span>
+              <span className="flex items-center gap-1">
+                <span className="w-2 h-2 rounded-full bg-gray-400"></span>
+                <span className="text-gray-400/70">Depth 2</span>
+              </span>
+            </div>
 
             {/* Date Filter */}
             <div className="flex items-center gap-2">

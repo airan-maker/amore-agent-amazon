@@ -3,6 +3,69 @@
  * Reads all test_5_categories_YYYYMMDD.json files from historical folder
  */
 
+// Category hierarchy with depth information
+export const CATEGORY_HIERARCHY = {
+  // Depth 0 - Top level
+  'Beauty & Personal Care': { depth: 0, parent: null },
+
+  // Depth 1 - Main categories
+  'Perfumes & Fragrances': { depth: 1, parent: 'Beauty & Personal Care' },
+  'Foot, Hand & Nail Care': { depth: 1, parent: 'Beauty & Personal Care' },
+  'Hair Care': { depth: 1, parent: 'Beauty & Personal Care' },
+  'Makeup': { depth: 1, parent: 'Beauty & Personal Care' },
+  'Personal Care': { depth: 1, parent: 'Beauty & Personal Care' },
+  'Salon & Spa Equipment': { depth: 1, parent: 'Beauty & Personal Care' },
+  'Shaving & Grooming': { depth: 1, parent: 'Beauty & Personal Care' },
+  'Skin Care': { depth: 1, parent: 'Beauty & Personal Care' },
+  'Tools & Accessories': { depth: 1, parent: 'Beauty & Personal Care' },
+
+  // Depth 2 - Makeup subcategories
+  'Body Makeup': { depth: 2, parent: 'Makeup' },
+  'Eye Makeup': { depth: 2, parent: 'Makeup' },
+  'Face Makeup': { depth: 2, parent: 'Makeup' },
+  'Lip Makeup': { depth: 2, parent: 'Makeup' },
+  'Makeup Sets & Kits': { depth: 2, parent: 'Makeup' },
+  'Makeup Palettes': { depth: 2, parent: 'Makeup' },
+  'Makeup Remover': { depth: 2, parent: 'Makeup' },
+
+  // Depth 2 - Skin Care subcategories
+  'Facial Skin Care': { depth: 2, parent: 'Skin Care' },
+  'Body Skin Care': { depth: 2, parent: 'Skin Care' },
+  'Eye Treatment': { depth: 2, parent: 'Skin Care' },
+  'Maternity Skin Care': { depth: 2, parent: 'Skin Care' },
+  'Skin Care Sets & Kits': { depth: 2, parent: 'Skin Care' },
+  'Sun Skin Care': { depth: 2, parent: 'Skin Care' },
+  'Lip Care': { depth: 2, parent: 'Skin Care' },
+};
+
+/**
+ * Get category depth (0, 1, or 2)
+ * @param {string} categoryName - Category name
+ * @returns {number} - Depth level (0, 1, or 2), defaults to 2 if unknown
+ */
+export const getCategoryDepth = (categoryName) => {
+  return CATEGORY_HIERARCHY[categoryName]?.depth ?? 2;
+};
+
+/**
+ * Get sorted categories by hierarchy
+ * @param {string[]} categories - Array of category names
+ * @returns {Array<{name: string, depth: number}>} - Sorted categories with depth
+ */
+export const getSortedCategoriesWithDepth = (categories) => {
+  return categories
+    .map(name => ({
+      name,
+      depth: getCategoryDepth(name),
+      parent: CATEGORY_HIERARCHY[name]?.parent || null
+    }))
+    .sort((a, b) => {
+      // Sort by depth first, then alphabetically
+      if (a.depth !== b.depth) return a.depth - b.depth;
+      return a.name.localeCompare(b.name);
+    });
+};
+
 // Import all historical data files
 // Note: In production, these would be dynamically imported
 // For now, we manually import the available files
