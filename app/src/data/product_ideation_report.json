@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generation_date": "2026-01-11T06:31:49.671601",
-    "total_categories_analyzed": 10,
-    "total_ideas_generated": 0,
-    "model_used": "claude-3-sonnet-20240229",
-    "ideas_per_category": 5
+    "generation_date": "2026-01-18T16:09:36.308822",
+    "total_categories_analyzed": 4,
+    "total_ideas_generated": 12,
+    "model_used": "claude-haiku-4-5-20251001",
+    "ideas_per_category": 3
   },
   "category_analyses": {
     "Perfumes & Fragrances": {
@@ -27,8 +27,121 @@
         },
         "opportunity_areas": []
       },
-      "product_ideas": [],
-      "analysis_timestamp": "2026-01-11T06:31:47.451445"
+      "product_ideas": [
+        {
+          "product_name": "Water Sensory Fragrance Mist",
+          "category_position": "Hydrating Fragrance Category",
+          "tagline": "Weightless fragrance that hydrates skin while delivering a fresh, aquatic scent experience.",
+          "core_concept": "A hybrid fragrance-skincare product that combines LANEIGE's signature hydration technology with fine fragrance. Unlike traditional perfumes, this mist contains hyaluronic acid and hydrating peptides that moisturize skin while providing a refreshing, water-inspired scent profile. Perfect for the skincare-conscious consumer who wants fragrance without compromising skin health.",
+          "target_attributes": {
+            "primary_benefit": "Hydration + Fragrance",
+            "key_ingredients": [
+              "Hyaluronic Acid",
+              "Hydrating Peptides",
+              "Mineral Water Extract",
+              "Glycerin"
+            ],
+            "formula_type": "Fragrance Mist",
+            "texture": "Lightweight, refreshing mist that absorbs quickly without residue",
+            "certifications": [
+              "Clean Beauty",
+              "Dermatologist-Tested",
+              "Cruelty-Free"
+            ],
+            "target_skin_type": [
+              "All skin types",
+              "Dehydrated skin",
+              "Sensitive skin"
+            ],
+            "price_tier": "mid_range"
+          },
+          "market_opportunity_score": 8.2,
+          "rationale": "The fragrance category lacks hydrating formulations, creating a gap for consumers who prioritize skincare benefits. LANEIGE's expertise in hydration technology positions it uniquely to innovate in this space. This bridges the growing demand for multi-functional beauty products and taps into the K-beauty trend of skincare-first fragrance.",
+          "competitive_advantage": "Combines proven hydration technology with fragrance—competitors offer either/or. Positions fragrance as a skincare step rather than a cosmetic afterthought, differentiating from luxury fragrance houses that ignore skin health.",
+          "risk_level": "Low",
+          "estimated_development_complexity": "Medium",
+          "category": "Perfumes & Fragrances",
+          "generated_at": "2026-01-18T16:08:40.626636",
+          "generated_by": "claude-haiku-4-5-20251001"
+        },
+        {
+          "product_name": "Sleeping Scent Layering System",
+          "category_position": "Night-Time Fragrance/Aromatherapy",
+          "tagline": "A customizable fragrance ritual that promotes relaxation and better sleep through scent layering.",
+          "core_concept": "A modular fragrance system featuring 3-4 complementary scent layers (base, heart, top) designed specifically for nighttime use. Each layer contains calming botanicals like lavender, chamomile, and sandalwood, plus skin-conditioning ingredients. Consumers layer the scents for a personalized aromatic experience that enhances their sleep routine while providing subtle skincare benefits. Positions fragrance as a wellness ritual aligned with LANEIGE's sleep-care heritage.",
+          "target_attributes": {
+            "primary_benefit": "Sleep Support + Aromatherapy + Skincare",
+            "key_ingredients": [
+              "Lavender Extract",
+              "Chamomile",
+              "Sandalwood Oil",
+              "Squalane",
+              "Niacinamide"
+            ],
+            "formula_type": "Layered Fragrance System (3-4 rollerballs/sprays)",
+            "texture": "Lightweight oils and mists with nourishing base",
+            "certifications": [
+              "Natural Ingredients",
+              "Sleep-Tested",
+              "Paraben-Free",
+              "Dermatologist-Approved"
+            ],
+            "target_skin_type": [
+              "All skin types",
+              "Sensitive skin",
+              "Stressed/reactive skin"
+            ],
+            "price_tier": "premium"
+          },
+          "market_opportunity_score": 8.5,
+          "rationale": "Sleep-focused beauty is a high-growth category, but fragrance hasn't been meaningfully positioned in this space. LANEIGE's iconic Sleep Mask creates natural synergy. The layering concept appeals to luxury consumers seeking personalization and ritual, while the wellness angle taps into holistic beauty trends. Fragrance layering is underexploited in the mainstream market.",
+          "competitive_advantage": "First fragrance system explicitly designed for sleep and skincare integration. Modular approach enables personalization and repeat purchases. Aligns with LANEIGE's sleep-care authority in a way competitors cannot replicate.",
+          "risk_level": "Medium",
+          "estimated_development_complexity": "High",
+          "category": "Perfumes & Fragrances",
+          "generated_at": "2026-01-18T16:08:40.626647",
+          "generated_by": "claude-haiku-4-5-20251001"
+        },
+        {
+          "product_name": "Skin-Scent Adaptive Fragrance",
+          "category_position": "Smart/Responsive Fragrance",
+          "tagline": "A fragrance that adapts its scent profile based on your skin's moisture level, revealing different notes throughout the day.",
+          "core_concept": "An innovative fragrance formulation that contains hygroscopic ingredients (like hyaluronic acid and glycerin) that respond to changes in skin hydration. As skin hydration fluctuates throughout the day, different fragrance notes become more prominent—creating a dynamic, evolving scent experience. This positions fragrance as an interactive skincare product that literally responds to skin condition, merging beauty tech with sensory experience.",
+          "target_attributes": {
+            "primary_benefit": "Adaptive Fragrance + Hydration Sensing",
+            "key_ingredients": [
+              "Hyaluronic Acid",
+              "Glycerin",
+              "Fragrance Encapsulation Technology",
+              "Panthenol",
+              "Ceramides"
+            ],
+            "formula_type": "Smart Fragrance Spray",
+            "texture": "Silky, fast-absorbing spray that feels like a hydrating mist",
+            "certifications": [
+              "Clean Beauty",
+              "Dermatologist-Tested",
+              "Hypoallergenic",
+              "Innovation Patent-Pending"
+            ],
+            "target_skin_type": [
+              "All skin types",
+              "Dehydrated skin",
+              "Combination skin"
+            ],
+            "price_tier": "luxury"
+          },
+          "market_opportunity_score": 8.8,
+          "rationale": "Smart/adaptive beauty is an emerging luxury trend with limited fragrance applications. LANEIGE's scientific credibility and hydration expertise position it to pioneer this innovation. This creates a genuine point of differentiation through technology while addressing the fragrance category's lack of skin-interactive formulations. Appeals to tech-forward, affluent consumers seeking novel experiences.",
+          "competitive_advantage": "World-first adaptive fragrance technology that merges skincare science with sensory experience. Creates an ownable innovation that competitors cannot easily replicate without significant R&D investment. Justifies premium pricing through genuine product innovation.",
+          "risk_level": "High",
+          "estimated_development_complexity": "High",
+          "category": "Perfumes & Fragrances",
+          "generated_at": "2026-01-18T16:08:40.626648",
+          "generated_by": "claude-haiku-4-5-20251001"
+        }
+      ],
+      "analysis_timestamp": "2026-01-18T16:08:40.626937"
     },
     "Foot, Hand & Nail Care": {
       "category": "Foot, Hand & Nail Care",
@@ -50,13 +163,124 @@
         },
         "opportunity_areas": []
       },
-      "product_ideas": [],
-      "analysis_timestamp": "2026-01-11T06:31:47.690983"
+      "product_ideas": [
+        {
+          "product_name": "Water Sleeping Hand Mask",
+          "category_position": "Premium overnight hand treatment",
+          "tagline": "Transform hands overnight with intensive hydration and renewal, inspired by LANEIGE's iconic Water Sleeping Mask.",
+          "core_concept": "A rich, occlusive overnight hand mask that combines LANEIGE's signature hydrating technology with hand-specific actives. This product addresses the gap in premium, multi-benefit hand treatments by delivering intensive moisture, brightening, and anti-aging benefits in a luxurious format that consumers apply before bed—capitalizing on the growing trend of nighttime skincare rituals extended to hands.",
+          "target_attributes": {
+            "primary_benefit": "Deep Hydration & Anti-Aging",
+            "key_ingredients": [
+              "Mineral Water Complex",
+              "Hyaluronic Acid",
+              "Niacinamide",
+              "Peptides"
+            ],
+            "formula_type": "Occlusive Sleeping Mask",
+            "texture": "Rich, creamy gel-cream that sets to a protective layer",
+            "certifications": [
+              "Clean Beauty",
+              "Cruelty-Free",
+              "Dermatologist-Tested"
+            ],
+            "target_skin_type": [
+              "All hand types",
+              "Dry/Mature hands",
+              "Sensitive hands"
+            ],
+            "price_tier": "premium"
+          },
+          "market_opportunity_score": 8.2,
+          "rationale": "Premium hand care is dramatically underserved compared to facial skincare, yet consumers increasingly seek multi-step routines for hands. LANEIGE's Water Sleeping Mask is a hero product globally; extending this iconic format to hands leverages brand equity while capturing demand for nighttime hand treatments. The combination of hydration, peptides for firmness, and niacinamide for brightening addresses the primary concerns of aging hands while the occlusive format justifies premium pricing.",
+          "competitive_advantage": "Unlike generic hand creams, this delivers clinical-grade actives in an innovative overnight format that aligns with LANEIGE's premium positioning. The sleeping mask category has proven success in facial care; applying it to hands is a natural, differentiated extension.",
+          "risk_level": "Low",
+          "estimated_development_complexity": "Low",
+          "category": "Foot, Hand & Nail Care",
+          "generated_at": "2026-01-18T16:08:58.485383",
+          "generated_by": "claude-haiku-4-5-20251001"
+        },
+        {
+          "product_name": "Nail Vitality Serum & Cuticle Oil Duo",
+          "category_position": "Prestige nail health system",
+          "tagline": "Strengthen, protect, and beautify nails from root to tip with a dual-phase nail serum and botanical cuticle oil.",
+          "core_concept": "A sophisticated two-step nail care system combining a lightweight, penetrating nail serum (with biotin, keratin, and calcium) and a nourishing cuticle oil infused with botanical extracts. This addresses the market gap in clinical nail strengthening products positioned as luxury beauty treatments rather than medicinal solutions, appealing to consumers who view nail care as essential to their beauty routine.",
+          "target_attributes": {
+            "primary_benefit": "Nail Strengthening & Cuticle Nourishment",
+            "key_ingredients": [
+              "Biotin",
+              "Plant Keratin",
+              "Calcium",
+              "Argan Oil",
+              "Camellia Oil"
+            ],
+            "formula_type": "Serum + Oil duo",
+            "texture": "Lightweight, fast-absorbing serum; silky, non-greasy oil",
+            "certifications": [
+              "Clean Beauty",
+              "Vegan",
+              "Sustainably Sourced"
+            ],
+            "target_skin_type": [
+              "Brittle/weak nails",
+              "Dry cuticles",
+              "All nail types"
+            ],
+            "price_tier": "premium"
+          },
+          "market_opportunity_score": 7.8,
+          "rationale": "Nail care is one of the fastest-growing beauty categories, yet most offerings are either budget or clinical/medicinal. LANEIGE can capture the premium positioning by creating a luxurious nail system that treats nails as part of skincare. The serum + oil format mimics successful skincare layering, making it intuitive for beauty consumers. Biotin and keratin are proven nail-strengthening ingredients; positioning them in a premium, spa-like product justifies higher price points.",
+          "competitive_advantage": "Most premium nail products focus on polish or decoration; this is a clinical treatment system that positions nail health as a luxury beauty concern, similar to how LANEIGE elevated hand cream to premium skincare.",
+          "risk_level": "Medium",
+          "estimated_development_complexity": "Medium",
+          "category": "Foot, Hand & Nail Care",
+          "generated_at": "2026-01-18T16:08:58.485389",
+          "generated_by": "claude-haiku-4-5-20251001"
+        },
+        {
+          "product_name": "Foot Recovery Essence & Intensive Cream Set",
+          "category_position": "Luxury foot wellness system",
+          "tagline": "Restore tired feet with a hydrating essence and intensive barrier-repair cream designed for daily comfort and resilience.",
+          "core_concept": "A two-step foot care system featuring a lightweight hydrating essence (similar to LANEIGE's essence toners) followed by a rich, occlusive foot cream with barrier-repair actives. This targets the gap in premium foot care by applying proven skincare layering principles to feet—addressing dryness, cracking, and fatigue while positioning foot care as a wellness/self-care ritual rather than a clinical treatment.",
+          "target_attributes": {
+            "primary_benefit": "Hydration, Barrier Repair & Comfort",
+            "key_ingredients": [
+              "Hyaluronic Acid",
+              "Centella Asiatica",
+              "Shea Butter",
+              "Ceramides",
+              "Menthol (cooling)"
+            ],
+            "formula_type": "Essence + Cream duo",
+            "texture": "Lightweight, refreshing essence; rich, velvety cream",
+            "certifications": [
+              "Clean Beauty",
+              "Dermatologist-Tested",
+              "Cruelty-Free"
+            ],
+            "target_skin_type": [
+              "Dry/cracked feet",
+              "Sensitive feet",
+              "All foot types"
+            ],
+            "price_tier": "premium"
+          },
+          "market_opportunity_score": 7.6,
+          "rationale": "Foot care is historically neglected in premium beauty, yet feet experience severe environmental stress and aging. By applying LANEIGE's multi-step hydration philosophy to feet, this product capitalizes on the wellness/self-care trend while addressing genuine unmet needs. The essence layer ensures hydration penetration; the cream layer provides barrier repair with ceramides. The addition of menthol differentiates this as a comfort-focused product, appealing to consumers seeking functional luxury.",
+          "competitive_advantage": "Most foot creams are thick, clinical products; this positions foot care as a multi-step skincare ritual using lightweight hydrating layers—a luxury approach that justifies premium pricing and aligns with LANEIGE's expertise in hydration technology.",
+          "risk_level": "Medium",
+          "estimated_development_complexity": "Medium",
+          "category": "Foot, Hand & Nail Care",
+          "generated_at": "2026-01-18T16:08:58.485391",
+          "generated_by": "claude-haiku-4-5-20251001"
+        }
+      ],
+      "analysis_timestamp": "2026-01-18T16:08:58.485631"
     },
-    "Salon & Spa Equipment": {
-      "category": "Salon & Spa Equipment",
+    "Beauty & Personal Care": {
+      "category": "Beauty & Personal Care",
       "gap_analysis": {
-        "category": "Salon & Spa Equipment",
+        "category": "Beauty & Personal Care",
         "total_products": 0,
         "products_with_attributes": 0,
         "total_combinations": 0,
@@ -73,13 +297,123 @@
         },
         "opportunity_areas": []
       },
-      "product_ideas": [],
-      "analysis_timestamp": "2026-01-11T06:31:47.940672"
+      "product_ideas": [
+        {
+          "product_name": "HydraGlow Adaptive Barrier Serum",
+          "category_position": "Hydrating Treatment Serum",
+          "tagline": "Intelligent hydration that adapts to your skin's moisture needs throughout the day.",
+          "core_concept": "A breakthrough serum that combines LANEIGE's signature hydration technology with adaptive moisture-releasing polymers that respond to environmental humidity levels. This creates a personalized hydration experience that prevents both dehydration and over-moisturization, addressing the growing consumer demand for smart, responsive skincare.",
+          "target_attributes": {
+            "primary_benefit": "Adaptive Hydration & Barrier Strengthening",
+            "key_ingredients": [
+              "Hyaluronic Acid (multi-weight)",
+              "Panthenol",
+              "Ceramide NP",
+              "Adaptive Polymer Complex"
+            ],
+            "formula_type": "Lightweight Serum",
+            "texture": "Silky, fast-absorbing gel-serum with micro-droplet technology",
+            "certifications": [
+              "Clean Beauty",
+              "Cruelty-Free",
+              "Dermatologist-Tested"
+            ],
+            "target_skin_type": [
+              "All skin types",
+              "Sensitive skin",
+              "Dehydrated skin"
+            ],
+            "price_tier": "premium"
+          },
+          "market_opportunity_score": 8.2,
+          "rationale": "The market shows strong demand for multi-benefit hydration products that go beyond basic moisturizing. This serum fills the gap between basic hydrating serums and complex treatment products by introducing adaptive technology—a trend gaining traction in K-beauty. LANEIGE's heritage in water-based hydration gives them natural competitive advantage to pioneer this innovation, and the premium positioning justifies the R&D investment.",
+          "competitive_advantage": "Unlike static serums, the adaptive polymer technology genuinely responds to environmental conditions, creating a differentiated benefit story. This positions LANEIGE as an innovation leader while leveraging their core hydration expertise.",
+          "risk_level": "Medium",
+          "estimated_development_complexity": "High",
+          "category": "Beauty & Personal Care",
+          "generated_at": "2026-01-18T16:09:15.356726",
+          "generated_by": "claude-haiku-4-5-20251001"
+        },
+        {
+          "product_name": "Cica-Sleep Recovery Overnight Ampoule",
+          "category_position": "Night Treatment Ampoule",
+          "tagline": "Clinical-strength repair in a lightweight ampoule format—maximum healing, minimal heaviness.",
+          "core_concept": "A concentrated overnight treatment that combines centella asiatica with time-release niacinamide and peptides to support skin's natural nocturnal repair cycle. Packaged in individual ampoules to ensure maximum potency and appeal to consumers seeking clinical efficacy with minimal waste—addressing both the efficacy-seekers and eco-conscious segments.",
+          "target_attributes": {
+            "primary_benefit": "Barrier Repair & Overnight Recovery",
+            "key_ingredients": [
+              "Centella Asiatica Extract",
+              "Niacinamide",
+              "Peptide Complex",
+              "Madecassoside"
+            ],
+            "formula_type": "Concentrated Ampoule",
+            "texture": "Lightweight, silky essence that absorbs instantly",
+            "certifications": [
+              "Vegan",
+              "Eco-Friendly Packaging",
+              "Hypoallergenic"
+            ],
+            "target_skin_type": [
+              "Sensitive skin",
+              "Irritated skin",
+              "All skin types"
+            ],
+            "price_tier": "mid_range"
+          },
+          "market_opportunity_score": 8.5,
+          "rationale": "Ampoule formats are experiencing explosive growth in K-beauty, and centella asiatica remains one of the most sought-after ingredients for sensitive and reactive skin. This product captures the intersection of clinical efficacy, sustainable packaging, and the proven success of targeted overnight treatments. The individual ampoule format also creates a premium perception at an accessible price point.",
+          "competitive_advantage": "The ampoule format ensures freshness and potency while reducing packaging waste compared to jars. The focus on barrier repair with cica + niacinamide addresses the rising sensitivity trend without the heaviness of traditional overnight creams.",
+          "risk_level": "Low",
+          "estimated_development_complexity": "Medium",
+          "category": "Beauty & Personal Care",
+          "generated_at": "2026-01-18T16:09:15.356732",
+          "generated_by": "claude-haiku-4-5-20251001"
+        },
+        {
+          "product_name": "GlowFusion Dual-Phase Hydrating Toner",
+          "category_position": "Hydrating Toner/First Essence Hybrid",
+          "tagline": "Two-phase technology that preps and plumps—the first step to radiant, hydrated skin.",
+          "core_concept": "A revolutionary toner that separates into two distinct phases (water and oil) that work synergistically when shaken and applied. The aqueous phase delivers hyaluronic acid and fermented ingredients for deep hydration, while the lightweight oil phase (squalane + botanical extracts) seals in moisture and enhances absorption of subsequent products. This dual-phase innovation appeals to consumers seeking multi-step efficacy in a single product.",
+          "target_attributes": {
+            "primary_benefit": "Hydration & Absorption Enhancement",
+            "key_ingredients": [
+              "Hyaluronic Acid",
+              "Fermented Rice Bran",
+              "Squalane",
+              "Glycerin",
+              "Botanical Oil Blend"
+            ],
+            "formula_type": "Dual-Phase Toner",
+            "texture": "Lightweight, two-phase liquid that emulsifies upon application",
+            "certifications": [
+              "Clean Beauty",
+              "Sustainable Sourcing",
+              "Dermatologist-Tested"
+            ],
+            "target_skin_type": [
+              "Dry skin",
+              "Normal skin",
+              "Combination skin"
+            ],
+            "price_tier": "premium"
+          },
+          "market_opportunity_score": 7.8,
+          "rationale": "Dual-phase products are trending in premium skincare as consumers seek innovation and multi-benefit efficacy. Fermented ingredients and squalane are both high-performing, well-loved ingredients showing strong growth. This toner fills the gap for consumers who want hydration enhancement without adding extra steps, while the visual appeal of the dual-phase format creates strong unboxing moments and social media potential.",
+          "competitive_advantage": "The two-phase format is visually distinctive and functionally superior—the oil phase prevents water evaporation while enhancing the penetration of hydrating actives, creating genuine synergy. This technology differentiates LANEIGE in the crowded toner category.",
+          "risk_level": "Medium",
+          "estimated_development_complexity": "High",
+          "category": "Beauty & Personal Care",
+          "generated_at": "2026-01-18T16:09:15.356734",
+          "generated_by": "claude-haiku-4-5-20251001"
+        }
+      ],
+      "analysis_timestamp": "2026-01-18T16:09:15.357019"
     },
-    "Skin Care": {
-      "category": "Skin Care",
+    "Hair Care": {
+      "category": "Hair Care",
       "gap_analysis": {
-        "category": "Skin Care",
+        "category": "Hair Care",
         "total_products": 0,
         "products_with_attributes": 0,
         "total_combinations": 0,
@@ -96,161 +430,215 @@
         },
         "opportunity_areas": []
       },
-      "product_ideas": [],
-      "analysis_timestamp": "2026-01-11T06:31:48.171863"
-    },
-    "Tools & Accessories": {
-      "category": "Tools & Accessories",
-      "gap_analysis": {
-        "category": "Tools & Accessories",
-        "total_products": 0,
-        "products_with_attributes": 0,
-        "total_combinations": 0,
-        "underserved_combinations": [],
-        "oversaturated_combinations": [],
-        "success_patterns": {
-          "top_ingredients": [],
-          "top_benefits": [],
-          "top_certifications": [],
-          "top_price_tiers": [],
-          "top_skin_types": [],
-          "top_formula_types": [],
-          "sample_size": 0
+      "product_ideas": [
+        {
+          "product_name": "Water Seal Hair Essence",
+          "category_position": "Lightweight hydrating hair treatment",
+          "tagline": "Infuse hair with 72-hour moisture lock technology inspired by LANEIGE's skin care expertise.",
+          "core_concept": "A breakthrough water-based hair essence that applies LANEIGE's proprietary hydration technology to hair care. Unlike traditional oils, this lightweight formula uses hyaluronic acid and cryotherapy-inspired cooling minerals to penetrate the hair shaft and seal moisture at the molecular level, delivering spa-like hydration without residue or buildup.",
+          "target_attributes": {
+            "primary_benefit": "Deep hydration and frizz control",
+            "key_ingredients": [
+              "Hyaluronic acid",
+              "Cryotherapy mineral complex",
+              "Glacial water",
+              "Panthenol"
+            ],
+            "formula_type": "Lightweight essence/serum",
+            "texture": "Silky, non-greasy liquid that absorbs instantly",
+            "certifications": [
+              "Clean beauty",
+              "Paraben-free",
+              "Sulfate-free"
+            ],
+            "target_skin_type": [
+              "All hair types",
+              "Curly/wavy hair",
+              "Frizz-prone hair"
+            ],
+            "price_tier": "premium"
+          },
+          "market_opportunity_score": 8.2,
+          "rationale": "The market lacks premium, water-based hair hydration products that deliver visible results without silicone heaviness. By translating LANEIGE's signature hydration science to hair care, this product captures consumers seeking professional-grade moisture solutions. The essence format aligns with K-beauty trends and premium positioning while addressing the growing demand for lightweight, multi-use hair treatments.",
+          "competitive_advantage": "Uniquely combines LANEIGE's proven cryotherapy and hyaluronic acid expertise with hair-specific delivery technology, offering superior hydration compared to oil-based competitors while maintaining hair's natural movement and shine.",
+          "risk_level": "Low",
+          "estimated_development_complexity": "Medium",
+          "category": "Hair Care",
+          "generated_at": "2026-01-18T16:09:33.294360",
+          "generated_by": "claude-haiku-4-5-20251001"
         },
-        "opportunity_areas": []
-      },
-      "product_ideas": [],
-      "analysis_timestamp": "2026-01-11T06:31:48.480478"
-    },
-    "Body Makeup": {
-      "category": "Body Makeup",
-      "gap_analysis": {
-        "category": "Body Makeup",
-        "total_products": 0,
-        "products_with_attributes": 0,
-        "total_combinations": 0,
-        "underserved_combinations": [],
-        "oversaturated_combinations": [],
-        "success_patterns": {
-          "top_ingredients": [],
-          "top_benefits": [],
-          "top_certifications": [],
-          "top_price_tiers": [],
-          "top_skin_types": [],
-          "top_formula_types": [],
-          "sample_size": 0
+        {
+          "product_name": "Scalp Renewal Sleeping Mask",
+          "category_position": "Overnight scalp treatment and hair repair",
+          "tagline": "Regenerate scalp health and repair hair overnight with an innovative sleeping mask that targets roots while you rest.",
+          "core_concept": "An overnight scalp and hair treatment mask that addresses the underserved scalp health category by combining exfoliating enzymes, probiotics, and nourishing oils in a leave-on format. This product treats the scalp as living skin requiring dedicated care while simultaneously repairing and strengthening hair strands, creating a holistic root-to-tip overnight recovery system.",
+          "target_attributes": {
+            "primary_benefit": "Scalp health, hair repair, and strengthening",
+            "key_ingredients": [
+              "Papaya enzyme",
+              "Probiotic complex",
+              "Argan oil",
+              "Niacinamide"
+            ],
+            "formula_type": "Overnight sleeping mask",
+            "texture": "Rich, creamy paste that doesn't drip",
+            "certifications": [
+              "Clean beauty",
+              "Cruelty-free",
+              "Vegan"
+            ],
+            "target_skin_type": [
+              "Sensitive scalp",
+              "Oily scalp",
+              "Damaged/compromised hair"
+            ],
+            "price_tier": "premium"
+          },
+          "market_opportunity_score": 8.5,
+          "rationale": "Scalp health is a rapidly growing but underserved segment, with most brands focusing only on hair strands. This overnight mask positions LANEIGE as a holistic hair wellness brand while capitalizing on the sleep-care trend that resonates strongly with K-beauty consumers. The probiotic and enzyme combination addresses scalp microbiome balance, a scientifically-backed benefit gaining consumer awareness.",
+          "competitive_advantage": "First-to-market scalp-focused sleeping mask that treats scalp as skin while simultaneously repairing hair, backed by probiotics and enzymes for visible scalp health improvement—a category gap competitors haven't addressed.",
+          "risk_level": "Medium",
+          "estimated_development_complexity": "High",
+          "category": "Hair Care",
+          "generated_at": "2026-01-18T16:09:33.294365",
+          "generated_by": "claude-haiku-4-5-20251001"
         },
-        "opportunity_areas": []
-      },
-      "product_ideas": [],
-      "analysis_timestamp": "2026-01-11T06:31:48.707566"
-    },
-    "Eye Makeup": {
-      "category": "Eye Makeup",
-      "gap_analysis": {
-        "category": "Eye Makeup",
-        "total_products": 0,
-        "products_with_attributes": 0,
-        "total_combinations": 0,
-        "underserved_combinations": [],
-        "oversaturated_combinations": [],
-        "success_patterns": {
-          "top_ingredients": [],
-          "top_benefits": [],
-          "top_certifications": [],
-          "top_price_tiers": [],
-          "top_skin_types": [],
-          "top_formula_types": [],
-          "sample_size": 0
-        },
-        "opportunity_areas": []
-      },
-      "product_ideas": [],
-      "analysis_timestamp": "2026-01-11T06:31:48.973155"
-    },
-    "Face Makeup": {
-      "category": "Face Makeup",
-      "gap_analysis": {
-        "category": "Face Makeup",
-        "total_products": 0,
-        "products_with_attributes": 0,
-        "total_combinations": 0,
-        "underserved_combinations": [],
-        "oversaturated_combinations": [],
-        "success_patterns": {
-          "top_ingredients": [],
-          "top_benefits": [],
-          "top_certifications": [],
-          "top_price_tiers": [],
-          "top_skin_types": [],
-          "top_formula_types": [],
-          "sample_size": 0
-        },
-        "opportunity_areas": []
-      },
-      "product_ideas": [],
-      "analysis_timestamp": "2026-01-11T06:31:49.201271"
-    },
-    "Lip Makeup": {
-      "category": "Lip Makeup",
-      "gap_analysis": {
-        "category": "Lip Makeup",
-        "total_products": 0,
-        "products_with_attributes": 0,
-        "total_combinations": 0,
-        "underserved_combinations": [],
-        "oversaturated_combinations": [],
-        "success_patterns": {
-          "top_ingredients": [],
-          "top_benefits": [],
-          "top_certifications": [],
-          "top_price_tiers": [],
-          "top_skin_types": [],
-          "top_formula_types": [],
-          "sample_size": 0
-        },
-        "opportunity_areas": []
-      },
-      "product_ideas": [],
-      "analysis_timestamp": "2026-01-11T06:31:49.435884"
-    },
-    "Facial Skin Care": {
-      "category": "Facial Skin Care",
-      "gap_analysis": {
-        "category": "Facial Skin Care",
-        "total_products": 0,
-        "products_with_attributes": 0,
-        "total_combinations": 0,
-        "underserved_combinations": [],
-        "oversaturated_combinations": [],
-        "success_patterns": {
-          "top_ingredients": [],
-          "top_benefits": [],
-          "top_certifications": [],
-          "top_price_tiers": [],
-          "top_skin_types": [],
-          "top_formula_types": [],
-          "sample_size": 0
-        },
-        "opportunity_areas": []
-      },
-      "product_ideas": [],
-      "analysis_timestamp": "2026-01-11T06:31:49.669475"
+        {
+          "product_name": "Thermal Protect Mist with Adaptive Hydration",
+          "category_position": "Heat protection and styling primer",
+          "tagline": "Smart hydration that adapts to heat exposure, protecting and conditioning hair during styling.",
+          "core_concept": "A dual-phase thermal protection mist that combines heat-activated conditioning polymers with moisture-locking humectants. The formula releases intensive hydration when exposed to blow dryers or styling tools while forming a protective barrier against thermal damage. This bridges the gap between heat protectants and conditioning treatments, offering salon-quality results for daily styling.",
+          "target_attributes": {
+            "primary_benefit": "Heat protection and thermal-activated conditioning",
+            "key_ingredients": [
+              "Heat-activated silicone polymer",
+              "Glycerin",
+              "Vitamin E",
+              "Silk amino acids"
+            ],
+            "formula_type": "Spray mist",
+            "texture": "Lightweight mist that dries quickly with no residue",
+            "certifications": [
+              "Silicone-based (performance formula)",
+              "Sulfate-free",
+              "UV protection"
+            ],
+            "target_skin_type": [
+              "All hair types",
+              "Heat-styled hair",
+              "Color-treated hair"
+            ],
+            "price_tier": "mid_range"
+          },
+          "market_opportunity_score": 7.8,
+          "rationale": "Heat protection sprays dominate the market, but most lack meaningful conditioning benefits, creating an opportunity for a hybrid product. LANEIGE's innovation in moisture technology can differentiate a heat protectant that actually improves hair condition with each use. The mid-range price tier captures daily users seeking professional results without luxury pricing, expanding LANEIGE's hair care accessibility.",
+          "competitive_advantage": "Proprietary heat-activated polymer technology releases conditioning benefits proportional to heat exposure, meaning more protection and conditioning during blow-drying than competitors' static formulas.",
+          "risk_level": "Low",
+          "estimated_development_complexity": "Medium",
+          "category": "Hair Care",
+          "generated_at": "2026-01-18T16:09:33.294366",
+          "generated_by": "claude-haiku-4-5-20251001"
+        }
+      ],
+      "analysis_timestamp": "2026-01-18T16:09:33.294547"
     }
   },
   "cross_category_insights": {
     "top_cross_category_opportunities": [],
-    "highest_scored_ideas": [],
+    "highest_scored_ideas": [
+      {
+        "product_name": "Skin-Scent Adaptive Fragrance",
+        "category": "Perfumes & Fragrances",
+        "score": 8.8,
+        "tagline": "A fragrance that adapts its scent profile based on your skin's moisture level, revealing different notes throughout the day."
+      },
+      {
+        "product_name": "Sleeping Scent Layering System",
+        "category": "Perfumes & Fragrances",
+        "score": 8.5,
+        "tagline": "A customizable fragrance ritual that promotes relaxation and better sleep through scent layering."
+      },
+      {
+        "product_name": "Cica-Sleep Recovery Overnight Ampoule",
+        "category": "Beauty & Personal Care",
+        "score": 8.5,
+        "tagline": "Clinical-strength repair in a lightweight ampoule format—maximum healing, minimal heaviness."
+      },
+      {
+        "product_name": "Scalp Renewal Sleeping Mask",
+        "category": "Hair Care",
+        "score": 8.5,
+        "tagline": "Regenerate scalp health and repair hair overnight with an innovative sleeping mask that targets roots while you rest."
+      },
+      {
+        "product_name": "Water Sensory Fragrance Mist",
+        "category": "Perfumes & Fragrances",
+        "score": 8.2,
+        "tagline": "Weightless fragrance that hydrates skin while delivering a fresh, aquatic scent experience."
+      },
+      {
+        "product_name": "Water Sleeping Hand Mask",
+        "category": "Foot, Hand & Nail Care",
+        "score": 8.2,
+        "tagline": "Transform hands overnight with intensive hydration and renewal, inspired by LANEIGE's iconic Water Sleeping Mask."
+      },
+      {
+        "product_name": "HydraGlow Adaptive Barrier Serum",
+        "category": "Beauty & Personal Care",
+        "score": 8.2,
+        "tagline": "Intelligent hydration that adapts to your skin's moisture needs throughout the day."
+      },
+      {
+        "product_name": "Water Seal Hair Essence",
+        "category": "Hair Care",
+        "score": 8.2,
+        "tagline": "Infuse hair with 72-hour moisture lock technology inspired by LANEIGE's skin care expertise."
+      },
+      {
+        "product_name": "Nail Vitality Serum & Cuticle Oil Duo",
+        "category": "Foot, Hand & Nail Care",
+        "score": 7.8,
+        "tagline": "Strengthen, protect, and beautify nails from root to tip with a dual-phase nail serum and botanical cuticle oil."
+      },
+      {
+        "product_name": "GlowFusion Dual-Phase Hydrating Toner",
+        "category": "Beauty & Personal Care",
+        "score": 7.8,
+        "tagline": "Two-phase technology that preps and plumps—the first step to radiant, hydrated skin."
+      }
+    ],
     "common_success_ingredients": [],
     "total_unique_opportunities": 0,
     "avg_opportunity_score": 0
   },
   "budget_summary": {
     "month": "2026-01",
-    "total_cost": 0.0,
-    "total_requests": 0,
-    "budget_limit": 150,
-    "budget_remaining": 150,
-    "budget_used_percent": 0.0
+    "total_cost": 0.11665699999999989,
+    "total_requests": 54,
+    "total_input_tokens": 29292,
+    "total_output_tokens": 17473,
+    "budget_limit": 150.0,
+    "budget_remaining": 149.883343,
+    "budget_used_percent": 0.07777133333333326,
+    "by_task_type": {
+      "attribute_extraction": {
+        "cost": 0.08200699999999989,
+        "requests": 50,
+        "input_tokens": 26912,
+        "output_tokens": 11019
+      },
+      "product_ideation": {
+        "cost": 0.03465,
+        "requests": 4,
+        "input_tokens": 2380,
+        "output_tokens": 6454
+      }
+    },
+    "by_model": {
+      "claude-haiku-4-5-20251001": {
+        "cost": 0.11665699999999989,
+        "requests": 54
+      }
+    }
   }
 }
