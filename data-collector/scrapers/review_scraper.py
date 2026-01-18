@@ -37,6 +37,24 @@ class ReviewScraper(BaseScraper):
         super().__init__()
         self.base_url = AMAZON_SETTINGS["base_url"]
 
+    async def scrape(
+        self,
+        asin: str,
+        max_reviews: int = None,
+        **kwargs
+    ) -> List[Dict[str, Any]]:
+        """
+        Abstract method implementation - delegates to scrape_from_product_page
+
+        Args:
+            asin: Product ASIN
+            max_reviews: Maximum number of reviews to collect
+
+        Returns:
+            list: Review data
+        """
+        return await self.scrape_from_product_page(asin=asin, max_reviews=max_reviews)
+
     async def scrape_from_product_page(
         self,
         asin: str,
