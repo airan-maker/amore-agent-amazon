@@ -384,11 +384,11 @@ export const AIMarketAnalysis = () => {
                       </td>
                       <td className="py-3 px-4">
                         <span className={`px-2 py-1 rounded text-xs ${
-                          product.brand.toLowerCase().includes('laneige')
+                          product.brand?.toLowerCase().includes('laneige')
                             ? 'bg-pink-500/20 text-pink-300'
                             : 'bg-white/10 text-white/70'
                         }`}>
-                          {product.brand}
+                          {product.brand || 'Unknown'}
                         </span>
                       </td>
                       <td className="py-3 px-4 text-white/80">
