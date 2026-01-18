@@ -75,7 +75,7 @@ class ProductScraper(BaseScraper):
         return product_data
 
     async def _extract_brand(self) -> Optional[str]:
-        """Extract brand name"""
+        """Extract brand name from 'Visit the X Store' or 'Brand: X' patterns"""
         selectors = [
             "#bylineInfo",
             "a[id='bylineInfo']",
@@ -83,12 +83,30 @@ class ProductScraper(BaseScraper):
         ]
 
         for selector in selectors:
-            brand = await self.extract_text(selector)
-            if brand:
-                # Clean "Visit the X Store" or "Brand: X"
-                brand = re.sub(r"Visit the (.*?) Store", r"\1", brand)
-                brand = re.sub(r"Brand:\s*", "", brand)
-                return brand.strip()
+            brand_text = await self.extract_text(selector)
+            if brand_text:
+                brand_text = brand_text.strip()
+
+                # Pattern 1: "Visit the [Brand Name] Store"
+                match = re.search(r'Visit\s+the\s+(.+?)\s+Store', brand_text, re.IGNORECASE)
+                if match:
+                    return match.group(1).strip()
+
+                # Pattern 2: "Brand: [Brand Name]"
+                match = re.search(r'Brand:\s*(.+)', brand_text, re.IGNORECASE)
+                if match:
+                    return match.group(1).strip()
+
+                # Pattern 3: Just the brand name (no prefix/suffix)
+                # If no pattern matched but text exists, try cleaning common patterns
+                cleaned = brand_text
+                cleaned = re.sub(r'^Visit\s+the\s+', '', cleaned, flags=re.IGNORECASE)
+                cleaned = re.sub(r'\s+Store$', '', cleaned, flags=re.IGNORECASE)
+                cleaned = re.sub(r'^Brand:\s*', '', cleaned, flags=re.IGNORECASE)
+                cleaned = cleaned.strip()
+
+                if cleaned and len(cleaned) > 0 and len(cleaned) < 100:
+                    return cleaned
 
         return None
 
