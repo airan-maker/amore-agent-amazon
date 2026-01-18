@@ -1,6 +1,6 @@
 /**
  * Load real historical data from collected snapshots
- * Reads all test_5_categories_YYYYMMDD.json files from historical folder
+ * Reads all beauty_rankings_YYYYMMDD.json files from historical folder
  */
 
 // Category hierarchy with depth information
@@ -74,14 +74,14 @@ const importHistoricalData = async () => {
   const historicalData = {};
 
   // Use Vite's import.meta.glob to dynamically import all historical files
-  // This automatically detects all test_5_categories_*.json files in the historical folder
-  const historicalFiles = import.meta.glob('../data/historical/test_5_categories_*.json', { eager: true });
+  // This automatically detects all beauty_rankings_*.json files in the historical folder
+  const historicalFiles = import.meta.glob('../data/historical/beauty_rankings_*.json', { eager: true });
 
   // Process each file
   for (const [path, module] of Object.entries(historicalFiles)) {
     try {
-      // Extract date from filename: test_5_categories_20260109.json -> 20260109
-      const match = path.match(/test_5_categories_(\d{8})\.json$/);
+      // Extract date from filename: beauty_rankings_20260109.json -> 20260109
+      const match = path.match(/beauty_rankings_(\d{8})\.json$/);
 
       if (match) {
         const dateStr = match[1];

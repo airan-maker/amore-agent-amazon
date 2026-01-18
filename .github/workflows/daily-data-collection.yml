@@ -48,18 +48,13 @@ jobs:
           # Copy category_products.json
           cp data-collector/output/category_products.json app/src/data/ 2>/dev/null || true
 
-          # Copy beauty_rankings to historical folder with correct naming
-          for file in data-collector/output/beauty_rankings_*.json; do
-            if [ -f "$file" ]; then
-              date_part=$(basename "$file" | sed 's/beauty_rankings_\([0-9]*\)\.json/\1/')
-              cp "$file" "app/src/data/historical/test_5_categories_${date_part}.json"
-            fi
-          done
+          # Copy beauty_rankings to historical folder
+          cp data-collector/output/beauty_rankings_*.json app/src/data/historical/ 2>/dev/null || true
 
       - name: Commit and push if changed
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add app/src/data/*.json
+          git add app/src/data/*.json app/src/data/historical/*.json
           git diff --staged --quiet || git commit -m "Auto-update: Daily data collection $(date +'%Y-%m-%d')"
           git push
