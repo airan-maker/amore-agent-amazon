@@ -340,13 +340,15 @@ class DataCollectionPipeline:
                     skipped_count += 1
                     return True
 
-            # Check cache first
+            # Check cache first (but skip if brand is missing)
             cached_data = self.cache_manager.get(asin)
-            if cached_data:
+            if cached_data and cached_data.get("brand"):
                 self.collected_data["products"][asin] = cached_data
                 enriched_count += 1
                 logger.success(f"[{idx}/{total_asins}] 💾 {asin} - Loaded from cache")
                 return True
+            elif cached_data and not cached_data.get("brand"):
+                logger.debug(f"[{idx}/{total_asins}] Cache has no brand for {asin}, re-scraping...")
 
             # Try scraping with retries
             for attempt in range(max_retries):
