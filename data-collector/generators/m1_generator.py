@@ -84,7 +84,7 @@ class M1Generator:
         Returns:
             Brand name
         """
-        brand = product_info.get("brand", "")
+        brand = product_info.get("brand", "") or ""
 
         # Check if brand is invalid (common scraping errors)
         invalid_brands = [
@@ -95,14 +95,14 @@ class M1Generator:
             ""
         ]
 
-        is_invalid = any(invalid in brand for invalid in invalid_brands) or not brand
+        is_invalid = not brand or any(invalid in brand for invalid in invalid_brands)
 
         if is_invalid:
             # Fallback to extracting from product name
-            product_name = product_info.get("product_name", "")
+            product_name = product_info.get("product_name", "") or ""
             brand = self._extract_brand_from_product_name(product_name)
 
-        return brand.strip()
+        return (brand or "Unknown").strip()
 
     def generate_breadcrumb_traffic(
         self,
