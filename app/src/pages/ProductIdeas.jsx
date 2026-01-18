@@ -72,7 +72,7 @@ export const ProductIdeas = () => {
         className="max-w-[1600px] mx-auto"
       >
         {/* Header */}
-        <div className="mb-16 text-center">
+        <div className="pt-8 mb-16 text-center">
           <h1 className="text-6xl font-extralight tracking-[0.2em] text-white/95 mb-6 text-gradient">
             LANEIGE INTELLIGENCE
           </h1>

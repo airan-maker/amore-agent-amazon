@@ -233,7 +233,7 @@ export const AIMarketAnalysis = () => {
         className="max-w-[1800px] mx-auto"
       >
         {/* Header */}
-        <div className="mb-16 text-center">
+        <div className="pt-8 mb-16 text-center">
           <h1 className="text-6xl font-extralight tracking-[0.2em] text-white/95 mb-6 text-gradient">
             LANEIGE INTELLIGENCE
           </h1>
@@ -271,22 +271,6 @@ export const AIMarketAnalysis = () => {
                 </option>
               ))}
             </select>
-            {/* Depth Legend */}
-            <div className="flex items-center gap-3 text-xs">
-              <span className="flex items-center gap-1">
-                <span className="w-2 h-2 rounded-full bg-yellow-400"></span>
-                <span className="text-yellow-400/70">Depth 0</span>
-              </span>
-              <span className="flex items-center gap-1">
-                <span className="w-2 h-2 rounded-full bg-blue-400"></span>
-                <span className="text-blue-400/70">Depth 1</span>
-              </span>
-              <span className="flex items-center gap-1">
-                <span className="w-2 h-2 rounded-full bg-gray-400"></span>
-                <span className="text-gray-400/70">Depth 2</span>
-              </span>
-            </div>
-
             {/* Date Filter */}
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4 text-purple-300" />
