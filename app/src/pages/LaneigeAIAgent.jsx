@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect, useRef } from 'react';
+import ReactMarkdown from 'react-markdown';
 import { GlassCard } from '../components/GlassCard';
 import { SourcesDisplay } from '../components/SourcesDisplay';
 import { Sparkles, Send, Bot, User, TrendingUp, DollarSign, Users, Target, Lightbulb, BarChart3 } from 'lucide-react';
@@ -178,8 +179,24 @@ export const LaneigeAIAgent = () => {
     if (answer.type === 'custom_claude') {
       return (
         <div className="space-y-4">
-          <div className="text-white/90 text-sm leading-relaxed whitespace-pre-wrap">
-            {answer.fullText}
+          <div className="text-white/90 text-sm leading-relaxed markdown-content">
+            <ReactMarkdown
+              components={{
+                h1: ({children}) => <h1 className="text-lg font-bold text-purple-300 mt-4 mb-2">{children}</h1>,
+                h2: ({children}) => <h2 className="text-base font-semibold text-purple-300 mt-4 mb-2">{children}</h2>,
+                h3: ({children}) => <h3 className="text-sm font-semibold text-purple-200 mt-3 mb-1">{children}</h3>,
+                p: ({children}) => <p className="text-white/90 my-2">{children}</p>,
+                strong: ({children}) => <strong className="text-purple-200 font-semibold">{children}</strong>,
+                ul: ({children}) => <ul className="list-disc list-inside my-2 space-y-1">{children}</ul>,
+                ol: ({children}) => <ol className="list-decimal list-inside my-2 space-y-1">{children}</ol>,
+                li: ({children}) => <li className="text-white/80">{children}</li>,
+                hr: () => <hr className="border-white/20 my-4" />,
+                code: ({children}) => <code className="text-purple-300 bg-white/10 px-1 rounded text-xs">{children}</code>,
+                blockquote: ({children}) => <blockquote className="border-l-2 border-purple-400 pl-3 text-white/70 italic my-2">{children}</blockquote>,
+              }}
+            >
+              {answer.fullText}
+            </ReactMarkdown>
           </div>
           {answer.usage && (
             <div className="text-white/30 text-xs mt-4 flex items-center gap-4">
