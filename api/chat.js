@@ -119,7 +119,7 @@ ${JSON.stringify(dataContext, null, 2)}`;
 
   const message = await client.messages.create({
     model: 'claude-haiku-4-5-20251001',
-    max_tokens: 2048,
+    max_tokens: 8192,
     temperature: 0.7,
     system: systemPrompt,
     messages: [{ role: 'user', content: question }]
