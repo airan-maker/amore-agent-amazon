@@ -187,7 +187,9 @@ class AutoCompetitorSelector:
         """
         # Check review count
         review_count = product_data.get("review_count", 0)
-        if isinstance(review_count, str):
+        if review_count is None:
+            review_count = 0
+        elif isinstance(review_count, str):
             review_count = int(review_count.replace(",", "")) if review_count else 0
 
         if review_count < min_review_count:
@@ -195,7 +197,9 @@ class AutoCompetitorSelector:
 
         # Check rating
         rating = product_data.get("rating", 0)
-        if isinstance(rating, str):
+        if rating is None:
+            rating = 0
+        elif isinstance(rating, str):
             rating = float(rating) if rating else 0
 
         if rating < min_rating:
