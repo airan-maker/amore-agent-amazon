@@ -1,6 +1,8 @@
 {
-  "analysis_date": "2026-01-11",
+  "analysis_date": "2026-01-18",
   "tracking_period": "Last 60 days",
+  "data_status": "demo",
+  "data_status_message": "히스토리컬 데이터 수집 중입니다. 7일 이상의 데이터가 축적되면 실제 신흥 브랜드 분석이 제공됩니다.",
   "emerging_brands": [
     {
       "brand": "BIODANCE",
@@ -11,43 +13,15 @@
         "review_growth_rate": "+285%",
         "avg_rating": 4.6,
         "product_count": 5,
-        "category_penetration": "3 categories",
-        "estimated_monthly_revenue": "$2.1M",
-        "price_range": "$18-35"
+        "category_penetration": "3 categories"
       },
-      "key_differentiators": [
+      "key_strengths": [
         "콜라겐 마스크 카테고리 선점으로 차별화 성공",
         "틱톡 바이럴로 인한 폭발적 인지도 상승",
         "한국 스킨케어 트렌드 선도"
       ],
-      "swot": {
-        "strengths": [
-          "TikTok/소셜미디어 바이럴 마케팅 성공 (조회수 5억+)",
-          "독자적인 바이오셀룰로오스 콜라겐 마스크 기술",
-          "젊은 층(18-28세) 타겟 정확한 포지셔닝",
-          "합리적 가격대로 K-Beauty 입문 장벽 낮춤"
-        ],
-        "weaknesses": [
-          "제품 라인업 한정적 (마스크팩 중심)",
-          "브랜드 히스토리 짧음 (2022년 설립)",
-          "리테일 유통망 미확보",
-          "Lip Care 등 인접 카테고리 미진입"
-        ],
-        "opportunities": [
-          "콜라겐 스킨케어 트렌드 지속 성장",
-          "미국 GenZ 소비자의 K-Beauty 선호도 증가",
-          "Amazon 프라임데이/블랙프라이데이 프로모션 활용",
-          "인플루언서 마케팅 확대 가능"
-        ],
-        "threats": [
-          "대형 K-Beauty 브랜드 (LANEIGE, COSRX) 마스크팩 라인 강화 시 경쟁 심화",
-          "일회성 바이럴로 끝날 가능성",
-          "원자재 가격 상승으로 마진 압박",
-          "copycat 제품 등장"
-        ]
-      },
-      "threat_assessment": "High threat: 'Facial Treatments & Masks' 카테고리에서 급성장 중. 60일간 +285% 리뷰 증가",
-      "laneige_response": "Water Sleeping Mask의 차별화된 하이드레이션 기술 강조. 마스크팩 라인 신제품 검토"
+      "laneige_threat_level": "High",
+      "strategic_response": "'Face Moisturizers' 카테고리에서 Sleeping Mask 라인의 차별화 포인트 강화 필요"
     },
     {
       "brand": "Anua",
@@ -58,43 +32,15 @@
         "review_growth_rate": "+156%",
         "avg_rating": 4.5,
         "product_count": 8,
-        "category_penetration": "2 categories",
-        "estimated_monthly_revenue": "$1.4M",
-        "price_range": "$18-28"
+        "category_penetration": "2 categories"
       },
-      "key_differentiators": [
-        "어성초(Heartleaf) 성분 기반 진정 케어 포지셔닝",
-        "합리적 가격대로 진입 장벽 낮춤 ($18-28)",
+      "key_strengths": [
+        "어성초 성분 기반 진정 케어 포지셔닝",
+        "합리적 가격대로 진입 장벽 낮춤",
         "SNS 마케팅 효과적 활용"
       ],
-      "swot": {
-        "strengths": [
-          "어성초 성분으로 명확한 브랜드 아이덴티티 구축",
-          "민감성/트러블 피부 타겟 전문성 인정",
-          "가성비 좋은 가격대 (토너 $18)",
-          "클린 뷰티 트렌드와 부합"
-        ],
-        "weaknesses": [
-          "미국 시장 인지도 COSRX 대비 낮음",
-          "어성초 외 다른 성분 라인업 부족",
-          "Lip Care 카테고리 미진입",
-          "프리미엄 라인 부재"
-        ],
-        "opportunities": [
-          "진정/민감성 피부 시장 성장 (+35% YoY)",
-          "클린 뷰티 인증 획득으로 차별화 가능",
-          "토너 카테고리에서 COSRX 대안으로 포지셔닝",
-          "Reddit/Skincare Addiction 커뮤니티 입소문"
-        ],
-        "threats": [
-          "COSRX의 강력한 시장 지배력",
-          "어성초 성분 copycat 제품 증가",
-          "원료 수급 불안정성",
-          "가격 경쟁 심화"
-        ]
-      },
-      "threat_assessment": "Medium threat: 토너/에센스 카테고리에서 경쟁 심화. 민감성 피부 타겟 고객층 잠식 우려",
-      "laneige_response": "Cream Skin 라인의 진정 효과 메시징 강화. 민감성 피부용 제품 라인 검토"
+      "laneige_threat_level": "Medium",
+      "strategic_response": "토너/에센스 라인업 확장 검토 및 진정 케어 메시징 강화"
     },
     {
       "brand": "Rhode",
@@ -105,306 +51,77 @@
         "review_growth_rate": "+89%",
         "avg_rating": 4.3,
         "product_count": 4,
-        "category_penetration": "2 categories",
-        "estimated_monthly_revenue": "$980K",
-        "price_range": "$16-29"
+        "category_penetration": "2 categories"
       },
-      "key_differentiators": [
+      "key_strengths": [
         "셀러브리티 브랜드 파워 (Hailey Bieber)",
         "립 케어 카테고리 신규 진입 성공",
         "미니멀리스트 브랜딩으로 MZ세대 공략"
       ],
-      "swot": {
-        "strengths": [
-          "Hailey Bieber 인지도 (인스타 팔로워 5천만+)",
-          "미니멀 & 클린 브랜딩으로 MZ세대 호응",
-          "Peptide Lip Treatment 제품 화제성",
-          "Sephora 독점 유통으로 프리미엄 이미지"
-        ],
-        "weaknesses": [
-          "셀럽 브랜드 = 품질 우려 인식 존재",
-          "제품 라인업 극히 제한적 (4개)",
-          "Amazon 입점 늦음 (2024년)",
-          "K-Beauty 대비 기술력 스토리 부족"
-        ],
-        "opportunities": [
-          "셀럽 팬덤 → 제품 구매 전환",
-          "Lip Care 시장 지속 성장 (+18% YoY)",
-          "콜라보레이션/리미티드 에디션 출시",
-          "바디케어 라인 확장 가능성"
-        ],
-        "threats": [
-          "LANEIGE Lip Sleeping Mask의 압도적 인지도",
-          "셀럽 스캔들 시 브랜드 이미지 타격",
-          "Aquaphor/Burt's Bees 가격 경쟁력",
-          "일시적 트렌드로 끝날 위험"
-        ]
-      },
-      "threat_assessment": "Medium threat: 'Lip Care' 카테고리에서 신규 경쟁자로 부상. 셀럽 마케팅 파워 주시 필요",
-      "laneige_response": "K-Beauty 헤리티지와 20년+ Water Science 기술력 강조로 차별화"
-    },
-    {
-      "brand": "Beauty of Joseon",
-      "status": "growing",
-      "emergence_score": 5.8,
-      "metrics": {
-        "total_reviews": 12500,
-        "review_growth_rate": "+72%",
-        "avg_rating": 4.5,
-        "product_count": 12,
-        "category_penetration": "3 categories",
-        "estimated_monthly_revenue": "$1.8M",
-        "price_range": "$12-25"
-      },
-      "key_differentiators": [
-        "한방(Hanbang) 성분 기반 차별화된 브랜드 스토리",
-        "선크림 카테고리에서 강세 (Relief Sun)",
-        "프리미엄 K-Beauty 포지셔닝"
-      ],
-      "swot": {
-        "strengths": [
-          "한방(전통 한국 미용) 스토리텔링",
-          "Relief Sun Rice + Probiotics 제품 베스트셀러",
-          "합리적 가격대 ($12-25)",
-          "성분 덕후층 확보 (인삼, 쌀 추출물 등)"
-        ],
-        "weaknesses": [
-          "Lip Care 카테고리 미진입",
-          "'한방' 컨셉이 미국 소비자에게 생소할 수 있음",
-          "마스크팩/슬리핑 마스크 라인 부재",
-          "브랜드명 발음 어려움"
-        ],
-        "opportunities": [
-          "선케어 시장 지속 성장",
-          "'Clean Beauty + K-Beauty' 교차 포지셔닝",
-          "아시안 뷰티 전통에 대한 관심 증가",
-          "Glow Recipe 다음 세대 K-Beauty 리더 가능성"
-        ],
-        "threats": [
-          "COSRX, LANEIGE 등 대형 브랜드 선케어 강화",
-          "한방 성분 효능에 대한 과학적 검증 요구",
-          "La Roche-Posay 등 더마 브랜드 경쟁",
-          "원료 수급 및 품질 관리"
-        ]
-      },
-      "threat_assessment": "Low threat: 직접 경쟁 카테고리 중복 적음. 선케어 중심으로 보완재 관계 가능",
-      "laneige_response": "선케어 라인업 강화 검토. 한국 미용 전통 스토리텔링 벤치마킹"
+      "laneige_threat_level": "Medium",
+      "strategic_response": "'Lip Care' 카테고리에서 K-Beauty 헤리티지 강조로 차별화"
     }
   ],
-  "price_segment_analysis": {
-    "analysis_date": "2026-01-11",
-    "lip_care_category": {
-      "budget": {
-        "price_range": "$3-8",
-        "key_players": ["Burt's Bees ($4.29)", "ChapStick ($3.99)", "Carmex ($4.49)"],
-        "market_share": "42%",
-        "consumer_profile": "가성비 추구, 일상적 사용",
-        "laneige_position": "미진입"
-      },
-      "mid_range": {
-        "price_range": "$8-18",
-        "key_players": ["Aquaphor ($8.99)", "Vaseline ($7.49)", "Jack Black ($10)"],
-        "market_share": "35%",
-        "consumer_profile": "품질과 가격 균형 추구",
-        "laneige_position": "미진입"
-      },
-      "premium": {
-        "price_range": "$18-30",
-        "key_players": ["LANEIGE Lip Sleeping Mask ($24)", "Rhode Peptide Lip Treatment ($16)", "Tatcha ($28)"],
-        "market_share": "18%",
-        "consumer_profile": "K-Beauty 마니아, 프리미엄 스킨케어 추구",
-        "laneige_position": "시장 리더 - 카테고리 정의 제품"
-      },
-      "luxury": {
-        "price_range": "$30+",
-        "key_players": ["La Mer ($65)", "Sisley ($75)", "Chanel ($40)"],
-        "market_share": "5%",
-        "consumer_profile": "럭셔리 뷰티 소비자",
-        "laneige_position": "미진입 - 진입 기회 존재"
-      }
-    },
-    "face_moisturizers_category": {
-      "budget": {
-        "price_range": "$5-15",
-        "key_players": ["CeraVe ($15.99)", "Cetaphil ($14.99)", "Neutrogena ($12.99)"],
-        "market_share": "48%",
-        "consumer_profile": "더마/민감성 피부, 기본 보습",
-        "laneige_position": "미진입"
-      },
-      "mid_range": {
-        "price_range": "$15-35",
-        "key_players": ["COSRX ($25)", "Anua ($22)", "La Roche-Posay ($32)"],
-        "market_share": "32%",
-        "consumer_profile": "성분 중시, K-Beauty 입문자",
-        "laneige_position": "Water Bank 라인 진입 중"
-      },
-      "premium": {
-        "price_range": "$35-60",
-        "key_players": ["LANEIGE Water Sleeping Mask ($38)", "Drunk Elephant ($52)", "Summer Fridays ($42)"],
-        "market_share": "15%",
-        "consumer_profile": "프리미엄 스킨케어 투자",
-        "laneige_position": "강세 - Sleeping Mask 라인 선도"
-      },
-      "luxury": {
-        "price_range": "$60+",
-        "key_players": ["SK-II ($99)", "La Mer ($195)", "Sulwhasoo ($88)"],
-        "market_share": "5%",
-        "consumer_profile": "럭셔리 안티에이징",
-        "laneige_position": "미진입"
-      }
-    },
-    "strategic_implications": [
-      {
-        "insight": "LANEIGE는 프리미엄($18-60) 세그먼트에서 강력한 포지션 확보",
-        "action": "프리미엄 가치 제안 강화 - 기술력, 효능, 브랜드 헤리티지 스토리텔링"
-      },
-      {
-        "insight": "버짓 세그먼트($3-15)에 미진입으로 대중 시장 접근 제한",
-        "action": "트래블 사이즈/미니 제품으로 entry-level 제품 검토 (체험 유도)"
-      },
-      {
-        "insight": "럭셔리 세그먼트($60+)는 Sulwhasoo 등 아모레퍼시픽 자매 브랜드와 역할 분담",
-        "action": "LANEIGE는 'Accessible Premium' 포지셔닝 유지"
-      }
-    ]
-  },
   "category_growth_rates": {
     "Lip_Care": "+18% growth",
     "Face_Moisturizers": "+12% growth",
     "Skin_Care": "+8% growth",
-    "Facial_Treatments_and_Masks": "+22% growth",
-    "Facial_Skin_Care": "+15% growth",
-    "Body_Skin_Care": "+6% growth"
-  },
-  "seasonal_trends": {
-    "analysis_period": "2025-2026",
-    "lip_care": {
-      "Q1_Winter": {
-        "demand_index": 142,
-        "peak_month": "January",
-        "key_drivers": ["건조한 날씨", "난방으로 인한 실내 건조", "새해 셀프케어 결심"],
-        "top_search_terms": ["chapped lips", "overnight lip mask", "winter lip care"],
-        "laneige_opportunity": "Lip Sleeping Mask 겨울 집중 마케팅 시즌"
-      },
-      "Q2_Spring": {
-        "demand_index": 98,
-        "peak_month": "March",
-        "key_drivers": ["알레르기 시즌", "봄 메이크업 준비"],
-        "top_search_terms": ["lip prep for lipstick", "spring lip care"],
-        "laneige_opportunity": "립스틱 베이스로서의 Lip Sleeping Mask 포지셔닝"
-      },
-      "Q3_Summer": {
-        "demand_index": 85,
-        "peak_month": "June",
-        "key_drivers": ["선크림과 함께 사용", "여행 필수템"],
-        "top_search_terms": ["SPF lip balm", "travel lip care", "beach lip protection"],
-        "laneige_opportunity": "Lip Glowy Balm (SPF 포함) 프로모션"
-      },
-      "Q4_Fall": {
-        "demand_index": 125,
-        "peak_month": "November",
-        "key_drivers": ["홀리데이 기프트 시즌", "건조해지는 날씨", "블랙프라이데이"],
-        "top_search_terms": ["lip care gift set", "holiday beauty", "lip mask gift"],
-        "laneige_opportunity": "홀리데이 기프트 세트 출시, 블랙프라이데이 프로모션"
-      }
-    },
-    "sleeping_masks": {
-      "Q1_Winter": {
-        "demand_index": 138,
-        "peak_month": "February",
-        "key_drivers": ["건조한 피부 집중 케어", "밸런타인 셀프케어"],
-        "top_search_terms": ["overnight hydration", "winter skin repair", "sleeping pack"],
-        "laneige_opportunity": "Water Sleeping Mask 겨울 보습 캠페인"
-      },
-      "Q2_Spring": {
-        "demand_index": 105,
-        "peak_month": "April",
-        "key_drivers": ["봄 피부 리뉴얼", "웨딩 시즌 준비"],
-        "top_search_terms": ["skin renewal", "glow skin", "bridal skincare"],
-        "laneige_opportunity": "피부 광채 포커스 마케팅"
-      },
-      "Q3_Summer": {
-        "demand_index": 92,
-        "peak_month": "July",
-        "key_drivers": ["자외선 손상 후 진정", "에어컨으로 인한 건조"],
-        "top_search_terms": ["after sun care", "summer hydration", "cooling mask"],
-        "laneige_opportunity": "Cica Sleeping Mask 프로모션 (진정 효과)"
-      },
-      "Q4_Fall": {
-        "demand_index": 118,
-        "peak_month": "October",
-        "key_drivers": ["환절기 피부 케어", "홀리데이 준비"],
-        "top_search_terms": ["fall skincare routine", "overnight mask gift"],
-        "laneige_opportunity": "홀리데이 스킨케어 세트 구성"
-      }
-    },
-    "yearly_calendar": [
-      {"month": "January", "event": "New Year Self-Care", "focus": "Lip Care 집중", "promo_type": "신년 프로모션"},
-      {"month": "February", "event": "Valentine's Day", "focus": "기프트 세트", "promo_type": "밸런타인 패키지"},
-      {"month": "March", "event": "Spring Break", "focus": "여행용 미니 세트", "promo_type": "트래블 키트"},
-      {"month": "April", "event": "Earth Month", "focus": "지속가능성 메시지", "promo_type": "리필/에코 캠페인"},
-      {"month": "May", "event": "Mother's Day", "focus": "기프트 세트", "promo_type": "어버이날 패키지"},
-      {"month": "June", "event": "Summer Kick-off", "focus": "SPF/선케어", "promo_type": "여름 프로모션"},
-      {"month": "July", "event": "Amazon Prime Day", "focus": "전 제품 할인", "promo_type": "프라임데이 딜"},
-      {"month": "August", "event": "Back to School", "focus": "스킨케어 루틴 세트", "promo_type": "번들 딜"},
-      {"month": "September", "event": "Fall Transition", "focus": "보습 전환", "promo_type": "환절기 케어"},
-      {"month": "October", "event": "Prime Big Deal Days", "focus": "전 제품 할인", "promo_type": "가을 프라임데이"},
-      {"month": "November", "event": "Black Friday/Cyber Monday", "focus": "연중 최대 할인", "promo_type": "블프 메가딜"},
-      {"month": "December", "event": "Holiday Gifting", "focus": "리미티드 에디션", "promo_type": "홀리데이 세트"}
-    ]
+    "Facial_Treatments_and_Masks": "+22% growth"
   },
   "laneige_position": {
     "strengths": [
-      "K-Beauty 헤리티지와 글로벌 브랜드 인지도 (70+ 국가 진출)",
-      "Lip Sleeping Mask로 카테고리 리더십 확보 (Amazon Best Seller #1)",
-      "우수한 제품 리뷰 점수 (4.5점 이상, 100K+ 리뷰)",
-      "혁신적인 Water Science™ 기술력 (20년+ R&D)",
-      "아모레퍼시픽 그룹의 글로벌 인프라 및 자원"
+      "K-Beauty 헤리티지와 글로벌 브랜드 인지도",
+      "Lip Sleeping Mask로 카테고리 리더십 확보",
+      "우수한 제품 리뷰 점수 (4.5점 이상)",
+      "혁신적인 Water Science 기술력"
     ],
     "vulnerabilities": [
-      "가격 민감도: 프리미엄 가격대($24-38)로 인한 진입 장벽",
-      "신규 K-Beauty 경쟁자 (BIODANCE, Anua) 급성장",
-      "제한적인 제품 라인업 다양성 (Lip + Sleeping Mask 집중)",
-      "Amazon 전용 제품/가격 부재로 채널 최적화 미흡",
-      "GenZ 타겟 소셜미디어 마케팅 BIODANCE 대비 약세"
+      "가격 민감도: 프리미엄 가격대로 인한 진입 장벽",
+      "신규 K-Beauty 경쟁자 증가",
+      "제한적인 제품 라인업 다양성"
     ],
-    "strategic_positioning": "LANEIGE는 'Accessible Premium K-Beauty' 포지셔닝으로 $18-60 가격대에서 품질과 혁신으로 승부합니다. Lip Sleeping Mask와 Water Sleeping Mask라는 카테고리 정의 제품을 보유하고 있으며, 20년 이상의 Water Science 연구를 기반으로 한 기술력 스토리텔링이 핵심 차별화 요소입니다. 신규 K-Beauty 브랜드들의 빠른 성장에 대응하여 TikTok/Instagram 마케팅 강화와 Amazon 채널 최적화가 필요합니다.",
+    "strategic_positioning": "LANEIGE는 K-Beauty 프리미엄 브랜드로서 혁신적인 수면 마스크 라인으로 차별화된 포지셔닝을 확보하고 있습니다.",
     "metrics": {
       "total_reviews_analyzed": 45000,
       "avg_rating": 4.5,
       "product_count": 12,
-      "market_share": "8.5%",
-      "category_penetration": "Lip Care, Face Moisturizers"
+      "market_share": "8.5%"
     }
   },
   "market_trends": [
     {
       "trend": "Overnight Beauty Routine 강세",
-      "leaders": ["LANEIGE Lip Sleeping Mask", "COSRX", "BIODANCE"],
+      "leaders": [
+        "LANEIGE Lip Sleeping Mask",
+        "COSRX",
+        "BIODANCE"
+      ],
       "growth_rate": "+45% YoY",
-      "laneige_gap": "LANEIGE는 이 트렌드의 선두주자로 Lip Sleeping Mask가 시장을 리드 중",
-      "recommendation": "수면 중 집중 케어 제품 라인 확장 및 '8시간 케어' 메시징 강화"
+      "opportunity": "수면 중 집중 케어 제품 라인 확장 및 '8시간 케어' 메시징 강화",
+      "threat_level": "Low"
     },
     {
       "trend": "K-Beauty 브랜드 시장 지배력 확대",
-      "leaders": ["LANEIGE", "COSRX", "medicube", "BIODANCE"],
+      "leaders": [
+        "LANEIGE",
+        "COSRX",
+        "medicube",
+        "BIODANCE"
+      ],
       "growth_rate": "+60% YoY",
-      "laneige_gap": "K-Beauty 선두 그룹에 포함되어 있으나 COSRX, BIODANCE의 성장세 주시 필요",
-      "recommendation": "K-Beauty 헤리티지 스토리텔링 및 혁신 기술 강조"
+      "opportunity": "K-Beauty 헤리티지 스토리텔링 및 혁신 기술 강조",
+      "threat_level": "Medium"
     },
     {
       "trend": "클린 뷰티 & 민감성 피부 케어",
-      "leaders": ["CeraVe", "La Roche-Posay", "Anua"],
+      "leaders": [
+        "CeraVe",
+        "La Roche-Posay",
+        "Anua"
+      ],
       "growth_rate": "+35% YoY",
-      "laneige_gap": "클린 뷰티 트렌드에서 LANEIGE의 포지셔닝이 명확하지 않음",
-      "recommendation": "피부과학 기반 저자극 포뮬레이션 강조 및 클린 뷰티 인증 검토"
-    },
-    {
-      "trend": "다용도 제품 선호도 증가",
-      "leaders": ["Summer Fridays", "Aquaphor", "Burt's Bees"],
-      "growth_rate": "+30% YoY",
-      "laneige_gap": "LANEIGE 제품의 다용도 활용 사례가 소비자에게 충분히 전달되지 않음",
-      "recommendation": "제품의 다양한 사용법 가이드 제공 및 UGC 마케팅 강화"
+      "opportunity": "피부과학 기반 저자극 포뮬레이션 강조",
+      "threat_level": "Low"
     }
   ],
   "established_competitors": [
@@ -414,42 +131,15 @@
       "metrics": {
         "total_reviews": 125000,
         "avg_rating": 4.7,
-        "product_count": 15,
-        "price_range": "$5-15",
-        "estimated_monthly_revenue": "$4.2M"
+        "product_count": 15
       },
       "competitive_moat": [
-        "Beiersdorf 그룹의 100년+ 헤리티지",
-        "피부과 의사 추천 브랜드 이미지",
-        "방대한 고객 리뷰 데이터 (125K+ reviews)",
-        "의료/치유 포지셔닝으로 신뢰도 확보"
+        "강력한 브랜드 인지도",
+        "방대한 고객 리뷰",
+        "의료/치유 포지셔닝"
       ],
-      "swot": {
-        "strengths": [
-          "피부과 의사 추천 No.1 브랜드",
-          "Healing Ointment 제품 인지도 압도적",
-          "가격 경쟁력 ($5-15)",
-          "드럭스토어 유통망 확보"
-        ],
-        "weaknesses": [
-          "프리미엄/뷰티 이미지 부족",
-          "K-Beauty 트렌드와 무관",
-          "젊은 층에게 '올드한' 브랜드 인식",
-          "소셜미디어 마케팅 약세"
-        ],
-        "opportunities": [
-          "립케어 시장 지속 성장",
-          "베이비/아이 제품 확장",
-          "민감성 피부 시장 확대"
-        ],
-        "threats": [
-          "K-Beauty 브랜드 성장",
-          "프리미엄 립케어 시장 확대",
-          "천연/클린 뷰티 트렌드"
-        ]
-      },
-      "threat_assessment": "High threat: Lip Care 카테고리 1위 유지 중. 가격 경쟁력과 신뢰도로 mass market 장악",
-      "laneige_response": "프리미엄 K-Beauty 포지셔닝으로 차별화. '치료'가 아닌 '뷰티/케어' 목적 강조"
+      "threat_assessment": "High threat: Lip Care 카테고리 1위 유지",
+      "laneige_response": "프리미엄 K-Beauty 포지셔닝으로 차별화"
     },
     {
       "brand": "Burt's Bees",
@@ -457,85 +147,15 @@
       "metrics": {
         "total_reviews": 98000,
         "avg_rating": 4.5,
-        "product_count": 25,
-        "price_range": "$3-12",
-        "estimated_monthly_revenue": "$3.5M"
+        "product_count": 25
       },
       "competitive_moat": [
-        "천연/자연주의 브랜드 대명사",
-        "Clorox 그룹 자원 및 유통망",
+        "자연주의 브랜딩",
         "폭넓은 제품 라인업",
-        "합리적 가격대로 대중 시장 공략"
+        "합리적 가격대"
       ],
-      "swot": {
-        "strengths": [
-          "천연 성분 브랜드 인지도 #1",
-          "100% 자연 유래 성분 마케팅",
-          "Beeswax 립밤 아이코닉 제품",
-          "친환경 패키징"
-        ],
-        "weaknesses": [
-          "혁신 제품 부족 (전통적 립밤 중심)",
-          "스킨케어 확장 제한적",
-          "K-Beauty 트렌드 무관",
-          "프리미엄 라인 부재"
-        ],
-        "opportunities": [
-          "지속가능성 트렌드 강화",
-          "클린 뷰티 인증 확대",
-          "MZ세대 친환경 소비자 공략"
-        ],
-        "threats": [
-          "프리미엄 립케어 시장 성장",
-          "K-Beauty 브랜드 자연주의 마케팅",
-          "copycat 천연 브랜드 증가"
-        ]
-      },
-      "threat_assessment": "Medium threat: 자연주의 소비자층 확보. 가격대가 달라 직접 경쟁 제한적",
-      "laneige_response": "기술력과 혁신성 강조로 차별화. 'Science meets Nature' 메시징"
-    },
-    {
-      "brand": "COSRX",
-      "market_position": "Strong Competitor",
-      "metrics": {
-        "total_reviews": 85000,
-        "avg_rating": 4.6,
-        "product_count": 30,
-        "price_range": "$12-28",
-        "estimated_monthly_revenue": "$5.8M"
-      },
-      "competitive_moat": [
-        "K-Beauty 대표 브랜드로서의 인지도",
-        "Snail Mucin 에센스로 카테고리 정의",
-        "성분 중심 마케팅으로 스킨케어 매니아층 확보",
-        "가성비 높은 제품 라인업"
-      ],
-      "swot": {
-        "strengths": [
-          "스네일 뮤신 = COSRX 공식 확립",
-          "Reddit/Skincare Addiction 커뮤니티 지지",
-          "가성비 K-Beauty 대표주자",
-          "폭넓은 제품 라인업 (30개+)"
-        ],
-        "weaknesses": [
-          "Lip Care 카테고리 미진입",
-          "프리미엄 라인 부재",
-          "브랜드 스토리텔링 약함",
-          "슬리핑 마스크 라인 LANEIGE 대비 약세"
-        ],
-        "opportunities": [
-          "Lip Care 카테고리 진입",
-          "프리미엄 라인 확장",
-          "글로벌 K-Beauty 붐 활용"
-        ],
-        "threats": [
-          "LANEIGE 프리미엄 포지셔닝",
-          "신규 K-Beauty 브랜드 (Anua, BIODANCE)",
-          "성분 copycat 제품"
-        ]
-      },
-      "threat_assessment": "Medium threat: 동일 K-Beauty 카테고리에서 경쟁. 가격대/타겟 다소 차이",
-      "laneige_response": "프리미엄 라인과 혁신 기술로 상위 포지셔닝 유지. Lip Care 리더십 강화"
+      "threat_assessment": "Medium threat: 자연주의 소비자층 확보",
+      "laneige_response": "기술력과 혁신성 강조로 차별화"
     }
   ],
   "pattern_insights": {

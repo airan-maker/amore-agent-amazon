@@ -1,379 +1,111 @@
 {
-  "analysis_date": "2026-01-11",
-  "brand": "LANEIGE",
-  "review_keyword_analysis": {
-    "analysis_period": "Last 90 days",
-    "total_reviews_analyzed": 45000,
-    "brand_perception_comparison": [
-      {
-        "brand": "LANEIGE",
-        "total_reviews": 12500,
-        "avg_rating": 4.5,
-        "positive_keywords": [
-          {"keyword": "soft lips", "frequency": 2840, "sentiment": 0.94},
-          {"keyword": "overnight miracle", "frequency": 1920, "sentiment": 0.92},
-          {"keyword": "love the scent", "frequency": 1650, "sentiment": 0.89},
-          {"keyword": "holy grail", "frequency": 1420, "sentiment": 0.96},
-          {"keyword": "worth the price", "frequency": 1180, "sentiment": 0.85},
-          {"keyword": "smooth texture", "frequency": 980, "sentiment": 0.91},
-          {"keyword": "great gift", "frequency": 820, "sentiment": 0.88}
-        ],
-        "negative_keywords": [
-          {"keyword": "too expensive", "frequency": 420, "sentiment": 0.25},
-          {"keyword": "small amount", "frequency": 380, "sentiment": 0.32},
-          {"keyword": "sticky feeling", "frequency": 290, "sentiment": 0.28},
-          {"keyword": "strong fragrance", "frequency": 185, "sentiment": 0.35}
-        ],
-        "unique_associations": ["K-Beauty", "sleeping mask", "berry scent", "pink jar"],
-        "brand_perception_score": 8.7,
-        "key_insight": "프리미엄 K-Beauty 대표 제품으로 인식. '효과'와 '경험' 모두 긍정적이나 가격 저항 존재"
-      },
-      {
-        "brand": "Aquaphor",
-        "total_reviews": 18500,
-        "avg_rating": 4.7,
-        "positive_keywords": [
-          {"keyword": "heals cracked lips", "frequency": 4250, "sentiment": 0.95},
-          {"keyword": "dermatologist recommended", "frequency": 3120, "sentiment": 0.93},
-          {"keyword": "multi-purpose", "frequency": 2840, "sentiment": 0.88},
-          {"keyword": "great value", "frequency": 2150, "sentiment": 0.91},
-          {"keyword": "works instantly", "frequency": 1980, "sentiment": 0.94},
-          {"keyword": "no fragrance", "frequency": 1450, "sentiment": 0.86}
-        ],
-        "negative_keywords": [
-          {"keyword": "too greasy", "frequency": 890, "sentiment": 0.28},
-          {"keyword": "not cosmetically elegant", "frequency": 520, "sentiment": 0.35},
-          {"keyword": "basic packaging", "frequency": 380, "sentiment": 0.42}
-        ],
-        "unique_associations": ["healing", "medical-grade", "ointment", "drugstore"],
-        "brand_perception_score": 8.9,
-        "key_insight": "치료/치유 목적 1위. 의료적 신뢰도 높으나 뷰티/프리미엄 이미지 부족"
-      },
-      {
-        "brand": "COSRX",
-        "total_reviews": 14200,
-        "avg_rating": 4.6,
-        "positive_keywords": [
-          {"keyword": "glowing skin", "frequency": 3250, "sentiment": 0.93},
-          {"keyword": "snail mucin", "frequency": 2980, "sentiment": 0.91},
-          {"keyword": "hydrating", "frequency": 2650, "sentiment": 0.89},
-          {"keyword": "affordable K-Beauty", "frequency": 2180, "sentiment": 0.92},
-          {"keyword": "cleared my acne", "frequency": 1850, "sentiment": 0.95},
-          {"keyword": "lightweight", "frequency": 1420, "sentiment": 0.87}
-        ],
-        "negative_keywords": [
-          {"keyword": "slimy texture", "frequency": 680, "sentiment": 0.32},
-          {"keyword": "no instant results", "frequency": 520, "sentiment": 0.38},
-          {"keyword": "plain packaging", "frequency": 290, "sentiment": 0.45}
-        ],
-        "unique_associations": ["snail", "K-Beauty", "acne-prone", "essence"],
-        "brand_perception_score": 8.4,
-        "key_insight": "가성비 K-Beauty 대표. Snail Mucin으로 독보적 포지션. 스킨케어 마니아층 충성도 높음"
-      },
-      {
-        "brand": "BIODANCE",
-        "total_reviews": 8920,
-        "avg_rating": 4.6,
-        "positive_keywords": [
-          {"keyword": "TikTok viral", "frequency": 2150, "sentiment": 0.88},
-          {"keyword": "collagen boost", "frequency": 1980, "sentiment": 0.91},
-          {"keyword": "visible results", "frequency": 1650, "sentiment": 0.93},
-          {"keyword": "dissolving mask", "frequency": 1420, "sentiment": 0.89},
-          {"keyword": "plump skin", "frequency": 1180, "sentiment": 0.92},
-          {"keyword": "fun to use", "frequency": 920, "sentiment": 0.85}
-        ],
-        "negative_keywords": [
-          {"keyword": "pricey for mask", "frequency": 580, "sentiment": 0.28},
-          {"keyword": "single use", "frequency": 420, "sentiment": 0.35},
-          {"keyword": "hard to find", "frequency": 320, "sentiment": 0.42}
-        ],
-        "unique_associations": ["TikTok", "collagen", "dissolving", "K-Beauty viral"],
-        "brand_perception_score": 8.2,
-        "key_insight": "소셜미디어 바이럴 성공. 혁신적 제형으로 GenZ 타겟 정확히 공략"
-      },
-      {
-        "brand": "Burt's Bees",
-        "total_reviews": 15800,
-        "avg_rating": 4.5,
-        "positive_keywords": [
-          {"keyword": "natural ingredients", "frequency": 4120, "sentiment": 0.92},
-          {"keyword": "great everyday balm", "frequency": 3250, "sentiment": 0.89},
-          {"keyword": "minty fresh", "frequency": 2180, "sentiment": 0.86},
-          {"keyword": "eco-friendly", "frequency": 1920, "sentiment": 0.91},
-          {"keyword": "affordable", "frequency": 1750, "sentiment": 0.88},
-          {"keyword": "classic product", "frequency": 1280, "sentiment": 0.85}
-        ],
-        "negative_keywords": [
-          {"keyword": "not moisturizing enough", "frequency": 720, "sentiment": 0.32},
-          {"keyword": "waxy feeling", "frequency": 580, "sentiment": 0.35},
-          {"keyword": "melts easily", "frequency": 420, "sentiment": 0.38}
-        ],
-        "unique_associations": ["beeswax", "natural", "chapstick alternative", "yellow tube"],
-        "brand_perception_score": 8.0,
-        "key_insight": "자연주의 립케어 대표. 일상적 사용에 최적화. 혁신보다 신뢰와 일관성"
-      }
-    ],
-    "keyword_battle_analysis": {
-      "hydration_moisturization": {
-        "description": "보습력 관련 키워드 경쟁 분석",
-        "rankings": [
-          {"brand": "LANEIGE", "score": 92, "key_phrase": "overnight hydration miracle"},
-          {"brand": "Aquaphor", "score": 89, "key_phrase": "intense moisture seal"},
-          {"brand": "COSRX", "score": 85, "key_phrase": "lightweight hydration"},
-          {"brand": "BIODANCE", "score": 82, "key_phrase": "deep moisture infusion"},
-          {"brand": "Burt's Bees", "score": 68, "key_phrase": "natural moisture"}
-        ],
-        "laneige_position": "보습력 인식 1위. 'Overnight'과 결합된 집중 보습 이미지"
-      },
-      "value_for_money": {
-        "description": "가성비 관련 키워드 경쟁 분석",
-        "rankings": [
-          {"brand": "COSRX", "score": 94, "key_phrase": "affordable K-Beauty"},
-          {"brand": "Burt's Bees", "score": 91, "key_phrase": "great everyday value"},
-          {"brand": "Aquaphor", "score": 88, "key_phrase": "drugstore hero"},
-          {"brand": "BIODANCE", "score": 62, "key_phrase": "worth trying"},
-          {"brand": "LANEIGE", "score": 58, "key_phrase": "worth the splurge"}
-        ],
-        "laneige_position": "가성비 인식 하위. 프리미엄 가격 정당화 필요"
-      },
-      "texture_experience": {
-        "description": "사용감/텍스처 관련 키워드 경쟁 분석",
-        "rankings": [
-          {"brand": "LANEIGE", "score": 91, "key_phrase": "smooth, non-sticky"},
-          {"brand": "COSRX", "score": 84, "key_phrase": "lightweight, absorbs well"},
-          {"brand": "BIODANCE", "score": 82, "key_phrase": "unique dissolving texture"},
-          {"brand": "Burt's Bees", "score": 72, "key_phrase": "classic balm feel"},
-          {"brand": "Aquaphor", "score": 65, "key_phrase": "thick, protective"}
-        ],
-        "laneige_position": "텍스처/사용감 1위. 부드럽고 비점착성 텍스처로 차별화"
-      },
-      "results_efficacy": {
-        "description": "효과/결과 관련 키워드 경쟁 분석",
-        "rankings": [
-          {"brand": "Aquaphor", "score": 95, "key_phrase": "heals overnight"},
-          {"brand": "LANEIGE", "score": 90, "key_phrase": "wake up with soft lips"},
-          {"brand": "COSRX", "score": 87, "key_phrase": "visible skin improvement"},
-          {"brand": "BIODANCE", "score": 85, "key_phrase": "instant plumping effect"},
-          {"brand": "Burt's Bees", "score": 70, "key_phrase": "keeps lips moisturized"}
-        ],
-        "laneige_position": "효과 인식 2위. Aquaphor의 '치료' 이미지가 더 강력"
-      }
-    }
-  },
+  "analysis_date": "2026-01-18",
+  "brand": "Summer",
   "cross_brand_insights": [
     {
       "theme": "Overnight/Night Care 트렌드",
-      "affected_brands": ["LANEIGE", "COSRX", "Summer Fridays", "Aquaphor"],
-      "insight": "소비자들은 수면 중 피부 회복을 핵심 니즈로 인식. '8시간 케어', 'Wake up to...' 메시지가 효과적",
-      "consumer_quotes": [
-        "I put it on before bed and wake up with the softest lips ever",
-        "Best overnight treatment I've ever used",
-        "It works while you sleep - what's not to love?"
+      "affected_brands": [
+        "Summer",
+        "Summer",
+        "Summer",
+        "Anua"
       ],
+      "insight": "4개 브랜드가 야간 집중 케어 컨셉으로 포지셔닝. 소비자들은 수면 중 피부 회복을 핵심 니즈로 인식",
       "opportunity": "LANEIGE Sleeping Mask 라인의 '수면 중 집중 케어' 메시징 강화하여 카테고리 리더십 확보",
       "market_size": "Overnight skincare 시장 예상 규모: $450M (미국 기준, 연 15% 성장)"
-    },
-    {
-      "theme": "K-Beauty 프리미엄화",
-      "affected_brands": ["LANEIGE", "COSRX", "BIODANCE", "Anua"],
-      "insight": "K-Beauty가 'affordable skincare'에서 'premium innovation'으로 인식 전환 중",
-      "consumer_quotes": [
-        "Korean skincare is worth the investment",
-        "LANEIGE feels luxurious compared to drugstore options",
-        "I trust K-Beauty for real results"
-      ],
-      "opportunity": "K-Beauty 혁신 기술과 프리미엄 품질 스토리텔링 강화",
-      "market_size": "K-Beauty 미국 시장: $1.8B (연 20% 성장)"
-    },
-    {
-      "theme": "Multi-Purpose Product 선호",
-      "affected_brands": ["Aquaphor", "Vaseline", "LANEIGE"],
-      "insight": "소비자들이 평균 3.0가지 상황에서 동일 제품 사용. 다양한 활용법 공유가 구매 결정에 영향",
-      "consumer_quotes": [
-        "I use LANEIGE lip mask as a cheek highlight too",
-        "Aquaphor works on everything - lips, cuticles, dry patches",
-        "Love products that do multiple things"
-      ],
-      "opportunity": "제품의 다양한 사용법 제안 및 UGC 마케팅 강화",
-      "market_size": "Multi-use beauty products: +30% YoY 성장"
     }
   ],
   "consumer_pain_points": [
     {
-      "pain_point": "건조한 입술 (Dry/Chapped Lips)",
-      "severity": "High",
-      "mention_frequency": 4250,
-      "evidence": "4,250명의 사용자가 '건조한 입술' 문제 언급. 특히 겨울철(Q1, Q4) 집중",
-      "current_solution": "Aquaphor(치료/치유, 4.7점), Burt's Bees(천연 보호, 4.3점), LANEIGE(오버나이트 케어, 4.5점) 등 3개 브랜드가 솔루션 제공 중",
-      "gap": "예방적 케어와 치료적 케어 사이의 포지셔닝 공백. 일상적으로 사용하면서도 강력한 효과를 원함",
-      "recommended_action": "LANEIGE의 '예방 + 집중 케어' 듀얼 메시징. 데일리 케어로도, 집중 치료로도 사용 가능함을 강조"
-    },
-    {
-      "pain_point": "입술 각질/갈라짐 (Flaky/Cracked)",
-      "severity": "High",
-      "mention_frequency": 3820,
-      "evidence": "겨울철 극심해지는 입술 각질 문제. 메이크업 전 입술 준비에 대한 니즈",
-      "current_solution": "립스크럽(물리적 각질 제거, 3.8점), LANEIGE(오버나이트 리뉴얼, 4.6점), Aquaphor(균열 치료, 4.7점) 등 솔루션 제공 중",
-      "gap": "부드러운 각질 케어와 메이크업 준비를 동시에 해결하는 제품 니즈",
-      "recommended_action": "'Lip Prep' 기능 강조. 립스틱 전 베이스로서의 Lip Sleeping Mask 포지셔닝"
-    },
-    {
-      "pain_point": "끈적임/잔여감 (Sticky/Greasy Feel)",
+      "pain_point": "건조",
       "severity": "Medium",
-      "mention_frequency": 2150,
-      "evidence": "립 제품 사용 후 불편한 끈적임에 대한 불만. 특히 Aquaphor에서 많이 언급",
-      "current_solution": "COSRX(가벼운 텍스처, 4.5점), LANEIGE(부드러운 발림성, 4.4점) 등 가벼운 텍스처 제품 선호",
-      "gap": "강력한 보습력과 가벼운 텍스처의 균형",
-      "recommended_action": "LANEIGE의 '부드러운 텍스처' 차별점 강조. Aquaphor 대비 사용감 우위 마케팅"
+      "evidence": "47명의 사용자가 '건조' 문제 언급. 주요 컨텍스트: 일반 사용",
+      "current_solution": "현재 2개 브랜드(Summer)가 솔루션 제공 중",
+      "gap": "기존 제품들은 임시 완화에 그치며, 근본적인 해결책 부재",
+      "recommended_action": "LANEIGE의 과학적 포뮬레이션을 활용한 '건조' 타겟팅 마케팅 캠페인 전개. A+ 콘텐츠에 솔루션 명확히 제시"
     },
     {
-      "pain_point": "가격 대비 용량 (Value for Size)",
+      "pain_point": "보습",
       "severity": "Medium",
-      "mention_frequency": 1850,
-      "evidence": "'작은 용량에 비싼 가격' 언급. 특히 프리미엄 브랜드에서",
-      "current_solution": "Aquaphor(대용량 가성비, 4.8점), LANEIGE(프리미엄 경험, 4.2점) - 가격대별 차별화된 접근",
-      "gap": "프리미엄 품질 + 합리적 용량의 밸런스",
-      "recommended_action": "밸류 팩/듀오 세트 출시. 용량 대비 가격 인식 개선"
-    }
-  ],
-  "sentiment_trends": {
-    "laneige_monthly_sentiment": [
-      {"month": "2025-07", "positive": 82, "neutral": 12, "negative": 6, "avg_rating": 4.4},
-      {"month": "2025-08", "positive": 84, "neutral": 11, "negative": 5, "avg_rating": 4.5},
-      {"month": "2025-09", "positive": 83, "neutral": 12, "negative": 5, "avg_rating": 4.5},
-      {"month": "2025-10", "positive": 85, "neutral": 10, "negative": 5, "avg_rating": 4.5},
-      {"month": "2025-11", "positive": 88, "neutral": 8, "negative": 4, "avg_rating": 4.6},
-      {"month": "2025-12", "positive": 86, "neutral": 9, "negative": 5, "avg_rating": 4.5},
-      {"month": "2026-01", "positive": 85, "neutral": 10, "negative": 5, "avg_rating": 4.5}
-    ],
-    "sentiment_drivers": {
-      "positive": [
-        {"driver": "효과적인 보습", "impact": 35, "sample_review": "Lips are so soft in the morning!"},
-        {"driver": "좋은 향", "impact": 25, "sample_review": "Love the berry scent"},
-        {"driver": "사용감", "impact": 20, "sample_review": "Not sticky at all"},
-        {"driver": "패키징", "impact": 12, "sample_review": "The pink jar is so cute"},
-        {"driver": "기프트 적합성", "impact": 8, "sample_review": "Perfect gift for friends"}
-      ],
-      "negative": [
-        {"driver": "가격", "impact": 40, "sample_review": "A bit pricey for lip care"},
-        {"driver": "용량", "impact": 30, "sample_review": "Wish it came in a bigger size"},
-        {"driver": "향 민감도", "impact": 18, "sample_review": "Fragrance too strong for me"},
-        {"driver": "텍스처 호불호", "impact": 12, "sample_review": "Too thick for daytime use"}
-      ]
-    }
-  },
-  "competitive_intelligence": [
-    {
-      "competitor": "Aquaphor",
-      "threat_level": "High",
-      "review_volume_trend": "+12% MoM",
-      "strength": "피부과 의사 추천 #1. 치료 목적 소비자 완전 장악",
-      "weakness": "뷰티/프리미엄 이미지 부재. 젊은 층에게 'unsexy' 인식",
-      "consumer_switching_pattern": "Aquaphor → LANEIGE: '더 좋은 경험 원해서' 전환 다수",
-      "laneige_opportunity": "'치료'가 아닌 '뷰티 케어' 포지셔닝으로 차별화. 프리미엄 경험 강조"
-    },
-    {
-      "competitor": "COSRX",
-      "threat_level": "Medium",
-      "review_volume_trend": "+18% MoM",
-      "strength": "Snail Mucin으로 K-Beauty 대표 등극. Reddit 커뮤니티 강력 지지",
-      "weakness": "Lip Care 미진입. 슬리핑 마스크 라인 약세",
-      "consumer_switching_pattern": "COSRX 사용자가 Lip Care 탐색 시 LANEIGE로 유입",
-      "laneige_opportunity": "K-Beauty 풀 루틴 제안. COSRX 에센스 + LANEIGE 마스크 조합 마케팅"
-    },
-    {
-      "competitor": "BIODANCE",
-      "threat_level": "High (Rising)",
-      "review_volume_trend": "+45% MoM",
-      "strength": "TikTok 바이럴 성공. GenZ 마인드쉐어 급상승",
-      "weakness": "마스크팩 외 라인업 부재. 브랜드 히스토리 짧음",
-      "consumer_switching_pattern": "BIODANCE 경험 후 다른 K-Beauty 탐색 → LANEIGE 유입 가능",
-      "laneige_opportunity": "TikTok/Instagram 마케팅 강화. BIODANCE 사용자 → LANEIGE 전환 유도"
-    },
-    {
-      "competitor": "Rhode",
-      "threat_level": "Medium",
-      "review_volume_trend": "+25% MoM",
-      "strength": "Hailey Bieber 팬덤. 미니멀 브랜딩으로 MZ세대 호응",
-      "weakness": "셀럽 브랜드 = 품질 의심. Amazon 입점 늦음",
-      "consumer_switching_pattern": "Rhode 경험 후 '더 검증된 브랜드' 찾아 LANEIGE로 이동",
-      "laneige_opportunity": "20년+ 기술력과 검증된 효과로 '진짜 스킨케어' 메시징"
+      "evidence": "47명의 사용자가 '보습' 문제 언급. 주요 컨텍스트: 일반 사용",
+      "current_solution": "현재 2개 브랜드(Summer)가 솔루션 제공 중",
+      "gap": "기존 제품들은 임시 완화에 그치며, 근본적인 해결책 부재",
+      "recommended_action": "LANEIGE의 과학적 포뮬레이션을 활용한 '보습' 타겟팅 마케팅 캠페인 전개. A+ 콘텐츠에 솔루션 명확히 제시"
     }
   ],
   "strategic_recommendations": [
     {
-      "recommendation": "TikTok/Instagram 바이럴 마케팅 강화",
-      "priority": "Critical",
-      "expected_impact": "GenZ 타겟 인지도 +40%, 전환율 +15%",
-      "rationale": "BIODANCE의 성공 사례에서 소셜미디어 바이럴의 중요성 확인. LANEIGE의 소셜 존재감 강화 필요",
-      "implementation": "1) 틱톡 크리에이터 파트너십 확대 (마이크로 인플루언서 중심)\n2) 'LANEIGE Routine' 챌린지 캠페인\n3) Before/After 사용자 UGC 콘텐츠 적극 활용\n4) ASMR/Satisfying 콘텐츠 (제품 텍스처 강조)"
-    },
-    {
-      "recommendation": "Amazon 채널 최적화",
+      "recommendation": "Lip Care 카테고리 최적화 및 재포지셔닝",
       "priority": "High",
-      "expected_impact": "전환율 +25%, 매출 +$800K/month",
-      "rationale": "리뷰 분석 결과 A+ 콘텐츠와 상세 사용법 가이드 부재가 전환율 저해 요인",
-      "implementation": "1) A+ Content 강화: 사용법 가이드, Before/After, 성분 스토리\n2) 리뷰 관리: 부정 리뷰 응답, 긍정 리뷰 하이라이트\n3) 번들/세트 상품 확대 (가성비 인식 개선)\n4) Subscribe & Save 프로그램 활성화"
+      "expected_impact": "전환율 +15%, 매출 +$300000/month",
+      "rationale": "현재 트래픽의 100.0%가 Lip Care에서 유입되나, 등록 카테고리와 불일치. 카테고리 정렬 시 검색 가시성 및 전환율 대폭 향상 예상",
+      "implementation": "1) Amazon Seller Central에서 메인 카테고리를 Lip Care로 변경\n2) 제품 타이틀 및 키워드에 카테고리 관련 용어 추가\n3) A+ Content 업데이트하여 Lip Care 맥락 강화"
     },
     {
-      "recommendation": "계절별 타겟 캠페인 실행",
+      "recommendation": "'일반 사용' 중심 콘텐츠 마케팅 강화",
       "priority": "High",
-      "expected_impact": "시즌별 매출 변동성 감소, 연간 +$2M 추가 매출",
-      "rationale": "계절별 소비자 니즈가 명확히 다름. 현재 시즌 특화 마케팅 부족",
-      "implementation": "1) Q1 Winter: '겨울 입술 구조대' 캠페인 - Lip Sleeping Mask 집중\n2) Q2 Spring: 'Lip Prep for Spring Looks' - 메이크업 베이스 포지셔닝\n3) Q3 Summer: '여행 필수템' - 트래블 사이즈 프로모션\n4) Q4 Holiday: '기프트 세트' - 홀리데이 리미티드 에디션"
+      "expected_impact": "브랜드 인지도 +25%, 신규 고객 +180/month",
+      "rationale": "12명이 '일반 사용' 맥락에서 제품 사용. 이는 핵심 사용 시나리오로, 이를 중심으로 마케팅 메시지 구축 시 공감대 형성 및 구매 전환 촉진",
+      "implementation": "1) A+ Content에 '일반 사용' 시나리오 비주얼 추가\n2) 아마존 광고에서 관련 키워드 입찰 강화\n3) 브랜드 스토어에 사용법 가이드 섹션 추가"
     },
     {
-      "recommendation": "가격 인식 개선 전략",
+      "recommendation": "신흥 경쟁자 대응 전략: 프리미엄 차별화",
       "priority": "Medium",
-      "expected_impact": "가격 관련 부정 리뷰 -50%, 구매 전환율 +10%",
-      "rationale": "리뷰 분석 결과 '비싸다'는 인식이 주요 구매 장벽",
-      "implementation": "1) 용량 대비 사용 기간 계산 콘텐츠 (1회 사용량 기준 90일+)\n2) 미니 사이즈/트라이얼 세트 도입으로 진입 장벽 낮춤\n3) 밸류 번들 (Lip + Face Mask 세트) 할인 구성\n4) 'Worth the splurge' 인플루언서 리뷰 캠페인"
+      "expected_impact": "시장 점유율 방어, 브랜드 충성도 +15%",
+      "rationale": "3개의 신규 브랜드가 빠르게 성장 중. 가격 경쟁보다는 LANEIGE의 K-Beauty 헤리티지, 기술력, 품질을 강조한 프리미엄 포지셔닝 필요",
+      "implementation": "1) 제품 상세페이지에 R&D 스토리, 특허 기술 강조\n2) '프리미엄 K-Beauty' 메시징 일관성 유지\n3) 인플루언서 협업으로 브랜드 가치 전달"
+    },
+    {
+      "recommendation": "Year-round 시즌 타겟팅 캠페인",
+      "priority": "Medium",
+      "expected_impact": "시즌 매출 +$2500/month",
+      "rationale": "사용자 리뷰 분석 결과 Year-round 시즌에 제품 수요 및 만족도 증가. 시즌별 맞춤 프로모션으로 매출 극대화 가능",
+      "implementation": "1) Year-round 시작 1개월 전 프로모션 기획\n2) 시즌 관련 키워드 광고 집중 투입\n3) 이메일 마케팅으로 기존 고객 재구매 유도"
     }
   ],
   "emerging_trends": [
     {
-      "trend": "Skinimalism (스킨케어 미니멀리즘)",
-      "evidence": "'다기능 제품', '간소화된 루틴' 언급 +55% 증가",
-      "laneige_preparedness": "High",
-      "action_required": "Lip Sleeping Mask의 다용도 사용법 강조 (립케어 + 립글로스 + 치크하이라이트)"
-    },
-    {
-      "trend": "Ingredient Transparency (성분 투명성)",
-      "evidence": "'성분 목록', '클린 뷰티', 'EWG 등급' 언급 증가",
+      "trend": "Overnight Beauty Routine 강세",
+      "evidence": "4개 브랜드가 야간 집중 케어 포지셔닝. '수면 중 피부 회복' 컨셉이 소비자 공감대 형성",
       "laneige_preparedness": "Medium",
-      "action_required": "성분 스토리텔링 강화. 핵심 성분(Hyaluronic Acid, Berry Complex) 설명 콘텐츠"
+      "action_required": "Overnight 라인 개발 검토 필요"
     },
     {
-      "trend": "Sustainable Beauty (지속가능한 뷰티)",
-      "evidence": "'친환경 패키징', '리필', '비건' 키워드 +40% 증가",
-      "laneige_preparedness": "Low",
-      "action_required": "지속가능성 이니셔티브 개발. 리필 팩 또는 재활용 패키징 검토"
-    },
-    {
-      "trend": "Personalized Skincare (맞춤형 스킨케어)",
-      "evidence": "'내 피부 타입에 맞는', '맞춤 추천' 검색 +35% 증가",
+      "trend": "시장 재편 및 신규 진입 기회",
+      "evidence": "1개 카테고리에서 높은 변동성 감지(Lip Care). 순위 변동 활발 = 신규 브랜드 진입 가능성 높음",
       "laneige_preparedness": "Medium",
-      "action_required": "피부 타입별 제품 추천 가이드. 퀴즈 형태의 제품 추천 도구 개발"
+      "action_required": "변동성 높은 카테고리에서 적극적 마케팅 투자. 리뷰 관리, 프로모션으로 초기 모멘텀 확보"
+    }
+  ],
+  "competitive_intelligence": [
+    {
+      "competitor": "Summer",
+      "threat_level": "Low threat",
+      "strength": "브랜드 인지도 및 유통망",
+      "weakness": "명확한 사용 맥락 부재. 소비자들이 '언제, 왜' 사용하는지 불분명",
+      "laneige_opportunity": "LANEIGE의 높은 품질과 고객 만족도를 통한 프리미엄 차별화"
+    },
+    {
+      "competitor": "Summer",
+      "threat_level": "Low threat",
+      "strength": "브랜드 인지도 및 유통망",
+      "weakness": "명확한 사용 맥락 부재. 소비자들이 '언제, 왜' 사용하는지 불분명",
+      "laneige_opportunity": "LANEIGE의 높은 품질과 고객 만족도를 통한 프리미엄 차별화"
+    },
+    {
+      "competitor": "Summer",
+      "threat_level": "Low threat",
+      "strength": "브랜드 인지도 및 유통망",
+      "weakness": "명확한 사용 맥락 부재. 소비자들이 '언제, 왜' 사용하는지 불분명",
+      "laneige_opportunity": "LANEIGE의 높은 품질과 고객 만족도를 통한 프리미엄 차별화"
     }
   ],
   "brand_perception_gaps": [
     {
-      "gap": "K-Beauty 헤리티지 스토리 부족",
-      "evidence": "리뷰에서 'K-Beauty' 언급 시 COSRX(45%)가 LANEIGE(28%)보다 높음",
-      "impact": "K-Beauty 입문자들이 COSRX를 먼저 선택하는 경향",
-      "solution": "LANEIGE의 1994년 론칭 이후 30년 K-Beauty 혁신 역사 스토리텔링"
-    },
-    {
-      "gap": "기술력 인식 갭",
-      "evidence": "Water Science™ 기술 인지도 낮음. 리뷰에서 기술 관련 언급 5% 미만",
-      "impact": "프리미엄 가격 정당화 어려움",
-      "solution": "Water Science™ 기술 설명 콘텐츠. 과학적 배경 스토리텔링"
-    },
-    {
-      "gap": "데일리 vs 집중 케어 포지셔닝 혼란",
-      "evidence": "소비자들이 '매일 써도 되나요?'라는 질문 빈번",
-      "impact": "사용 빈도 저하 → 재구매 주기 연장",
-      "solution": "명확한 사용 가이드 제공. 데일리 사용 권장 메시지 강화"
+      "gap": "카테고리 포지셔닝 불일치",
+      "evidence": "등록 카테고리:  vs. 실제 트래픽 유입: Lip Care (100.0%)",
+      "impact": "검색 가시성 저하 및 전환율 손실. 잠재 고객이 제품을 찾지 못할 위험",
+      "solution": "Amazon 카테고리를 'Lip Care'로 변경. 타이틀 및 키워드 최적화"
     }
   ]
 }
