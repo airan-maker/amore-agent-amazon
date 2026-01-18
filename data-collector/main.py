@@ -417,9 +417,16 @@ class DataCollectionPipeline:
         logger.info("=" * 60)
 
     async def collect_reviews(self):
-        """Collect reviews for each target product"""
+        """
+        Collect reviews for each target product from product detail pages.
+
+        Uses /dp/ASIN page instead of /product-reviews/ to avoid login requirement.
+        Collects review summary (rating, count) and top ~10-15 visible reviews.
+        """
         target_products = self.products_config["core_products"]
-        max_reviews = self.products_config["collection_settings"]["reviews_per_product"]
+        max_reviews = min(self.products_config["collection_settings"]["reviews_per_product"], 15)
+
+        logger.info(f"Collecting reviews from product detail pages (max {max_reviews} per product)")
 
         async with ReviewScraper() as scraper:
             for product_config in target_products:
@@ -427,14 +434,24 @@ class DataCollectionPipeline:
                 logger.info(f"Scraping reviews for: {asin}")
 
                 try:
-                    # Get review summary
-                    summary = await scraper.scrape_review_summary(asin)
+                    # Navigate to product page once
+                    url = f"{scraper.base_url}/dp/{asin}"
+                    success = await scraper.goto(url)
+                    if not success:
+                        logger.error(f"Failed to load product page: {asin}")
+                        continue
 
-                    # Get detailed reviews
-                    reviews = await scraper.scrape(
+                    # Wait for main product container
+                    await scraper.wait_for_selector("#dp-container", timeout=15000)
+
+                    # Get review summary from product page (already on page)
+                    summary = await scraper.scrape_review_summary(asin, navigate=False)
+
+                    # Get reviews visible on product detail page (already on page)
+                    reviews = await scraper.scrape_from_product_page(
                         asin,
                         max_reviews=max_reviews,
-                        sort_by=self.products_config["collection_settings"]["sort_by"]
+                        navigate=False
                     )
 
                     self.collected_data["reviews"][asin] = {
@@ -443,7 +460,7 @@ class DataCollectionPipeline:
                         "count": len(reviews),
                     }
 
-                    logger.success(f"✓ Collected {len(reviews)} reviews for {asin}")
+                    logger.success(f"✓ Collected {len(reviews)} reviews for {asin} (summary: {summary.get('total_reviews', 'N/A')} total, {summary.get('average_rating', 'N/A')} avg)")
 
                 except Exception as e:
                     logger.error(f"✗ Failed to scrape reviews for {asin}: {e}")

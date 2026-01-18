@@ -303,50 +303,91 @@ class ReviewScraper(BaseScraper):
             logger.debug(f"Error extracting review data: {e}")
             return None
 
-    async def scrape_review_summary(self, asin: str) -> Dict[str, Any]:
+    async def scrape_review_summary(self, asin: str, navigate: bool = True) -> Dict[str, Any]:
         """
-        Scrape review summary/statistics
+        Scrape review summary/statistics from product detail page (/dp/ASIN)
+
+        This method extracts review summary from the product page instead of
+        /product-reviews/ page which requires login.
 
         Args:
             asin: Product ASIN
+            navigate: If True, navigate to product page first
 
         Returns:
             dict: Review statistics
         """
-        url = f"{self.base_url}/product-reviews/{asin}"
+        if navigate:
+            url = f"{self.base_url}/dp/{asin}"
+            success = await self.goto(url)
+            if not success:
+                logger.error(f"Failed to load product page for review summary: {asin}")
+                return {}
 
-        success = await self.goto(url)
-        if not success:
-            return {}
+            # Wait for main product container
+            await self.wait_for_selector("#dp-container", timeout=15000)
 
-        # Wait for review stats
-        await self.wait_for_selector("[data-hook='total-review-count']", timeout=10000)
-
-        # Total review count
-        total_count_text = await self.extract_text("[data-hook='total-review-count']")
+        # Extract review count from product page
         total_reviews = None
-        if total_count_text:
-            match = re.search(r"([\d,]+)", total_count_text)
-            if match:
-                total_reviews = int(match.group(1).replace(",", ""))
-
-        # Average rating
-        avg_rating_text = await self.extract_text("[data-hook='rating-out-of-text']")
         avg_rating = None
-        if avg_rating_text:
-            match = re.search(r"([\d.]+)\s*out of", avg_rating_text)
-            if match:
-                avg_rating = float(match.group(1))
-
-        # Rating breakdown (5-star, 4-star, etc.)
         rating_breakdown = {}
-        for star in range(1, 6):
-            selector = f"[data-hook='histogram-row-{star}'] .a-size-base"
-            percentage_text = await self.extract_text(selector)
-            if percentage_text:
-                match = re.search(r"(\d+)%", percentage_text)
+
+        # Try to get total review count - multiple selectors
+        for selector in [
+            "#acrCustomerReviewText",
+            "[data-hook='total-review-count']",
+            "#reviewsMedley .a-size-base"
+        ]:
+            total_count_text = await self.extract_text(selector)
+            if total_count_text:
+                match = re.search(r"([\d,]+)", total_count_text)
                 if match:
-                    rating_breakdown[f"{star}_star"] = int(match.group(1))
+                    total_reviews = int(match.group(1).replace(",", ""))
+                    logger.debug(f"Found review count: {total_reviews} with selector: {selector}")
+                    break
+
+        # Try to get average rating - multiple selectors
+        for selector in [
+            "#acrPopover .a-icon-alt",
+            "[data-hook='rating-out-of-text']",
+            "#averageCustomerReviews .a-icon-alt"
+        ]:
+            avg_rating_text = await self.extract_text(selector)
+            if avg_rating_text:
+                match = re.search(r"([\d.]+)\s*out of", avg_rating_text)
+                if match:
+                    avg_rating = float(match.group(1))
+                    logger.debug(f"Found avg rating: {avg_rating} with selector: {selector}")
+                    break
+
+        # Try to get rating breakdown from histogram on product page
+        # This is visible in the "Customer reviews" section
+        histogram_selectors = [
+            "#histogramTable tr",
+            "#cm_cr_dp_d_histogramTable tr",
+            ".cr-widget-Histogram tr"
+        ]
+
+        for hist_selector in histogram_selectors:
+            rows = await self.page.query_selector_all(hist_selector)
+            if rows and len(rows) >= 5:
+                for i, row in enumerate(rows[:5]):
+                    try:
+                        # Extract percentage from each row
+                        percentage_el = await row.query_selector(".a-text-right a, .a-size-base")
+                        if percentage_el:
+                            percentage_text = await percentage_el.text_content()
+                            if percentage_text:
+                                match = re.search(r"(\d+)%", percentage_text)
+                                if match:
+                                    star = 5 - i  # Rows are 5-star to 1-star
+                                    rating_breakdown[f"{star}_star"] = int(match.group(1))
+                    except Exception as e:
+                        logger.debug(f"Error extracting histogram row: {e}")
+                        continue
+                if rating_breakdown:
+                    logger.debug(f"Found rating breakdown: {rating_breakdown}")
+                    break
 
         return {
             "total_reviews": total_reviews,
