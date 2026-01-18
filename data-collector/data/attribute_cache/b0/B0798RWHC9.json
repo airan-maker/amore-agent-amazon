@@ -1,0 +1,55 @@
+{
+  "asin": "B0798RWHC9",
+  "attributes": {
+    "ingredients": {
+      "key_actives": [
+        "Satin"
+      ],
+      "formula_type": "Hair Accessory",
+      "texture": "Silky satin"
+    },
+    "benefits": {
+      "primary_benefit": "Frizz prevention and hair protection",
+      "target_concerns": [
+        "Hair breakage",
+        "Hair creasing",
+        "Frizz",
+        "Hair pulling",
+        "Hair tugging"
+      ],
+      "timeframe": "Overnight/immediate",
+      "clinical_claims": [
+        "No damage",
+        "Prevents creases and breakage",
+        "Glides effortlessly"
+      ]
+    },
+    "certifications": {
+      "clean_beauty": [],
+      "ethical": [],
+      "sustainability": [],
+      "origin": "Unknown"
+    },
+    "demographics": {
+      "skin_type": [],
+      "age_group": "All ages",
+      "gender_target": "Women"
+    },
+    "usage": {
+      "time_of_day": "Any",
+      "routine_step": "Hair accessory",
+      "application_area": "Hair"
+    },
+    "price_tier": "luxury",
+    "price_numeric": 8683.0
+  },
+  "cached_at": "2026-01-18T16:06:45.598815",
+  "expires_at": "2026-01-25T16:06:45.598820",
+  "metadata": {
+    "model": "claude-haiku-4-5-20251001",
+    "extraction_time_ms": 2051.799,
+    "input_tokens": 920,
+    "output_tokens": 275,
+    "cost": 0.002295
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "asin": "B00AINMFAC",
+  "attributes": {
+    "ingredients": {
+      "key_actives": [
+        "Ketoconazole 1%"
+      ],
+      "formula_type": "Shampoo",
+      "texture": "Unknown"
+    },
+    "benefits": {
+      "primary_benefit": "Anti-Dandruff",
+      "target_concerns": [
+        "Flaking",
+        "Scaling",
+        "Itching"
+      ],
+      "timeframe": "Unknown",
+      "clinical_claims": [
+        "Controls flaking, scaling, and itching associated with dandruff"
+      ]
+    },
+    "certifications": {
+      "clean_beauty": [],
+      "ethical": [],
+      "sustainability": [],
+      "origin": "Unknown"
+    },
+    "demographics": {
+      "skin_type": [],
+      "age_group": "Unknown",
+      "gender_target": "Unisex"
+    },
+    "usage": {
+      "time_of_day": "Any",
+      "routine_step": "Shampoo",
+      "application_area": "Scalp/Hair"
+    },
+    "price_tier": "luxury",
+    "price_numeric": 23057.0
+  },
+  "cached_at": "2026-01-18T16:06:33.580193",
+  "expires_at": "2026-01-25T16:06:33.580200",
+  "metadata": {
+    "model": "claude-haiku-4-5-20251001",
+    "extraction_time_ms": 1909.412,
+    "input_tokens": 695,
+    "output_tokens": 263,
+    "cost": 0.00201
+  }
+}

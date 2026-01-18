@@ -1,0 +1,66 @@
+{
+  "asin": "B0BBBSMV94",
+  "attributes": {
+    "ingredients": {
+      "key_actives": [
+        "coconut oil derived cleansers",
+        "food grade cleansing salts",
+        "citric acid"
+      ],
+      "formula_type": "Shampoo & Conditioner Set",
+      "texture": "Unknown"
+    },
+    "benefits": {
+      "primary_benefit": "Hydration and Moisture Replenishment",
+      "target_concerns": [
+        "dry hair",
+        "frizz",
+        "lack of shine",
+        "manageability"
+      ],
+      "timeframe": "Unknown",
+      "clinical_claims": []
+    },
+    "certifications": {
+      "clean_beauty": [
+        "Sulfate-Free",
+        "Silicone-Free",
+        "Paraben-Free",
+        "Dye-Free"
+      ],
+      "ethical": [
+        "Cruelty-Free",
+        "Vegan"
+      ],
+      "sustainability": [],
+      "origin": "Unknown"
+    },
+    "demographics": {
+      "skin_type": [
+        "fine hair",
+        "dry hair",
+        "damaged hair",
+        "colored hair",
+        "treated hair"
+      ],
+      "age_group": "Unknown",
+      "gender_target": "Unisex"
+    },
+    "usage": {
+      "time_of_day": "Any",
+      "routine_step": "Hair Cleansing and Conditioning",
+      "application_area": "Hair and scalp"
+    },
+    "price_tier": "affordable",
+    "price_numeric": 17.59
+  },
+  "cached_at": "2026-01-18T16:06:41.540503",
+  "expires_at": "2026-01-25T16:06:41.540507",
+  "metadata": {
+    "model": "claude-haiku-4-5-20251001",
+    "extraction_time_ms": 2635.533,
+    "input_tokens": 912,
+    "output_tokens": 336,
+    "cost": 0.0025919999999999997
+  }
+}

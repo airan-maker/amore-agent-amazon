@@ -1,0 +1,45 @@
+{
+  "asin": "B07QZ5CTTF",
+  "attributes": {
+    "ingredients": {
+      "key_actives": [],
+      "formula_type": "Unknown",
+      "texture": "Unknown"
+    },
+    "benefits": {
+      "primary_benefit": "Hair Regrowth",
+      "target_concerns": [
+        "Hair Loss"
+      ],
+      "timeframe": "Unknown",
+      "clinical_claims": []
+    },
+    "certifications": {
+      "clean_beauty": [],
+      "ethical": [],
+      "sustainability": [],
+      "origin": "Unknown"
+    },
+    "demographics": {
+      "skin_type": [],
+      "age_group": "Unknown",
+      "gender_target": "Unisex"
+    },
+    "usage": {
+      "time_of_day": "Unknown",
+      "routine_step": "Hair Treatment",
+      "application_area": "Scalp/Hair"
+    },
+    "price_tier": "luxury",
+    "price_numeric": 88.0
+  },
+  "cached_at": "2026-01-18T16:06:35.016549",
+  "expires_at": "2026-01-25T16:06:35.016556",
+  "metadata": {
+    "model": "claude-haiku-4-5-20251001",
+    "extraction_time_ms": 1431.9409999999998,
+    "input_tokens": 664,
+    "output_tokens": 222,
+    "cost": 0.001774
+  }
+}

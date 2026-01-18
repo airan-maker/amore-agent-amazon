@@ -1,0 +1,47 @@
+{
+  "asin": "B08SNSSTPZ",
+  "attributes": {
+    "ingredients": {
+      "key_actives": [],
+      "formula_type": "Powder",
+      "texture": "Textured powder"
+    },
+    "benefits": {
+      "primary_benefit": "Volume and texture enhancement",
+      "target_concerns": [
+        "Lack of volume",
+        "Flat hair",
+        "Lack of texture"
+      ],
+      "timeframe": "Immediate",
+      "clinical_claims": []
+    },
+    "certifications": {
+      "clean_beauty": [],
+      "ethical": [],
+      "sustainability": [],
+      "origin": "Unknown"
+    },
+    "demographics": {
+      "skin_type": [],
+      "age_group": "Unknown",
+      "gender_target": "Men"
+    },
+    "usage": {
+      "time_of_day": "Any",
+      "routine_step": "Styling product",
+      "application_area": "Hair"
+    },
+    "price_tier": "luxury",
+    "price_numeric": 14505.0
+  },
+  "cached_at": "2026-01-18T16:06:37.064763",
+  "expires_at": "2026-01-25T16:06:37.064771",
+  "metadata": {
+    "model": "claude-haiku-4-5-20251001",
+    "extraction_time_ms": 2042.8139999999999,
+    "input_tokens": 808,
+    "output_tokens": 233,
+    "cost": 0.001973
+  }
+}

@@ -214,6 +214,13 @@ For each idea, provide a JSON object with:
 - Be specific and creative, not generic
 - Each idea should be distinctly different from the others
 
+**Language Requirement**:
+- Write ALL content in Korean EXCEPT for proper nouns (product names, brand names like "LANEIGE", ingredient names like "Hyaluronic Acid", certification names)
+- product_name: English product name is acceptable (e.g., "Water Sleeping Hand Mask")
+- tagline, core_concept, rationale, competitive_advantage: Must be in Korean
+- key_ingredients, certifications: Keep in English (proper nouns)
+- All other descriptive text: Korean
+
 Return ONLY a valid JSON array of {num_ideas} idea objects. No other text.
 
 JSON Array:"""

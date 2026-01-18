@@ -1,0 +1,58 @@
+{
+  "asin": "B005DYJSCO",
+  "attributes": {
+    "ingredients": {
+      "key_actives": [
+        "Cold-pressed Moroccan argan oil"
+      ],
+      "formula_type": "Dry Oil Spray",
+      "texture": "Weightless, non-greasy, quick-absorbing"
+    },
+    "benefits": {
+      "primary_benefit": "Frizz Control and Hair Healing",
+      "target_concerns": [
+        "Frizz",
+        "Split ends",
+        "Flyaways",
+        "Lack of shine",
+        "Strength and elasticity"
+      ],
+      "timeframe": "Unknown",
+      "clinical_claims": []
+    },
+    "certifications": {
+      "clean_beauty": [
+        "Paraben-Free",
+        "Sulfate-Free Surfactants"
+      ],
+      "ethical": [],
+      "sustainability": [],
+      "origin": "Morocco (argan oil origin)"
+    },
+    "demographics": {
+      "skin_type": [
+        "All hair types",
+        "All textures",
+        "All moisture levels"
+      ],
+      "age_group": "Unknown",
+      "gender_target": "Unisex"
+    },
+    "usage": {
+      "time_of_day": "Any",
+      "routine_step": "Finishing treatment / Styling aid",
+      "application_area": "Hair strands"
+    },
+    "price_tier": "luxury",
+    "price_numeric": 29633.0
+  },
+  "cached_at": "2026-01-18T16:06:49.226393",
+  "expires_at": "2026-01-25T16:06:49.226398",
+  "metadata": {
+    "model": "claude-haiku-4-5-20251001",
+    "extraction_time_ms": 2393.4739999999997,
+    "input_tokens": 865,
+    "output_tokens": 316,
+    "cost": 0.0024449999999999997
+  }
+}

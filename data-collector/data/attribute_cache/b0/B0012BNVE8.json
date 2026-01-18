@@ -1,0 +1,55 @@
+{
+  "asin": "B0012BNVE8",
+  "attributes": {
+    "ingredients": {
+      "key_actives": [
+        "Minoxidil 5%",
+        "Botanical extracts",
+        "Alpha hydroxy acid (AHA)"
+      ],
+      "formula_type": "Foam",
+      "texture": "Aerosol foam"
+    },
+    "benefits": {
+      "primary_benefit": "Hair Regrowth",
+      "target_concerns": [
+        "Hair loss",
+        "Hair thinning",
+        "Vertex thinning"
+      ],
+      "timeframe": "12 weeks for noticeable results; early signs 8-12 weeks; fuller benefits around week 16",
+      "clinical_claims": [
+        "Clinically proven topical hair regrowth treatment",
+        "Reactivates hair follicles",
+        "Noticeable new hair regrowth in 12 weeks with consistent twice-daily use"
+      ]
+    },
+    "certifications": {
+      "clean_beauty": [],
+      "ethical": [],
+      "sustainability": [],
+      "origin": "Unknown"
+    },
+    "demographics": {
+      "skin_type": [],
+      "age_group": "Unknown",
+      "gender_target": "Men"
+    },
+    "usage": {
+      "time_of_day": "Twice-daily",
+      "routine_step": "Hair treatment",
+      "application_area": "Scalp, vertex (top of scalp)"
+    },
+    "price_tier": "luxury",
+    "price_numeric": 36804.0
+  },
+  "cached_at": "2026-01-18T16:07:00.165822",
+  "expires_at": "2026-01-25T16:07:00.165826",
+  "metadata": {
+    "model": "claude-haiku-4-5-20251001",
+    "extraction_time_ms": 3446.529,
+    "input_tokens": 907,
+    "output_tokens": 337,
+    "cost": 0.002592
+  }
+}
