@@ -142,7 +142,7 @@ RATE_LIMIT = {
 
 # Claude API Settings
 CLAUDE_SETTINGS = {
-    "model": "claude-3-5-haiku-20241022",  # Fast and cost-effective
+    "model": "claude-haiku-4-5-20251001",  # Fast and cost-effective
     "max_tokens": 4096,
     "temperature": 0.3,  # Lower temperature for more consistent analysis
     "timeout": 60,       # API timeout in seconds

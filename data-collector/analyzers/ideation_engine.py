@@ -30,7 +30,7 @@ class IdeationEngine:
     def __init__(
         self,
         api_key: Optional[str] = None,
-        model: str = "claude-3-sonnet-20240229"
+        model: str = "claude-haiku-4-5-20251001"
     ):
         """
         Initialize ideation engine

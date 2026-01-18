@@ -675,7 +675,7 @@ class DataCollectionPipeline:
         # Initialize extractor
         extractor = AttributeExtractor(
             api_key=api_key,
-            model=claude_config.get("model", "claude-3-5-sonnet-20241022"),
+            model=claude_config.get("model", "claude-haiku-4-5-20251001"),
             monthly_budget=claude_config.get("monthly_budget_usd", 150.0)
         )
 

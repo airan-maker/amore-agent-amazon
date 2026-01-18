@@ -22,6 +22,10 @@ class APIBudgetTracker:
 
     # Pricing per million tokens
     PRICING = {
+        "claude-haiku-4-5-20251001": {
+            "input": 1.0,   # $1 per 1M input tokens
+            "output": 5.0   # $5 per 1M output tokens
+        },
         "claude-3-5-sonnet-20241022": {
             "input": 3.0,   # $3 per 1M input tokens
             "output": 15.0  # $15 per 1M output tokens
@@ -75,7 +79,7 @@ class APIBudgetTracker:
         self,
         input_tokens: int,
         output_tokens: int,
-        model: str = "claude-3-5-sonnet-20241022",
+        model: str = "claude-haiku-4-5-20251001",
         task_type: str = "attribute_extraction"
     ) -> Dict:
         """
@@ -92,8 +96,8 @@ class APIBudgetTracker:
         """
         # Get pricing for model
         if model not in self.PRICING:
-            logger.warning(f"Unknown model {model}, using Sonnet pricing")
-            model = "claude-3-5-sonnet-20241022"
+            logger.warning(f"Unknown model {model}, using Haiku 4.5 pricing")
+            model = "claude-haiku-4-5-20251001"
 
         pricing = self.PRICING[model]
 

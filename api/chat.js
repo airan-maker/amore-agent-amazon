@@ -216,7 +216,7 @@ ${laneigeProducts.length > 0 ? `
 
   const client = getAnthropicClient();
   const message = await client.messages.create({
-    model: 'claude-sonnet-4-20250514',
+    model: 'claude-haiku-4-5-20251001',
     max_tokens: 2048,
     messages: [{ role: 'user', content: prompt }]
   });
@@ -274,7 +274,7 @@ ${rankingHistory.length > 10 ? '... (첫 10일만 표시)' : ''}
 
   const client = getAnthropicClient();
   const message = await client.messages.create({
-    model: 'claude-sonnet-4-20250514',
+    model: 'claude-haiku-4-5-20251001',
     max_tokens: 800,
     messages: [{ role: 'user', content: prompt }]
   });

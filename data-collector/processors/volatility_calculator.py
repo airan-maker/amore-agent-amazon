@@ -27,7 +27,7 @@ class VolatilityCalculator:
         # Initialize Claude API client
         if ANTHROPIC_API_KEY:
             self.client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-            self.model = CLAUDE_SETTINGS.get("model", "claude-3-5-sonnet-20241022")
+            self.model = CLAUDE_SETTINGS.get("model", "claude-haiku-4-5-20251001")
             self.max_tokens = CLAUDE_SETTINGS.get("max_tokens", 4000)
             self.temperature = CLAUDE_SETTINGS.get("temperature", 0.7)
             logger.info("✓ Claude API client initialized for market signal analysis")
