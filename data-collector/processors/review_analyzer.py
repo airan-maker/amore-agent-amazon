@@ -29,12 +29,16 @@ class ReviewAnalyzer:
         self.api_key = api_key or ANTHROPIC_API_KEY
 
         if not self.api_key:
-            raise ValueError("ANTHROPIC_API_KEY not set. Please add it to .env file")
-
-        self.client = anthropic.Anthropic(api_key=self.api_key)
-        self.model = CLAUDE_SETTINGS["model"]
-        self.max_tokens = CLAUDE_SETTINGS["max_tokens"]
-        self.temperature = CLAUDE_SETTINGS["temperature"]
+            logger.warning("ANTHROPIC_API_KEY not set. ReviewAnalyzer will use rule-based analysis.")
+            self.client = None
+            self.model = None
+            self.max_tokens = None
+            self.temperature = None
+        else:
+            self.client = anthropic.Anthropic(api_key=self.api_key)
+            self.model = CLAUDE_SETTINGS["model"]
+            self.max_tokens = CLAUDE_SETTINGS["max_tokens"]
+            self.temperature = CLAUDE_SETTINGS["temperature"]
 
     def analyze_reviews_batch(
         self,
@@ -58,6 +62,11 @@ class ReviewAnalyzer:
             return {"usage_contexts": []}
 
         logger.info(f"Analyzing {len(reviews)} reviews for {product_name}")
+
+        # If no API client, use fallback analysis
+        if not self.client:
+            logger.info("Using rule-based fallback analysis (no API key)")
+            return self._fallback_analysis(reviews)
 
         # Prepare reviews text
         reviews_text = self._prepare_reviews_text(reviews)
