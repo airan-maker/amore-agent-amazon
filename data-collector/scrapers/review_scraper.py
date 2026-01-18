@@ -14,7 +14,14 @@ from config.settings import AMAZON_SETTINGS, REVIEW_ANALYSIS
 
 class ReviewScraper(BaseScraper):
     """
-    Scrapes customer reviews from Amazon
+    Scrapes customer reviews from Amazon product detail pages (/dp/ASIN)
+
+    NOTE: This scraper ONLY uses the product detail page (/dp/ASIN) for review collection.
+    The separate /product-reviews/ page has different structure and is often blocked by Amazon.
+
+    Available methods:
+    - scrape_from_product_page(): Scrape reviews from /dp/ASIN page (RECOMMENDED)
+    - scrape_review_summary(): Scrape review statistics from /dp/ASIN page
 
     Collects:
     - Review text
@@ -83,8 +90,13 @@ class ReviewScraper(BaseScraper):
             logger.warning(f"Could not scroll to reviews: {e}")
 
         # Wait for reviews section - try multiple selectors
+        # Amazon uses different container classes for reviews with/without images
         has_reviews = False
         for selector in [
+            ".cm_cr_grid_center_right_images_widget [data-hook='review']",
+            ".cm_cr_grid_center_right_non_images_widgets [data-hook='review']",
+            ".cm_cr_grid_center_right_images_widget",
+            ".cm_cr_grid_center_right_non_images_widgets",
             "[data-hook='review']",
             "div[id^='customer_review']",
             "#cm-cr-dp-review-list [data-hook='review']",
@@ -117,93 +129,109 @@ class ReviewScraper(BaseScraper):
         logger.success(f"Collected {len(reviews)} reviews from product detail page")
         return reviews
 
-    async def scrape(
-        self,
-        asin: str,
-        max_reviews: int = None,
-        sort_by: str = "helpful"
-    ) -> List[Dict[str, Any]]:
-        """
-        Scrape reviews for a product (DEPRECATED - use scrape_from_product_page instead)
-
-        This method navigates to separate review pages which Amazon blocks.
-        Use scrape_from_product_page() instead to scrape from product detail pages.
-
-        Args:
-            asin: Product ASIN
-            max_reviews: Maximum number of reviews to collect
-            sort_by: Sort order (helpful, recent)
-
-        Returns:
-            list: Review data
-        """
-        if max_reviews is None:
-            max_reviews = REVIEW_ANALYSIS["max_reviews_per_product"]
-
-        logger.info(f"Scraping reviews for ASIN: {asin} (max: {max_reviews})")
-
-        reviews = []
-        page = 1
-        max_page = (max_reviews // 10) + 1  # Amazon shows 10 reviews per page
-
-        # Build reviews URL
-        sort_param = "helpful" if sort_by == "helpful" else "recent"
-        base_reviews_url = f"{self.base_url}/product-reviews/{asin}/ref=cm_cr_arp_d_viewopt_sr"
-
-        while page <= max_page and len(reviews) < max_reviews:
-            url = f"{base_reviews_url}?sortBy={sort_param}&pageNumber={page}"
-
-            success = await self.goto(url)
-            if not success:
-                logger.error(f"Failed to load reviews page {page}")
-                break
-
-            # Wait for reviews container - try multiple selectors
-            has_reviews = False
-            for selector in [
-                "[data-hook='review']",
-                "div[id^='customer_review']",
-                ".review.aok-relative",
-                ".a-section.review"
-            ]:
-                has_reviews = await self.wait_for_selector(selector, timeout=10000)
-                if has_reviews:
-                    logger.debug(f"Found reviews with selector: {selector}")
-                    break
-
-            if not has_reviews:
-                logger.warning(f"No reviews found on page {page}")
-                break
-
-            # Extract reviews from page
-            page_reviews = await self._extract_reviews_from_page()
-
-            if not page_reviews:
-                logger.warning(f"Could not extract reviews from page {page}")
-                break
-
-            reviews.extend(page_reviews)
-            logger.info(f"Collected {len(page_reviews)} reviews from page {page}")
-
-            page += 1
-
-        # Limit to max_reviews
-        reviews = reviews[:max_reviews]
-
-        # Filter by minimum length
-        min_length = REVIEW_ANALYSIS["min_review_length"]
-        reviews = [r for r in reviews if len(r.get("text", "")) >= min_length]
-
-        logger.success(f"Total reviews collected: {len(reviews)}")
-        return reviews
+    # =========================================================================
+    # DEPRECATED: /product-reviews/ page scraping method
+    # =========================================================================
+    # The scrape() method below is COMMENTED OUT because:
+    # 1. Amazon's /product-reviews/ page has different structure than /dp/ page
+    # 2. /product-reviews/ page is often blocked by Amazon's bot detection
+    # 3. Use scrape_from_product_page() instead for reliable review collection
+    # =========================================================================
+    #
+    # async def scrape(
+    #     self,
+    #     asin: str,
+    #     max_reviews: int = None,
+    #     sort_by: str = "helpful"
+    # ) -> List[Dict[str, Any]]:
+    #     """
+    #     Scrape reviews for a product (DEPRECATED - use scrape_from_product_page instead)
+    #
+    #     This method navigates to separate review pages which Amazon blocks.
+    #     Use scrape_from_product_page() instead to scrape from product detail pages.
+    #
+    #     Args:
+    #         asin: Product ASIN
+    #         max_reviews: Maximum number of reviews to collect
+    #         sort_by: Sort order (helpful, recent)
+    #
+    #     Returns:
+    #         list: Review data
+    #     """
+    #     if max_reviews is None:
+    #         max_reviews = REVIEW_ANALYSIS["max_reviews_per_product"]
+    #
+    #     logger.info(f"Scraping reviews for ASIN: {asin} (max: {max_reviews})")
+    #
+    #     reviews = []
+    #     page = 1
+    #     max_page = (max_reviews // 10) + 1  # Amazon shows 10 reviews per page
+    #
+    #     # Build reviews URL
+    #     sort_param = "helpful" if sort_by == "helpful" else "recent"
+    #     base_reviews_url = f"{self.base_url}/product-reviews/{asin}/ref=cm_cr_arp_d_viewopt_sr"
+    #
+    #     while page <= max_page and len(reviews) < max_reviews:
+    #         url = f"{base_reviews_url}?sortBy={sort_param}&pageNumber={page}"
+    #
+    #         success = await self.goto(url)
+    #         if not success:
+    #             logger.error(f"Failed to load reviews page {page}")
+    #             break
+    #
+    #         # Wait for reviews container - try multiple selectors
+    #         has_reviews = False
+    #         for selector in [
+    #             "[data-hook='review']",
+    #             "div[id^='customer_review']",
+    #             ".review.aok-relative",
+    #             ".a-section.review"
+    #         ]:
+    #             has_reviews = await self.wait_for_selector(selector, timeout=10000)
+    #             if has_reviews:
+    #                 logger.debug(f"Found reviews with selector: {selector}")
+    #                 break
+    #
+    #         if not has_reviews:
+    #             logger.warning(f"No reviews found on page {page}")
+    #             break
+    #
+    #         # Extract reviews from page
+    #         page_reviews = await self._extract_reviews_from_page()
+    #
+    #         if not page_reviews:
+    #             logger.warning(f"Could not extract reviews from page {page}")
+    #             break
+    #
+    #         reviews.extend(page_reviews)
+    #         logger.info(f"Collected {len(page_reviews)} reviews from page {page}")
+    #
+    #         page += 1
+    #
+    #     # Limit to max_reviews
+    #     reviews = reviews[:max_reviews]
+    #
+    #     # Filter by minimum length
+    #     min_length = REVIEW_ANALYSIS["min_review_length"]
+    #     reviews = [r for r in reviews if len(r.get("text", "")) >= min_length]
+    #
+    #     logger.success(f"Total reviews collected: {len(reviews)}")
+    #     return reviews
+    #
+    # =========================================================================
+    # END DEPRECATED METHOD
+    # =========================================================================
 
     async def _extract_reviews_from_page(self) -> List[Dict[str, Any]]:
         """Extract all reviews from current page"""
         reviews = []
 
         # Try multiple selectors to find review containers
+        # Amazon uses different container classes for reviews with/without images
         review_elements = []
         for selector in [
+            ".cm_cr_grid_center_right_images_widget [data-hook='review']",
+            ".cm_cr_grid_center_right_non_images_widgets [data-hook='review']",
             "[data-hook='review']",
             "div[id^='customer_review']",
             ".review.aok-relative",
@@ -213,6 +241,24 @@ class ReviewScraper(BaseScraper):
             if review_elements:
                 logger.debug(f"Found {len(review_elements)} reviews with selector: {selector}")
                 break
+
+        # If no reviews found with specific selectors, try finding within the container widgets
+        if not review_elements:
+            for container_selector in [
+                ".cm_cr_grid_center_right_images_widget",
+                ".cm_cr_grid_center_right_non_images_widgets"
+            ]:
+                containers = await self.page.query_selector_all(container_selector)
+                if containers:
+                    logger.debug(f"Found container: {container_selector}, extracting reviews...")
+                    for container in containers:
+                        # Look for review elements within container
+                        inner_reviews = await container.query_selector_all("[data-hook='review']")
+                        if inner_reviews:
+                            review_elements.extend(inner_reviews)
+                    if review_elements:
+                        logger.debug(f"Found {len(review_elements)} reviews within containers")
+                        break
 
         if not review_elements:
             logger.warning("No review elements found with any selector")
@@ -399,30 +445,42 @@ class ReviewScraper(BaseScraper):
 
 # Example usage
 async def main():
-    """Test the review scraper"""
+    """Test the review scraper - uses /dp/ASIN page only"""
     from loguru import logger
     logger.add("logs/review_scraper_test.log", rotation="10 MB")
 
-    # Example ASIN
-    test_asin = "B0BNKKLJ8V"
+    # Example ASIN (COSRX Snail Mucin)
+    test_asin = "B08CMS8P67"
 
     async with ReviewScraper() as scraper:
-        # Get review summary
+        # Step 1: Get review summary from product page
+        logger.info("=" * 60)
+        logger.info("Step 1: Scraping review summary from /dp/ page...")
         summary = await scraper.scrape_review_summary(test_asin)
         logger.info(f"Review summary: {summary}")
 
-        # Get first 20 reviews
-        reviews = await scraper.scrape(test_asin, max_reviews=20)
+        # Step 2: Get reviews from product page (already on page, no need to navigate again)
+        logger.info("=" * 60)
+        logger.info("Step 2: Scraping reviews from /dp/ page...")
+        reviews = await scraper.scrape_from_product_page(
+            test_asin,
+            max_reviews=15,
+            navigate=False  # Already on page from scrape_review_summary
+        )
 
-        for i, review in enumerate(reviews, 1):
+        logger.info(f"Collected {len(reviews)} reviews")
+
+        for i, review in enumerate(reviews[:5], 1):  # Show first 5 reviews
             logger.info(
                 f"\n--- Review {i} ---\n"
-                f"Rating: {review['rating']}/5\n"
-                f"Title: {review['title']}\n"
-                f"Text: {review['text'][:100]}...\n"
-                f"Verified: {review['verified']}\n"
-                f"Helpful: {review['helpful_votes']}"
+                f"Rating: {review.get('rating')}/5\n"
+                f"Title: {review.get('title', 'N/A')[:50]}...\n"
+                f"Text: {review.get('text', 'N/A')[:100]}...\n"
+                f"Verified: {review.get('verified')}\n"
+                f"Helpful: {review.get('helpful_votes')}"
             )
+
+        logger.success(f"Total reviews collected: {len(reviews)}")
 
 
 if __name__ == "__main__":
