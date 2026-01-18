@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect, useMemo } from 'react';
 import { GlassCard, GlassSectionTitle } from '../components/GlassCard';
 import { ProductDetailModal } from '../components/ProductDetailModal';
-import { Package, Filter, Sparkles, Download, Calendar } from 'lucide-react';
+import { Package, Filter, Download, Calendar } from 'lucide-react';
 
 // Import analysis modules
 import { AICategoryInsights } from '../components/analysis/AICategoryInsights';
@@ -234,18 +234,6 @@ export const AIMarketAnalysis = () => {
       >
         {/* Header */}
         <div className="mb-16 text-center">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6 }}
-            className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-white/5 border border-white/10 mb-8"
-          >
-            <Sparkles className="w-5 h-5 text-purple-400" />
-            <span className="text-sm tracking-[0.3em] text-white/70 uppercase">
-              AMORE PACIFIC AI AGENT 07
-            </span>
-          </motion.div>
-
           <h1 className="text-6xl font-extralight tracking-[0.2em] text-white/95 mb-6 text-gradient">
             LANEIGE INTELLIGENCE
           </h1>

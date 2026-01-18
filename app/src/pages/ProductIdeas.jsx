@@ -72,24 +72,13 @@ export const ProductIdeas = () => {
         className="max-w-[1600px] mx-auto"
       >
         {/* Header */}
-        <div className="mb-12 text-center">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6 }}
-            className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-white/5 border border-white/10 mb-8"
-          >
-            <Lightbulb className="w-5 h-5 text-yellow-400" />
-            <span className="text-sm tracking-[0.3em] text-white/70 uppercase">
-              AI-Powered Product Ideation
-            </span>
-          </motion.div>
-
-          <h1 className="text-5xl font-extralight tracking-[0.15em] text-white/95 mb-4">
-            PRODUCT IDEAS
+        <div className="mb-16 text-center">
+          <h1 className="text-6xl font-extralight tracking-[0.2em] text-white/95 mb-6 text-gradient">
+            LANEIGE INTELLIGENCE
           </h1>
-          <p className="text-lg font-light text-white/60 tracking-wider max-w-2xl mx-auto">
-            시장 Gap 분석을 기반으로 Claude AI가 생성한 신제품 아이디어
+          <p className="text-lg font-light text-white/60 tracking-wider max-w-3xl mx-auto leading-relaxed">
+            미국 Amazon Market의 흐름과 소비자의 목소리를 통합적으로 분석함으로써<br/>
+            LANEIGE의 미국 시장에서의 성장을 지원합니다
           </p>
         </div>
 
