@@ -382,29 +382,19 @@ class DataCollectionPipeline:
                         }
                         return False
 
-        # Process in batches with parallel execution
+        # Process sequentially (one browser page cannot handle parallel requests)
         async with ProductScraper() as scraper:
-            for batch_start in range(0, total_asins, batch_size):
-                batch_end = min(batch_start + batch_size, total_asins)
-                batch_asins = asins_to_enrich[batch_start:batch_end]
+            for idx, asin in enumerate(asins_to_enrich, start=1):
+                await enrich_single_product(scraper, asin, idx)
 
-                logger.info(f"\n📦 Processing batch {batch_start // batch_size + 1}/{(total_asins + batch_size - 1) // batch_size} ({batch_start + 1}-{batch_end}/{total_asins})")
-
-                # Process batch in parallel
-                tasks = [
-                    enrich_single_product(scraper, asin, batch_start + i + 1)
-                    for i, asin in enumerate(batch_asins)
-                ]
-                await asyncio.gather(*tasks)
-
-                # Delay between batches (not between individual products)
-                if batch_end < total_asins:
-                    logger.debug(f"Batch completed, waiting {delay}s before next batch...")
+                # Delay between products
+                if idx < total_asins:
                     await asyncio.sleep(delay)
 
-                # Progress update
-                progress_pct = (batch_end / total_asins) * 100
-                logger.info(f"Progress: {progress_pct:.1f}% | Enriched: {enriched_count} | Skipped: {skipped_count} | Failed: {failed_count}")
+                # Progress update every 10 products
+                if idx % 10 == 0:
+                    progress_pct = (idx / total_asins) * 100
+                    logger.info(f"Progress: {progress_pct:.1f}% | Enriched: {enriched_count} | Skipped: {skipped_count} | Failed: {failed_count}")
 
         # Final summary
         logger.info("\n" + "=" * 60)
