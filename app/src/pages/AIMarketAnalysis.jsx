@@ -263,11 +263,11 @@ export const AIMarketAnalysis = () => {
                   value={name}
                   className="bg-gray-900"
                   style={{
-                    color: depth === 0 ? '#fbbf24' : depth === 1 ? '#60a5fa' : '#9ca3af',
+                    color: depth === 0 ? '#e879f9' : depth === 1 ? '#60a5fa' : '#9ca3af',
                     fontWeight: depth === 0 ? 'bold' : depth === 1 ? '500' : 'normal',
                   }}
                 >
-                  {depth === 0 ? '★ ' : depth === 1 ? '● ' : '  └ '}{name}
+                  {depth === 0 ? '' : depth === 1 ? '● ' : '  └ '}{name}
                 </option>
               ))}
             </select>
