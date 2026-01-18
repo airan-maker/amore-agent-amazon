@@ -2,7 +2,8 @@ import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-do
 import { AIAgentDashboard } from './pages/AIAgentDashboard';
 import { AIMarketAnalysis } from './pages/AIMarketAnalysis';
 import { LaneigeAIAgent } from './pages/LaneigeAIAgent';
-import { BarChart3, Package, Home, Bot } from 'lucide-react';
+import { ProductIdeas } from './pages/ProductIdeas';
+import { Package, Home, Bot, Lightbulb } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Navigation = () => {
@@ -12,6 +13,7 @@ const Navigation = () => {
     { path: '/', icon: Package, label: 'Market Analysis' },
     { path: '/dashboard', icon: Home, label: 'Brand Intelligence' },
     { path: '/ai-agent', icon: Bot, label: 'Q&A AI Agent' },
+    { path: '/product-ideas', icon: Lightbulb, label: 'Product Ideas' },
   ];
 
   return (
@@ -50,6 +52,7 @@ function App() {
           <Route path="/" element={<AIMarketAnalysis />} />
           <Route path="/dashboard" element={<AIAgentDashboard />} />
           <Route path="/ai-agent" element={<LaneigeAIAgent />} />
+          <Route path="/product-ideas" element={<ProductIdeas />} />
         </Routes>
       </div>
     </BrowserRouter>
