@@ -60,11 +60,11 @@ export const getSortedCategoriesWithDepth = (categories) => {
     parent: CATEGORY_HIERARCHY[name]?.parent || null
   }));
 
-  // Define the desired order for Depth 1 categories
+  // Define the desired order for Depth 1 categories (Skin Care first for LANEIGE)
   const depth1Order = [
     'Beauty & Personal Care',
-    'Makeup',
     'Skin Care',
+    'Makeup',
     'Hair Care',
     'Perfumes & Fragrances',
     'Foot, Hand & Nail Care',
