@@ -49,21 +49,59 @@ export const getCategoryDepth = (categoryName) => {
 
 /**
  * Get sorted categories by hierarchy
+ * Categories are sorted so children appear right after their parent
  * @param {string[]} categories - Array of category names
  * @returns {Array<{name: string, depth: number}>} - Sorted categories with depth
  */
 export const getSortedCategoriesWithDepth = (categories) => {
-  return categories
-    .map(name => ({
-      name,
-      depth: getCategoryDepth(name),
-      parent: CATEGORY_HIERARCHY[name]?.parent || null
-    }))
-    .sort((a, b) => {
-      // Sort by depth first, then alphabetically
-      if (a.depth !== b.depth) return a.depth - b.depth;
-      return a.name.localeCompare(b.name);
-    });
+  const categoryData = categories.map(name => ({
+    name,
+    depth: getCategoryDepth(name),
+    parent: CATEGORY_HIERARCHY[name]?.parent || null
+  }));
+
+  // Define the desired order for Depth 1 categories
+  const depth1Order = [
+    'Beauty & Personal Care',
+    'Makeup',
+    'Skin Care',
+    'Hair Care',
+    'Perfumes & Fragrances',
+    'Foot, Hand & Nail Care',
+    'Personal Care',
+    'Salon & Spa Equipment',
+    'Shaving & Grooming',
+    'Tools & Accessories'
+  ];
+
+  // Build hierarchical sorted list
+  const result = [];
+
+  // First, add Depth 0
+  const depth0 = categoryData.filter(c => c.depth === 0);
+  depth0.forEach(cat => result.push(cat));
+
+  // Then add Depth 1 and their children in order
+  depth1Order.forEach(parentName => {
+    const parent = categoryData.find(c => c.name === parentName && c.depth === 1);
+    if (parent) {
+      result.push(parent);
+      // Add children of this parent (Depth 2)
+      const children = categoryData
+        .filter(c => c.parent === parentName && c.depth === 2)
+        .sort((a, b) => a.name.localeCompare(b.name));
+      children.forEach(child => result.push(child));
+    }
+  });
+
+  // Add any remaining categories not in the hierarchy
+  categoryData.forEach(cat => {
+    if (!result.find(r => r.name === cat.name)) {
+      result.push(cat);
+    }
+  });
+
+  return result;
 };
 
 // Import all historical data files
