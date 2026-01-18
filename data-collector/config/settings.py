@@ -117,14 +117,14 @@ VIEWPORT_POOL = [
     {"width": 2560, "height": 1440},  # QHD
 ]
 
-# Randomized timezone pool (US timezones)
+# Randomized timezone pool (US timezones - valid IANA timezone IDs)
 TIMEZONE_POOL = [
     "America/New_York",      # EST
     "America/Chicago",       # CST
     "America/Denver",        # MST
-    "America/Los_Angeles",   # PST
+    "America/Los_Angeles",   # PST (includes Seattle, San Francisco)
     "America/Phoenix",       # MST (no DST)
-    "America/Seattle",       # PST
+    "America/Anchorage",     # AKST (Alaska)
 ]
 
 # Randomized locale pool
