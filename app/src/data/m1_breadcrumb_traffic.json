@@ -1,243 +1,670 @@
 {
   "products": [
     {
-      "brand": "Summer",
-      "product": "Summer Fridays Tinted Lip Butter Balm - Conditioni",
-      "analysis_period": "2026-01-01 to 2026-01-18",
-      "registered_category": "",
-      "exposure_paths": [
-        {
-          "breadcrumb": "Beauty & Personal Care",
-          "traffic_percentage": 50.0,
-          "avg_rank": 86,
-          "conversion_rate": 11.5,
-          "trend": "stable",
-          "gap_detected": true,
-          "gap_insight": "실제 트래픽의 50.0%가 'Beauty & Personal Care' 카테고리에서 발생 - 명목 카테고리와 불일치"
-        },
-        {
-          "breadcrumb": "Hair Care",
-          "traffic_percentage": 50.0,
-          "avg_rank": 86,
-          "conversion_rate": 11.5,
-          "trend": "stable",
-          "gap_detected": true,
-          "gap_insight": "실제 트래픽의 50.0%가 'Hair Care' 카테고리에서 발생 - 명목 카테고리와 불일치"
-        }
-      ],
-      "strategic_recommendation": "Beauty & Personal Care 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
-    },
-    {
-      "brand": "Summer",
-      "product": "Summer Fridays Tinted Lip Butter Balm - Conditioni",
-      "analysis_period": "2026-01-01 to 2026-01-18",
-      "registered_category": "",
-      "exposure_paths": [
-        {
-          "breadcrumb": "Lip Care",
-          "traffic_percentage": 97.8,
-          "avg_rank": 1,
-          "conversion_rate": 15.0,
-          "trend": "stable",
-          "gap_detected": true,
-          "gap_insight": "실제 트래픽의 97.8%가 'Lip Care' 카테고리에서 발생 - 명목 카테고리와 불일치"
-        },
-        {
-          "breadcrumb": "Beauty & Personal Care",
-          "traffic_percentage": 1.1,
-          "avg_rank": 91,
-          "conversion_rate": 10.6,
-          "trend": "stable"
-        },
-        {
-          "breadcrumb": "Hair Care",
-          "traffic_percentage": 1.1,
-          "avg_rank": 91,
-          "conversion_rate": 10.6,
-          "trend": "stable"
-        }
-      ],
-      "strategic_recommendation": "Lip Care 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
-    },
-    {
       "brand": "Aquaphor",
       "product": "Aquaphor Lip Repair Ointment, Moisturizing Lip Bal",
-      "analysis_period": "2026-01-01 to 2026-01-18",
+      "analysis_period": "2026-01-01 to 2026-01-19",
       "registered_category": "",
       "exposure_paths": [
         {
-          "breadcrumb": "Lip Care",
-          "traffic_percentage": 100.0,
-          "avg_rank": 3,
+          "breadcrumb": "Maternity Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 1,
           "conversion_rate": 15.0,
-          "trend": "stable",
-          "gap_detected": true,
-          "gap_insight": "실제 트래픽의 100.0%가 'Lip Care' 카테고리에서 발생 - 명목 카테고리와 불일치"
-        }
-      ],
-      "strategic_recommendation": "Lip Care 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
-    },
-    {
-      "brand": "Summer",
-      "product": "Summer Fridays Tinted Lip Butter Balm - Conditioni",
-      "analysis_period": "2026-01-01 to 2026-01-18",
-      "registered_category": "",
-      "exposure_paths": [
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Sun Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 1,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Skin Care Sets & Kits",
+          "traffic_percentage": 25.0,
+          "avg_rank": 1,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
         {
           "breadcrumb": "Lip Care",
-          "traffic_percentage": 100.0,
-          "avg_rank": 5,
+          "traffic_percentage": 25.0,
+          "avg_rank": 1,
           "conversion_rate": 15.0,
-          "trend": "stable",
-          "gap_detected": true,
-          "gap_insight": "실제 트래픽의 100.0%가 'Lip Care' 카테고리에서 발생 - 명목 카테고리와 불일치"
+          "trend": "stable"
         }
       ],
-      "strategic_recommendation": "Lip Care 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
+      "strategic_recommendation": "현재 전략 유지. Maternity Skin Care에서 우수한 성과 지속 중"
     },
     {
       "brand": "Burt's",
       "product": "Burt's Bees Lip Balm - Original Beeswax, Lip Moist",
-      "analysis_period": "2026-01-01 to 2026-01-18",
+      "analysis_period": "2026-01-01 to 2026-01-19",
       "registered_category": "",
       "exposure_paths": [
         {
-          "breadcrumb": "Lip Care",
-          "traffic_percentage": 100.0,
-          "avg_rank": 2,
+          "breadcrumb": "Maternity Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 3,
           "conversion_rate": 15.0,
-          "trend": "stable",
-          "gap_detected": true,
-          "gap_insight": "실제 트래픽의 100.0%가 'Lip Care' 카테고리에서 발생 - 명목 카테고리와 불일치"
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Sun Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 3,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Skin Care Sets & Kits",
+          "traffic_percentage": 25.0,
+          "avg_rank": 3,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Lip Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 3,
+          "conversion_rate": 15.0,
+          "trend": "stable"
         }
       ],
-      "strategic_recommendation": "Lip Care 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
+      "strategic_recommendation": "현재 전략 유지. Maternity Skin Care에서 우수한 성과 지속 중"
     },
     {
-      "brand": "Beetles",
-      "product": "Beetles 2Pcs*20g Solid Nail Glue Gel, Tipex Soft N",
-      "analysis_period": "2026-01-01 to 2026-01-18",
+      "brand": "Summer",
+      "product": "Summer Fridays Tinted Lip Butter Balm - Conditioni",
+      "analysis_period": "2026-01-01 to 2026-01-19",
       "registered_category": "",
       "exposure_paths": [
         {
-          "breadcrumb": "Lip Care",
-          "traffic_percentage": 100.0,
+          "breadcrumb": "Maternity Skin Care",
+          "traffic_percentage": 25.0,
           "avg_rank": 4,
           "conversion_rate": 15.0,
-          "trend": "stable",
-          "gap_detected": true,
-          "gap_insight": "실제 트래픽의 100.0%가 'Lip Care' 카테고리에서 발생 - 명목 카테고리와 불일치"
-        }
-      ],
-      "strategic_recommendation": "Lip Care 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
-    },
-    {
-      "brand": "La",
-      "product": "La Roche-Posay Lipikar AP+ Triple Repair Moisturiz",
-      "analysis_period": "2026-01-01 to 2026-01-18",
-      "registered_category": "",
-      "exposure_paths": [
+          "trend": "stable"
+        },
         {
-          "breadcrumb": "Lip Care",
-          "traffic_percentage": 100.0,
-          "avg_rank": 19,
+          "breadcrumb": "Sun Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 4,
           "conversion_rate": 15.0,
-          "trend": "stable",
-          "gap_detected": true,
-          "gap_insight": "실제 트래픽의 100.0%가 'Lip Care' 카테고리에서 발생 - 명목 카테고리와 불일치"
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Skin Care Sets & Kits",
+          "traffic_percentage": 25.0,
+          "avg_rank": 4,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Lip Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 4,
+          "conversion_rate": 15.0,
+          "trend": "stable"
         }
       ],
-      "strategic_recommendation": "Lip Care 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
+      "strategic_recommendation": "현재 전략 유지. Maternity Skin Care에서 우수한 성과 지속 중"
     },
     {
-      "brand": "Laneige",
-      "product": "Laneige Skincare & Lip Care Holiday Gift Sets – Li",
-      "analysis_period": "2026-01-01 to 2026-01-18",
+      "brand": "Burt's",
+      "product": "Burt's Bees Lip Balm, Beeswax, Strawberry, Coconut",
+      "analysis_period": "2026-01-01 to 2026-01-19",
       "registered_category": "",
       "exposure_paths": [
         {
-          "breadcrumb": "Lip Care",
-          "traffic_percentage": 100.0,
+          "breadcrumb": "Maternity Skin Care",
+          "traffic_percentage": 25.0,
           "avg_rank": 17,
           "conversion_rate": 15.0,
-          "trend": "stable",
-          "gap_detected": true,
-          "gap_insight": "실제 트래픽의 100.0%가 'Lip Care' 카테고리에서 발생 - 명목 카테고리와 불일치"
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Sun Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 17,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Skin Care Sets & Kits",
+          "traffic_percentage": 25.0,
+          "avg_rank": 17,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Lip Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 17,
+          "conversion_rate": 15.0,
+          "trend": "stable"
         }
       ],
-      "strategic_recommendation": "Lip Care 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
+      "strategic_recommendation": "현재 전략 유지. Maternity Skin Care에서 우수한 성과 지속 중"
+    },
+    {
+      "brand": "ChapStick",
+      "product": "ChapStick Moisturizer Original Lip Balm Tubes, SPF",
+      "analysis_period": "2026-01-01 to 2026-01-19",
+      "registered_category": "",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Maternity Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 11,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Sun Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 11,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Skin Care Sets & Kits",
+          "traffic_percentage": 25.0,
+          "avg_rank": 11,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Lip Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 11,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        }
+      ],
+      "strategic_recommendation": "현재 전략 유지. Maternity Skin Care에서 우수한 성과 지속 중"
+    },
+    {
+      "brand": "NIVEA",
+      "product": "NIVEA Lip Care, Fruity Tinted Lip Balm Variety Pac",
+      "analysis_period": "2026-01-01 to 2026-01-19",
+      "registered_category": "",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Maternity Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 16,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Sun Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 16,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Skin Care Sets & Kits",
+          "traffic_percentage": 25.0,
+          "avg_rank": 16,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Lip Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 16,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        }
+      ],
+      "strategic_recommendation": "현재 전략 유지. Maternity Skin Care에서 우수한 성과 지속 중"
     },
     {
       "brand": "Unknown",
       "product": "e.l.f. Squeeze Me Lip Balm, Moisturizing Lip Balm ",
-      "analysis_period": "2026-01-01 to 2026-01-18",
+      "analysis_period": "2026-01-01 to 2026-01-19",
       "registered_category": "",
       "exposure_paths": [
         {
-          "breadcrumb": "Lip Care",
-          "traffic_percentage": 100.0,
-          "avg_rank": 7,
+          "breadcrumb": "Maternity Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 8,
           "conversion_rate": 15.0,
-          "trend": "stable",
-          "gap_detected": true,
-          "gap_insight": "실제 트래픽의 100.0%가 'Lip Care' 카테고리에서 발생 - 명목 카테고리와 불일치"
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Sun Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 8,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Skin Care Sets & Kits",
+          "traffic_percentage": 25.0,
+          "avg_rank": 8,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Lip Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 8,
+          "conversion_rate": 15.0,
+          "trend": "stable"
         }
       ],
-      "strategic_recommendation": "Lip Care 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
+      "strategic_recommendation": "현재 전략 유지. Maternity Skin Care에서 우수한 성과 지속 중"
     },
     {
       "brand": "Unknown",
-      "product": "e.l.f. Lip Plumping Gloss, High-Shine Sheer Color,",
-      "analysis_period": "2026-01-01 to 2026-01-18",
+      "product": "e.l.f. Glow Reviver Melting Lip Balm, Hydrating Ti",
+      "analysis_period": "2026-01-01 to 2026-01-19",
       "registered_category": "",
       "exposure_paths": [
         {
-          "breadcrumb": "Lip Care",
-          "traffic_percentage": 100.0,
-          "avg_rank": 18,
+          "breadcrumb": "Maternity Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 15,
           "conversion_rate": 15.0,
-          "trend": "stable",
-          "gap_detected": true,
-          "gap_insight": "실제 트래픽의 100.0%가 'Lip Care' 카테고리에서 발생 - 명목 카테고리와 불일치"
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Sun Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 15,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Skin Care Sets & Kits",
+          "traffic_percentage": 25.0,
+          "avg_rank": 15,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Lip Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 15,
+          "conversion_rate": 15.0,
+          "trend": "stable"
         }
       ],
-      "strategic_recommendation": "Lip Care 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
+      "strategic_recommendation": "현재 전략 유지. Maternity Skin Care에서 우수한 성과 지속 중"
+    },
+    {
+      "brand": "Unknown",
+      "product": "e.l.f. Squeeze Me More Lip Balm Duo, Moisturizing ",
+      "analysis_period": "2026-01-01 to 2026-01-19",
+      "registered_category": "",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Maternity Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 19,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Sun Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 19,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Skin Care Sets & Kits",
+          "traffic_percentage": 25.0,
+          "avg_rank": 19,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Lip Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 19,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        }
+      ],
+      "strategic_recommendation": "현재 전략 유지. Maternity Skin Care에서 우수한 성과 지속 중"
     },
     {
       "brand": "Under",
       "product": "Under Eye Patches, 40 Pairs Eye Mask for Dark Circ",
-      "analysis_period": "2026-01-01 to 2026-01-18",
+      "analysis_period": "2026-01-01 to 2026-01-19",
       "registered_category": "",
       "exposure_paths": [
         {
-          "breadcrumb": "Lip Care",
-          "traffic_percentage": 100.0,
+          "breadcrumb": "Maternity Skin Care",
+          "traffic_percentage": 25.0,
           "avg_rank": 6,
           "conversion_rate": 15.0,
-          "trend": "stable",
-          "gap_detected": true,
-          "gap_insight": "실제 트래픽의 100.0%가 'Lip Care' 카테고리에서 발생 - 명목 카테고리와 불일치"
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Sun Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 6,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Skin Care Sets & Kits",
+          "traffic_percentage": 25.0,
+          "avg_rank": 6,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Lip Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 6,
+          "conversion_rate": 15.0,
+          "trend": "stable"
         }
       ],
-      "strategic_recommendation": "Lip Care 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
+      "strategic_recommendation": "현재 전략 유지. Maternity Skin Care에서 우수한 성과 지속 중"
     },
     {
-      "brand": "ForPro",
-      "product": "ForPro Professional Collection Fleece Massage Tabl",
-      "analysis_period": "2026-01-01 to 2026-01-18",
+      "brand": "MAYBELLINE",
+      "product": "MAYBELLINE Lifter Glaze Oil Balm with Hyaluronic A",
+      "analysis_period": "2026-01-01 to 2026-01-19",
       "registered_category": "",
       "exposure_paths": [
         {
-          "breadcrumb": "Lip Care",
-          "traffic_percentage": 100.0,
-          "avg_rank": 8,
+          "breadcrumb": "Maternity Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 12,
           "conversion_rate": 15.0,
-          "trend": "stable",
-          "gap_detected": true,
-          "gap_insight": "실제 트래픽의 100.0%가 'Lip Care' 카테고리에서 발생 - 명목 카테고리와 불일치"
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Sun Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 12,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Skin Care Sets & Kits",
+          "traffic_percentage": 25.0,
+          "avg_rank": 12,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Lip Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 12,
+          "conversion_rate": 15.0,
+          "trend": "stable"
         }
       ],
-      "strategic_recommendation": "Lip Care 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
+      "strategic_recommendation": "현재 전략 유지. Maternity Skin Care에서 우수한 성과 지속 중"
+    },
+    {
+      "brand": "Unknown",
+      "product": "eos 100% Natural & Organic Lip Balm Sticks - Vanil",
+      "analysis_period": "2026-01-01 to 2026-01-19",
+      "registered_category": "",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Maternity Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 7,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Sun Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 7,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Skin Care Sets & Kits",
+          "traffic_percentage": 25.0,
+          "avg_rank": 7,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Lip Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 7,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        }
+      ],
+      "strategic_recommendation": "현재 전략 유지. Maternity Skin Care에서 우수한 성과 지속 중"
+    },
+    {
+      "brand": "Unknown",
+      "product": "eos The Hero Lip Repair, Extra Dry Lip Treatment, ",
+      "analysis_period": "2026-01-01 to 2026-01-19",
+      "registered_category": "",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Maternity Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 18,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Sun Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 18,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Skin Care Sets & Kits",
+          "traffic_percentage": 25.0,
+          "avg_rank": 18,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Lip Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 18,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        }
+      ],
+      "strategic_recommendation": "현재 전략 유지. Maternity Skin Care에서 우수한 성과 지속 중"
+    },
+    {
+      "brand": "Burt's",
+      "product": "Burt's Bees Lip Balm - Vanilla Bean, Lip Moisturiz",
+      "analysis_period": "2026-01-01 to 2026-01-19",
+      "registered_category": "",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Maternity Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 20,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Sun Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 20,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Skin Care Sets & Kits",
+          "traffic_percentage": 25.0,
+          "avg_rank": 20,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Lip Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 20,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        }
+      ],
+      "strategic_recommendation": "현재 전략 유지. Maternity Skin Care에서 우수한 성과 지속 중"
+    },
+    {
+      "brand": "Blistex",
+      "product": "Blistex Medicated Lip Balm, 0.15 Ounce, 3 Count (P",
+      "analysis_period": "2026-01-01 to 2026-01-19",
+      "registered_category": "",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Maternity Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 9,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Sun Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 9,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Skin Care Sets & Kits",
+          "traffic_percentage": 25.0,
+          "avg_rank": 9,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Lip Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 9,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        }
+      ],
+      "strategic_recommendation": "현재 전략 유지. Maternity Skin Care에서 우수한 성과 지속 중"
+    },
+    {
+      "brand": "La",
+      "product": "La Roche-Posay Cicaplast Lip Balm B5, Hydrating Ba",
+      "analysis_period": "2026-01-01 to 2026-01-19",
+      "registered_category": "",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Maternity Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 13,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Sun Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 13,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Skin Care Sets & Kits",
+          "traffic_percentage": 25.0,
+          "avg_rank": 13,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Lip Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 13,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        }
+      ],
+      "strategic_recommendation": "현재 전략 유지. Maternity Skin Care에서 우수한 성과 지속 중"
+    },
+    {
+      "brand": "O'Keeffe's",
+      "product": "O'Keeffe's Lip Repair Lip Balm With Cooling Relief",
+      "analysis_period": "2026-01-01 to 2026-01-19",
+      "registered_category": "",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Maternity Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 10,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Sun Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 10,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Skin Care Sets & Kits",
+          "traffic_percentage": 25.0,
+          "avg_rank": 10,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Lip Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 10,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        }
+      ],
+      "strategic_recommendation": "현재 전략 유지. Maternity Skin Care에서 우수한 성과 지속 중"
+    },
+    {
+      "brand": "RoC",
+      "product": "RoC Derm Correxion Lip Volumizer - Lip Plumper Pep",
+      "analysis_period": "2026-01-01 to 2026-01-19",
+      "registered_category": "",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Maternity Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 14,
+          "conversion_rate": 13.1,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Sun Skin Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 14,
+          "conversion_rate": 13.1,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Skin Care Sets & Kits",
+          "traffic_percentage": 25.0,
+          "avg_rank": 14,
+          "conversion_rate": 13.1,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Lip Care",
+          "traffic_percentage": 25.0,
+          "avg_rank": 14,
+          "conversion_rate": 13.1,
+          "trend": "stable"
+        }
+      ],
+      "strategic_recommendation": "현재 전략 유지. Maternity Skin Care에서 우수한 성과 지속 중"
     }
   ]
 }
