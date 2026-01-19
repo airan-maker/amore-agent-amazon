@@ -1,6 +1,6 @@
 # Amazon Beauty 24개 카테고리 계층 구조
 # Depth 0 (1개) → Depth 1 (9개) → Depth 2 (14개)
-# 총 2,400개 제품 수집 (카테고리당 Top 100)
+# 총 1,200개 제품 수집 (카테고리당 Top 50) - GitHub Actions 6시간 제한 대응
 
 # ============================================
 # 계층 구조 정의
@@ -12,7 +12,7 @@ hierarchy:
       name: "Beauty & Personal Care"
       url: "https://www.amazon.com/Best-Sellers-Beauty/zgbs/beauty"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
   # Depth 1: 9개 주요 카테고리
   depth_1:
@@ -21,63 +21,63 @@ hierarchy:
       parent_id: "beauty_personal_care"
       url: "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care-Perfumes-Fragrances/zgbs/beauty/11056591"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
     - id: "foot_hand_nail"
       name: "Foot, Hand & Nail Care"
       parent_id: "beauty_personal_care"
       url: "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care-Foot-Hand-Nail-Care-Products/zgbs/beauty/17242866011"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
     - id: "hair_care"
       name: "Hair Care"
       parent_id: "beauty_personal_care"
       url: "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care-Hair-Care-Products/zgbs/beauty/11057241"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
     - id: "makeup"
       name: "Makeup"
       parent_id: "beauty_personal_care"
       url: "https://www.amazon.com/Best-Sellers-Beauty-Makeup/zgbs/beauty/11058281"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
     - id: "personal_care"
       name: "Personal Care"
       parent_id: "beauty_personal_care"
       url: "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care-Personal-Care-Products/zgbs/beauty/3777891/"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
     - id: "salon_spa"
       name: "Salon & Spa Equipment"
       parent_id: "beauty_personal_care"
       url: "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care-Salon-Spa-Equipment/zgbs/beauty/15144566011"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
     - id: "shaving"
       name: "Shaving & Grooming"
       parent_id: "beauty_personal_care"
       url: "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care-Shaving-Hair-Removal-Products/zgbs/beauty/3778591"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
     - id: "skin_care"
       name: "Skin Care"
       parent_id: "beauty_personal_care"
       url: "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care-Skin-Care-Products/zgbs/beauty/11060451"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
     - id: "tools"
       name: "Tools & Accessories"
       parent_id: "beauty_personal_care"
       url: "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care-Beauty-Tools-Accessories/zgbs/beauty/11062741"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
   # Depth 2: 14개 서브카테고리 (Makeup 7개 + Skin Care 7개)
   depth_2:
@@ -87,49 +87,49 @@ hierarchy:
       parent_id: "makeup"
       url: "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care-Body-Makeup/zgbs/beauty/11058291"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
     - id: "eye_makeup"
       name: "Eye Makeup"
       parent_id: "makeup"
       url: "https://www.amazon.com/Best-Sellers-Beauty-Eye-Makeup/zgbs/beauty/11058331"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
     - id: "face_makeup"
       name: "Face Makeup"
       parent_id: "makeup"
       url: "https://www.amazon.com/Best-Sellers-Beauty-Face-Makeup/zgbs/beauty/11058691"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
     - id: "lip_makeup"
       name: "Lip Makeup"
       parent_id: "makeup"
       url: "https://www.amazon.com/Best-Sellers-Beauty-Lip-Makeup/zgbs/beauty/11059031"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
     - id: "makeup_sets_kits"
       name: "Makeup Sets & Kits"
       parent_id: "makeup"
       url: "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care-Makeup-Sets/zgbs/beauty/11059301"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
     - id: "makeup_palettes"
       name: "Makeup Palettes"
       parent_id: "makeup"
       url: "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care-Makeup-Palettes/zgbs/beauty/2265896011"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
     - id: "makeup_remover"
       name: "Makeup Remover"
       parent_id: "makeup"
       url: "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care-Makeup-Remover/zgbs/beauty/11059231"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
     # Skin Care 하위 카테고리
     - id: "facial_skin_care"
@@ -137,49 +137,49 @@ hierarchy:
       parent_id: "skin_care"
       url: "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care-Facial-Skin-Care-Products/zgbs/beauty/11060711"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
     - id: "body_skin_care"
       name: "Body Skin Care"
       parent_id: "skin_care"
       url: "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care-Body-Skin-Care-Products/zgbs/beauty/11060521"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
     - id: "eye_treatment"
       name: "Eye Treatment"
       parent_id: "skin_care"
       url: "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care-Eye-Treatment-Products/zgbs/beauty/11061941"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
     - id: "maternity_skin_care"
       name: "Maternity Skin Care"
       parent_id: "skin_care"
       url: "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care-Maternity-Skin-Care/zgbs/beauty/11062371"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
     - id: "skin_care_sets_kits"
       name: "Skin Care Sets & Kits"
       parent_id: "skin_care"
       url: "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care-Skin-Care-Sets-Kits/zgbs/beauty/11062581"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
     - id: "sun_skin_care"
       name: "Sun Skin Care"
       parent_id: "skin_care"
       url: "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care-Sun-Skin-Care/zgbs/beauty/11062591"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
     - id: "lip_care"
       name: "Lip Care"
       parent_id: "skin_care"
       url: "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care-Lip-Care-Products/zgbs/beauty/3761351"
       track_enabled: true
-      track_top_n: 100
+      track_top_n: 50
 
 # ============================================
 # 수집 전략 설정

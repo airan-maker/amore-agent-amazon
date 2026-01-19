@@ -25,8 +25,8 @@ product_enrichment:
   # 수집 전략: "all" (모든 제품)
   strategy: "all"
 
-  # 카테고리별 상위 몇 개 제품의 상세 정보를 수집할지
-  top_n_per_category: 100
+  # 카테고리별 상위 몇 개 제품의 상세 정보를 수집할지 (GitHub Actions 6시간 제한 대응)
+  top_n_per_category: 50
 
   # 실패 시 재시도 횟수
   max_retries_per_product: 2
