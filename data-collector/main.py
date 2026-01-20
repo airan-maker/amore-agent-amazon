@@ -470,6 +470,8 @@ class DataCollectionPipeline:
 
         # NEW: Convert rankings to category_products format for frontend
         # Merge enriched product details into rankings
+        from utils.brand_extractor import enrich_product_with_brand
+
         category_products = {}
         for category_name, rankings in self.collected_data["ranks"].items():
             # Get category URL from config
@@ -498,9 +500,13 @@ class DataCollectionPipeline:
                         **detailed_data,  # Start with detailed data
                         **product,  # Override with ranking data (rank, rating from list)
                     }
+                    # Extract brand from product name if not available
+                    merged_product = enrich_product_with_brand(merged_product)
                     enriched_products.append(merged_product)
                 else:
                     # No detailed data available, use ranking data only
+                    # Still try to extract brand from product name
+                    product = enrich_product_with_brand(product)
                     enriched_products.append(product)
 
             category_products[category_name] = {
