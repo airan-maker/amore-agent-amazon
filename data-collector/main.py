@@ -213,34 +213,23 @@ class DataCollectionPipeline:
                 }
                 return {"success": False, "error": str(e)}
 
-        # Process categories in parallel batches
+        # Process categories sequentially (one browser page cannot handle parallel requests)
         async with RankScraper() as scraper:
-            for i in range(0, total_categories, parallel_limit):
-                batch = all_categories[i:i+parallel_limit]
-                batch_num = i // parallel_limit + 1
-                total_batches = (total_categories + parallel_limit - 1) // parallel_limit
+            for idx, category in enumerate(all_categories, start=1):
+                result = await scrape_category(scraper, category, idx)
 
-                logger.info(f"📦 배치 {batch_num}/{total_batches} 시작 ({len(batch)} categories)...")
+                # Log result
+                if isinstance(result, dict) and result.get("success"):
+                    if result.get("cached"):
+                        logger.debug(f"  (cached)")
+                else:
+                    logger.warning(f"  Category failed")
 
-                # Execute batch in parallel
-                tasks = [
-                    scrape_category(scraper, cat, i+j+1)
-                    for j, cat in enumerate(batch)
-                ]
-                results = await asyncio.gather(*tasks, return_exceptions=True)
-
-                # Log batch results
-                success_count = sum(1 for r in results if isinstance(r, dict) and r.get("success"))
-                cached_count = sum(1 for r in results if isinstance(r, dict) and r.get("cached"))
-
-                logger.info(f"✓ 배치 {batch_num} 완료: {success_count}/{len(batch)} 성공 ({cached_count} cached)")
-
-                # Randomized delay between batches (except for last batch)
-                if i + parallel_limit < total_categories:
-                    # Use longer, randomized delays to avoid bot detection
-                    batch_delay = random.uniform(category_delay_min, category_delay_max)
-                    logger.info(f"⏱️  다음 배치까지 {batch_delay:.1f}초 대기 (봇 탐지 회피)...")
-                    await asyncio.sleep(batch_delay)
+                # Randomized delay between categories (except for last one)
+                if idx < total_categories:
+                    category_delay = random.uniform(category_delay_min, category_delay_max)
+                    logger.info(f"⏱️  다음 카테고리까지 {category_delay:.1f}초 대기...")
+                    await asyncio.sleep(category_delay)
 
         # Calculate and log final statistics
         total_products = 0
@@ -674,13 +663,15 @@ class DataCollectionPipeline:
         # Collect all products with enriched data
         products_to_extract = []
         for asin, product_data in self.collected_data["products"].items():
-            # Skip if no meaningful data
-            if not product_data.get("brand") and not product_data.get("name"):
+            # Skip if no meaningful data (need at least product name)
+            product_name = product_data.get("product_name") or product_data.get("name")
+            if not product_name:
                 continue
 
             products_to_extract.append({
                 "asin": asin,
-                "name": product_data.get("name", "Unknown"),
+                "name": product_name,
+                "brand": product_data.get("brand", "Unknown"),
                 "description": product_data.get("description", ""),
                 "price": product_data.get("price", ""),
                 "breadcrumb": product_data.get("breadcrumb", []),
