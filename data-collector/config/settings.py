@@ -72,34 +72,34 @@ AMAZON_SETTINGS = {
 # Scraping Settings
 SCRAPER_SETTINGS = {
     "headless": True,  # Run browser in headless mode
-    "delay_min": 8,    # Minimum delay between requests (seconds) - INCREASED for bot evasion
-    "delay_max": 18,   # Maximum delay between requests (seconds) - INCREASED for bot evasion
-    "max_retries": 5,  # Max retry attempts on failure
-    "retry_delay": 25, # Delay between retries (seconds) - INCREASED
+    "delay_min": 2,    # Minimum delay between requests (seconds) - Optimized for GitHub Actions
+    "delay_max": 5,    # Maximum delay between requests (seconds) - Optimized for GitHub Actions
+    "max_retries": 3,  # Max retry attempts on failure
+    "retry_delay": 10, # Delay between retries (seconds)
     "viewport": {"width": 1920, "height": 1080},  # Will be randomized at runtime
     "user_data_dir": str(DATA_DIR / "browser_profile"),  # Persistent browser profile
 
     # Category-level delays (to avoid being flagged)
-    "category_delay_min": 45,  # Minimum delay between categories (seconds) - INCREASED
-    "category_delay_max": 90,  # Maximum delay between categories (seconds) - INCREASED
+    "category_delay_min": 5,   # Minimum delay between categories (seconds) - Optimized
+    "category_delay_max": 15,  # Maximum delay between categories (seconds) - Optimized
 
     # Page load timeouts
-    "page_load_timeout": 90,  # Page load timeout (seconds)
-    "element_wait_timeout": 45,  # Element wait timeout (seconds)
+    "page_load_timeout": 60,  # Page load timeout (seconds)
+    "element_wait_timeout": 30,  # Element wait timeout (seconds)
 
     # Session rotation (restart browser after N requests to avoid fingerprinting)
     "session_rotation_interval": 40,  # Rotate session every ~40 requests
     "session_rotation_jitter": 15,    # Random variance (+/- N requests)
 
-    # Long pause settings (simulate coffee break / distraction)
-    "long_pause_probability": 0.08,   # 8% chance of long pause
-    "long_pause_min": 180,            # Minimum long pause (3 minutes)
-    "long_pause_max": 420,            # Maximum long pause (7 minutes)
+    # Long pause settings (disabled for GitHub Actions speed)
+    "long_pause_probability": 0.0,    # Disabled for faster collection
+    "long_pause_min": 30,             # Minimum long pause (seconds)
+    "long_pause_max": 60,             # Maximum long pause (seconds)
 
-    # Time-of-day awareness (slower during off-peak hours)
-    "peak_hours_start": 8,    # 8 AM (US timezone)
-    "peak_hours_end": 23,     # 11 PM (US timezone)
-    "off_peak_delay_multiplier": 1.8,  # 80% slower during off-peak
+    # Time-of-day awareness (disabled for GitHub Actions)
+    "peak_hours_start": 0,    # Always peak hours
+    "peak_hours_end": 24,     # Always peak hours
+    "off_peak_delay_multiplier": 1.0,  # No slowdown
 
     # Cookies persistence
     "cookies_file": str(DATA_DIR / "cookies" / "amazon_session.json"),

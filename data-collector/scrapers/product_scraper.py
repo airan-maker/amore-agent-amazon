@@ -3,6 +3,7 @@ Product detail scraper
 Collects product information from Amazon product pages
 """
 import re
+import asyncio
 from typing import Dict, Any, Optional
 from loguru import logger
 from datetime import datetime
@@ -44,14 +45,17 @@ class ProductScraper(BaseScraper):
         url = f"{self.base_url}/dp/{asin}"
         logger.info(f"Scraping product: {asin}")
 
-        # Navigate to product page
-        success = await self.goto(url)
+        # Navigate to product page (skip heavy human simulation for speed)
+        success = await self.goto(url, simulate_human=False)
         if not success:
             logger.error(f"Failed to load product page: {asin}")
             return {"error": "Failed to load page", "asin": asin}
 
+        # Brief delay to let page settle
+        await asyncio.sleep(0.5)
+
         # Wait for main product container
-        await self.wait_for_selector("#dp-container", timeout=15000)
+        await self.wait_for_selector("#dp-container", timeout=10000)
 
         # Extract product data
         product_data = {
