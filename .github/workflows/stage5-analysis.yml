@@ -1,0 +1,63 @@
+name: "Stage 5: Analysis & Reports"
+
+on:
+  schedule:
+    # 매일 한국시간 오후 9시 (UTC 12시)
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stage5:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120  # 2시간 타임아웃
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: data-collector/requirements.txt
+
+      - name: Install dependencies
+        run: |
+          cd data-collector
+          pip install -r requirements.txt
+          playwright install chromium
+
+      - name: Run Stage 5 (Analysis)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          cd data-collector
+          python main.py --mode stage5
+
+      - name: Copy all data to frontend
+        run: |
+          # Copy M1/M2 module data
+          cp data-collector/output/m1_*.json app/src/data/ 2>/dev/null || true
+          cp data-collector/output/m2_*.json app/src/data/ 2>/dev/null || true
+
+          # Copy product attributes and ideation report
+          cp data-collector/output/product_attributes_*.json app/src/data/product_attributes.json 2>/dev/null || true
+          cp data-collector/output/product_ideation_report.json app/src/data/ 2>/dev/null || true
+
+          # Copy final rankings
+          cp data-collector/output/beauty_rankings_*.json app/src/data/historical/ 2>/dev/null || true
+          cp data-collector/output/category_products.json app/src/data/ 2>/dev/null || true
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add app/src/data/*.json app/src/data/historical/*.json
+          git diff --staged --quiet || git commit -m "Stage 5: Analysis complete $(date +'%Y-%m-%d %H:%M')"
+          git push

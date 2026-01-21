@@ -1,17 +1,18 @@
-name: Daily Data Collection
+name: "Stage 3: Details (51-75)"
 
 on:
   schedule:
-    # 매일 한국시간 오후 9시 (UTC 12시)
-    - cron: '0 12 * * *'
-  workflow_dispatch:  # 수동 실행 가능
+    # 매일 한국시간 오전 11시 (UTC 02시)
+    - cron: '0 2 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  collect-data:
+  stage3:
     runs-on: ubuntu-latest
+    timeout-minutes: 240  # 4시간 30분 타임아웃
 
     steps:
       - name: Checkout repository
@@ -32,29 +33,29 @@ jobs:
           pip install -r requirements.txt
           playwright install chromium
 
-      - name: Run data collection
+      - name: Run Stage 3 (Rank 51-75)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           cd data-collector
-          python main.py --mode full
+          python main.py --mode stage3
+
+      - name: Upload intermediate data
+        uses: actions/upload-artifact@v4
+        with:
+          name: stage3-data
+          path: data-collector/output/intermediate_*_stage3.json
+          retention-days: 1
 
       - name: Copy data to frontend
         run: |
-          # Copy M1/M2 module data
-          cp data-collector/output/m1_*.json app/src/data/ 2>/dev/null || true
-          cp data-collector/output/m2_*.json app/src/data/ 2>/dev/null || true
-
-          # Copy category_products.json
-          cp data-collector/output/category_products.json app/src/data/ 2>/dev/null || true
-
-          # Copy beauty_rankings to historical folder
           cp data-collector/output/beauty_rankings_*.json app/src/data/historical/ 2>/dev/null || true
+          cp data-collector/output/category_products.json app/src/data/ 2>/dev/null || true
 
       - name: Commit and push if changed
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add app/src/data/*.json app/src/data/historical/*.json
-          git diff --staged --quiet || git commit -m "Auto-update: Daily data collection $(date +'%Y-%m-%d')"
+          git add data-collector/output/*.json app/src/data/*.json app/src/data/historical/*.json
+          git diff --staged --quiet || git commit -m "Stage 3: Details (51-75) $(date +'%Y-%m-%d %H:%M')"
           git push

@@ -122,6 +122,182 @@ class DataCollectionPipeline:
             logger.error(f"Pipeline failed: {e}")
             raise
 
+    # ==========================================
+    # Staged Execution Methods (for GitHub Actions)
+    # ==========================================
+
+    def _get_intermediate_file(self, stage: str) -> Path:
+        """Get path for intermediate data file"""
+        today = datetime.now().strftime("%Y%m%d")
+        return OUTPUT_DIR / f"intermediate_{today}_{stage}.json"
+
+    def _save_intermediate_data(self, stage: str):
+        """Save collected data for next stage"""
+        filepath = self._get_intermediate_file(stage)
+        with open(filepath, "w", encoding="utf-8") as f:
+            json.dump(self.collected_data, f, ensure_ascii=False, default=str)
+        logger.success(f"Saved intermediate data: {filepath}")
+
+    def _load_intermediate_data(self, stage: str) -> bool:
+        """Load data from previous stage"""
+        filepath = self._get_intermediate_file(stage)
+        if filepath.exists():
+            with open(filepath, "r", encoding="utf-8") as f:
+                self.collected_data = json.load(f)
+            logger.success(f"Loaded intermediate data: {filepath}")
+            return True
+        logger.warning(f"Intermediate file not found: {filepath}")
+        return False
+
+    async def run_stage1(self):
+        """Stage 1: Collect rankings + Enrich ranks 1-25"""
+        logger.info("=" * 60)
+        logger.info("STAGE 1: Rankings + Product Details (Rank 1-25)")
+        logger.info("=" * 60)
+
+        try:
+            # Step 1: Collect rankings
+            logger.info("\n[STEP 1] Collecting Best Sellers rankings...")
+            await self.collect_rankings()
+
+            # Step 2: Enrich only ranks 1-25
+            logger.info("\n[STEP 2] Enriching products (Rank 1-25)...")
+            await self.enrich_ranked_products(rank_start=1, rank_end=25)
+
+            # Save intermediate data
+            self._save_intermediate_data("stage1")
+
+            # Also save rankings for frontend (partial data)
+            self.save_raw_data()
+
+            logger.success("\n✅ STAGE 1 COMPLETE!")
+
+        except Exception as e:
+            logger.error(f"Stage 1 failed: {e}")
+            raise
+
+    async def run_stage2(self):
+        """Stage 2: Enrich ranks 26-50"""
+        logger.info("=" * 60)
+        logger.info("STAGE 2: Product Details (Rank 26-50)")
+        logger.info("=" * 60)
+
+        try:
+            # Load data from stage 1
+            if not self._load_intermediate_data("stage1"):
+                raise RuntimeError("Stage 1 data not found. Run stage1 first.")
+
+            # Enrich ranks 26-50
+            logger.info("\n[STEP 1] Enriching products (Rank 26-50)...")
+            await self.enrich_ranked_products(rank_start=26, rank_end=50)
+
+            # Save intermediate data
+            self._save_intermediate_data("stage2")
+
+            # Update saved data
+            self.save_raw_data()
+
+            logger.success("\n✅ STAGE 2 COMPLETE!")
+
+        except Exception as e:
+            logger.error(f"Stage 2 failed: {e}")
+            raise
+
+    async def run_stage3(self):
+        """Stage 3: Enrich ranks 51-75"""
+        logger.info("=" * 60)
+        logger.info("STAGE 3: Product Details (Rank 51-75)")
+        logger.info("=" * 60)
+
+        try:
+            # Load data from stage 2
+            if not self._load_intermediate_data("stage2"):
+                raise RuntimeError("Stage 2 data not found. Run stage2 first.")
+
+            # Enrich ranks 51-75
+            logger.info("\n[STEP 1] Enriching products (Rank 51-75)...")
+            await self.enrich_ranked_products(rank_start=51, rank_end=75)
+
+            # Save intermediate data
+            self._save_intermediate_data("stage3")
+
+            # Update saved data
+            self.save_raw_data()
+
+            logger.success("\n✅ STAGE 3 COMPLETE!")
+
+        except Exception as e:
+            logger.error(f"Stage 3 failed: {e}")
+            raise
+
+    async def run_stage4(self):
+        """Stage 4: Enrich ranks 76-100"""
+        logger.info("=" * 60)
+        logger.info("STAGE 4: Product Details (Rank 76-100)")
+        logger.info("=" * 60)
+
+        try:
+            # Load data from stage 3
+            if not self._load_intermediate_data("stage3"):
+                raise RuntimeError("Stage 3 data not found. Run stage3 first.")
+
+            # Enrich ranks 76-100
+            logger.info("\n[STEP 1] Enriching products (Rank 76-100)...")
+            await self.enrich_ranked_products(rank_start=76, rank_end=100)
+
+            # Save intermediate data
+            self._save_intermediate_data("stage4")
+
+            # Update saved data
+            self.save_raw_data()
+
+            logger.success("\n✅ STAGE 4 COMPLETE!")
+
+        except Exception as e:
+            logger.error(f"Stage 4 failed: {e}")
+            raise
+
+    async def run_stage5(self):
+        """Stage 5: Analysis (M1, M2, Reviews, Attributes, Product Ideas)"""
+        logger.info("=" * 60)
+        logger.info("STAGE 5: Analysis & Report Generation")
+        logger.info("=" * 60)
+
+        try:
+            # Load data from stage 4
+            if not self._load_intermediate_data("stage4"):
+                raise RuntimeError("Stage 4 data not found. Run stage4 first.")
+
+            # Collect reviews
+            logger.info("\n[STEP 1] Collecting product reviews...")
+            await self.collect_reviews()
+
+            # Generate M1 data
+            logger.info("\n[STEP 2] Generating M1 Market Landscape Data...")
+            self.generate_m1_data()
+
+            # Generate M2 data
+            logger.info("\n[STEP 3] Generating M2 Review Intelligence Data...")
+            await self.generate_m2_data()
+
+            # Extract attributes
+            logger.info("\n[STEP 4] Extracting product attributes with Claude API...")
+            await self.extract_attributes()
+
+            # Generate product ideas
+            logger.info("\n[STEP 5] Generating AI-powered product ideas...")
+            await self.generate_product_ideas()
+
+            # Final save
+            self.save_raw_data()
+
+            logger.success("\n✅ STAGE 5 COMPLETE! All analysis finished.")
+            self.print_summary()
+
+        except Exception as e:
+            logger.error(f"Stage 5 failed: {e}")
+            raise
+
     async def collect_rankings(self):
         """
         Collect Best Sellers rankings across 24 hierarchical categories (PARALLEL OPTIMIZED)
@@ -249,11 +425,15 @@ class DataCollectionPipeline:
         logger.success(f"  - 성공한 카테고리: {successful_categories}/{total_categories}")
         logger.success(f"  - 총 수집 제품 수: {total_products}")
 
-    async def enrich_ranked_products(self):
+    async def enrich_ranked_products(self, rank_start: int = None, rank_end: int = None):
         """
         Enrich ranked products with detailed information (OPTIMIZED with parallel processing)
         Collects brand, breadcrumb, images, description for all ranked products
         Core products are prioritized and processed first
+
+        Args:
+            rank_start: Start rank (1-based, inclusive). None = from beginning
+            rank_end: End rank (1-based, inclusive). None = to end
         """
         # Get enrichment configuration
         enrichment_config = self.scheduler_config.get("product_enrichment", {})
@@ -268,44 +448,53 @@ class DataCollectionPipeline:
             logger.warning("Product enrichment is disabled in configuration")
             return
 
-        logger.info(f"Enrichment strategy: {strategy}")
-        logger.info(f"Parallel batch size: {batch_size}")
-        if strategy == "top_n":
-            logger.info(f"Will enrich top {top_n} products per category")
+        # Log rank range if specified
+        if rank_start is not None and rank_end is not None:
+            logger.info(f"Enrichment range: Rank {rank_start}-{rank_end}")
+        else:
+            logger.info(f"Enrichment strategy: {strategy}")
 
-        # PRIORITY 1: Core products (from products.yaml)
+        # PRIORITY 1: Core products (from products.yaml) - only in first stage or full mode
         core_asins = set()
-        for product_config in self.products_config.get("core_products", []):
-            if product_config.get("asin"):
-                core_asins.add(product_config["asin"])
+        if rank_start is None or rank_start == 1:
+            for product_config in self.products_config.get("core_products", []):
+                if product_config.get("asin"):
+                    core_asins.add(product_config["asin"])
+            logger.info(f"Core products to prioritize: {len(core_asins)}")
 
-        logger.info(f"Core products to prioritize: {len(core_asins)}")
+        # PRIORITY 2: Ranked products based on rank range or strategy
+        ranked_asins_with_rank = []  # List of (asin, rank) tuples
 
-        # PRIORITY 2: Ranked products based on strategy
-        ranked_asins = set()
+        for category_name, rankings in self.collected_data["ranks"].items():
+            # Handle both list and dict formats
+            product_list = rankings if isinstance(rankings, list) else rankings.get("products", [])
 
-        if strategy == "all":
-            # Enrich all ranked products
-            for category_name, rankings in self.collected_data["ranks"].items():
-                for product in rankings:
-                    # Ensure product is a dict before accessing attributes
-                    if isinstance(product, dict) and product.get("asin"):
-                        ranked_asins.add(product["asin"])
+            for product in product_list:
+                if not isinstance(product, dict) or not product.get("asin"):
+                    continue
 
-        elif strategy == "top_n":
-            # Enrich only top N products per category
-            for category_name, rankings in self.collected_data["ranks"].items():
-                for product in rankings[:top_n]:
-                    # Ensure product is a dict before accessing attributes
-                    if isinstance(product, dict) and product.get("asin"):
-                        ranked_asins.add(product["asin"])
+                product_rank = product.get("rank", 999)
+                asin = product["asin"]
 
-        elif strategy == "none":
-            logger.info("Enrichment strategy is 'none', skipping ranked products")
-            # Still enrich core products even if strategy is 'none'
+                # Filter by rank range if specified
+                if rank_start is not None and rank_end is not None:
+                    if rank_start <= product_rank <= rank_end:
+                        ranked_asins_with_rank.append((asin, product_rank))
+                elif strategy == "all":
+                    ranked_asins_with_rank.append((asin, product_rank))
+                elif strategy == "top_n" and product_rank <= top_n:
+                    ranked_asins_with_rank.append((asin, product_rank))
 
-        # Combine: core products first, then ranked products (remove duplicates)
-        asins_to_enrich = list(core_asins) + [asin for asin in ranked_asins if asin not in core_asins]
+        # Remove duplicates while preserving order (keep first occurrence)
+        seen = set()
+        unique_ranked = []
+        for asin, rank in ranked_asins_with_rank:
+            if asin not in seen and asin not in core_asins:
+                seen.add(asin)
+                unique_ranked.append(asin)
+
+        # Combine: core products first, then ranked products
+        asins_to_enrich = list(core_asins) + unique_ranked
         total_asins = len(asins_to_enrich)
 
         logger.info(f"Total unique products to enrich: {total_asins}")
@@ -804,9 +993,9 @@ async def main():
     parser = argparse.ArgumentParser(description="Amazon Data Collector - MVP")
     parser.add_argument(
         "--mode",
-        choices=["full", "scrape-only", "analyze-only"],
+        choices=["full", "scrape-only", "analyze-only", "stage1", "stage2", "stage3", "stage4", "stage5"],
         default="full",
-        help="Execution mode"
+        help="Execution mode: full, or staged (stage1-5)"
     )
     args = parser.parse_args()
 
@@ -820,6 +1009,21 @@ async def main():
     elif args.mode == "analyze-only":
         logger.info("Analyze-only mode not yet implemented")
         logger.info("Please run data collection first")
+    elif args.mode == "stage1":
+        # Stage 1: Rankings + Enrich ranks 1-25
+        await pipeline.run_stage1()
+    elif args.mode == "stage2":
+        # Stage 2: Enrich ranks 26-50
+        await pipeline.run_stage2()
+    elif args.mode == "stage3":
+        # Stage 3: Enrich ranks 51-75
+        await pipeline.run_stage3()
+    elif args.mode == "stage4":
+        # Stage 4: Enrich ranks 76-100
+        await pipeline.run_stage4()
+    elif args.mode == "stage5":
+        # Stage 5: Analysis (M1, M2, Product Ideas)
+        await pipeline.run_stage5()
 
 
 if __name__ == "__main__":
