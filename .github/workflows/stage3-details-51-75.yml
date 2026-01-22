@@ -2,8 +2,8 @@ name: "Stage 3: Details (51-75)"
 
 on:
   schedule:
-    # 매일 한국시간 오전 11시 (UTC 02시)
-    - cron: '0 2 * * *'
+    # 매일 한국시간 오후 7시 (UTC 10시)
+    - cron: '0 10 * * *'
   workflow_dispatch:
 
 permissions:
@@ -12,7 +12,7 @@ permissions:
 jobs:
   stage3:
     runs-on: ubuntu-latest
-    timeout-minutes: 240  # 4시간 30분 타임아웃
+    timeout-minutes: 270  # 4시간 30분 타임아웃
 
     steps:
       - name: Checkout repository

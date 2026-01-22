@@ -72,16 +72,16 @@ AMAZON_SETTINGS = {
 # Scraping Settings
 SCRAPER_SETTINGS = {
     "headless": True,  # Run browser in headless mode
-    "delay_min": 2,    # Minimum delay between requests (seconds) - Optimized for GitHub Actions
-    "delay_max": 5,    # Maximum delay between requests (seconds) - Optimized for GitHub Actions
+    "delay_min": 1,    # Minimum delay between requests (seconds) - GitHub Actions IPs rotate frequently
+    "delay_max": 3,    # Maximum delay between requests (seconds) - Safe for rotating IPs
     "max_retries": 3,  # Max retry attempts on failure
     "retry_delay": 10, # Delay between retries (seconds)
     "viewport": {"width": 1920, "height": 1080},  # Will be randomized at runtime
     "user_data_dir": str(DATA_DIR / "browser_profile"),  # Persistent browser profile
 
     # Category-level delays (to avoid being flagged)
-    "category_delay_min": 5,   # Minimum delay between categories (seconds) - Optimized
-    "category_delay_max": 15,  # Maximum delay between categories (seconds) - Optimized
+    "category_delay_min": 2,   # Minimum delay between categories (seconds) - GitHub Actions
+    "category_delay_max": 6,   # Maximum delay between categories (seconds) - GitHub Actions
 
     # Page load timeouts
     "page_load_timeout": 60,  # Page load timeout (seconds)

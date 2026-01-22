@@ -2,8 +2,8 @@ name: "Stage 4: Details (76-100)"
 
 on:
   schedule:
-    # 매일 한국시간 오후 4시 (UTC 07시)
-    - cron: '0 7 * * *'
+    # 매일 한국시간 오후 9시 (UTC 12시)
+    - cron: '0 12 * * *'
   workflow_dispatch:
 
 permissions:

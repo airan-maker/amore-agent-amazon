@@ -2,8 +2,8 @@ name: "Stage 5: Analysis & Reports"
 
 on:
   schedule:
-    # 매일 한국시간 오후 9시 (UTC 12시)
-    - cron: '0 12 * * *'
+    # 매일 한국시간 오후 11시 (UTC 14시)
+    - cron: '0 14 * * *'
   workflow_dispatch:
 
 permissions:
