@@ -2,8 +2,8 @@ name: "Stage 1: Rankings + Details (1-25)"
 
 on:
   schedule:
-    # 매일 한국시간 오후 2시 (UTC 05시)
-    - cron: '0 5 * * *'
+    # 매일 한국시간 오후 5시 (UTC 08시)
+    - cron: '0 8 * * *'
   workflow_dispatch:
 
 permissions:
