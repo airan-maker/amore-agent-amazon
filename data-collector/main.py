@@ -499,7 +499,7 @@ class DataCollectionPipeline:
 
         logger.info(f"Total unique products to enrich: {total_asins}")
         logger.info(f"  - Core products: {len(core_asins)}")
-        logger.info(f"  - Additional ranked products: {len(ranked_asins - core_asins)}")
+        logger.info(f"  - Additional ranked products: {len(unique_ranked)}")
 
         # Track enrichment progress
         enriched_count = 0
