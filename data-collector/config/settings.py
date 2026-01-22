@@ -133,11 +133,11 @@ LOCALE_POOL = [
     "en-GB",
 ]
 
-# Rate Limiting
+# Rate Limiting (Optimized for GitHub Actions - IPs rotate frequently)
 RATE_LIMIT = {
-    "requests_per_minute": 15,  # Conservative rate limit
-    "requests_per_hour": 200,
-    "cool_down_period": 300,    # Cool down for 5 minutes if rate limited
+    "requests_per_minute": 30,   # GitHub Actions: more permissive
+    "requests_per_hour": 1500,   # GitHub Actions: essentially no hourly limit
+    "cool_down_period": 60,      # Shorter cool down
 }
 
 # Claude API Settings
