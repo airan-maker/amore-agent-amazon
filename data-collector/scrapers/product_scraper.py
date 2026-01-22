@@ -32,6 +32,58 @@ class ProductScraper(BaseScraper):
         super().__init__()
         self.base_url = AMAZON_SETTINGS["base_url"]
 
+    async def _is_captcha_page(self) -> bool:
+        """Check if current page is a CAPTCHA or bot detection page"""
+        captcha_indicators = [
+            "input[name='captchacharacters']",  # CAPTCHA input
+            "form[action*='captcha']",           # CAPTCHA form
+            "#captchacharacters",                # CAPTCHA field
+            "img[src*='captcha']",               # CAPTCHA image
+        ]
+
+        for selector in captcha_indicators:
+            if await self.page.query_selector(selector):
+                return True
+
+        # Check page title for bot detection
+        title = await self.page.title()
+        if title and ("robot" in title.lower() or "captcha" in title.lower()):
+            return True
+
+        return False
+
+    async def _wait_for_product_page(self) -> bool:
+        """Wait for product page to load with fallback selectors"""
+        # Multiple selectors that indicate a valid product page
+        product_page_selectors = [
+            "#dp-container",           # Main product container
+            "#productTitle",           # Product title (most reliable)
+            "#ppd",                    # Product page desktop
+            "#centerCol",              # Center column
+            "#dp",                     # Product detail page
+        ]
+
+        for selector in product_page_selectors:
+            found = await self.wait_for_selector(selector, timeout=5000)
+            if found:
+                logger.debug(f"Product page detected via: {selector}")
+                return True
+
+        # Check if it's a "dog" error page or unavailable product
+        error_selectors = [
+            "#g img[alt*='dog']",      # Amazon's dog error page
+            "img[alt='Dogs of Amazon']",
+            "#unavailable",             # Product unavailable
+        ]
+
+        for selector in error_selectors:
+            if await self.page.query_selector(selector):
+                logger.warning(f"Error page detected: {selector}")
+                return False
+
+        logger.warning("Could not detect product page structure")
+        return False
+
     async def scrape(self, asin: str) -> Dict[str, Any]:
         """
         Scrape product details for given ASIN
@@ -54,8 +106,16 @@ class ProductScraper(BaseScraper):
         # Brief delay to let page settle
         await asyncio.sleep(0.5)
 
-        # Wait for main product container
-        await self.wait_for_selector("#dp-container", timeout=10000)
+        # Check for CAPTCHA or bot detection pages
+        if await self._is_captcha_page():
+            logger.warning(f"CAPTCHA detected for {asin}")
+            return {"error": "CAPTCHA detected", "asin": asin}
+
+        # Wait for main product container (try multiple selectors)
+        container_found = await self._wait_for_product_page()
+        if not container_found:
+            logger.warning(f"Product page structure not found for {asin}")
+            return {"error": "Invalid page structure", "asin": asin}
 
         # Extract product data
         product_data = {
