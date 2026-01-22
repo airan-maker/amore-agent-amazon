@@ -541,7 +541,8 @@ class DataCollectionPipeline:
                     self.cache_manager.set(asin, product_data)
 
                     enriched_count += 1
-                    logger.success(f"[{idx}/{total_asins}] ✓ {asin} - {product_data.get('product_name', '')[:50]}")
+                    product_name = product_data.get('product_name') or ''
+                    logger.success(f"[{idx}/{total_asins}] ✓ {asin} - {product_name[:50]}")
                     return True
 
                 except Exception as e:
