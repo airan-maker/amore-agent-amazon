@@ -60,5 +60,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add -f app/src/data/*.json app/src/data/historical/*.json 2>/dev/null || true
           git diff --staged --quiet || git commit -m "Stage 5: Analysis complete $(date +'%Y-%m-%d %H:%M')"
+          git stash --include-untracked || true
           git pull --rebase origin main || true
+          git stash pop || true
           git push
