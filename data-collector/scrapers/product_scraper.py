@@ -53,32 +53,28 @@ class ProductScraper(BaseScraper):
         return False
 
     async def _wait_for_product_page(self) -> bool:
-        """Wait for product page to load with fallback selectors"""
-        # Multiple selectors that indicate a valid product page
-        product_page_selectors = [
-            "#dp-container",           # Main product container
-            "#productTitle",           # Product title (most reliable)
-            "#ppd",                    # Product page desktop
-            "#centerCol",              # Center column
-            "#dp",                     # Product detail page
+        """Wait for product page to load with combined selector (efficient)"""
+        # Combined selector - matches if ANY of these exist (single check, not sequential)
+        combined_selector = "#dp-container, #productTitle, #ppd, #centerCol, #dp"
+
+        # Single wait with reasonable timeout (3 seconds total, not 25)
+        found = await self.wait_for_selector(combined_selector, timeout=3000)
+        if found:
+            logger.debug("Product page detected")
+            return True
+
+        # Quick check for error/blocked pages (no wait, just query)
+        error_indicators = [
+            ("img[alt*='dog']", "Dog error page"),
+            ("img[alt*='Dogs']", "Dogs of Amazon"),
+            ("#unavailable", "Product unavailable"),
+            ("form[action*='validateCaptcha']", "CAPTCHA form"),
+            (".a-spacing-large.a-text-center", "Blocked page"),
         ]
 
-        for selector in product_page_selectors:
-            found = await self.wait_for_selector(selector, timeout=5000)
-            if found:
-                logger.debug(f"Product page detected via: {selector}")
-                return True
-
-        # Check if it's a "dog" error page or unavailable product
-        error_selectors = [
-            "#g img[alt*='dog']",      # Amazon's dog error page
-            "img[alt='Dogs of Amazon']",
-            "#unavailable",             # Product unavailable
-        ]
-
-        for selector in error_selectors:
+        for selector, desc in error_indicators:
             if await self.page.query_selector(selector):
-                logger.warning(f"Error page detected: {selector}")
+                logger.warning(f"Error page detected: {desc}")
                 return False
 
         logger.warning("Could not detect product page structure")
