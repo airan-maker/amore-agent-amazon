@@ -88,8 +88,11 @@ class ReviewScraper(BaseScraper):
                 logger.error(f"Failed to load product page: {asin}")
                 return []
 
-            # Wait for main product container
-            await self.wait_for_selector("#dp-container", timeout=15000)
+            # Wait for main product container (combined selector, 3s timeout)
+            await self.wait_for_selector(
+                "#dp-container, #productTitle, #ppd, #centerCol, #dp",
+                timeout=3000
+            )
 
         # Scroll down to reviews section
         try:
@@ -107,28 +110,24 @@ class ReviewScraper(BaseScraper):
         except Exception as e:
             logger.warning(f"Could not scroll to reviews: {e}")
 
-        # Wait for reviews section - try multiple selectors
+        # Wait for reviews section - combined selector for efficiency
         # Amazon uses different container classes for reviews with/without images
-        has_reviews = False
-        for selector in [
-            ".cm_cr_grid_center_right_images_widget [data-hook='review']",
-            ".cm_cr_grid_center_right_non_images_widgets [data-hook='review']",
-            ".cm_cr_grid_center_right_images_widget",
-            ".cm_cr_grid_center_right_non_images_widgets",
-            "[data-hook='review']",
-            "div[id^='customer_review']",
-            "#cm-cr-dp-review-list [data-hook='review']",
-            "#reviewsMedley [data-hook='review']",
+        combined_review_selector = (
+            "[data-hook='review'], "
+            "div[id^='customer_review'], "
+            "#cm-cr-dp-review-list [data-hook='review'], "
+            "#reviewsMedley [data-hook='review'], "
             ".review.aok-relative"
-        ]:
-            has_reviews = await self.wait_for_selector(selector, timeout=5000)
-            if has_reviews:
-                logger.debug(f"Found reviews with selector: {selector}")
-                break
+        )
+
+        # Single check with reasonable timeout (3 seconds total, not 45)
+        has_reviews = await self.wait_for_selector(combined_review_selector, timeout=3000)
 
         if not has_reviews:
             logger.warning("No reviews found on product detail page")
             return []
+
+        logger.debug("Reviews section detected")
 
         # Extract reviews from page
         reviews = await self._extract_reviews_from_page()
