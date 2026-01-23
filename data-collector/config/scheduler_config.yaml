@@ -90,8 +90,8 @@ claude_api:
   # Claude API 활성화 (속성 추출 및 제품 아이디어 생성)
   enabled: true
 
-  # 사용 모델
-  model: "claude-3-sonnet-20240229"
+  # 사용 모델 (haiku: 빠르고 저렴, sonnet: 더 정확)
+  model: "claude-haiku-4-5-20251001"
 
   # 월간 예산 (USD)
   monthly_budget_usd: 150
