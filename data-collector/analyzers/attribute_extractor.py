@@ -48,9 +48,18 @@ class AttributeExtractor:
             model: Claude model to use
             monthly_budget: Monthly budget limit in USD
         """
-        # Initialize Claude client
-        self.client = anthropic.Anthropic(api_key=api_key)
+        # Initialize Claude client with timeout settings
+        self.client = anthropic.Anthropic(
+            api_key=api_key,
+            timeout=60.0,  # 60 second timeout
+            max_retries=2,  # Built-in retry
+        )
         self.model = model
+
+        # Verify API key format
+        if api_key:
+            masked = api_key[:10] + "..." + api_key[-4:] if len(api_key) > 14 else "***"
+            logger.info(f"API key configured: {masked}")
 
         # Load schema
         self.schema = self._load_schema()
@@ -240,18 +249,28 @@ JSON:"""
 
                 return attributes
 
-            except anthropic.APIError as e:
-                logger.warning(f"Attempt {attempt + 1}/{self.max_retries} failed for {asin}: {e}")
-
+            except anthropic.APIConnectionError as e:
+                logger.warning(f"Attempt {attempt + 1}/{self.max_retries} connection error for {asin}: {type(e).__name__}: {e}")
                 if attempt < self.max_retries - 1:
-                    # Exponential backoff
+                    await asyncio.sleep(2 ** attempt)
+                else:
+                    logger.error(f"All retry attempts failed for {asin} (connection error)")
+                    return self._get_fallback_attributes()
+
+            except anthropic.RateLimitError as e:
+                logger.warning(f"Rate limit hit for {asin}, waiting 60s: {e}")
+                await asyncio.sleep(60)
+
+            except anthropic.APIStatusError as e:
+                logger.warning(f"API status error for {asin}: {e.status_code} - {e.message}")
+                if attempt < self.max_retries - 1:
                     await asyncio.sleep(2 ** attempt)
                 else:
                     logger.error(f"All retry attempts failed for {asin}")
                     return self._get_fallback_attributes()
 
             except Exception as e:
-                logger.error(f"Unexpected error extracting attributes for {asin}: {e}")
+                logger.error(f"Unexpected error for {asin}: {type(e).__name__}: {e}")
                 return self._get_fallback_attributes()
 
         return self._get_fallback_attributes()
