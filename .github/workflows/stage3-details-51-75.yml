@@ -58,4 +58,5 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add -f data-collector/output/*.json app/src/data/*.json app/src/data/historical/*.json 2>/dev/null || true
           git diff --staged --quiet || git commit -m "Stage 3: Details (51-75) $(date +'%Y-%m-%d %H:%M')"
+          git pull --rebase origin main || true
           git push
