@@ -1,14 +1,16 @@
 {
-  "analysis_date": "2026-01-19",
-  "brand": "COSRX",
+  "analysis_date": "2026-01-23",
+  "brand": "Summer",
   "cross_brand_insights": [
     {
       "theme": "Overnight/Night Care 트렌드",
       "affected_brands": [
-        "COSRX",
-        "Anua"
+        "Summer",
+        "Anua",
+        "Aquaphor",
+        "BIODANCE"
       ],
-      "insight": "2개 브랜드가 야간 집중 케어 컨셉으로 포지셔닝. 소비자들은 수면 중 피부 회복을 핵심 니즈로 인식",
+      "insight": "6개 브랜드가 야간 집중 케어 컨셉으로 포지셔닝. 소비자들은 수면 중 피부 회복을 핵심 니즈로 인식",
       "opportunity": "LANEIGE Sleeping Mask 라인의 '수면 중 집중 케어' 메시징 강화하여 카테고리 리더십 확보",
       "market_size": "Overnight skincare 시장 예상 규모: $450M (미국 기준, 연 15% 성장)"
     }
@@ -16,27 +18,34 @@
   "consumer_pain_points": [
     {
       "pain_point": "건조",
-      "severity": "Low",
-      "evidence": "22명의 사용자가 '건조' 문제 언급. 주요 컨텍스트: 일반 사용",
-      "current_solution": "현재 2개 브랜드(Anua, COSRX)가 솔루션 제공 중",
+      "severity": "High",
+      "evidence": "77명의 사용자가 '건조' 문제 언급. 주요 컨텍스트: 일반 사용",
+      "current_solution": "현재 6개 브랜드(Summer, Anua, Aquaphor)가 솔루션 제공 중",
       "gap": "기존 제품들은 임시 완화에 그치며, 근본적인 해결책 부재",
       "recommended_action": "LANEIGE의 과학적 포뮬레이션을 활용한 '건조' 타겟팅 마케팅 캠페인 전개. A+ 콘텐츠에 솔루션 명확히 제시"
     },
     {
       "pain_point": "보습",
-      "severity": "Low",
-      "evidence": "22명의 사용자가 '보습' 문제 언급. 주요 컨텍스트: 일반 사용",
-      "current_solution": "현재 2개 브랜드(Anua, COSRX)가 솔루션 제공 중",
+      "severity": "High",
+      "evidence": "77명의 사용자가 '보습' 문제 언급. 주요 컨텍스트: 일반 사용",
+      "current_solution": "현재 6개 브랜드(Summer, Anua, Aquaphor)가 솔루션 제공 중",
       "gap": "기존 제품들은 임시 완화에 그치며, 근본적인 해결책 부재",
       "recommended_action": "LANEIGE의 과학적 포뮬레이션을 활용한 '보습' 타겟팅 마케팅 캠페인 전개. A+ 콘텐츠에 솔루션 명확히 제시"
     }
   ],
   "strategic_recommendations": [
     {
+      "recommendation": "Lip Care 카테고리 최적화 및 재포지셔닝",
+      "priority": "High",
+      "expected_impact": "전환율 +15%, 매출 +$300000/month",
+      "rationale": "현재 트래픽의 100.0%가 Lip Care에서 유입되나, 등록 카테고리와 불일치. 카테고리 정렬 시 검색 가시성 및 전환율 대폭 향상 예상",
+      "implementation": "1) Amazon Seller Central에서 메인 카테고리를 Lip Care로 변경\n2) 제품 타이틀 및 키워드에 카테고리 관련 용어 추가\n3) A+ Content 업데이트하여 Lip Care 맥락 강화"
+    },
+    {
       "recommendation": "'일반 사용' 중심 콘텐츠 마케팅 강화",
       "priority": "High",
-      "expected_impact": "브랜드 인지도 +25%, 신규 고객 +135/month",
-      "rationale": "9명이 '일반 사용' 맥락에서 제품 사용. 이는 핵심 사용 시나리오로, 이를 중심으로 마케팅 메시지 구축 시 공감대 형성 및 구매 전환 촉진",
+      "expected_impact": "브랜드 인지도 +25%, 신규 고객 +195/month",
+      "rationale": "13명이 '일반 사용' 맥락에서 제품 사용. 이는 핵심 사용 시나리오로, 이를 중심으로 마케팅 메시지 구축 시 공감대 형성 및 구매 전환 촉진",
       "implementation": "1) A+ Content에 '일반 사용' 시나리오 비주얼 추가\n2) 아마존 광고에서 관련 키워드 입찰 강화\n3) 브랜드 스토어에 사용법 가이드 섹션 추가"
     },
     {
@@ -57,9 +66,9 @@
   "emerging_trends": [
     {
       "trend": "Overnight Beauty Routine 강세",
-      "evidence": "2개 브랜드가 야간 집중 케어 포지셔닝. '수면 중 피부 회복' 컨셉이 소비자 공감대 형성",
-      "laneige_preparedness": "Medium",
-      "action_required": "Overnight 라인 개발 검토 필요"
+      "evidence": "6개 브랜드가 야간 집중 케어 포지셔닝. '수면 중 피부 회복' 컨셉이 소비자 공감대 형성",
+      "laneige_preparedness": "High",
+      "action_required": "LANEIGE Sleeping Mask 라인의 '8시간 집중 케어' 메시징 강화. 수면 과학 기반 스토리텔링 추가"
     },
     {
       "trend": "시장 재편 및 신규 진입 기회",
@@ -70,7 +79,7 @@
   ],
   "competitive_intelligence": [
     {
-      "competitor": "COSRX",
+      "competitor": "Summer",
       "threat_level": "Low threat",
       "strength": "브랜드 인지도 및 유통망",
       "weakness": "명확한 사용 맥락 부재. 소비자들이 '언제, 왜' 사용하는지 불분명",
@@ -82,14 +91,21 @@
       "strength": "브랜드 인지도 및 유통망",
       "weakness": "명확한 사용 맥락 부재. 소비자들이 '언제, 왜' 사용하는지 불분명",
       "laneige_opportunity": "LANEIGE의 높은 품질과 고객 만족도를 통한 프리미엄 차별화"
+    },
+    {
+      "competitor": "Aquaphor",
+      "threat_level": "Low threat",
+      "strength": "브랜드 인지도 및 유통망",
+      "weakness": "명확한 사용 맥락 부재. 소비자들이 '언제, 왜' 사용하는지 불분명",
+      "laneige_opportunity": "LANEIGE의 높은 품질과 고객 만족도를 통한 프리미엄 차별화"
     }
   ],
   "brand_perception_gaps": [
     {
-      "gap": "브랜드 스토리 커뮤니케이션 부족",
-      "evidence": "제품 페이지에서 LANEIGE의 K-Beauty 헤리티지 및 R&D 스토리 부재",
-      "impact": "프리미엄 가격 정당화 어려움. 경쟁 제품 대비 차별화 인식 부족",
-      "solution": "A+ Content에 브랜드 스토리, 기술력, 수상 경력 등 추가하여 신뢰도 구축"
+      "gap": "카테고리 포지셔닝 불일치",
+      "evidence": "등록 카테고리:  vs. 실제 트래픽 유입: Lip Care (100.0%)",
+      "impact": "검색 가시성 저하 및 전환율 손실. 잠재 고객이 제품을 찾지 못할 위험",
+      "solution": "Amazon 카테고리를 'Lip Care'로 변경. 타이틀 및 키워드 최적화"
     }
   ]
 }
