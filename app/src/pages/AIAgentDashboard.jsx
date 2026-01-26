@@ -11,11 +11,36 @@ import { BarChart3, MessageSquare } from 'lucide-react';
 
 // Import data
 // import breadcrumbData from '../data/m1_breadcrumb_traffic.json'; // 인사이트가 약해서 주석 처리
-import volatilityData from '../data/m1_volatility_index.json';
-import emergingBrandsData from '../data/m1_emerging_brands.json';
-import usageContextData from '../data/m2_usage_context.json';
-import intelligenceBridgeData from '../data/m2_intelligence_bridge.json';
+import volatilityDataRaw from '../data/m1_volatility_index.json';
+import emergingBrandsDataRaw from '../data/m1_emerging_brands.json';
+import usageContextDataRaw from '../data/m2_usage_context.json';
+import intelligenceBridgeDataRaw from '../data/m2_intelligence_bridge.json';
 import productDetailsData from '../data/product_details.json';
+
+// Import demo data for fallback
+import volatilityDataDemo from '../data/demo/m1_volatility_index.json';
+import emergingBrandsDataDemo from '../data/demo/m1_emerging_brands.json';
+import usageContextDataDemo from '../data/demo/m2_usage_context.json';
+import intelligenceBridgeDataDemo from '../data/demo/m2_intelligence_bridge.json';
+
+// Helper to check if data is empty/invalid
+const isDataEmpty = (data) => {
+  if (!data) return true;
+  if (Array.isArray(data) && data.length === 0) return true;
+  if (typeof data === 'object') {
+    // Check for specific empty indicators
+    if (data.products && Array.isArray(data.products) && data.products.length === 0) return true;
+    if (data.emerging_brands && Array.isArray(data.emerging_brands) && data.emerging_brands.length === 0) return true;
+    if (data.categories && Array.isArray(data.categories) && data.categories.length === 0) return true;
+  }
+  return false;
+};
+
+// Use demo data as fallback when real data is empty
+const volatilityData = isDataEmpty(volatilityDataRaw) ? volatilityDataDemo : volatilityDataRaw;
+const emergingBrandsData = isDataEmpty(emergingBrandsDataRaw) ? emergingBrandsDataDemo : emergingBrandsDataRaw;
+const usageContextData = isDataEmpty(usageContextDataRaw) ? usageContextDataDemo : usageContextDataRaw;
+const intelligenceBridgeData = isDataEmpty(intelligenceBridgeDataRaw) ? intelligenceBridgeDataDemo : intelligenceBridgeDataRaw;
 
 export const AIAgentDashboard = () => {
   const [activeModule, setActiveModule] = useState('m1');

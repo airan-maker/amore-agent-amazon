@@ -1,0 +1,437 @@
+{
+  "metadata": {
+    "generation_date": "2026-01-15T10:30:00.000000",
+    "total_categories_analyzed": 5,
+    "total_ideas_generated": 15,
+    "model_used": "claude-haiku-4-5-20251001",
+    "ideas_per_category": 3,
+    "is_demo": true
+  },
+  "category_analyses": {
+    "Face Moisturizers": {
+      "category": "Face Moisturizers",
+      "gap_analysis": {
+        "category": "Face Moisturizers",
+        "total_products": 156,
+        "products_with_attributes": 142,
+        "total_combinations": 89,
+        "underserved_combinations": [
+          {"combination": "Ceramides + Anti-aging", "count": 3, "avg_rating": 4.7},
+          {"combination": "Peptides + Overnight", "count": 2, "avg_rating": 4.6}
+        ],
+        "oversaturated_combinations": [
+          {"combination": "Hyaluronic Acid + Hydrating", "count": 45, "avg_rating": 4.3}
+        ],
+        "success_patterns": {
+          "top_ingredients": [
+            {"ingredient": "Hyaluronic Acid", "percentage": 68},
+            {"ingredient": "Niacinamide", "percentage": 52},
+            {"ingredient": "Ceramides", "percentage": 41},
+            {"ingredient": "Vitamin C", "percentage": 38},
+            {"ingredient": "Peptides", "percentage": 29}
+          ],
+          "top_benefits": [
+            {"benefit": "Hydrating", "percentage": 78},
+            {"benefit": "Anti-aging", "percentage": 45},
+            {"benefit": "Brightening", "percentage": 38},
+            {"benefit": "Firming", "percentage": 32},
+            {"benefit": "Soothing", "percentage": 28}
+          ],
+          "top_certifications": [
+            {"certification": "Cruelty-free", "percentage": 62},
+            {"certification": "Dermatologist Tested", "percentage": 48},
+            {"certification": "Fragrance-free", "percentage": 35}
+          ],
+          "top_price_tiers": [
+            {"tier": "mid-range", "percentage": 45},
+            {"tier": "premium", "percentage": 32},
+            {"tier": "budget", "percentage": 23}
+          ],
+          "top_skin_types": [
+            {"skin_type": "All Skin Types", "percentage": 55},
+            {"skin_type": "Dry", "percentage": 28},
+            {"skin_type": "Sensitive", "percentage": 17}
+          ],
+          "top_formula_types": [
+            {"formula_type": "Cream", "percentage": 52},
+            {"formula_type": "Gel-Cream", "percentage": 28},
+            {"formula_type": "Lotion", "percentage": 20}
+          ],
+          "sample_size": 142
+        },
+        "opportunity_areas": [
+          {"area": "Ceramide-based overnight repair cream", "opportunity_score": 8.5},
+          {"area": "Peptide + Glass skin formula", "opportunity_score": 8.2},
+          {"area": "Post-retinol recovery moisturizer", "opportunity_score": 7.9}
+        ]
+      },
+      "product_ideas": [
+        {
+          "product_name": "LANEIGE Ceramide Barrier Recovery Cream",
+          "tagline": "8-Hour Overnight Barrier Reconstruction",
+          "core_concept": "야간 집중 장벽 복구를 위한 고농축 세라마이드 크림. 손상된 피부 장벽을 수면 중 집중적으로 복구하여 아침에 건강한 피부로 회복",
+          "market_opportunity_score": 8.5,
+          "risk_level": "Low",
+          "target_attributes": {
+            "primary_benefit": "Barrier Repair",
+            "formula_type": "Rich Cream",
+            "price_tier": "Premium",
+            "key_ingredients": ["Ceramide NP", "Ceramide AP", "Cholesterol", "Phytosphingosine"],
+            "target_skin_type": ["Dry", "Sensitive", "Damaged"],
+            "certifications": ["Dermatologist Tested", "Fragrance-free"]
+          },
+          "rationale": "리뷰 분석 결과 '피부 장벽 손상', '레티놀 후 건조함' 등의 Pain Point가 자주 언급됨. 세라마이드 기반 제품의 수요는 높으나 K-Beauty 프리미엄 라인에서 경쟁 제품 부재",
+          "competitive_advantage": "LANEIGE의 Water Science 기술력과 세라마이드 복합체를 결합한 독점 포뮬러로 경쟁사 대비 차별화된 흡수력과 효능 제공"
+        },
+        {
+          "product_name": "LANEIGE Glass Skin Peptide Gel-Cream",
+          "tagline": "K-Beauty Glass Skin in a Jar",
+          "core_concept": "펩타이드와 히알루론산을 결합한 투명 젤 크림으로, 바르는 순간 피부에 윤기를 부여하고 자연스러운 글로우를 선사",
+          "market_opportunity_score": 8.2,
+          "risk_level": "Low",
+          "target_attributes": {
+            "primary_benefit": "Glow/Radiance",
+            "formula_type": "Gel-Cream",
+            "price_tier": "Mid-Premium",
+            "key_ingredients": ["Tripeptide-1", "Hyaluronic Acid", "Niacinamide", "Rice Extract"],
+            "target_skin_type": ["All", "Combination", "Normal"],
+            "certifications": ["Cruelty-free", "Vegan"]
+          },
+          "rationale": "'Glass Skin' 키워드가 미국 시장에서 급성장 중 (+127% YoY). K-Beauty 브랜드 중 이 컨셉을 명확히 타겟팅한 제품 부재",
+          "competitive_advantage": "LANEIGE가 K-Beauty 트렌드의 정통성을 대표하는 브랜드로서 'Glass Skin'을 가장 신뢰성 있게 전달 가능"
+        },
+        {
+          "product_name": "LANEIGE Retinol Recovery Night Cream",
+          "tagline": "The Perfect After-Retinol Partner",
+          "core_concept": "레티놀 사용자를 위한 전용 야간 크림. 레티놀로 인한 건조함과 자극을 완화하고 피부 재생을 촉진",
+          "market_opportunity_score": 7.9,
+          "risk_level": "Medium",
+          "target_attributes": {
+            "primary_benefit": "Soothing",
+            "formula_type": "Rich Cream",
+            "price_tier": "Premium",
+            "key_ingredients": ["Centella Asiatica", "Madecassoside", "Beta-Glucan", "Squalane"],
+            "target_skin_type": ["Sensitive", "All"],
+            "certifications": ["Dermatologist Tested", "Hypoallergenic"]
+          },
+          "rationale": "리뷰에서 156명이 '레티놀 후 사용'을 언급. 레티놀 사용자 대상 전용 제품은 시장에 거의 없음",
+          "competitive_advantage": "LANEIGE Water Sleeping Mask의 진정 효과 기술을 응용한 레티놀 전용 포뮬러"
+        }
+      ],
+      "analysis_timestamp": "2026-01-15T10:30:00.000000"
+    },
+    "Lip Care": {
+      "category": "Lip Care",
+      "gap_analysis": {
+        "category": "Lip Care",
+        "total_products": 89,
+        "products_with_attributes": 78,
+        "total_combinations": 45,
+        "success_patterns": {
+          "top_ingredients": [
+            {"ingredient": "Shea Butter", "percentage": 72},
+            {"ingredient": "Vitamin E", "percentage": 65},
+            {"ingredient": "Coconut Oil", "percentage": 48},
+            {"ingredient": "Beeswax", "percentage": 42}
+          ],
+          "top_benefits": [
+            {"benefit": "Moisturizing", "percentage": 85},
+            {"benefit": "Overnight Repair", "percentage": 38},
+            {"benefit": "Exfoliating", "percentage": 22}
+          ],
+          "top_price_tiers": [
+            {"tier": "budget", "percentage": 45},
+            {"tier": "mid-range", "percentage": 35},
+            {"tier": "premium", "percentage": 20}
+          ],
+          "sample_size": 78
+        },
+        "opportunity_areas": [
+          {"area": "Lip plumping overnight mask", "opportunity_score": 8.8},
+          {"area": "Tinted lip sleeping mask", "opportunity_score": 8.4}
+        ]
+      },
+      "product_ideas": [
+        {
+          "product_name": "LANEIGE Lip Plumping Sleeping Mask",
+          "tagline": "Wake Up to Fuller, Softer Lips",
+          "core_concept": "수면 중 입술에 볼륨감을 부여하는 플럼핑 마스크. 히알루론산과 펩타이드가 입술을 촉촉하고 탱탱하게 가꿔줌",
+          "market_opportunity_score": 8.8,
+          "risk_level": "Low",
+          "target_attributes": {
+            "primary_benefit": "Plumping",
+            "formula_type": "Balm/Mask",
+            "price_tier": "Premium",
+            "key_ingredients": ["Hyaluronic Acid", "Peptides", "Vitamin E", "Shea Butter"],
+            "target_skin_type": ["All"],
+            "certifications": ["Cruelty-free"]
+          },
+          "rationale": "Lip Sleeping Mask의 성공을 바탕으로 플럼핑 기능 추가. 미국 시장에서 립 플럼핑 제품 수요 급증 (+85% YoY)",
+          "competitive_advantage": "기존 Lip Sleeping Mask의 브랜드 인지도와 신뢰도를 활용한 라인 확장"
+        },
+        {
+          "product_name": "LANEIGE Tinted Lip Sleeping Mask",
+          "tagline": "Color That Cares While You Sleep",
+          "core_concept": "수면 마스크의 케어 효과에 은은한 컬러를 더한 틴티드 버전. 아침에 자연스러운 혈색과 촉촉한 입술로 깨어남",
+          "market_opportunity_score": 8.4,
+          "risk_level": "Low",
+          "target_attributes": {
+            "primary_benefit": "Tinted Moisturizing",
+            "formula_type": "Tinted Balm",
+            "price_tier": "Premium",
+            "key_ingredients": ["Berry Complex", "Vitamin E", "Natural Pigments"],
+            "target_skin_type": ["All"],
+            "certifications": ["Cruelty-free"]
+          },
+          "rationale": "틴티드 립 케어 제품 시장이 빠르게 성장 중. 기존 고객의 '컬러 옵션 확대' 요청 다수",
+          "competitive_advantage": "Lip Sleeping Mask의 검증된 포뮬러에 자연스러운 색조 추가로 멀티 기능 제공"
+        },
+        {
+          "product_name": "LANEIGE Lip Glow Serum",
+          "tagline": "Lightweight Lip Perfection",
+          "core_concept": "가볍고 논스티키한 립 세럼으로 낮 동안 지속적인 보습과 광택을 제공",
+          "market_opportunity_score": 7.8,
+          "risk_level": "Medium",
+          "target_attributes": {
+            "primary_benefit": "Daytime Hydration",
+            "formula_type": "Serum/Oil",
+            "price_tier": "Mid-Premium",
+            "key_ingredients": ["Squalane", "Vitamin E", "Jojoba Oil"],
+            "target_skin_type": ["All"],
+            "certifications": ["Cruelty-free", "Vegan"]
+          },
+          "rationale": "'낮에도 사용할 수 있는 가벼운 립 케어' 수요가 리뷰에서 자주 언급됨",
+          "competitive_advantage": "야간 마스크의 명성을 활용한 주간 립 케어 라인 확장"
+        }
+      ],
+      "analysis_timestamp": "2026-01-15T10:30:00.000000"
+    },
+    "Sleeping Masks": {
+      "category": "Sleeping Masks",
+      "gap_analysis": {
+        "category": "Sleeping Masks",
+        "total_products": 45,
+        "products_with_attributes": 42,
+        "total_combinations": 28,
+        "success_patterns": {
+          "top_ingredients": [
+            {"ingredient": "Hyaluronic Acid", "percentage": 75},
+            {"ingredient": "Niacinamide", "percentage": 52},
+            {"ingredient": "Centella Asiatica", "percentage": 38}
+          ],
+          "top_benefits": [
+            {"benefit": "Overnight Hydration", "percentage": 88},
+            {"benefit": "Brightening", "percentage": 35},
+            {"benefit": "Anti-aging", "percentage": 28}
+          ],
+          "sample_size": 42
+        },
+        "opportunity_areas": [
+          {"area": "Vitamin C brightening overnight mask", "opportunity_score": 8.3},
+          {"area": "Collagen firming sleeping pack", "opportunity_score": 7.9}
+        ]
+      },
+      "product_ideas": [
+        {
+          "product_name": "LANEIGE Vita-C Glow Sleeping Mask",
+          "tagline": "Brighten While You Dream",
+          "core_concept": "안정화된 비타민C와 나이아신아마이드를 결합한 브라이트닝 슬리핑 마스크. 수면 중 칙칙한 피부를 환하게 가꿔줌",
+          "market_opportunity_score": 8.3,
+          "risk_level": "Medium",
+          "target_attributes": {
+            "primary_benefit": "Brightening",
+            "formula_type": "Gel Mask",
+            "price_tier": "Premium",
+            "key_ingredients": ["Stabilized Vitamin C", "Niacinamide", "Licorice Extract"],
+            "target_skin_type": ["All", "Dull"],
+            "certifications": ["Dermatologist Tested"]
+          },
+          "rationale": "비타민C 슬리핑 마스크 카테고리에 경쟁 제품이 적음. 브라이트닝 니즈 높음",
+          "competitive_advantage": "LANEIGE의 슬리핑 마스크 전문성을 활용한 비타민C 안정화 기술 적용"
+        },
+        {
+          "product_name": "LANEIGE Collagen Bounce Sleeping Mask",
+          "tagline": "Firm and Plump Overnight",
+          "core_concept": "콜라겐과 펩타이드를 함유한 탄력 개선 슬리핑 마스크. 수면 중 피부 탄력과 볼륨을 회복",
+          "market_opportunity_score": 7.9,
+          "risk_level": "Medium",
+          "target_attributes": {
+            "primary_benefit": "Firming",
+            "formula_type": "Cream Mask",
+            "price_tier": "Premium",
+            "key_ingredients": ["Hydrolyzed Collagen", "Peptides", "Adenosine"],
+            "target_skin_type": ["Mature", "All"],
+            "certifications": ["Dermatologist Tested"]
+          },
+          "rationale": "안티에이징 슬리핑 마스크 수요 증가. BIODANCE의 콜라겐 마스크 성공 사례 참고",
+          "competitive_advantage": "LANEIGE의 Water Science 기술과 콜라겐 전달 시스템 결합"
+        },
+        {
+          "product_name": "LANEIGE Cica Calm Sleeping Mask",
+          "tagline": "Soothe and Restore While You Rest",
+          "core_concept": "민감성 피부를 위한 시카 성분 기반 진정 슬리핑 마스크. 자극받은 피부를 수면 중 진정시킴",
+          "market_opportunity_score": 7.6,
+          "risk_level": "Low",
+          "target_attributes": {
+            "primary_benefit": "Soothing",
+            "formula_type": "Gel Mask",
+            "price_tier": "Mid-Premium",
+            "key_ingredients": ["Centella Asiatica", "Madecassoside", "Panthenol"],
+            "target_skin_type": ["Sensitive", "Irritated"],
+            "certifications": ["Hypoallergenic", "Fragrance-free"]
+          },
+          "rationale": "민감성 피부용 슬리핑 마스크 수요 증가. Anua의 어성초 제품 성공 참고",
+          "competitive_advantage": "LANEIGE의 순한 포뮬러 기술력으로 민감성 피부 시장 공략"
+        }
+      ],
+      "analysis_timestamp": "2026-01-15T10:30:00.000000"
+    },
+    "Toners": {
+      "category": "Toners",
+      "gap_analysis": {
+        "category": "Toners",
+        "total_products": 78,
+        "products_with_attributes": 72,
+        "total_combinations": 38,
+        "success_patterns": {
+          "top_ingredients": [
+            {"ingredient": "Hyaluronic Acid", "percentage": 62},
+            {"ingredient": "Niacinamide", "percentage": 48},
+            {"ingredient": "AHA/BHA", "percentage": 35}
+          ],
+          "top_benefits": [
+            {"benefit": "Hydrating", "percentage": 72},
+            {"benefit": "Exfoliating", "percentage": 28},
+            {"benefit": "Pore Minimizing", "percentage": 25}
+          ],
+          "sample_size": 72
+        },
+        "opportunity_areas": [
+          {"area": "Layering toner for glass skin", "opportunity_score": 8.1}
+        ]
+      },
+      "product_ideas": [
+        {
+          "product_name": "LANEIGE 7-Layer Hydra Toner",
+          "tagline": "The Ultimate Layering Toner for Glass Skin",
+          "core_concept": "7-스킨 메소드에 최적화된 레이어링 토너. 얇은 층을 쌓아 올려 촉촉하고 투명한 글래스 스킨 완성",
+          "market_opportunity_score": 8.1,
+          "risk_level": "Low",
+          "target_attributes": {
+            "primary_benefit": "Layering Hydration",
+            "formula_type": "Watery Toner",
+            "price_tier": "Mid-Premium",
+            "key_ingredients": ["Hyaluronic Acid", "Glycerin", "Rice Extract"],
+            "target_skin_type": ["All", "Dry"],
+            "certifications": ["Cruelty-free"]
+          },
+          "rationale": "7-스킨 메소드가 미국에서 인기. Cream Skin Refiner의 성공을 기반으로 한 라인 확장",
+          "competitive_advantage": "LANEIGE의 Cream Skin 기술력을 워터리 포뮬러로 재해석"
+        },
+        {
+          "product_name": "LANEIGE Pore Perfecting Water Toner",
+          "tagline": "Minimize Pores, Maximize Glow",
+          "core_concept": "모공 관리에 특화된 수분 토너. BHA와 나이아신아마이드가 모공을 조여주고 피부결을 정돈",
+          "market_opportunity_score": 7.5,
+          "risk_level": "Medium",
+          "target_attributes": {
+            "primary_benefit": "Pore Minimizing",
+            "formula_type": "Watery Toner",
+            "price_tier": "Mid-Premium",
+            "key_ingredients": ["Salicylic Acid", "Niacinamide", "Willow Bark"],
+            "target_skin_type": ["Oily", "Combination"],
+            "certifications": ["Dermatologist Tested"]
+          },
+          "rationale": "모공 관리 제품 수요 지속 증가. K-Beauty 브랜드 중 이 영역에서 강력한 제품 부재",
+          "competitive_advantage": "LANEIGE의 수분 기술과 BHA를 결합한 순한 모공 케어"
+        },
+        {
+          "product_name": "LANEIGE Glow Prep Essence Toner",
+          "tagline": "The First Step to Radiant Skin",
+          "core_concept": "메이크업 전 피부 준비를 위한 에센스 토너. 피부 톤을 정돈하고 후속 제품 흡수를 높여줌",
+          "market_opportunity_score": 7.3,
+          "risk_level": "Low",
+          "target_attributes": {
+            "primary_benefit": "Prep & Prime",
+            "formula_type": "Essence Toner",
+            "price_tier": "Mid-Premium",
+            "key_ingredients": ["Niacinamide", "Adenosine", "Fermented Rice"],
+            "target_skin_type": ["All"],
+            "certifications": ["Cruelty-free"]
+          },
+          "rationale": "Cream Skin Refiner가 메이크업 프라이머로 사용되는 트렌드 포착",
+          "competitive_advantage": "LANEIGE의 하이브리드 제품 전문성 활용"
+        }
+      ],
+      "analysis_timestamp": "2026-01-15T10:30:00.000000"
+    },
+    "Eye Care": {
+      "category": "Eye Care",
+      "gap_analysis": {
+        "category": "Eye Care",
+        "total_products": 52,
+        "products_with_attributes": 48,
+        "total_combinations": 25,
+        "success_patterns": {
+          "top_ingredients": [
+            {"ingredient": "Retinol", "percentage": 45},
+            {"ingredient": "Caffeine", "percentage": 42},
+            {"ingredient": "Peptides", "percentage": 38}
+          ],
+          "top_benefits": [
+            {"benefit": "Dark Circle Reduction", "percentage": 65},
+            {"benefit": "Anti-wrinkle", "percentage": 55},
+            {"benefit": "Depuffing", "percentage": 42}
+          ],
+          "sample_size": 48
+        },
+        "opportunity_areas": [
+          {"area": "Eye sleeping mask", "opportunity_score": 8.0}
+        ]
+      },
+      "product_ideas": [
+        {
+          "product_name": "LANEIGE Eye Sleeping Mask",
+          "tagline": "Intensive Eye Care While You Sleep",
+          "core_concept": "눈가 전용 슬리핑 마스크. 수면 중 다크서클과 잔주름을 집중 케어",
+          "market_opportunity_score": 8.0,
+          "risk_level": "Low",
+          "target_attributes": {
+            "primary_benefit": "Dark Circle + Anti-wrinkle",
+            "formula_type": "Cream Mask",
+            "price_tier": "Premium",
+            "key_ingredients": ["Caffeine", "Peptides", "Vitamin K"],
+            "target_skin_type": ["All"],
+            "certifications": ["Ophthalmologist Tested"]
+          },
+          "rationale": "LANEIGE 슬리핑 마스크 라인의 자연스러운 확장. 아이 케어 슬리핑 마스크 카테고리에 경쟁 제품 적음",
+          "competitive_advantage": "LANEIGE 슬리핑 마스크의 브랜드 파워를 아이 케어 카테고리로 확장"
+        }
+      ],
+      "analysis_timestamp": "2026-01-15T10:30:00.000000"
+    }
+  },
+  "cross_category_insights": {
+    "top_cross_category_opportunities": [
+      {"attribute_1": "Overnight Care", "attribute_2": "Barrier Repair", "opportunity_score": 9.2, "current_products": 3, "categories": ["Face Moisturizers", "Sleeping Masks"]},
+      {"attribute_1": "K-Beauty", "attribute_2": "Glass Skin", "opportunity_score": 8.8, "current_products": 5, "categories": ["Toners", "Face Moisturizers"]},
+      {"attribute_1": "Peptides", "attribute_2": "Anti-aging", "opportunity_score": 8.5, "current_products": 8, "categories": ["Face Moisturizers", "Eye Care"]}
+    ],
+    "highest_scored_ideas": [
+      {"product_name": "LANEIGE Lip Plumping Sleeping Mask", "category": "Lip Care", "score": 8.8},
+      {"product_name": "LANEIGE Ceramide Barrier Recovery Cream", "category": "Face Moisturizers", "score": 8.5},
+      {"product_name": "LANEIGE Tinted Lip Sleeping Mask", "category": "Lip Care", "score": 8.4},
+      {"product_name": "LANEIGE Vita-C Glow Sleeping Mask", "category": "Sleeping Masks", "score": 8.3},
+      {"product_name": "LANEIGE Glass Skin Peptide Gel-Cream", "category": "Face Moisturizers", "score": 8.2}
+    ],
+    "common_success_ingredients": [
+      {"ingredient": "Hyaluronic Acid", "categories": 4, "avg_effectiveness": 4.5},
+      {"ingredient": "Niacinamide", "categories": 3, "avg_effectiveness": 4.3},
+      {"ingredient": "Peptides", "categories": 3, "avg_effectiveness": 4.4},
+      {"ingredient": "Ceramides", "categories": 2, "avg_effectiveness": 4.6},
+      {"ingredient": "Vitamin C", "categories": 2, "avg_effectiveness": 4.2}
+    ],
+    "total_unique_opportunities": 15,
+    "avg_opportunity_score": 8.1
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "analysis_date": "2026-01-23",
+  "tracking_period": "Last 60 days",
+  "data_status": "demo",
+  "data_status_message": "히스토리컬 데이터 수집 중입니다. 7일 이상의 데이터가 축적되면 실제 신흥 브랜드 분석이 제공됩니다.",
+  "emerging_brands": [
+    {
+      "brand": "BIODANCE",
+      "status": "breakthrough",
+      "emergence_score": 9.2,
+      "metrics": {
+        "total_reviews": 15420,
+        "review_growth_rate": "+285%",
+        "avg_rating": 4.6,
+        "product_count": 5,
+        "category_penetration": "3 categories"
+      },
+      "key_strengths": [
+        "콜라겐 마스크 카테고리 선점으로 차별화 성공",
+        "틱톡 바이럴로 인한 폭발적 인지도 상승",
+        "한국 스킨케어 트렌드 선도"
+      ],
+      "laneige_threat_level": "High",
+      "strategic_response": "'Face Moisturizers' 카테고리에서 Sleeping Mask 라인의 차별화 포인트 강화 필요"
+    },
+    {
+      "brand": "Anua",
+      "status": "rising_star",
+      "emergence_score": 7.8,
+      "metrics": {
+        "total_reviews": 8920,
+        "review_growth_rate": "+156%",
+        "avg_rating": 4.5,
+        "product_count": 8,
+        "category_penetration": "2 categories"
+      },
+      "key_strengths": [
+        "어성초 성분 기반 진정 케어 포지셔닝",
+        "합리적 가격대로 진입 장벽 낮춤",
+        "SNS 마케팅 효과적 활용"
+      ],
+      "laneige_threat_level": "Medium",
+      "strategic_response": "토너/에센스 라인업 확장 검토 및 진정 케어 메시징 강화"
+    },
+    {
+      "brand": "Rhode",
+      "status": "growing",
+      "emergence_score": 6.5,
+      "metrics": {
+        "total_reviews": 5230,
+        "review_growth_rate": "+89%",
+        "avg_rating": 4.3,
+        "product_count": 4,
+        "category_penetration": "2 categories"
+      },
+      "key_strengths": [
+        "셀러브리티 브랜드 파워 (Hailey Bieber)",
+        "립 케어 카테고리 신규 진입 성공",
+        "미니멀리스트 브랜딩으로 MZ세대 공략"
+      ],
+      "laneige_threat_level": "Medium",
+      "strategic_response": "'Lip Care' 카테고리에서 K-Beauty 헤리티지 강조로 차별화"
+    }
+  ],
+  "category_growth_rates": {
+    "Lip_Care": "+18% growth",
+    "Face_Moisturizers": "+12% growth",
+    "Skin_Care": "+8% growth",
+    "Facial_Treatments_and_Masks": "+22% growth"
+  },
+  "laneige_position": {
+    "strengths": [
+      "K-Beauty 헤리티지와 글로벌 브랜드 인지도",
+      "Lip Sleeping Mask로 카테고리 리더십 확보",
+      "우수한 제품 리뷰 점수 (4.5점 이상)",
+      "혁신적인 Water Science 기술력"
+    ],
+    "vulnerabilities": [
+      "가격 민감도: 프리미엄 가격대로 인한 진입 장벽",
+      "신규 K-Beauty 경쟁자 증가",
+      "제한적인 제품 라인업 다양성"
+    ],
+    "strategic_positioning": "LANEIGE는 K-Beauty 프리미엄 브랜드로서 혁신적인 수면 마스크 라인으로 차별화된 포지셔닝을 확보하고 있습니다.",
+    "metrics": {
+      "total_reviews_analyzed": 45000,
+      "avg_rating": 4.5,
+      "product_count": 12,
+      "market_share": "8.5%"
+    }
+  },
+  "market_trends": [
+    {
+      "trend": "Overnight Beauty Routine 강세",
+      "leaders": [
+        "LANEIGE Lip Sleeping Mask",
+        "COSRX",
+        "BIODANCE"
+      ],
+      "growth_rate": "+45% YoY",
+      "opportunity": "수면 중 집중 케어 제품 라인 확장 및 '8시간 케어' 메시징 강화",
+      "threat_level": "Low"
+    },
+    {
+      "trend": "K-Beauty 브랜드 시장 지배력 확대",
+      "leaders": [
+        "LANEIGE",
+        "COSRX",
+        "medicube",
+        "BIODANCE"
+      ],
+      "growth_rate": "+60% YoY",
+      "opportunity": "K-Beauty 헤리티지 스토리텔링 및 혁신 기술 강조",
+      "threat_level": "Medium"
+    },
+    {
+      "trend": "클린 뷰티 & 민감성 피부 케어",
+      "leaders": [
+        "CeraVe",
+        "La Roche-Posay",
+        "Anua"
+      ],
+      "growth_rate": "+35% YoY",
+      "opportunity": "피부과학 기반 저자극 포뮬레이션 강조",
+      "threat_level": "Low"
+    }
+  ],
+  "established_competitors": [
+    {
+      "brand": "Aquaphor",
+      "market_position": "Established Leader",
+      "metrics": {
+        "total_reviews": 125000,
+        "avg_rating": 4.7,
+        "product_count": 15
+      },
+      "competitive_moat": [
+        "강력한 브랜드 인지도",
+        "방대한 고객 리뷰",
+        "의료/치유 포지셔닝"
+      ],
+      "threat_assessment": "High threat: Lip Care 카테고리 1위 유지",
+      "laneige_response": "프리미엄 K-Beauty 포지셔닝으로 차별화"
+    },
+    {
+      "brand": "Burt's Bees",
+      "market_position": "Established Leader",
+      "metrics": {
+        "total_reviews": 98000,
+        "avg_rating": 4.5,
+        "product_count": 25
+      },
+      "competitive_moat": [
+        "자연주의 브랜딩",
+        "폭넓은 제품 라인업",
+        "합리적 가격대"
+      ],
+      "threat_assessment": "Medium threat: 자연주의 소비자층 확보",
+      "laneige_response": "기술력과 혁신성 강조로 차별화"
+    }
+  ],
+  "pattern_insights": {
+    "common_success_factors": [
+      "명확한 브랜드 스토리와 차별화 포인트",
+      "주력 카테고리 집중 공략 전략",
+      "SNS/인플루언서 마케팅 적극 활용",
+      "리뷰 관리 및 고객 응대"
+    ],
+    "category_entry_pattern": "주력 카테고리에서 Top 10 진입 후, 인접 카테고리로 확장하는 2단계 전략 사용"
+  }
+}

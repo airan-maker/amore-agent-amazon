@@ -1,0 +1,97 @@
+{
+  "analysis_date": "2026-01-15",
+  "data_status": "demo",
+  "data_status_message": "시연용 데모 데이터입니다. 실제 데이터 수집 시 업데이트됩니다.",
+  "categories": [
+    {
+      "category": "Lip Care",
+      "volatility_index": 45.8,
+      "status": "volatile",
+      "trend": "increasing",
+      "market_signal": "시장 재편 활발 - 신규 브랜드 진입 최적기",
+      "top30_changes": {"new_entries": 9, "exits": 6},
+      "brands_entering": ["Rhode", "Drunk Elephant", "Summer Fridays"],
+      "brands_exiting": ["Generic Brand A", "Old Brand B"]
+    },
+    {
+      "category": "Face Moisturizers",
+      "volatility_index": 38.5,
+      "status": "moderate",
+      "trend": "increasing",
+      "market_signal": "K-Beauty 브랜드 부상 - 시장 점유율 확대 중",
+      "top30_changes": {"new_entries": 7, "exits": 5},
+      "brands_entering": ["BIODANCE", "Anua", "Beauty of Joseon"],
+      "brands_exiting": ["Pond's"]
+    },
+    {
+      "category": "Night Creams",
+      "volatility_index": 52.3,
+      "status": "very_volatile",
+      "trend": "increasing",
+      "market_signal": "급격한 시장 재편 - 최우선 진입 기회",
+      "top30_changes": {"new_entries": 12, "exits": 9},
+      "brands_entering": ["Then I Met You", "Beauty of Joseon", "Rovectin"],
+      "brands_exiting": ["Olay", "Aveeno"]
+    },
+    {
+      "category": "Sleeping Masks",
+      "volatility_index": 28.2,
+      "status": "stable",
+      "trend": "stable",
+      "market_signal": "안정적 성장 - LANEIGE 리더십 유지",
+      "top30_changes": {"new_entries": 4, "exits": 3},
+      "brands_entering": ["BIODANCE"],
+      "brands_exiting": []
+    }
+  ],
+  "category_volatility": {
+    "Lip_Care": {"score": 45.8, "status": "volatile", "trend": "increasing", "market_signal": "시장 재편 활발"},
+    "Face_Moisturizers": {"score": 38.5, "status": "moderate", "trend": "increasing", "market_signal": "K-Beauty 부상"},
+    "Night_Creams": {"score": 52.3, "status": "very_volatile", "trend": "increasing", "market_signal": "급격한 재편"},
+    "Sleeping_Masks": {"score": 28.2, "status": "stable", "trend": "stable", "market_signal": "안정적 성장"}
+  },
+  "volatility_metrics": {
+    "LANEIGE": {
+      "brand_volatility_score": 2.8,
+      "trend": "안정적 - 변동성 낮음",
+      "categories_present": ["Lip Care", "Face Moisturizers", "Sleeping Masks"],
+      "products": [
+        {"product": "LANEIGE Lip Sleeping Mask", "asin": "B07XXPHQZK", "volatility": 2.2, "rank_change": "Rank #2 → #1"},
+        {"product": "LANEIGE Water Sleeping Mask", "asin": "B09HN8JBFP", "volatility": 3.1, "rank_change": "Rank #5 → #3"},
+        {"product": "LANEIGE Cream Skin Refiner", "asin": "B0CB93H6G7", "volatility": 3.4, "rank_change": "Rank #8 → #6"}
+      ]
+    },
+    "COSRX": {
+      "brand_volatility_score": 3.9,
+      "trend": "적당한 변동성 - 안정적 성장",
+      "categories_present": ["Face Moisturizers", "Skin Care"],
+      "products": [
+        {"product": "COSRX Snail Mucin 96% Power Essence", "asin": "B00PBX3L7K", "volatility": 3.8, "rank_change": "Rank #3 → #2"}
+      ]
+    },
+    "BIODANCE": {
+      "brand_volatility_score": 7.5,
+      "trend": "높은 변동성 - 급성장 중",
+      "categories_present": ["Face Moisturizers", "Sleeping Masks"],
+      "products": [
+        {"product": "BIODANCE Bio-Collagen Real Deep Mask", "asin": "B0B2RM68G2", "volatility": 8.2, "rank_change": "Rank #18 → #4"}
+      ]
+    },
+    "Anua": {
+      "brand_volatility_score": 6.2,
+      "trend": "높은 변동성 - 빠른 성장",
+      "categories_present": ["Face Moisturizers", "Toners"],
+      "products": [
+        {"product": "Anua Heartleaf 77% Soothing Toner", "asin": "B08CMS8P67", "volatility": 5.8, "rank_change": "Rank #12 → #5"}
+      ]
+    },
+    "Beauty of Joseon": {
+      "brand_volatility_score": 5.8,
+      "trend": "중간 변동성 - 안정화 단계",
+      "categories_present": ["Face Moisturizers", "Night Creams"],
+      "products": [
+        {"product": "Beauty of Joseon Dynasty Cream", "asin": "B07P1D1YQD", "volatility": 5.5, "rank_change": "Rank #15 → #8"}
+      ]
+    }
+  }
+}

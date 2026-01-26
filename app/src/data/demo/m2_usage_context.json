@@ -1,0 +1,330 @@
+{
+  "brand": "Multiple Brands",
+  "analysis_date": "2026-01-23",
+  "products": [
+    {
+      "brand": "Summer",
+      "product": "Summer Fridays Tinted Lip Butter Balm - Conditioni",
+      "usage_contexts": [
+        {
+          "context": "일반 사용",
+          "frequency": 13,
+          "sentiment_score": 0.62,
+          "key_phrases": [
+            "좋아요",
+            "만족",
+            "추천"
+          ],
+          "skin_concerns": [
+            "건조",
+            "보습"
+          ],
+          "time_of_use": "Morning & Night",
+          "season": "Year-round",
+          "companion_products": [],
+          "sample_reviews": [
+            {
+              "text": "(function() {\n            P.when('cr-A', 'ready').execute(function(A) {\n                if(typeof A.toggleExpanderAriaLabel === 'function') {\n                    A.toggleExpanderAriaLabel('review_text_read_more', 'Read more of this review', 'Read less of this review');\n                }\n            });\n        })();\n    \n    \n        .review-text-read-more-expander:focus-visible {\n            outline: 2px solid #2162a1;\n            outline-offset: 2px;\n            border-radius: 5px;\n        }\n    \n\n\n\n\n\n\n\n\n  \n  \n    I AM OBSESSED 😍 — this is hands-down one of the best lip balms I’ve ever used! The texture is unbelievably creamy and plush without ever feeling heavy or greasy. It glides on like a dream, instantly soothing dry lips and giving them the prettiest natural tint that looks good with everything.The color payoff is perfect — just enough tint to look polished but still super wearable every day. And the finish? So soft and healthy-looking, like your lips but better. I keep reaching for this all day long!Honestly, it lives in my purse, my desk, and my nightstand — I can’t recommend it enough. Total staple! 💄💋\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "The best lip balm. I was hesitant because of the price but its true to what you pay. The smell is delicious and after one application your lips are smooth and hydrated.\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "This tinted lip butter balm is absolutely lovely. It envelopes your lips in soft, shiny, brilliant luscious pink sugar as the color says. Makes anyone look like a teenager and who doesn’t want to look like a teen again?!\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 40,
+          "30s": 35,
+          "40s": 20,
+          "50+": 5
+        },
+        "skin_types": {
+          "Dry": 35,
+          "Combination": 30,
+          "Normal": 20,
+          "Oily": 15
+        }
+      }
+    },
+    {
+      "brand": "Anua",
+      "product": "Anua Heartleaf 77 Soothing Toner I pH 5.5 Trouble ",
+      "usage_contexts": [
+        {
+          "context": "일반 사용",
+          "frequency": 13,
+          "sentiment_score": 0.54,
+          "key_phrases": [
+            "좋아요",
+            "만족",
+            "추천"
+          ],
+          "skin_concerns": [
+            "건조",
+            "보습"
+          ],
+          "time_of_use": "Morning & Night",
+          "season": "Year-round",
+          "companion_products": [],
+          "sample_reviews": [
+            {
+              "text": "(function() {\n            P.when('cr-A', 'ready').execute(function(A) {\n                if(typeof A.toggleExpanderAriaLabel === 'function') {\n                    A.toggleExpanderAriaLabel('review_text_read_more', 'Read more of this review', 'Read less of this review');\n                }\n            });\n        })();\n    \n    \n        .review-text-read-more-expander:focus-visible {\n            outline: 2px solid #2162a1;\n            outline-offset: 2px;\n            border-radius: 5px;\n        }\n    \n\n\n\n\n\n\n\n\n  \n  \n    ★★★★★ Soothing Toner That’s Perfect for Daily Use!I absolutely love the Anua Heartleaf 77 Soothing Toner! It has a calming effect on my skin, especially on days when I exfoliate. This toner has become a staple in my daily routine, helping maintain a healthy skin barrier, hydration, and a natural glow. Perfect for sensitive skin, K-beauty lovers, and anyone looking for gentle, effective skincare!\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "This toner is a game-changer for sensitive skin. Packed with 77% Heartleaf, it instantly calms irritation and hydrates without being heavy. The pH 5.5 formula respects your skin’s natural balance, leaving it soft and refreshed. It’s great for purifying without stripping, removing excess oil and dirt gently. Plus, it’s vegan and cruelty-free!Perfect for all skin types, especially those with redness or sensitivity. Overall, a fantastic soothing and hydrating toner that delivers visible results. Highly recommended!\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "Okay, this toner is that girl! I’ve been using the Anua Heartleaf 77% Toner every day for the past couple months and my skin has never looked so calm and clear. I have sensitive, breakout-prone skin and this seriously helps keep the redness down and my skin feeling super fresh. It’s super lightweight (basically feels like water) but somehow still gives that nice hydrated glow.I use it morning and night, and it layers perfectly with the rest of my skincare—no burning, no irritation, just soft, happy skin. Plus, it doesn’t have that heavy fragrance or sticky feeling some toners do.If your skin gets easily mad or you just want something soothing and simple, you need this. Only downside is I go through the bottle kinda fast because I use it like water 😂 but it’s 100% worth it.💚 Pros: calming, gentle, non-sticky, hydrates without clogging🚫 Cons: runs out fast if you use it twice a day\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 40,
+          "30s": 35,
+          "40s": 20,
+          "50+": 5
+        },
+        "skin_types": {
+          "Dry": 35,
+          "Combination": 30,
+          "Normal": 20,
+          "Oily": 15
+        }
+      }
+    },
+    {
+      "brand": "Aquaphor",
+      "product": "Aquaphor Lip Repair Ointment, Moisturizing Lip Bal",
+      "usage_contexts": [
+        {
+          "context": "일반 사용",
+          "frequency": 13,
+          "sentiment_score": 0.62,
+          "key_phrases": [
+            "좋아요",
+            "만족",
+            "추천"
+          ],
+          "skin_concerns": [
+            "건조",
+            "보습"
+          ],
+          "time_of_use": "Morning & Night",
+          "season": "Year-round",
+          "companion_products": [],
+          "sample_reviews": [
+            {
+              "text": "(function() {\n            P.when('cr-A', 'ready').execute(function(A) {\n                if(typeof A.toggleExpanderAriaLabel === 'function') {\n                    A.toggleExpanderAriaLabel('review_text_read_more', 'Read more of this review', 'Read less of this review');\n                }\n            });\n        })();\n    \n    \n        .review-text-read-more-expander:focus-visible {\n            outline: 2px solid #2162a1;\n            outline-offset: 2px;\n            border-radius: 5px;\n        }\n    \n\n\n\n\n\n\n\n\n  \n  \n    I bought this Aquaphor lip repair because my lips get painfully dry, especially in colder weather, and it worked better than regular lip balms. It goes on smooth, feels soothing right away, and actually lasts instead of disappearing in minutes. After a couple days of use, the cracking was gone and my lips felt soft again. The tubes are small but convenient, and having two is perfect for keeping one at home and one in my bag. If you struggle with chronically dry lips, this is one of the few products that truly helps.\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "I’ve been really happy with Aquaphor Lip Repair Ointment and it’s one of the most reliable things I’ve found for truly dry lips. It feels more like a treatment than a regular chapstick. Instead of being waxy and disappearing quickly, it goes on smoothly and forms a protective layer that helps lock in moisture, so my lips stay comfortable for a long time.It’s especially helpful when my lips are cracked from cold weather, dry air, or just getting dehydrated. I’ll put a layer on and I can actually feel the difference pretty quickly, less tightness and less flaking. I also like using it before bed, and when I wake up my lips still feel soft instead of dried out again.The pack is convenient too because I can keep one in my purse and one at home. Overall, it’s a great value for something that actually works, and I’d definitely repurchase if you deal with dryness often.\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "This is honestly the best chapstick I’ve ever tried, and I’m a chapstick addict. I’ve tried handfuls of both natural chapsticks (Burt’s bees, badger, evanhealy, etc) as well as standard ones (Chapstick brand, EOS, etc) and none of them TRULY got rid of the chapped lips and made them smooth. Exfoliating my lips, drinking a lot of water, using a lot of chapstick, using a little, etc nothing would help. It was to the point I was considering lip filler to “hydrate” and smooth out my lips because it always looked so.. dehydrated. Just not plump and never smooth.Then I tried this aquaphor lip repair and it was an instant game changer. No weird white lines on my inner lips from buildup, not just a bandaid over dry lips, no chapstick “addiction” where my lips would sting if I didn’t apply more. Super hydrated, smooth, soft lips with this. I will be a forever customer, assuming it doesn’t get discontinued and the formula doesn’t change. ALSO clean on Yuka 👏🏼👏🏼\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 40,
+          "30s": 35,
+          "40s": 20,
+          "50+": 5
+        },
+        "skin_types": {
+          "Dry": 35,
+          "Combination": 30,
+          "Normal": 20,
+          "Oily": 15
+        }
+      }
+    },
+    {
+      "brand": "BIODANCE",
+      "product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Ov",
+      "usage_contexts": [
+        {
+          "context": "일반 사용",
+          "frequency": 12,
+          "sentiment_score": 0.58,
+          "key_phrases": [
+            "좋아요",
+            "만족",
+            "추천"
+          ],
+          "skin_concerns": [
+            "건조",
+            "보습"
+          ],
+          "time_of_use": "Morning & Night",
+          "season": "Year-round",
+          "companion_products": [],
+          "sample_reviews": [
+            {
+              "text": "(function() {\n            P.when('cr-A', 'ready').execute(function(A) {\n                if(typeof A.toggleExpanderAriaLabel === 'function') {\n                    A.toggleExpanderAriaLabel('review_text_read_more', 'Read more of this review', 'Read less of this review');\n                }\n            });\n        })();\n    \n    \n        .review-text-read-more-expander:focus-visible {\n            outline: 2px solid #2162a1;\n            outline-offset: 2px;\n            border-radius: 5px;\n        }\n    \n\n\n\n\n\n\n\n\n  \n  \n    There are countless sheet masks on the market, and it can be difficult to distinguish one from another, but this is a truly high-quality, top-performing option. Both my mature skin and my daughter’s teenage skin showed visible improvement using these masks just once a week, addressing different needs while delivering consistent hydration and skin-smoothing results.The mask provides excellent moisture and leaves the skin feeling smooth, supple, glowing, and refreshed without irritation or stickiness. We use these both alongside other products from this line and in combination with other highly rated skincare brands, and they integrate well into a broader routine.What stands out most is the value. While not inexpensive, these masks rival far more expensive, luxury and prescription-grade skincare products we’ve used in the past—without the gimmicks. The quality and results justify the cost, must smell is wonderful, and this brand has become a regular part of our skincare routine.\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "My initial encounter with these was until TikTok but I ordered them from Amazon for myself and my daughter for convenience and Prime shipping. There were two choices I think the one is a four-pack and the one I got is a 16 pack. The 16 pack will last you 4 months if you're doing it once a week as instructed.I open the top and two sides when I'm doing it just to have accessibility and to be able to use the remnants liquid in the pack after I'm done applying the facial part I put the liquid in the pack on my neck and chest.They are a little slippery when you take them out. I watched a video on how to apply it and did the bottom part first and then the top part sometimes I have to snip the top part near the nose to get it to fit properly but you don't have to in general.There are three pieces that are left over the two eye pieces and the lip piece. You can put them below your eyes or above your eyes on your brows and then put the mask over them which is what I do. Or you can put them under your eyes and put the mask over them but I find it doesn't absorb all the way in that location due to the double thickness I guess. The lip one you can put over your lip or put it on vertically over your throat where the skin can get a little saggy.Once you have it on it's best to sit back and relax for 30 minutes or so at about a 45° angle so it doesn't slip off. After about 10 to 15 minutes it doesn't slip around as much and after 30 it's obviously started absorbing and tends to stay pretty well.I haven't noticed any staining on the pillows or anything like that from it and by morning actually by 4 hours later it's completely absorbed and all you have left on your faces the plastic that it was attached to. You just pull that off and throw it away. It's white when you put it on and it's clear when it absorbs.I definitely noticed an improvement in my skin quality and the collagen sinks in easily and less about a week. I am a redhead with delicate skin and I haven't had any reaction to this product at all I know that other masks have caused problems for friends but I've used this one for over a year now and I love it. My daughter and I both use it weekly and they're easy to take with you if you're traveling great way to pamper your skin after a day outside on the beach.The price is reasonable for what it is and what it does. I've gotten several compliments on my skin and I'm over 60 so that saying something for the results!All in all this is a very good product, it doesn't smell and doesn't seem to have any impurities like some others. My skin isn't irritated by it and looks great afterwards. If you're wondering if it washes off once it's soaked in you can wash your face all you want but you're just going to have beautiful glowing cheeks. I wouldn't hesitate to recommend this or give it as a gift!\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "I have been using two Biodans masks: the Real Deep Mask (bought in December) and the Rejuvenating Mask (bought in September).Both masks work really well. My skin feels soft, smooth, and hydrated after each use.The Real Deep cleans deeply, and the Rejuvenating makes my skin feel refreshed and glowing.I'm very satisfied and recommend both masks!\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 40,
+          "30s": 35,
+          "40s": 20,
+          "50+": 5
+        },
+        "skin_types": {
+          "Dry": 35,
+          "Combination": 30,
+          "Normal": 20,
+          "Oily": 15
+        }
+      }
+    },
+    {
+      "brand": "Burt's",
+      "product": "Burt's Bees Lip Balm - Original Beeswax, Lip Moist",
+      "usage_contexts": [
+        {
+          "context": "일반 사용",
+          "frequency": 13,
+          "sentiment_score": 0.62,
+          "key_phrases": [
+            "좋아요",
+            "만족",
+            "추천"
+          ],
+          "skin_concerns": [
+            "건조",
+            "보습"
+          ],
+          "time_of_use": "Morning & Night",
+          "season": "Year-round",
+          "companion_products": [],
+          "sample_reviews": [
+            {
+              "text": "(function() {\n            P.when('cr-A', 'ready').execute(function(A) {\n                if(typeof A.toggleExpanderAriaLabel === 'function') {\n                    A.toggleExpanderAriaLabel('review_text_read_more', 'Read more of this review', 'Read less of this review');\n                }\n            });\n        })();\n    \n    \n        .review-text-read-more-expander:focus-visible {\n            outline: 2px solid #2162a1;\n            outline-offset: 2px;\n            border-radius: 5px;\n        }\n    \n\n\n\n\n\n\n\n\n  \n  \n    No problems with receipt of this product.  It really does a great job for chapped lips and it is not flavored like similar products.  This bundle package was a good price and was a good deal.  I do recommend this item as it gives good results.\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "Great peppermint flavor. Only chapstick I use in the winter to keep lips from chapping. Best chapstick for a reasonable price\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "Love these. I like the peppermint zing of it when my lips are dry. Softens my lips and moisturizes them.\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 40,
+          "30s": 35,
+          "40s": 20,
+          "50+": 5
+        },
+        "skin_types": {
+          "Dry": 35,
+          "Combination": 30,
+          "Normal": 20,
+          "Oily": 15
+        }
+      }
+    },
+    {
+      "brand": "LANEIGE",
+      "product": "LANEIGE Lip Sleeping Mask: Nourish, Hydrate, Vitam",
+      "usage_contexts": [
+        {
+          "context": "일반 사용",
+          "frequency": 13,
+          "sentiment_score": 0.62,
+          "key_phrases": [
+            "좋아요",
+            "만족",
+            "추천"
+          ],
+          "skin_concerns": [
+            "건조",
+            "보습"
+          ],
+          "time_of_use": "Morning & Night",
+          "season": "Year-round",
+          "companion_products": [],
+          "sample_reviews": [
+            {
+              "text": "(function() {\n            P.when('cr-A', 'ready').execute(function(A) {\n                if(typeof A.toggleExpanderAriaLabel === 'function') {\n                    A.toggleExpanderAriaLabel('review_text_read_more', 'Read more of this review', 'Read less of this review');\n                }\n            });\n        })();\n    \n    \n        .review-text-read-more-expander:focus-visible {\n            outline: 2px solid #2162a1;\n            outline-offset: 2px;\n            border-radius: 5px;\n        }\n    \n\n\n\n\n\n\n\n\n  \n  \n    The LANEIGE Lip Sleeping Mask really works. My lips get extremely dry and cracked, especially at night, and this is the only product that actually keeps them soft and hydrated until morning. I apply it before bed and wake up with smooth, moisturized lips instead of flaky ones.A little goes a long way, so the jar lasts forever. It feels thick and nourishing without being sticky, and it also works great during the day as a lip balm. If you struggle with dry lips, this is 100% worth it.\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "Quick TakeThis is one of the few lip masks that actually leaves my lips softer by morning. Hydrating without being sticky or heavy.My Experience• Lips feel noticeably smoother when I wake up• Helps with dryness and flaking• Thick but comfortable texture• A little goes a long wayI use a small amount at night and still feel hydration the next day.What to Know• Best used as an overnight mask, not a daytime gloss• Works well in dry weather or during colder months• Great for maintenance if you’re prone to dry lipsBottom LineReliable, comfortable hydration that actually lasts overnight. I keep repurchasing because it consistently works.\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "Moisturizing, light tint, nice scent. Little goes a long way, so this is a great value.\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 40,
+          "30s": 35,
+          "40s": 20,
+          "50+": 5
+        },
+        "skin_types": {
+          "Dry": 35,
+          "Combination": 30,
+          "Normal": 20,
+          "Oily": 15
+        }
+      }
+    }
+  ]
+}

@@ -26,27 +26,54 @@ export const ProductIdeas = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
 
   useEffect(() => {
-    // Load ideation report
-    import('../data/product_ideation_report.json')
-      .then(data => {
+    // Helper to check if ideation data has actual ideas
+    const hasIdeasData = (data) => {
+      if (!data?.metadata) return false;
+      return data.metadata.total_ideas_generated > 0;
+    };
+
+    // Load ideation report with demo fallback
+    const loadIdeationData = async () => {
+      try {
+        const realData = await import('../data/product_ideation_report.json');
+        const data = realData.default || realData;
         console.log('Loaded ideation data:', data);
-        setIdeationData(data.default || data);
-      })
-      .catch(err => {
-        console.error('Failed to load ideation data:', err);
-      });
+
+        // If real data has no ideas, load demo data
+        if (!hasIdeasData(data)) {
+          console.log('Real data has no ideas, loading demo data...');
+          const demoData = await import('../data/demo/product_ideation_demo.json');
+          const demo = demoData.default || demoData;
+          console.log('Loaded demo ideation data:', demo);
+          setIdeationData(demo);
+        } else {
+          setIdeationData(data);
+        }
+      } catch (err) {
+        console.error('Failed to load ideation data, trying demo:', err);
+        try {
+          const demoData = await import('../data/demo/product_ideation_demo.json');
+          setIdeationData(demoData.default || demoData);
+        } catch (demoErr) {
+          console.error('Failed to load demo data:', demoErr);
+        }
+      }
+    };
 
     // Load attributes
-    import('../data/product_attributes.json')
-      .then(data => {
+    const loadAttributesData = async () => {
+      try {
+        const data = await import('../data/product_attributes.json');
         console.log('Loaded attributes data:', data);
         setAttributeData(data.default || data);
-        setLoading(false);
-      })
-      .catch(err => {
+      } catch (err) {
         console.error('Failed to load attributes data:', err);
-        setLoading(false);
-      });
+      }
+      setLoading(false);
+    };
+
+    loadIdeationData();
+    loadAttributesData();
   }, []);
 
   if (loading) {
