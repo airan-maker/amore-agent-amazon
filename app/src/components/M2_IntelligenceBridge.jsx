@@ -350,18 +350,18 @@ export const IntelligenceBridge = ({ data }) => {
                   </div>
 
                   <div className="p-3 rounded-lg border" style={{
-                    backgroundColor: trend.laneige_preparedness.toLowerCase() === 'high' ? 'rgba(16, 185, 129, 0.1)' :
-                                     trend.laneige_preparedness.toLowerCase() === 'medium' ? 'rgba(59, 130, 246, 0.1)' :
+                    backgroundColor: trend.laneige_preparedness?.toLowerCase() === 'high' ? 'rgba(16, 185, 129, 0.1)' :
+                                     trend.laneige_preparedness?.toLowerCase() === 'medium' ? 'rgba(59, 130, 246, 0.1)' :
                                      'rgba(251, 191, 36, 0.1)',
-                    borderColor: trend.laneige_preparedness.toLowerCase() === 'high' ? 'rgba(16, 185, 129, 0.3)' :
-                                 trend.laneige_preparedness.toLowerCase() === 'medium' ? 'rgba(59, 130, 246, 0.3)' :
+                    borderColor: trend.laneige_preparedness?.toLowerCase() === 'high' ? 'rgba(16, 185, 129, 0.3)' :
+                                 trend.laneige_preparedness?.toLowerCase() === 'medium' ? 'rgba(59, 130, 246, 0.3)' :
                                  'rgba(251, 191, 36, 0.3)'
                   }}>
                     <div className="flex items-center justify-between mb-2">
                       <div className="text-xs text-white/50 uppercase tracking-wider">LANEIGE Preparedness</div>
                       <span className={`text-xs px-2 py-1 rounded-full border ${
-                        trend.laneige_preparedness.toLowerCase() === 'high' ? 'text-emerald-400 border-emerald-400/30' :
-                        trend.laneige_preparedness.toLowerCase() === 'medium' ? 'text-blue-400 border-blue-400/30' :
+                        trend.laneige_preparedness?.toLowerCase() === 'high' ? 'text-emerald-400 border-emerald-400/30' :
+                        trend.laneige_preparedness?.toLowerCase() === 'medium' ? 'text-blue-400 border-blue-400/30' :
                         'text-amber-400 border-amber-400/30'
                       }`}>
                         {trend.laneige_preparedness}
@@ -647,11 +647,11 @@ export const IntelligenceBridge = ({ data }) => {
                 <div className="flex items-start justify-between mb-4">
                   <h4 className="text-lg font-light text-white/95">{comp.competitor}</h4>
                   <span className={`text-xs px-3 py-1 rounded-full border ${
-                    comp.threat_level.toLowerCase().includes('high') ? 'text-rose-400 border-rose-400/40 bg-rose-500/10' :
-                    comp.threat_level.toLowerCase().includes('medium') ? 'text-amber-400 border-amber-400/40 bg-amber-500/10' :
+                    comp.threat_level?.toLowerCase().includes('high') ? 'text-rose-400 border-rose-400/40 bg-rose-500/10' :
+                    comp.threat_level?.toLowerCase().includes('medium') ? 'text-amber-400 border-amber-400/40 bg-amber-500/10' :
                     'text-emerald-400 border-emerald-400/40 bg-emerald-500/10'
                   }`}>
-                    {comp.threat_level.replace('threat_level: ', '')}
+                    {comp.threat_level?.replace('threat_level: ', '') || 'Unknown'}
                   </span>
                 </div>
 

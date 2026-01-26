@@ -18,9 +18,11 @@ export const EmergingBrands = ({ data }) => {
   };
 
   const getThreatColor = (threat) => {
-    if (threat.toLowerCase().includes('very high') || threat.toLowerCase().includes('high'))
+    if (!threat) return 'text-emerald-400';
+    const threatLower = threat.toLowerCase();
+    if (threatLower.includes('very high') || threatLower.includes('high'))
       return 'text-rose-400';
-    if (threat.toLowerCase().includes('medium')) return 'text-amber-400';
+    if (threatLower.includes('medium')) return 'text-amber-400';
     return 'text-emerald-400';
   };
 
@@ -690,9 +692,9 @@ export const EmergingBrands = ({ data }) => {
                           animate={{ opacity: 1, y: 0 }}
                           transition={{ delay: 0.2 + segIdx * 0.1 }}
                           className={`p-4 rounded-lg border ${
-                            segment.toLowerCase() === 'premium' ? 'bg-purple-500/10 border-purple-400/30' :
-                            segment.toLowerCase() === 'luxury' ? 'bg-amber-500/10 border-amber-400/30' :
-                            segment.toLowerCase() === 'mid_range' ? 'bg-blue-500/10 border-blue-400/30' :
+                            segment?.toLowerCase() === 'premium' ? 'bg-purple-500/10 border-purple-400/30' :
+                            segment?.toLowerCase() === 'luxury' ? 'bg-amber-500/10 border-amber-400/30' :
+                            segment?.toLowerCase() === 'mid_range' ? 'bg-blue-500/10 border-blue-400/30' :
                             'bg-emerald-500/10 border-emerald-400/30'
                           }`}
                         >
