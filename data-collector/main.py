@@ -127,9 +127,30 @@ class DataCollectionPipeline:
     # ==========================================
 
     def _get_intermediate_file(self, stage: str) -> Path:
-        """Get path for intermediate data file"""
+        """Get path for intermediate data file (for saving)"""
         today = datetime.now().strftime("%Y%m%d")
         return OUTPUT_DIR / f"intermediate_{today}_{stage}.json"
+
+    def _find_latest_intermediate_file(self, stage: str) -> Path | None:
+        """Find the most recent intermediate file for a given stage.
+
+        This handles the case where stages run across midnight UTC,
+        so the date in the filename may differ from today's date.
+        """
+        import glob
+
+        # Look for all intermediate files matching this stage
+        pattern = str(OUTPUT_DIR / f"intermediate_*_{stage}.json")
+        matching_files = glob.glob(pattern)
+
+        if not matching_files:
+            return None
+
+        # Sort by modification time (most recent first)
+        matching_files.sort(key=lambda x: os.path.getmtime(x), reverse=True)
+
+        # Return the most recent file
+        return Path(matching_files[0])
 
     def _save_intermediate_data(self, stage: str):
         """Save collected data for next stage"""
@@ -139,14 +160,29 @@ class DataCollectionPipeline:
         logger.success(f"Saved intermediate data: {filepath}")
 
     def _load_intermediate_data(self, stage: str) -> bool:
-        """Load data from previous stage"""
+        """Load data from previous stage.
+
+        Looks for the most recent intermediate file instead of today's date,
+        since stages may run across midnight UTC.
+        """
+        # First try today's file (most common case)
         filepath = self._get_intermediate_file(stage)
         if filepath.exists():
             with open(filepath, "r", encoding="utf-8") as f:
                 self.collected_data = json.load(f)
             logger.success(f"Loaded intermediate data: {filepath}")
             return True
-        logger.warning(f"Intermediate file not found: {filepath}")
+
+        # If not found, look for the most recent file for this stage
+        latest_file = self._find_latest_intermediate_file(stage)
+        if latest_file:
+            logger.info(f"Today's file not found, using most recent: {latest_file}")
+            with open(latest_file, "r", encoding="utf-8") as f:
+                self.collected_data = json.load(f)
+            logger.success(f"Loaded intermediate data: {latest_file}")
+            return True
+
+        logger.warning(f"No intermediate file found for stage: {stage}")
         return False
 
     async def run_stage1(self):

@@ -33,6 +33,12 @@ jobs:
           pip install -r requirements.txt
           playwright install chromium
 
+      - name: Check for Stage 4 data
+        run: |
+          echo "=== Checking for Stage 4 intermediate files ==="
+          ls -la data-collector/output/intermediate_*_stage4.json 2>/dev/null || echo "No stage4 files found in repo"
+          ls -la data-collector/output/intermediate_*.json 2>/dev/null || echo "No intermediate files found"
+
       - name: Run Stage 5 (Analysis)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -59,6 +65,8 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -f app/src/data/*.json app/src/data/historical/*.json 2>/dev/null || true
+          echo "=== Git status ==="
+          git status
           git diff --staged --quiet || git commit -m "Stage 5: Analysis complete $(date +'%Y-%m-%d %H:%M')"
           git stash --include-untracked || true
           git pull --rebase origin main || true
