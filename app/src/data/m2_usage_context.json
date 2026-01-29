@@ -1,5 +1,168 @@
 {
   "brand": "Multiple Brands",
-  "analysis_date": "2026-01-28",
-  "products": []
+  "analysis_date": "2026-01-29",
+  "products": [
+    {
+      "brand": "BIODANCE",
+      "product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Ov",
+      "usage_contexts": [
+        {
+          "context": "일반 사용",
+          "frequency": 13,
+          "sentiment_score": 0.62,
+          "key_phrases": [
+            "좋아요",
+            "만족",
+            "추천"
+          ],
+          "skin_concerns": [
+            "건조",
+            "보습"
+          ],
+          "time_of_use": "Morning & Night",
+          "season": "Year-round",
+          "companion_products": [],
+          "sample_reviews": [
+            {
+              "text": "(function() {\n            P.when('cr-A', 'ready').execute(function(A) {\n                if(typeof A.toggleExpanderAriaLabel === 'function') {\n                    A.toggleExpanderAriaLabel('review_text_read_more', 'Read more of this review', 'Read less of this review');\n                }\n            });\n        })();\n    \n    \n        .review-text-read-more-expander:focus-visible {\n            outline: 2px solid #2162a1;\n            outline-offset: 2px;\n            border-radius: 5px;\n        }\n    \n\n\n\n\n\n\n\n\n  \n  \n    There are countless sheet masks on the market, and it can be difficult to distinguish one from another, but this is a truly high-quality, top-performing option. Both my mature skin and my daughter’s teenage skin showed visible improvement using these masks just once a week, addressing different needs while delivering consistent hydration and skin-smoothing results.The mask provides excellent moisture and leaves the skin feeling smooth, supple, glowing, and refreshed without irritation or stickiness. We use these both alongside other products from this line and in combination with other highly rated skincare brands, and they integrate well into a broader routine.What stands out most is the value. While not inexpensive, these masks rival far more expensive, luxury and prescription-grade skincare products we’ve used in the past—without the gimmicks. The quality and results justify the cost, must smell is wonderful, and this brand has become a regular part of our skincare routine.\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "This mask is incredible! The bio-collagen formula deeply hydrates and tightens my skin. I wake up the next morning with incredibly plump, radiant, and smooth skin. It adheres perfectly to the face, making it comfortable to wear overnight. It's a luxury spa treatment at home!\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "My initial encounter with these was until TikTok but I ordered them from Amazon for myself and my daughter for convenience and Prime shipping. There were two choices I think the one is a four-pack and the one I got is a 16 pack. The 16 pack will last you 4 months if you're doing it once a week as instructed.I open the top and two sides when I'm doing it just to have accessibility and to be able to use the remnants liquid in the pack after I'm done applying the facial part I put the liquid in the pack on my neck and chest.They are a little slippery when you take them out. I watched a video on how to apply it and did the bottom part first and then the top part sometimes I have to snip the top part near the nose to get it to fit properly but you don't have to in general.There are three pieces that are left over the two eye pieces and the lip piece. You can put them below your eyes or above your eyes on your brows and then put the mask over them which is what I do. Or you can put them under your eyes and put the mask over them but I find it doesn't absorb all the way in that location due to the double thickness I guess. The lip one you can put over your lip or put it on vertically over your throat where the skin can get a little saggy.Once you have it on it's best to sit back and relax for 30 minutes or so at about a 45° angle so it doesn't slip off. After about 10 to 15 minutes it doesn't slip around as much and after 30 it's obviously started absorbing and tends to stay pretty well.I haven't noticed any staining on the pillows or anything like that from it and by morning actually by 4 hours later it's completely absorbed and all you have left on your faces the plastic that it was attached to. You just pull that off and throw it away. It's white when you put it on and it's clear when it absorbs.I definitely noticed an improvement in my skin quality and the collagen sinks in easily and less about a week. I am a redhead with delicate skin and I haven't had any reaction to this product at all I know that other masks have caused problems for friends but I've used this one for over a year now and I love it. My daughter and I both use it weekly and they're easy to take with you if you're traveling great way to pamper your skin after a day outside on the beach.The price is reasonable for what it is and what it does. I've gotten several compliments on my skin and I'm over 60 so that saying something for the results!All in all this is a very good product, it doesn't smell and doesn't seem to have any impurities like some others. My skin isn't irritated by it and looks great afterwards. If you're wondering if it washes off once it's soaked in you can wash your face all you want but you're just going to have beautiful glowing cheeks. I wouldn't hesitate to recommend this or give it as a gift!\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 40,
+          "30s": 35,
+          "40s": 20,
+          "50+": 5
+        },
+        "skin_types": {
+          "Dry": 35,
+          "Combination": 30,
+          "Normal": 20,
+          "Oily": 15
+        }
+      }
+    },
+    {
+      "brand": "LANEIGE",
+      "product": "LANEIGE Lip Sleeping Mask: Nourish, Hydrate, Vitam",
+      "usage_contexts": [
+        {
+          "context": "일반 사용",
+          "frequency": 13,
+          "sentiment_score": 0.62,
+          "key_phrases": [
+            "좋아요",
+            "만족",
+            "추천"
+          ],
+          "skin_concerns": [
+            "건조",
+            "보습"
+          ],
+          "time_of_use": "Morning & Night",
+          "season": "Year-round",
+          "companion_products": [],
+          "sample_reviews": [
+            {
+              "text": "(function() {\n            P.when('cr-A', 'ready').execute(function(A) {\n                if(typeof A.toggleExpanderAriaLabel === 'function') {\n                    A.toggleExpanderAriaLabel('review_text_read_more', 'Read more of this review', 'Read less of this review');\n                }\n            });\n        })();\n    \n    \n        .review-text-read-more-expander:focus-visible {\n            outline: 2px solid #2162a1;\n            outline-offset: 2px;\n            border-radius: 5px;\n        }\n    \n\n\n\n\n\n\n\n\n  \n  \n    The LANEIGE Lip Sleeping Mask really works. My lips get extremely dry and cracked, especially at night, and this is the only product that actually keeps them soft and hydrated until morning. I apply it before bed and wake up with smooth, moisturized lips instead of flaky ones.A little goes a long way, so the jar lasts forever. It feels thick and nourishing without being sticky, and it also works great during the day as a lip balm. If you struggle with dry lips, this is 100% worth it.\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "Excellent product - it moistens and fortifies my lips, leaving them softer during harsh, cold winter days. No more dryness or chapping. More expensive than a lip balm but worth it.\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "Quick TakeThis is one of the few lip masks that actually leaves my lips softer by morning. Hydrating without being sticky or heavy.My Experience• Lips feel noticeably smoother when I wake up• Helps with dryness and flaking• Thick but comfortable texture• A little goes a long wayI use a small amount at night and still feel hydration the next day.What to Know• Best used as an overnight mask, not a daytime gloss• Works well in dry weather or during colder months• Great for maintenance if you’re prone to dry lipsBottom LineReliable, comfortable hydration that actually lasts overnight. I keep repurchasing because it consistently works.\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 40,
+          "30s": 35,
+          "40s": 20,
+          "50+": 5
+        },
+        "skin_types": {
+          "Dry": 35,
+          "Combination": 30,
+          "Normal": 20,
+          "Oily": 15
+        }
+      }
+    },
+    {
+      "brand": "Burt's",
+      "product": "Burt's Bees Lip Balm - Original Beeswax, Lip Moist",
+      "usage_contexts": [
+        {
+          "context": "일반 사용",
+          "frequency": 13,
+          "sentiment_score": 0.62,
+          "key_phrases": [
+            "좋아요",
+            "만족",
+            "추천"
+          ],
+          "skin_concerns": [
+            "건조",
+            "보습"
+          ],
+          "time_of_use": "Morning & Night",
+          "season": "Year-round",
+          "companion_products": [],
+          "sample_reviews": [
+            {
+              "text": "(function() {\n            P.when('cr-A', 'ready').execute(function(A) {\n                if(typeof A.toggleExpanderAriaLabel === 'function') {\n                    A.toggleExpanderAriaLabel('review_text_read_more', 'Read more of this review', 'Read less of this review');\n                }\n            });\n        })();\n    \n    \n        .review-text-read-more-expander:focus-visible {\n            outline: 2px solid #2162a1;\n            outline-offset: 2px;\n            border-radius: 5px;\n        }\n    \n\n\n\n\n\n\n\n\n  \n  \n    No problems with receipt of this product.  It really does a great job for chapped lips and it is not flavored like similar products.  This bundle package was a good price and was a good deal.  I do recommend this item as it gives good results.\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "Great peppermint flavor. Only chapstick I use in the winter to keep lips from chapping. Best chapstick for a reasonable price\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "LOve, Love, Love!  Not waxy at all in my opinion. A great moisturizer for your lips.\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 40,
+          "30s": 35,
+          "40s": 20,
+          "50+": 5
+        },
+        "skin_types": {
+          "Dry": 35,
+          "Combination": 30,
+          "Normal": 20,
+          "Oily": 15
+        }
+      }
+    }
+  ]
 }
