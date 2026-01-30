@@ -3,21 +3,21 @@
     {
       "brand": "Burt's",
       "product": "Burt's Bees Lip Balm - Original Beeswax, Lip Moist",
-      "analysis_period": "2026-01-01 to 2026-01-29",
+      "analysis_period": "2026-01-01 to 2026-01-30",
       "registered_category": "",
       "exposure_paths": [
         {
           "breadcrumb": "Lip Care",
-          "traffic_percentage": 93.3,
+          "traffic_percentage": 95.1,
           "avg_rank": 1,
           "conversion_rate": 15.0,
           "trend": "stable",
           "gap_detected": true,
-          "gap_insight": "실제 트래픽의 93.3%가 'Lip Care' 카테고리에서 발생 - 명목 카테고리와 불일치"
+          "gap_insight": "실제 트래픽의 95.1%가 'Lip Care' 카테고리에서 발생 - 명목 카테고리와 불일치"
         },
         {
           "breadcrumb": "Skin Care",
-          "traffic_percentage": 2.8,
+          "traffic_percentage": 2.9,
           "avg_rank": 33,
           "conversion_rate": 15.0,
           "trend": "stable"
@@ -25,14 +25,7 @@
         {
           "breadcrumb": "Personal Care",
           "traffic_percentage": 2.0,
-          "avg_rank": 46,
-          "conversion_rate": 15.0,
-          "trend": "stable"
-        },
-        {
-          "breadcrumb": "Beauty & Personal Care",
-          "traffic_percentage": 1.9,
-          "avg_rank": 50,
+          "avg_rank": 47,
           "conversion_rate": 15.0,
           "trend": "stable"
         }
@@ -40,15 +33,15 @@
       "strategic_recommendation": "Lip Care 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
     },
     {
-      "brand": "LANEIGE",
-      "product": "LANEIGE Lip Sleeping Mask: Nourish, Hydrate, Vitam",
-      "analysis_period": "2026-01-01 to 2026-01-29",
+      "brand": "Aquaphor",
+      "product": "Aquaphor Lip Repair Stick, Moisturizing Lip Balm P",
+      "analysis_period": "2026-01-01 to 2026-01-30",
       "registered_category": "",
       "exposure_paths": [
         {
           "breadcrumb": "Lip Care",
           "traffic_percentage": 100.0,
-          "avg_rank": 4,
+          "avg_rank": 2,
           "conversion_rate": 15.0,
           "trend": "stable",
           "gap_detected": true,
@@ -58,54 +51,33 @@
       "strategic_recommendation": "Lip Care 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
     },
     {
-      "brand": "BIODANCE",
-      "product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Ov",
-      "analysis_period": "2026-01-01 to 2026-01-29",
-      "registered_category": "",
-      "exposure_paths": [
-        {
-          "breadcrumb": "Facial Skin Care",
-          "traffic_percentage": 39.0,
-          "avg_rank": 2,
-          "conversion_rate": 15.0,
-          "trend": "stable",
-          "gap_detected": true,
-          "gap_insight": "실제 트래픽의 39.0%가 'Facial Skin Care' 카테고리에서 발생 - 명목 카테고리와 불일치"
-        },
-        {
-          "breadcrumb": "Skin Care",
-          "traffic_percentage": 26.0,
-          "avg_rank": 3,
-          "conversion_rate": 15.0,
-          "trend": "stable"
-        },
-        {
-          "breadcrumb": "Personal Care",
-          "traffic_percentage": 19.5,
-          "avg_rank": 4,
-          "conversion_rate": 15.0,
-          "trend": "stable"
-        },
-        {
-          "breadcrumb": "Beauty & Personal Care",
-          "traffic_percentage": 15.6,
-          "avg_rank": 5,
-          "conversion_rate": 15.0,
-          "trend": "stable"
-        }
-      ],
-      "strategic_recommendation": "Facial Skin Care 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
-    },
-    {
-      "brand": "Unknown",
-      "product": "e.l.f. Glow Reviver Melting Lip Balm, Hydrating Ti",
-      "analysis_period": "2026-01-01 to 2026-01-29",
+      "brand": "Aquaphor",
+      "product": "Aquaphor Lip Repair Ointment, Moisturizing Lip Bal",
+      "analysis_period": "2026-01-01 to 2026-01-30",
       "registered_category": "",
       "exposure_paths": [
         {
           "breadcrumb": "Lip Care",
           "traffic_percentage": 100.0,
-          "avg_rank": 13,
+          "avg_rank": 3,
+          "conversion_rate": 15.0,
+          "trend": "stable",
+          "gap_detected": true,
+          "gap_insight": "실제 트래픽의 100.0%가 'Lip Care' 카테고리에서 발생 - 명목 카테고리와 불일치"
+        }
+      ],
+      "strategic_recommendation": "Lip Care 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
+    },
+    {
+      "brand": "ChapStick",
+      "product": "ChapStick Moisturizer Original Lip Balm Tubes, SPF",
+      "analysis_period": "2026-01-01 to 2026-01-30",
+      "registered_category": "",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Lip Care",
+          "traffic_percentage": 100.0,
+          "avg_rank": 12,
           "conversion_rate": 15.0,
           "trend": "stable",
           "gap_detected": true,
