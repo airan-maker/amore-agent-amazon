@@ -55,6 +55,9 @@ class AttributeExtractor:
             max_retries=2,  # Built-in retry
         )
         self.model = model
+        self._api_available = True  # Circuit breaker flag
+        self._consecutive_failures = 0
+        self._max_consecutive_failures = 3  # Disable API after 3 consecutive failures
 
         # Verify API key format
         if api_key:
@@ -186,6 +189,11 @@ JSON:"""
                 logger.debug(f"Cache hit for {asin}")
                 return cached
 
+        # Circuit breaker: skip API if too many consecutive failures
+        if not self._api_available:
+            logger.debug(f"API disabled (circuit breaker), using fallback for {asin}")
+            return self._get_fallback_attributes()
+
         # Check budget
         if not self.budget_tracker.can_make_request():
             logger.warning(f"Budget limit reached, using fallback for {asin}")
@@ -247,10 +255,22 @@ JSON:"""
 
                 self.cache_manager.set(asin, attributes, cache_metadata)
 
+                # Reset consecutive failures on success
+                self._consecutive_failures = 0
                 return attributes
 
             except anthropic.APIConnectionError as e:
+                self._consecutive_failures += 1
                 logger.warning(f"Attempt {attempt + 1}/{self.max_retries} connection error for {asin}: {type(e).__name__}: {e}")
+
+                if self._consecutive_failures >= self._max_consecutive_failures:
+                    logger.warning(
+                        f"⚠ {self._consecutive_failures} consecutive API failures - "
+                        f"disabling Claude API for remaining products (circuit breaker)"
+                    )
+                    self._api_available = False
+                    return self._get_fallback_attributes()
+
                 if attempt < self.max_retries - 1:
                     await asyncio.sleep(2 ** attempt)
                 else:
@@ -262,7 +282,17 @@ JSON:"""
                 await asyncio.sleep(60)
 
             except anthropic.APIStatusError as e:
+                self._consecutive_failures += 1
                 logger.warning(f"API status error for {asin}: {e.status_code} - {e.message}")
+
+                if self._consecutive_failures >= self._max_consecutive_failures:
+                    logger.warning(
+                        f"⚠ {self._consecutive_failures} consecutive API failures - "
+                        f"disabling Claude API for remaining products (circuit breaker)"
+                    )
+                    self._api_available = False
+                    return self._get_fallback_attributes()
+
                 if attempt < self.max_retries - 1:
                     await asyncio.sleep(2 ** attempt)
                 else:

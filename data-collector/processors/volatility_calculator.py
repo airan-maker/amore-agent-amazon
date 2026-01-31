@@ -26,13 +26,19 @@ class VolatilityCalculator:
 
         # Initialize Claude API client
         if ANTHROPIC_API_KEY:
-            self.client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+            self.client = anthropic.Anthropic(
+                api_key=ANTHROPIC_API_KEY,
+                timeout=30.0,
+                max_retries=2,
+            )
             self.model = CLAUDE_SETTINGS.get("model", "claude-haiku-4-5-20251001")
             self.max_tokens = CLAUDE_SETTINGS.get("max_tokens", 4000)
             self.temperature = CLAUDE_SETTINGS.get("temperature", 0.7)
+            self._api_available = True
             logger.info("✓ Claude API client initialized for market signal analysis")
         else:
             self.client = None
+            self._api_available = True
             logger.warning("⚠ ANTHROPIC_API_KEY not set. Will use rule-based market signals.")
 
     def calculate_volatility_index(
@@ -336,22 +342,12 @@ class VolatilityCalculator:
         avg_rank_change: float = 0.0
     ) -> str:
         """
-        Generate strategic market signal using Claude API
-
-        Args:
-            volatility_index: Calculated volatility score
-            status: Volatility status (very_high/high/moderate/low)
-            trend: Trend direction (increasing/stable/decreasing)
-            category_name: Name of the category
-            new_entries: Number of new brands entering top 30
-            exits: Number of brands exiting top 30
-            avg_rank_change: Average rank change magnitude
-
-        Returns:
-            Strategic market signal interpretation
+        Generate strategic market signal using Claude API with circuit breaker.
+        After 2 consecutive API failures, automatically uses rule-based fallback
+        for remaining calls to avoid wasting time.
         """
-        # If Claude API not available, use fallback
-        if not self.client:
+        # Circuit breaker: skip API after consecutive failures
+        if not self.client or not self._api_available:
             return self._generate_market_signal_fallback(volatility_index, status, trend)
 
         try:
@@ -387,7 +383,7 @@ class VolatilityCalculator:
 
             response = self.client.messages.create(
                 model=self.model,
-                max_tokens=self.max_tokens,
+                max_tokens=100,
                 temperature=self.temperature,
                 messages=[
                     {"role": "user", "content": prompt}
@@ -395,12 +391,16 @@ class VolatilityCalculator:
             )
 
             market_signal = response.content[0].text.strip()
-
-            # Remove any quotes if present
             market_signal = market_signal.strip('"').strip("'").strip()
 
             logger.info(f"✓ Generated market signal via Claude API: {market_signal}")
             return market_signal
+
+        except anthropic.APIConnectionError as e:
+            logger.error(f"API Connection error for {category_name}: {e}")
+            logger.warning("⚠ Disabling Claude API for remaining calls (connection unavailable)")
+            self._api_available = False
+            return self._generate_market_signal_fallback(volatility_index, status, trend)
 
         except Exception as e:
             logger.error(f"Error generating market signal with Claude API: {e}")
