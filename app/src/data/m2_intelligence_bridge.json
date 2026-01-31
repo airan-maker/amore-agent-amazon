@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-30",
+  "analysis_date": "2026-01-31",
   "brand": "Aquaphor",
   "cross_brand_insights": [
     {
@@ -7,9 +7,10 @@
       "affected_brands": [
         "Aquaphor",
         "Anua",
-        "Aquaphor"
+        "Summer",
+        "BIODANCE"
       ],
-      "insight": "3개 브랜드가 야간 집중 케어 컨셉으로 포지셔닝. 소비자들은 수면 중 피부 회복을 핵심 니즈로 인식",
+      "insight": "5개 브랜드가 야간 집중 케어 컨셉으로 포지셔닝. 소비자들은 수면 중 피부 회복을 핵심 니즈로 인식",
       "opportunity": "LANEIGE Sleeping Mask 라인의 '수면 중 집중 케어' 메시징 강화하여 카테고리 리더십 확보",
       "market_size": "Overnight skincare 시장 예상 규모: $450M (미국 기준, 연 15% 성장)"
     }
@@ -17,17 +18,17 @@
   "consumer_pain_points": [
     {
       "pain_point": "건조",
-      "severity": "Medium",
-      "evidence": "39명의 사용자가 '건조' 문제 언급. 주요 컨텍스트: 일반 사용",
-      "current_solution": "현재 2개 브랜드(Anua, Aquaphor)가 솔루션 제공 중",
+      "severity": "High",
+      "evidence": "63명의 사용자가 '건조' 문제 언급. 주요 컨텍스트: 일반 사용",
+      "current_solution": "현재 5개 브랜드(Anua, Aquaphor, Summer)가 솔루션 제공 중",
       "gap": "기존 제품들은 임시 완화에 그치며, 근본적인 해결책 부재",
       "recommended_action": "LANEIGE의 과학적 포뮬레이션을 활용한 '건조' 타겟팅 마케팅 캠페인 전개. A+ 콘텐츠에 솔루션 명확히 제시"
     },
     {
       "pain_point": "보습",
-      "severity": "Medium",
-      "evidence": "39명의 사용자가 '보습' 문제 언급. 주요 컨텍스트: 일반 사용",
-      "current_solution": "현재 2개 브랜드(Anua, Aquaphor)가 솔루션 제공 중",
+      "severity": "High",
+      "evidence": "63명의 사용자가 '보습' 문제 언급. 주요 컨텍스트: 일반 사용",
+      "current_solution": "현재 5개 브랜드(Anua, Aquaphor, Summer)가 솔루션 제공 중",
       "gap": "기존 제품들은 임시 완화에 그치며, 근본적인 해결책 부재",
       "recommended_action": "LANEIGE의 과학적 포뮬레이션을 활용한 '보습' 타겟팅 마케팅 캠페인 전개. A+ 콘텐츠에 솔루션 명확히 제시"
     }
@@ -36,8 +37,8 @@
     {
       "recommendation": "Lip Care 카테고리 최적화 및 재포지셔닝",
       "priority": "High",
-      "expected_impact": "전환율 +14%, 매출 +$285300/month",
-      "rationale": "현재 트래픽의 95.1%가 Lip Care에서 유입되나, 등록 카테고리와 불일치. 카테고리 정렬 시 검색 가시성 및 전환율 대폭 향상 예상",
+      "expected_impact": "전환율 +15%, 매출 +$300000/month",
+      "rationale": "현재 트래픽의 100.0%가 Lip Care에서 유입되나, 등록 카테고리와 불일치. 카테고리 정렬 시 검색 가시성 및 전환율 대폭 향상 예상",
       "implementation": "1) Amazon Seller Central에서 메인 카테고리를 Lip Care로 변경\n2) 제품 타이틀 및 키워드에 카테고리 관련 용어 추가\n3) A+ Content 업데이트하여 Lip Care 맥락 강화"
     },
     {
@@ -65,7 +66,7 @@
   "emerging_trends": [
     {
       "trend": "Overnight Beauty Routine 강세",
-      "evidence": "3개 브랜드가 야간 집중 케어 포지셔닝. '수면 중 피부 회복' 컨셉이 소비자 공감대 형성",
+      "evidence": "5개 브랜드가 야간 집중 케어 포지셔닝. '수면 중 피부 회복' 컨셉이 소비자 공감대 형성",
       "laneige_preparedness": "Medium",
       "action_required": "Overnight 라인 개발 검토 필요"
     },
@@ -92,7 +93,7 @@
       "laneige_opportunity": "LANEIGE의 높은 품질과 고객 만족도를 통한 프리미엄 차별화"
     },
     {
-      "competitor": "Aquaphor",
+      "competitor": "Summer",
       "threat_level": "Low threat",
       "strength": "브랜드 인지도 및 유통망",
       "weakness": "명확한 사용 맥락 부재. 소비자들이 '언제, 왜' 사용하는지 불분명",
@@ -102,7 +103,7 @@
   "brand_perception_gaps": [
     {
       "gap": "카테고리 포지셔닝 불일치",
-      "evidence": "등록 카테고리:  vs. 실제 트래픽 유입: Lip Care (95.1%)",
+      "evidence": "등록 카테고리:  vs. 실제 트래픽 유입: Lip Care (100.0%)",
       "impact": "검색 가시성 저하 및 전환율 손실. 잠재 고객이 제품을 찾지 못할 위험",
       "solution": "Amazon 카테고리를 'Lip Care'로 변경. 타이틀 및 키워드 최적화"
     }

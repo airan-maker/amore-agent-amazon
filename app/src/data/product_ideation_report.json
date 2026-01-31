@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generation_date": "2026-01-30T06:57:56.993761",
+    "generation_date": "2026-01-31T07:10:37.251816",
     "total_categories_analyzed": 10,
     "total_ideas_generated": 0,
     "model_used": "claude-haiku-4-5-20251001",
@@ -28,7 +28,7 @@
         "opportunity_areas": []
       },
       "product_ideas": [],
-      "analysis_timestamp": "2026-01-30T06:57:43.521020"
+      "analysis_timestamp": "2026-01-31T07:10:24.839206"
     },
     "Perfumes & Fragrances": {
       "category": "Perfumes & Fragrances",
@@ -51,7 +51,7 @@
         "opportunity_areas": []
       },
       "product_ideas": [],
-      "analysis_timestamp": "2026-01-30T06:57:44.837151"
+      "analysis_timestamp": "2026-01-31T07:10:26.217875"
     },
     "Foot, Hand & Nail Care": {
       "category": "Foot, Hand & Nail Care",
@@ -74,7 +74,7 @@
         "opportunity_areas": []
       },
       "product_ideas": [],
-      "analysis_timestamp": "2026-01-30T06:57:46.488581"
+      "analysis_timestamp": "2026-01-31T07:10:27.511652"
     },
     "Hair Care": {
       "category": "Hair Care",
@@ -97,7 +97,7 @@
         "opportunity_areas": []
       },
       "product_ideas": [],
-      "analysis_timestamp": "2026-01-30T06:57:47.932685"
+      "analysis_timestamp": "2026-01-31T07:10:28.904161"
     },
     "Makeup": {
       "category": "Makeup",
@@ -120,7 +120,7 @@
         "opportunity_areas": []
       },
       "product_ideas": [],
-      "analysis_timestamp": "2026-01-30T06:57:49.372864"
+      "analysis_timestamp": "2026-01-31T07:10:30.333377"
     },
     "Personal Care": {
       "category": "Personal Care",
@@ -143,7 +143,76 @@
         "opportunity_areas": []
       },
       "product_ideas": [],
-      "analysis_timestamp": "2026-01-30T06:57:50.833384"
+      "analysis_timestamp": "2026-01-31T07:10:31.684991"
+    },
+    "Salon & Spa Equipment": {
+      "category": "Salon & Spa Equipment",
+      "gap_analysis": {
+        "category": "Salon & Spa Equipment",
+        "total_products": 0,
+        "products_with_attributes": 0,
+        "total_combinations": 0,
+        "underserved_combinations": [],
+        "oversaturated_combinations": [],
+        "success_patterns": {
+          "top_ingredients": [],
+          "top_benefits": [],
+          "top_certifications": [],
+          "top_price_tiers": [],
+          "top_skin_types": [],
+          "top_formula_types": [],
+          "sample_size": 0
+        },
+        "opportunity_areas": []
+      },
+      "product_ideas": [],
+      "analysis_timestamp": "2026-01-31T07:10:33.024595"
+    },
+    "Shaving & Grooming": {
+      "category": "Shaving & Grooming",
+      "gap_analysis": {
+        "category": "Shaving & Grooming",
+        "total_products": 0,
+        "products_with_attributes": 0,
+        "total_combinations": 0,
+        "underserved_combinations": [],
+        "oversaturated_combinations": [],
+        "success_patterns": {
+          "top_ingredients": [],
+          "top_benefits": [],
+          "top_certifications": [],
+          "top_price_tiers": [],
+          "top_skin_types": [],
+          "top_formula_types": [],
+          "sample_size": 0
+        },
+        "opportunity_areas": []
+      },
+      "product_ideas": [],
+      "analysis_timestamp": "2026-01-31T07:10:34.448116"
+    },
+    "Skin Care": {
+      "category": "Skin Care",
+      "gap_analysis": {
+        "category": "Skin Care",
+        "total_products": 0,
+        "products_with_attributes": 0,
+        "total_combinations": 0,
+        "underserved_combinations": [],
+        "oversaturated_combinations": [],
+        "success_patterns": {
+          "top_ingredients": [],
+          "top_benefits": [],
+          "top_certifications": [],
+          "top_price_tiers": [],
+          "top_skin_types": [],
+          "top_formula_types": [],
+          "sample_size": 0
+        },
+        "opportunity_areas": []
+      },
+      "product_ideas": [],
+      "analysis_timestamp": "2026-01-31T07:10:35.751760"
     },
     "Tools & Accessories": {
       "category": "Tools & Accessories",
@@ -166,76 +235,7 @@
         "opportunity_areas": []
       },
       "product_ideas": [],
-      "analysis_timestamp": "2026-01-30T06:57:52.422599"
-    },
-    "Face Makeup": {
-      "category": "Face Makeup",
-      "gap_analysis": {
-        "category": "Face Makeup",
-        "total_products": 0,
-        "products_with_attributes": 0,
-        "total_combinations": 0,
-        "underserved_combinations": [],
-        "oversaturated_combinations": [],
-        "success_patterns": {
-          "top_ingredients": [],
-          "top_benefits": [],
-          "top_certifications": [],
-          "top_price_tiers": [],
-          "top_skin_types": [],
-          "top_formula_types": [],
-          "sample_size": 0
-        },
-        "opportunity_areas": []
-      },
-      "product_ideas": [],
-      "analysis_timestamp": "2026-01-30T06:57:53.867078"
-    },
-    "Lip Makeup": {
-      "category": "Lip Makeup",
-      "gap_analysis": {
-        "category": "Lip Makeup",
-        "total_products": 0,
-        "products_with_attributes": 0,
-        "total_combinations": 0,
-        "underserved_combinations": [],
-        "oversaturated_combinations": [],
-        "success_patterns": {
-          "top_ingredients": [],
-          "top_benefits": [],
-          "top_certifications": [],
-          "top_price_tiers": [],
-          "top_skin_types": [],
-          "top_formula_types": [],
-          "sample_size": 0
-        },
-        "opportunity_areas": []
-      },
-      "product_ideas": [],
-      "analysis_timestamp": "2026-01-30T06:57:55.516765"
-    },
-    "Facial Skin Care": {
-      "category": "Facial Skin Care",
-      "gap_analysis": {
-        "category": "Facial Skin Care",
-        "total_products": 0,
-        "products_with_attributes": 0,
-        "total_combinations": 0,
-        "underserved_combinations": [],
-        "oversaturated_combinations": [],
-        "success_patterns": {
-          "top_ingredients": [],
-          "top_benefits": [],
-          "top_certifications": [],
-          "top_price_tiers": [],
-          "top_skin_types": [],
-          "top_formula_types": [],
-          "sample_size": 0
-        },
-        "opportunity_areas": []
-      },
-      "product_ideas": [],
-      "analysis_timestamp": "2026-01-30T06:57:56.993184"
+      "analysis_timestamp": "2026-01-31T07:10:37.251212"
     }
   },
   "cross_category_insights": {
