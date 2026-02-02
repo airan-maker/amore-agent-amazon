@@ -1,5 +1,168 @@
 {
   "brand": "Multiple Brands",
-  "analysis_date": "2026-02-01",
-  "products": []
+  "analysis_date": "2026-02-02",
+  "products": [
+    {
+      "brand": "Summer",
+      "product": "Summer Fridays Tinted Lip Butter Balm - Conditioni",
+      "usage_contexts": [
+        {
+          "context": "일반 사용",
+          "frequency": 13,
+          "sentiment_score": 0.62,
+          "key_phrases": [
+            "좋아요",
+            "만족",
+            "추천"
+          ],
+          "skin_concerns": [
+            "건조",
+            "보습"
+          ],
+          "time_of_use": "Morning & Night",
+          "season": "Year-round",
+          "companion_products": [],
+          "sample_reviews": [
+            {
+              "text": "(function() {\n            P.when('cr-A', 'ready').execute(function(A) {\n                if(typeof A.toggleExpanderAriaLabel === 'function') {\n                    A.toggleExpanderAriaLabel('review_text_read_more', 'Read more of this review', 'Read less of this review');\n                }\n            });\n        })();\n    \n    \n        .review-text-read-more-expander:focus-visible {\n            outline: 2px solid #2162a1;\n            outline-offset: 2px;\n            border-radius: 5px;\n        }\n    \n\n\n\n\n\n\n\n\n  \n  \n    I AM OBSESSED 😍 — this is hands-down one of the best lip balms I’ve ever used! The texture is unbelievably creamy and plush without ever feeling heavy or greasy. It glides on like a dream, instantly soothing dry lips and giving them the prettiest natural tint that looks good with everything.The color payoff is perfect — just enough tint to look polished but still super wearable every day. And the finish? So soft and healthy-looking, like your lips but better. I keep reaching for this all day long!Honestly, it lives in my purse, my desk, and my nightstand — I can’t recommend it enough. Total staple! 💄💋\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "The best lip balm. I was hesitant because of the price but its true to what you pay. The smell is delicious and after one application your lips are smooth and hydrated.\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "This tinted lip butter balm is absolutely lovely. It envelopes your lips in soft, shiny, brilliant luscious pink sugar as the color says. Makes anyone look like a teenager and who doesn’t want to look like a teen again?!\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 40,
+          "30s": 35,
+          "40s": 20,
+          "50+": 5
+        },
+        "skin_types": {
+          "Dry": 35,
+          "Combination": 30,
+          "Normal": 20,
+          "Oily": 15
+        }
+      }
+    },
+    {
+      "brand": "COSRX",
+      "product": "COSRX Snail Mucin Repairing Serum 100ml, Hydrating",
+      "usage_contexts": [
+        {
+          "context": "일반 사용",
+          "frequency": 12,
+          "sentiment_score": 0.58,
+          "key_phrases": [
+            "좋아요",
+            "만족",
+            "추천"
+          ],
+          "skin_concerns": [
+            "건조",
+            "보습"
+          ],
+          "time_of_use": "Morning & Night",
+          "season": "Year-round",
+          "companion_products": [],
+          "sample_reviews": [
+            {
+              "text": "(function() {\n            P.when('cr-A', 'ready').execute(function(A) {\n                if(typeof A.toggleExpanderAriaLabel === 'function') {\n                    A.toggleExpanderAriaLabel('review_text_read_more', 'Read more of this review', 'Read less of this review');\n                }\n            });\n        })();\n    \n    \n        .review-text-read-more-expander:focus-visible {\n            outline: 2px solid #2162a1;\n            outline-offset: 2px;\n            border-radius: 5px;\n        }\n    \n\n\n\n\n\n\n\n\n  \n  \n    I've been using the CORSX Snail 96% Mucin Power Essence regularly as part of my daily skincare routine, and it is a product I continue to repurchase. It absorbs easily, layers well with other products, and feels hydrating without being heavy. There is no overpowering scent, a feature I appreciate. Using this product, I feel it has helped my skin tone and has helped keep my skin soft.  I've even had people comment that since I started this product, my skin looks more hydrated since it's become a part of my routine.This set also includes a mini retinol 0.1% cream, which I liked as a way to try it without committing to a full size right away. I've kept it to occasional use and appreciate having it included, alongside a product I already know works well for me.Overall, this feels like it would be a nice starter kit for someone interested in trying the product or for someone like me who already uses it as part of their routine. It offers solid value from a brand that I have relied on for a few years.For me, I'll be grabbing an extra kit or two so that I can keep it as a self care gift or a little holiday gift for someone special.\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "⭐⭐⭐⭐⭐ Hydration-Focused Essence Supporting Skin Barrier and TextureSkin type: Normal to dry, sensitivePrimary concerns: Dehydration, dullness, compromised skin barrierUsage:This product was used consistently for several weeks as part of a daily skincare routine. It was applied once to twice daily after cleansing and before moisturizer. No additional hydrating essences or treatments were introduced during the evaluation period.Formulation & texture:The essence has a lightweight, viscous texture that spreads easily and absorbs quickly without leaving a sticky residue. Once absorbed, it leaves the skin feeling smooth and lightly cushioned. The formula is fragrance-free and did not cause irritation.Observed effects:With regular use, skin felt more hydrated, calmer, and more balanced. Areas prone to dryness appeared smoother, and overall skin texture looked more even. Improvements were gradual and cumulative, consistent with a barrier-supporting hydration product rather than an immediate corrective treatment.Strengths:• Provides sustained hydration• Supports skin barrier function• Lightweight and non-greasy• Suitable for sensitive skin• Layers well with serums and moisturizersConsiderations:• Texture may feel unusual initially for those new to essences• Very dry skin may require an additional occlusive moisturizerAssessment:This is a well-formulated hydrating essence designed to support moisture retention and skin comfort. It performs reliably with consistent use and integrates easily into both simple and multi-step skincare routines.⭐ Rating: 5 out of 5 stars\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "I really love this products and keep buying it all over again. I am on my 7th bottle. I have really dry skin (flakes since the weather and treatment), so the stickiness and hydrating really help my skin conditions and repair skin barrker. I have inflamtion pimple and while using it, the inflamation did go better.The feeling lingers on the skin for a very long time. After roughly 30 mins applying this products (when the linger feeling leaves), it leaves my skin a thin layer of filter (oil, i believe, from neither my skin or the product), which is glowing and really helps since my skin really need the hydration and that thin layer of oil to prevent water loss. It softens my skin. I used 3 pumps after cleansing. If you have try skin, i believe it worth. If you have oil or combination, adjust the using amount in order to prevent clog pore.\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 40,
+          "30s": 35,
+          "40s": 20,
+          "50+": 5
+        },
+        "skin_types": {
+          "Dry": 35,
+          "Combination": 30,
+          "Normal": 20,
+          "Oily": 15
+        }
+      }
+    },
+    {
+      "brand": "Anua",
+      "product": "Anua Heartleaf 77 Soothing Toner I pH 5.5 Trouble ",
+      "usage_contexts": [
+        {
+          "context": "일반 사용",
+          "frequency": 12,
+          "sentiment_score": 0.58,
+          "key_phrases": [
+            "좋아요",
+            "만족",
+            "추천"
+          ],
+          "skin_concerns": [
+            "건조",
+            "보습"
+          ],
+          "time_of_use": "Morning & Night",
+          "season": "Year-round",
+          "companion_products": [],
+          "sample_reviews": [
+            {
+              "text": "(function() {\n            P.when('cr-A', 'ready').execute(function(A) {\n                if(typeof A.toggleExpanderAriaLabel === 'function') {\n                    A.toggleExpanderAriaLabel('review_text_read_more', 'Read more of this review', 'Read less of this review');\n                }\n            });\n        })();\n    \n    \n        .review-text-read-more-expander:focus-visible {\n            outline: 2px solid #2162a1;\n            outline-offset: 2px;\n            border-radius: 5px;\n        }\n    \n\n\n\n\n\n\n\n\n  \n  \n    ★★★★★ Soothing Toner That’s Perfect for Daily Use!I absolutely love the Anua Heartleaf 77 Soothing Toner! It has a calming effect on my skin, especially on days when I exfoliate. This toner has become a staple in my daily routine, helping maintain a healthy skin barrier, hydration, and a natural glow. Perfect for sensitive skin, K-beauty lovers, and anyone looking for gentle, effective skincare!\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "This toner is a game-changer for sensitive skin. Packed with 77% Heartleaf, it instantly calms irritation and hydrates without being heavy. The pH 5.5 formula respects your skin’s natural balance, leaving it soft and refreshed. It’s great for purifying without stripping, removing excess oil and dirt gently. Plus, it’s vegan and cruelty-free!Perfect for all skin types, especially those with redness or sensitivity. Overall, a fantastic soothing and hydrating toner that delivers visible results. Highly recommended!\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            },
+            {
+              "text": "This toner is a holy grail for my sensitive skin. The 77% heartleaf extract instantly calms redness and irritation, and the pH 5.5 balance is perfect. It's hydrating, gentle, and leaves my skin feeling soft and balanced. A must-have in any Korean skincare routine!\n  \nRead more",
+              "rating": 5,
+              "verified": false
+            }
+          ]
+        }
+      ],
+      "demographic_insights": {
+        "age_groups": {
+          "20s": 40,
+          "30s": 35,
+          "40s": 20,
+          "50+": 5
+        },
+        "skin_types": {
+          "Dry": 35,
+          "Combination": 30,
+          "Normal": 20,
+          "Oily": 15
+        }
+      }
+    }
+  ]
 }
