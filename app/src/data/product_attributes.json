@@ -1,11 +1,506 @@
 {
   "metadata": {
-    "extraction_date": "2026-02-04T06:40:35.467942",
-    "total_products": 318,
+    "extraction_date": "2026-02-05T06:47:46.345105",
+    "total_products": 303,
     "model": "claude-haiku-4-5-20251001",
     "schema_version": "1.0"
   },
   "products": {
+    "B0054LHI5A": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B09V7Z4TJG": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B08KT2Z93D": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B09541P9WH": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B074PVTPBW": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B09542G9ZN": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B07PBXXNCY": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B08H3JPH74": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B00U2VQZDS": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B00TTD9BRC": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B00AINMFAC": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0BRMYHMS5": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B071914GGL": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B00T0C9XRK": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0DPHQRLJC": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
     "B081KL2QYJ": {
       "ingredients": {
         "key_actives": [],
@@ -39,7 +534,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B01MYEZPC8": {
+    "B09HHDHXWX": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -73,6 +568,39 @@
       "extraction_failed": true
     },
     "B01N9SPQHQ": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B01MYEZPC8": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -765,7 +1293,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0BZDZJDTG": {
+    "B00M3IFUMK": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -798,7 +1326,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B00M3IFUMK": {
+    "B0BZDZJDTG": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -864,7 +1392,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0DF85K4N5": {
+    "B07JL7YGC7": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -930,7 +1458,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B07JL7YGC7": {
+    "B0DF85K4N5": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -1029,39 +1557,6 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0F1G3VSLZ": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
     "B0D9ZKD2Y6": {
       "ingredients": {
         "key_actives": [],
@@ -1095,7 +1590,40 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B08H26SHRP": {
+    "B0F1G3VSLZ": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B003JTOS0C": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -1293,39 +1821,6 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0B6CMT476": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
     "B09QP658PT": {
       "ingredients": {
         "key_actives": [],
@@ -1360,6 +1855,39 @@
       "extraction_failed": true
     },
     "B0BTMXPHJY": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0B6CL1QHM": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -1557,6 +2085,39 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
+    "B000GCNC2U": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
     "B0046MK34G": {
       "ingredients": {
         "key_actives": [],
@@ -1656,7 +2217,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B000GCNC2U": {
+    "B07FG7ZVFF": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -1788,7 +2349,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B07FG7ZVFF": {
+    "B0D5TQJXRN": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -1854,73 +2415,40 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B07Y9Y5JM4": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0CMHQGL4X": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
     "B0B4682B3D": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B07Y9Y5JM4": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -1986,7 +2514,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0BJS1NVKM": {
+    "B08SNSSTPZ": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -2019,7 +2547,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B08SNSSTPZ": {
+    "B0BJS1NVKM": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -2217,6 +2745,39 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
+    "B0DP542W7G": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
     "B07N7PK9QK": {
       "ingredients": {
         "key_actives": [],
@@ -2283,7 +2844,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0DP542W7G": {
+    "B00IGJ1XOO": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -2382,7 +2943,73 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B00IGJ1XOO": {
+    "B000YACKO0": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B000TG63EW": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B076FHJ3K5": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -2481,172 +3108,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B076FHJ3K5": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B000TG63EW": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B000YACKO0": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
     "B07CKKGR83": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0BNSF38C9": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B09S4PVZ81": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -2712,7 +3174,40 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B01H1V7WQU": {
+    "B000R039OM": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0BNSF38C9": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -2811,7 +3306,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B07GKVBQDG": {
+    "B017PCGABI": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -2844,7 +3339,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B017PCGABI": {
+    "B07GKVBQDG": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -2910,7 +3405,73 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
+    "B01H1V7WQU": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
     "B09SP2XHKT": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B004BD107O": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -3009,7 +3570,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B004BD107O": {
+    "B00F4VUTQU": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -3075,40 +3636,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B00F4VUTQU": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B01LW1983J": {
+    "B0BN2PX8V3": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -3174,72 +3702,6 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0BN2PX8V3": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0CMYR1CNK": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
     "B004BCTFVS": {
       "ingredients": {
         "key_actives": [],
@@ -3273,7 +3735,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0BSR2ZBK1": {
+    "B01LW1983J": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -3339,39 +3801,6 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B07ZR1CQHP": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
     "B00WZQTCS8": {
       "ingredients": {
         "key_actives": [],
@@ -3405,7 +3834,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B09V1CPTR1": {
+    "B0BSR2ZBK1": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -3438,73 +3867,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B083JHCCV2": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B09F8FZ18G": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B082F1QH7S": {
+    "B002BADJVE": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -3570,39 +3933,6 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B075WWYBJ7": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
     "B01MDTVZTZ": {
       "ingredients": {
         "key_actives": [],
@@ -3636,7 +3966,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B07KWKJPNF": {
+    "B0CXJ1L1Y6": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -3669,106 +3999,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B081NKMFY6": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0DHTX13W3": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0BKDQ333N": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0DB1ZGBS3": {
+    "B07WYFFDZ5": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -3834,7 +4065,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B004B8F8MM": {
+    "B014HNOXZS": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -3867,7 +4098,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0CYX9W5B1": {
+    "B0DBF65JYY": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -3900,7 +4131,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0CVZWMD34": {
+    "B01AXQP6AE": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -3933,7 +4164,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B01BMMOAFU": {
+    "B0014CZ16Q": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -3966,7 +4197,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0C74B6XN8": {
+    "B0C6DZ89ZB": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -3999,7 +4230,73 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0GFPHQLKF": {
+    "B0777NG2DM": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0G11WGRRX": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0DC6GL1DC": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -4065,7 +4362,73 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
+    "B09V1CPTR1": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
     "B07MWSXPT1": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B082WZTJV5": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -4164,39 +4527,6 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B082WZTJV5": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
     "B0815D98F3": {
       "ingredients": {
         "key_actives": [],
@@ -4263,7 +4593,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0FSSPR9C1": {
+    "B0C74B6XN8": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -4329,7 +4659,40 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B002BADJVE": {
+    "B0FSSPR9C1": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0DGQ5X7WT": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -4527,39 +4890,6 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B00PFCSURS": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
     "B0BCGZMTSY": {
       "ingredients": {
         "key_actives": [],
@@ -4593,7 +4923,73 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B00S5VHGQ2": {
+    "B00PFCSURS": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B00D2NUU8Y": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B010GNWPMQ": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -4692,39 +5088,6 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B010GNWPMQ": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
     "B079ZX2QBD": {
       "ingredients": {
         "key_actives": [],
@@ -4758,7 +5121,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0FZDY94YF": {
+    "B0032RMX3U": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -4791,7 +5154,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B09QX789C3": {
+    "B07PGQDWMT": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -4824,7 +5187,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0BBH8FRYL": {
+    "B0DK7TXTGY": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -4857,7 +5220,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B07MQJRK7N": {
+    "B0CBBPVNB6": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -4890,7 +5253,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B07LBLK57Q": {
+    "B0FFMXD87V": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -4923,106 +5286,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0CNMNWDHK": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0BDZG7YVD": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B07QW2RRQX": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B08RS8XP5M": {
+    "B084PNWJXY": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -5088,39 +5352,6 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B07T9JV956": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
     "B017PCGAXQ": {
       "ingredients": {
         "key_actives": [],
@@ -5154,7 +5385,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B01EMYW7BY": {
+    "B07T9JV956": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -5187,7 +5418,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B01N34XW93": {
+    "B07T5BN3P2": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -5220,7 +5451,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B00365DABC": {
+    "B082MRBZZR": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -5253,7 +5484,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B07RK4HST7": {
+    "B0FP176X2H": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -5286,7 +5517,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B09RYRCXKM": {
+    "B00SNPCSUY": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -5319,7 +5550,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0BX2TZZWG": {
+    "B000NWGCZ2": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -5352,7 +5583,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B000VPPUEA": {
+    "B0060OUV5Y": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -5385,7 +5616,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B00027DMSI": {
+    "B001ET7IQK": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -5418,7 +5649,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0BS8Y2FLK": {
+    "B0B5DYY1HQ": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -5451,7 +5682,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0FHH37MZJ": {
+    "B0DFHNKH9M": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -5484,7 +5715,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B08P3HSPM7": {
+    "B0C3SB2P5G": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -5517,7 +5748,139 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0DSCBNS7L": {
+    "B0B3GCCRVH": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0CTK5ZTNK": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0CRXHWR48": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B09QRLZQP4": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B01N7WF774": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -5583,7 +5946,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B084ZP848Y": {
+    "B0DSQXZN79": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -5616,7 +5979,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B00XTTFI6K": {
+    "B08QM7NFWS": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -5649,7 +6012,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0CV9R8DTK": {
+    "B0DXLHPZW2": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -5682,7 +6045,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0F1DK5CGT": {
+    "B0D9L7CTFB": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -5715,7 +6078,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B01M59RMWJ": {
+    "B007U54P36": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -5748,7 +6111,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B004FHZKOA": {
+    "B00TBGQ4G8": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -5781,7 +6144,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B07MSG1HPK": {
+    "B0044B4HSM": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -5814,7 +6177,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0B8TQ7YRW": {
+    "B0DZPBWN1L": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -5847,7 +6210,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B001PTFWG2": {
+    "B0DXRJYY7X": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -5880,40 +6243,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B003JTOS0C": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B00BKSPPVA": {
+    "B0163BMUFM": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -5979,7 +6309,40 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0D1QTCDR6": {
+    "B0DH4R59YX": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B00BKSPPVA": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -6045,40 +6408,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0DH4R59YX": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B00EJDG7XI": {
+    "B003B8G5IY": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -6144,7 +6474,40 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0F31DCL4S": {
+    "B0D1QTCDR6": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B00EJDG7XI": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -6210,40 +6573,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0B9DC2M89": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0F6NTL1DC": {
+    "B0F31DCL4S": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -6309,6 +6639,72 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
+    "B0F19G424F": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0B9DC2M89": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
     "B0FRGTYV2K": {
       "ingredients": {
         "key_actives": [],
@@ -6342,73 +6738,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B003B8G5IY": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0C3G9J5Q8": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0D3J4BT2L": {
+    "B0F6NTL1DC": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -6507,6 +6837,39 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
+    "B07NJJZK3W": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
     "B07F4G837S": {
       "ingredients": {
         "key_actives": [],
@@ -6540,40 +6903,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0BTQ7HFK5": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B07NJJZK3W": {
+    "B0C3G9J5Q8": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -6639,7 +6969,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0002QB9NE": {
+    "B0D3J4BT2L": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -6672,7 +7002,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B082TSRP9J": {
+    "B0002QB9NE": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -6738,7 +7068,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B088JR69SV": {
+    "B082TSRP9J": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -6804,39 +7134,6 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B000052YP6": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
     "B07M5RNH4Z": {
       "ingredients": {
         "key_actives": [],
@@ -6870,7 +7167,40 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0FBGH65Y4": {
+    "B000052YP6": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B088JR69SV": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -6936,7 +7266,40 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0868BTPYW": {
+    "B097BSKN9P": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0FBGH65Y4": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -7002,7 +7365,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B08Z77NKC7": {
+    "B08Z7JSXQ1": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -7035,7 +7398,40 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B01AASJCPA": {
+    "B0868BTPYW": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0B87QYKR3": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -7101,7 +7497,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B00EYOSA9G": {
+    "B01AASJCPA": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -7135,6 +7531,72 @@
       "extraction_failed": true
     },
     "B087ZS6JXQ": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B08Z77NKC7": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B00EYOSA9G": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -7233,271 +7695,106 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0D8TB8J8T": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0B4PSY5SL": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0BD4MMFVM": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0973L1NVT": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0D5TQJXRN": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B084P2F223": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0CQXDMPG4": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B000R039OM": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
     "B00UOL93CG": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0CXLYHYHN": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B094PCH9ZZ": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B00IUY6IXQ": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -7596,304 +7893,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B094PCH9ZZ": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B085S8DGWT": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0CXLYHYHN": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0CXX9PYY6": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B00IUY6IXQ": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0DCX7628T": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0C5R836QJ": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B00LU4CZP8": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0CWNJ75X1": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B072PCY6R8": {
+    "B09S4PVZ81": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -7959,7 +7959,73 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B09WMT8HYB": {
+    "B0CWNJ75X1": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B085S8DGWT": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0CXX9PYY6": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -8025,238 +8091,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B09HZTKLNP": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0012BNVE8": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0009FHJRS": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B09HVCM1D8": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B00LTZEEGQ": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0DK5RX74D": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B01M9DV1OT": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B015HTJDDS": {
+    "B00LU4CZP8": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -8322,39 +8157,6 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B000QXH4PK": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
     "B003K01BMI": {
       "ingredients": {
         "key_actives": [],
@@ -8388,7 +8190,40 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B00AHAWWO0": {
+    "B000QXH4PK": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0FKB289VY": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -8454,7 +8289,40 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B07DHWSNCR": {
+    "B0D1BRB5ZF": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0F2HJ1R41": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -8488,6 +8356,72 @@
       "extraction_failed": true
     },
     "B0DT16KM5X": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B07DHWSNCR": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B00K0OW60I": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -8586,139 +8520,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B07D3NHCVG": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
     "B01G7QFIKC": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B07P9265FF": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0CSYD48C1": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B00122JE66": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -8784,6 +8586,72 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
+    "B07D3NHCVG": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0CSYD48C1": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
     "B00E3RYZF2": {
       "ingredients": {
         "key_actives": [],
@@ -8817,7 +8685,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0C36SWTT4": {
+    "B0DK6P3C67": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -8850,7 +8718,205 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0725BK81G": {
+    "B07CZCQ481": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0D4DC3GMS": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0CSJMF6F6": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0828J17PM": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0CHMK175V": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B07N6W7RPC": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0CLWVH384": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -8916,7 +8982,238 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
+    "B003EMNITQ": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0BQP1WVT9": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0DVZPXVMV": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B078K36RQ1": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
     "B003JFJF4A": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B00NERPNYE": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0001LQGPG": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B07DZYGDSF": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -8982,7 +9279,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B07CWHGR8J": {
+    "B0BTJWSGXV": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -9015,7 +9312,106 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0DXF6M9W9": {
+    "B07CYN88NJ": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B01ALAVIK4": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B00QY1XZ4W": {
+      "ingredients": {
+        "key_actives": [],
+        "formula_type": "Unknown",
+        "texture": "Unknown"
+      },
+      "benefits": {
+        "primary_benefit": "Unknown",
+        "target_concerns": [],
+        "timeframe": "Unknown",
+        "clinical_claims": []
+      },
+      "certifications": {
+        "clean_beauty": [],
+        "ethical": [],
+        "sustainability": [],
+        "origin": "Unknown"
+      },
+      "demographics": {
+        "skin_type": [
+          "Unknown"
+        ],
+        "age_group": "Unknown",
+        "gender_target": "Unknown"
+      },
+      "usage": {
+        "time_of_day": "Unknown",
+        "routine_step": "Unknown",
+        "application_area": "Unknown"
+      },
+      "price_tier": "Unknown",
+      "extraction_failed": true
+    },
+    "B0FKGJYFC8": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -9081,7 +9477,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0DB1LHZ4G": {
+    "B079D357JY": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -9114,205 +9510,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0CLYH1SH2": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B07TXJHYKB": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B08M58SWB1": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B01FSJVS6W": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0C9TWPN2Z": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B082YQ8TXR": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0DM4D187H": {
+    "B0BVC218SG": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -9378,7 +9576,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0DK7TXTGY": {
+    "B08RRR61NB": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -9411,7 +9609,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0BSR85M24": {
+    "B0FT5GLGZD": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -9444,7 +9642,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0CRX55WP8": {
+    "B0FZDY94YF": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -9477,7 +9675,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0CWN3MD25": {
+    "B0F5Y5DB16": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -9510,7 +9708,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B09XGXXGD1": {
+    "B01M31HY3S": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -9543,7 +9741,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0FPM7GMG1": {
+    "B0BSBT1PLC": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -9576,7 +9774,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0F3B4BTVT": {
+    "B0FY85BTGY": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -9609,7 +9807,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0BLNSZSZ9": {
+    "B0BTKL335L": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -9642,7 +9840,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B07KK5L6ZW": {
+    "B01A0NT3D6": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -9675,7 +9873,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B018UPHLU8": {
+    "B000S2LT9Q": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -9708,7 +9906,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B0CBRVZKK1": {
+    "B0DFRL3GHB": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -9741,7 +9939,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B09KDW6TZN": {
+    "B0C7SRQZBD": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",
@@ -9774,700 +9972,7 @@
       "price_tier": "Unknown",
       "extraction_failed": true
     },
-    "B01G5SJSTY": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0CGCCR1NH": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0BVV8BNYJ": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0CCRWC6W9": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B00I69SEK0": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B077TWXCQV": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B09GN1YRVP": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B01D1DR514": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0B6VT7KG5": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B09NXS395V": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B071JC9FSF": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B00FT9UX2C": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0CC9LTYZW": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B06XBHF42Q": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0F24YBM6J": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0B354H5GM": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B09YDFND48": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0DYK5HBPL": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B0FSWFRT62": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B07GVVLSG3": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B09N7XD1JY": {
-      "ingredients": {
-        "key_actives": [],
-        "formula_type": "Unknown",
-        "texture": "Unknown"
-      },
-      "benefits": {
-        "primary_benefit": "Unknown",
-        "target_concerns": [],
-        "timeframe": "Unknown",
-        "clinical_claims": []
-      },
-      "certifications": {
-        "clean_beauty": [],
-        "ethical": [],
-        "sustainability": [],
-        "origin": "Unknown"
-      },
-      "demographics": {
-        "skin_type": [
-          "Unknown"
-        ],
-        "age_group": "Unknown",
-        "gender_target": "Unknown"
-      },
-      "usage": {
-        "time_of_day": "Unknown",
-        "routine_step": "Unknown",
-        "application_area": "Unknown"
-      },
-      "price_tier": "Unknown",
-      "extraction_failed": true
-    },
-    "B001KYTQ8W": {
+    "B00C2IVGSS": {
       "ingredients": {
         "key_actives": [],
         "formula_type": "Unknown",

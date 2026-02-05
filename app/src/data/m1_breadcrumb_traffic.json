@@ -1,15 +1,47 @@
 {
   "products": [
     {
-      "brand": "Maybelline",
-      "product": "Maybelline Lifter Glaze Oil Balm with Hyaluronic A",
-      "analysis_period": "2026-02-01 to 2026-02-04",
+      "brand": "Burt's",
+      "product": "Burt's Bees Lip Balm - Original Beeswax, Lip Moist",
+      "analysis_period": "2026-02-01 to 2026-02-05",
+      "registered_category": "",
+      "exposure_paths": [
+        {
+          "breadcrumb": "Lip Care",
+          "traffic_percentage": 95.4,
+          "avg_rank": 1,
+          "conversion_rate": 15.0,
+          "trend": "stable",
+          "gap_detected": true,
+          "gap_insight": "실제 트래픽의 95.4%가 'Lip Care' 카테고리에서 발생 - 명목 카테고리와 불일치"
+        },
+        {
+          "breadcrumb": "Skin Care",
+          "traffic_percentage": 2.7,
+          "avg_rank": 35,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        },
+        {
+          "breadcrumb": "Personal Care",
+          "traffic_percentage": 1.9,
+          "avg_rank": 50,
+          "conversion_rate": 15.0,
+          "trend": "stable"
+        }
+      ],
+      "strategic_recommendation": "Lip Care 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
+    },
+    {
+      "brand": "Blistex",
+      "product": "Blistex Medicated Lip Balm, 0.15 Ounce, 3 Count (P",
+      "analysis_period": "2026-02-01 to 2026-02-05",
       "registered_category": "",
       "exposure_paths": [
         {
           "breadcrumb": "Lip Care",
           "traffic_percentage": 100.0,
-          "avg_rank": 9,
+          "avg_rank": 8,
           "conversion_rate": 15.0,
           "trend": "stable",
           "gap_detected": true,
@@ -20,50 +52,14 @@
     },
     {
       "brand": "Unknown",
-      "product": "eos 100% Natural & Organic Lip Balm Sticks - Vanil",
-      "analysis_period": "2026-02-01 to 2026-02-04",
+      "product": "e.l.f. Glow Reviver Melting Lip Balm, Hydrating Ti",
+      "analysis_period": "2026-02-01 to 2026-02-05",
       "registered_category": "",
       "exposure_paths": [
         {
           "breadcrumb": "Lip Care",
           "traffic_percentage": 100.0,
-          "avg_rank": 10,
-          "conversion_rate": 15.0,
-          "trend": "stable",
-          "gap_detected": true,
-          "gap_insight": "실제 트래픽의 100.0%가 'Lip Care' 카테고리에서 발생 - 명목 카테고리와 불일치"
-        }
-      ],
-      "strategic_recommendation": "Lip Care 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
-    },
-    {
-      "brand": "Aquaphor",
-      "product": "Aquaphor Lip Repair Ointment - Long-lasting Moistu",
-      "analysis_period": "2026-02-01 to 2026-02-04",
-      "registered_category": "",
-      "exposure_paths": [
-        {
-          "breadcrumb": "Lip Care",
-          "traffic_percentage": 100.0,
-          "avg_rank": 13,
-          "conversion_rate": 15.0,
-          "trend": "stable",
-          "gap_detected": true,
-          "gap_insight": "실제 트래픽의 100.0%가 'Lip Care' 카테고리에서 발생 - 명목 카테고리와 불일치"
-        }
-      ],
-      "strategic_recommendation": "Lip Care 카테고리로의 노출 비중이 가장 높고 전환율도 우수. 제품 등록 카테고리 조정 검토 필요"
-    },
-    {
-      "brand": "La",
-      "product": "La Roche-Posay Cicaplast Lip Balm B5, Hydrating Ba",
-      "analysis_period": "2026-02-01 to 2026-02-04",
-      "registered_category": "",
-      "exposure_paths": [
-        {
-          "breadcrumb": "Lip Care",
-          "traffic_percentage": 100.0,
-          "avg_rank": 17,
+          "avg_rank": 16,
           "conversion_rate": 15.0,
           "trend": "stable",
           "gap_detected": true,
