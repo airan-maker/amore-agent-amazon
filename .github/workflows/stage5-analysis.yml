@@ -46,37 +46,55 @@ jobs:
         run: |
           python -c "
           import anthropic
-          import os
+          import httpx
+          import os, socket, hashlib
+
+          print('=== Environment Check ===')
           key = os.environ.get('ANTHROPIC_API_KEY', '')
           print(f'API key length: {len(key)}')
-          print(f'API key prefix: {key[:10]}...' if len(key) > 10 else 'KEY TOO SHORT OR MISSING')
+          print(f'API key prefix: {key[:15]}...' if len(key) > 15 else 'KEY TOO SHORT OR MISSING')
+          print(f'API key hash (last 8): {hashlib.sha256(key.encode()).hexdigest()[-8:]}')
+          print(f'Starts with sk-ant-: {key.startswith(\"sk-ant-\")}')
+          print(f'anthropic SDK: {anthropic.__version__}')
+          print(f'httpx: {httpx.__version__}')
+
+          print()
+          print('=== DNS Resolution ===')
+          try:
+              ips = socket.getaddrinfo('api.anthropic.com', 443)
+              print(f'DNS OK: {ips[0][4]}')
+          except Exception as de:
+              print(f'DNS FAILED: {de}')
+
+          print()
+          print('=== Direct HTTPS Test ===')
+          try:
+              r = httpx.get('https://api.anthropic.com', timeout=15)
+              print(f'HTTPS OK: status={r.status_code}')
+          except Exception as he:
+              print(f'HTTPS FAILED: {type(he).__name__}: {he}')
+
+          print()
+          print('=== Claude API Test ===')
           try:
               client = anthropic.Anthropic(api_key=key, timeout=30.0)
               msg = client.messages.create(
                   model='claude-haiku-4-5-20251001',
                   max_tokens=10,
-                  messages=[{'role': 'user', 'content': 'Say hi'}]
+                  messages=[{'role': 'user', 'content': 'Say OK'}]
               )
-              print(f'API test SUCCESS: {msg.content[0].text}')
+              print(f'API SUCCESS: {msg.content[0].text}')
+              print(f'Model: {msg.model}, Tokens: {msg.usage.input_tokens}+{msg.usage.output_tokens}')
+          except anthropic.AuthenticationError as e:
+              print(f'AUTH ERROR (API key invalid!): {e}')
           except anthropic.APIConnectionError as e:
               print(f'CONNECTION ERROR: {e}')
-              print(f'Cause: {e.__cause__}')
-              # Try with httpx directly
-              import httpx
-              try:
-                  r = httpx.get('https://api.anthropic.com', timeout=10)
-                  print(f'Direct httpx to api.anthropic.com: {r.status_code}')
-              except Exception as he:
-                  print(f'Direct httpx also failed: {he}')
-              # Try DNS
-              import socket
-              try:
-                  ip = socket.getaddrinfo('api.anthropic.com', 443)
-                  print(f'DNS resolved: {ip[0][4]}')
-              except Exception as de:
-                  print(f'DNS resolution failed: {de}')
+              print(f'Cause type: {type(e.__cause__).__name__ if e.__cause__ else \"None\"}')
+              print(f'Cause detail: {e.__cause__}')
+              if hasattr(e.__cause__, '__cause__') and e.__cause__.__cause__:
+                  print(f'Root cause: {type(e.__cause__.__cause__).__name__}: {e.__cause__.__cause__}')
           except Exception as e:
-              print(f'Other error: {type(e).__name__}: {e}')
+              print(f'OTHER ERROR: {type(e).__name__}: {e}')
           "
 
       - name: Check for Stage 4 data
