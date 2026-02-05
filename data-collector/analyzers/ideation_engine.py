@@ -39,10 +39,15 @@ class IdeationEngine:
             api_key: Anthropic API key
             model: Claude model to use
         """
-        self.client = anthropic.Anthropic(api_key=api_key)
+        self.client = anthropic.Anthropic(
+            api_key=api_key,
+            timeout=30.0,
+            max_retries=1,
+        )
         self.model = model
         self.budget_tracker = get_budget_tracker()
         self.gap_analyzer = MarketGapAnalyzer()
+        self._api_available = True  # Circuit breaker
 
         logger.info(f"IdeationEngine initialized (model: {model})")
 
@@ -64,6 +69,11 @@ class IdeationEngine:
             List of product idea dicts
         """
         logger.info(f"Generating {num_ideas} product ideas for: {category_name}")
+
+        # Circuit breaker: skip if API unavailable
+        if not self._api_available:
+            logger.debug(f"API disabled (circuit breaker), skipping ideation for {category_name}")
+            return []
 
         # Check budget
         if not self.budget_tracker.can_make_request(estimated_cost=0.10):
@@ -111,6 +121,12 @@ class IdeationEngine:
             logger.success(f"✓ Generated {len(ideas)} ideas for {category_name}")
 
             return ideas
+
+        except anthropic.APIConnectionError as e:
+            logger.error(f"API connection error for {category_name}: {e}")
+            logger.warning("⚠ Disabling Claude API for remaining ideation (circuit breaker)")
+            self._api_available = False
+            return []
 
         except Exception as e:
             logger.error(f"Failed to generate ideas for {category_name}: {e}")
